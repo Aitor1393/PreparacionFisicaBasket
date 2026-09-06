@@ -15,24 +15,42 @@ En construcción. Ahora mismo el repositorio solo guarda las fuentes.
 |---|---|
 | [`CLAUDE.md`](CLAUDE.md) | Contexto del proyecto: vocabulario, restricciones y decisiones contrastadas |
 | [`BRIEF-web.md`](BRIEF-web.md) | El encargo: pantallas, requisitos y criterio de aceptación |
+| [`datos-temporada.json`](datos-temporada.json) | Calendario, plantillas de sesión y protocolo de dolor. Fuente de todo lo que sea carga o fecha |
 | [`fuentes/`](fuentes/) | Contenido deportivo en markdown. **Única verdad** |
-| [`entregables/`](entregables/) | Documentos generados que se entregan a jugadores y club |
+| [`entregables/`](entregables/) | Los documentos que hoy se entregan a jugadores y club |
 
 ## Fuentes
 
-Las que ya están:
+| Archivo | Estado |
+|---|---|
+| `catalogo-ejercicios-progresiones-cadete.md` | ✅ |
+| `Apendice-movilidad-y-ejercicios.md` | ✅ |
+| `M0-pretemporada-sesiones-v2.md` | ✅ |
+| `M1-acumulacion-sesiones.md` | ⬜ falta |
+| `M2-intensificacion-sesiones.md` | ✅ |
+| `M3-navidad-plan.md` | ✅ |
+| `M4-M5-mantenimiento-sesiones.md` | ✅ |
+| `M6-M9-cierre-temporada.md` | ⬜ falta |
+| `Protocolo-vuelta-tras-lesion.md` | ✅ |
 
-- `fuentes/M4-M5-mantenimiento-sesiones.md` — 8 microciclos de mantenimiento en competición
-- `fuentes/Protocolo-vuelta-tras-lesion.md` — banderas rojas y protocolos por lesión
-- `entregables/hoja-regeneracion-domingo.pdf` — la rutina del domingo, para los jugadores
+Los dos que faltan sí están, como capítulos, dentro del Word de `entregables/`.
 
-Las que faltan por incorporar, según el índice de `CLAUDE.md`:
+## Entregables
 
-- `datos-temporada.json` — calendario, plantillas de sesión y cargas. **Es la pieza clave**
-- `catalogo-ejercicios-progresiones-cadete.md`
-- `Apendice-movilidad-y-ejercicios.md`
-- `M0-pretemporada-sesiones-v2.md`
-- `M1-acumulacion-sesiones.md`
-- `M2-intensificacion-sesiones.md`
-- `M3-navidad-plan.md`
-- `M6-M9-cierre-temporada.md`
+Los cuatro documentos que existen hoy y que la web viene a sustituir en el uso
+diario:
+
+- `planificacion-fisica-cadete-2026-27.docx` — el documento completo, 58 páginas
+- `calendario-cargas-2026-27.pdf` — el póster de las 39 semanas
+- `hoja-regeneracion-domingo.pdf` — la rutina del domingo, para los jugadores
+- `seguimiento-carga-dolor-2026-27.xlsx` — la hoja de seguimiento
+
+## Comprobaciones hechas sobre `datos-temporada.json`
+
+Contrastado contra el póster de calendario: **39 semanas, sin una sola
+discrepancia** en fechas, cargas ni jornadas. Todos los lunes caen en lunes y
+todos los sábados son lunes + 5.
+
+Queda una cosa por resolver, anotada para no perderla: las **etiquetas de
+microciclo** del JSON no coinciden con las de los markdown a partir de la
+semana 16, y `MC12` a `MC15` aparecen dos veces cada una.

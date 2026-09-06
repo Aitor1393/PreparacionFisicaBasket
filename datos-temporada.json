@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "proyecto": "Planificación física · Cadete Masculino 2026/2027",
+    "competicion": "FBM Preferente, 1ª o 2ª División, Serie A",
+    "objetivo": "Clasificar para play-off (6 primeros de 12)",
+    "temporada": {
+      "inicio": "2026-09-07",
+      "fin": "2027-06-06",
+      "microciclos": 39,
+      "jornadas": 22
+    },
+    "dias_entrenamiento": [
+      "lunes",
+      "miercoles",
+      "viernes"
+    ],
+    "dia_partido": "sabado",
+    "fisico_siempre": "antes del entrenamiento de pista",
+    "duraciones_min": {
+      "lunes": 55,
+      "miercoles": 50,
+      "viernes": 50
+    },
+    "material": [
+      "gomas elásticas",
+      "conos",
+      "escalera de agilidad"
+    ],
+    "material_no_disponible": [
+      "pesas",
+      "barras",
+      "balón medicinal (no asegurado)",
+      "barra de dominadas",
+      "espalderas"
+    ],
+    "idioma": "es-ES"
+  },
+  "mesociclos": {
+    "M0": {
+      "nombre": "Pretemporada",
+      "inicio": "2026-09-07",
+      "fin": "2026-10-03",
+      "fuente": "M0-pretemporada-sesiones-v2.md"
+    },
+    "M1": {
+      "nombre": "Acumulación",
+      "inicio": "2026-10-05",
+      "fin": "2026-11-29",
+      "fuente": "M1-acumulacion-sesiones.md"
+    },
+    "M2": {
+      "nombre": "Intensificación",
+      "inicio": "2026-11-30",
+      "fin": "2026-12-20",
+      "fuente": "M2-intensificacion-sesiones.md"
+    },
+    "M3": {
+      "nombre": "Parón navideño",
+      "inicio": "2026-12-21",
+      "fin": "2027-01-16",
+      "fuente": "M3-navidad-plan.md"
+    },
+    "M4": {
+      "nombre": "Bloque denso",
+      "inicio": "2027-01-18",
+      "fin": "2027-02-28",
+      "fuente": "M4-M5-mantenimiento-sesiones.md"
+    },
+    "M5": {
+      "nombre": "Marzo corto",
+      "inicio": "2027-03-01",
+      "fin": "2027-03-14",
+      "fuente": "M4-M5-mantenimiento-sesiones.md"
+    },
+    "M6": {
+      "nombre": "Semana Santa",
+      "inicio": "2027-03-15",
+      "fin": "2027-04-04",
+      "fuente": "M6-M9-cierre-temporada.md"
+    },
+    "M7": {
+      "nombre": "Recta final",
+      "inicio": "2027-04-05",
+      "fin": "2027-04-25",
+      "fuente": "M6-M9-cierre-temporada.md"
+    },
+    "M8": {
+      "nombre": "Transición",
+      "inicio": "2027-04-26",
+      "fin": "2027-05-09",
+      "fuente": "M6-M9-cierre-temporada.md"
+    },
+    "M9": {
+      "nombre": "Segunda fase",
+      "inicio": "2027-05-10",
+      "fin": "2027-06-06",
+      "fuente": "M6-M9-cierre-temporada.md"
+    }
+  },
+  "plantillas_sesion": {
+    "A1": {
+      "dia": "lunes",
+      "minutos": 55,
+      "nombre": "Fuerza dominante de rodilla",
+      "bloques": [
+        {
+          "min": 10,
+          "nombre": "Movilidad y activación",
+          "rutina": "rutina_10"
+        },
+        {
+          "min": 10,
+          "nombre": "Pliometría"
+        },
+        {
+          "min": 30,
+          "nombre": "Fuerza principal"
+        },
+        {
+          "min": 5,
+          "nombre": "Transición a pista"
+        }
+      ]
+    },
+    "A2": {
+      "dia": "lunes",
+      "minutos": 55,
+      "nombre": "Fuerza dominante de cadera",
+      "bloques": [
+        {
+          "min": 10,
+          "nombre": "Movilidad y activación",
+          "rutina": "rutina_10"
+        },
+        {
+          "min": 10,
+          "nombre": "Pliometría"
+        },
+        {
+          "min": 30,
+          "nombre": "Fuerza principal"
+        },
+        {
+          "min": 5,
+          "nombre": "Transición a pista"
+        }
+      ]
+    },
+    "B1": {
+      "dia": "miercoles",
+      "minutos": 50,
+      "nombre": "Neuromuscular reactivo",
+      "bloques": [
+        {
+          "min": 10,
+          "nombre": "Movilidad y activación",
+          "rutina": "rutina_10"
+        },
+        {
+          "min": 22,
+          "nombre": "Neuromuscular"
+        },
+        {
+          "min": 18,
+          "nombre": "Fuerza complementaria"
+        }
+      ]
+    },
+    "B2": {
+      "dia": "miercoles",
+      "minutos": 50,
+      "nombre": "Neuromuscular aceleración",
+      "bloques": [
+        {
+          "min": 10,
+          "nombre": "Movilidad y activación",
+          "rutina": "rutina_10"
+        },
+        {
+          "min": 22,
+          "nombre": "Neuromuscular"
+        },
+        {
+          "min": 18,
+          "nombre": "Fuerza complementaria"
+        }
+      ]
+    },
+    "C": {
+      "dia": "viernes",
+      "minutos": 50,
+      "nombre": "Víspera de partido",
+      "bloques": [
+        {
+          "min": 15,
+          "nombre": "Movilidad global",
+          "rutina": "rutina_15"
+        },
+        {
+          "min": 12,
+          "nombre": "Isométricos de tendón"
+        },
+        {
+          "min": 15,
+          "nombre": "Activación neural"
+        },
+        {
+          "min": 8,
+          "nombre": "Respiración y transición"
+        }
+      ]
+    },
+    "D": {
+      "dia": "viernes",
+      "minutos": 50,
+      "nombre": "Sesión de carga (solo semanas sin partido)",
+      "bloques": [
+        {
+          "min": 10,
+          "nombre": "Movilidad y activación",
+          "rutina": "rutina_10"
+        },
+        {
+          "min": 12,
+          "nombre": "Pliometría"
+        },
+        {
+          "min": 28,
+          "nombre": "Fuerza"
+        }
+      ]
+    }
+  },
+  "microciclos": [
+    {
+      "semana": 1,
+      "mesociclo": "M0",
+      "microciclo": null,
+      "lunes": "2026-09-07",
+      "sabado": "2026-09-12",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 6,
+      "contactos_pliometria": 46,
+      "tipo": "construccion",
+      "viernes_tipo": "M0"
+    },
+    {
+      "semana": 2,
+      "mesociclo": "M0",
+      "microciclo": null,
+      "lunes": "2026-09-14",
+      "sabado": "2026-09-19",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 8,
+      "contactos_pliometria": 58,
+      "tipo": "construccion",
+      "viernes_tipo": "M0"
+    },
+    {
+      "semana": 3,
+      "mesociclo": "M0",
+      "microciclo": null,
+      "lunes": "2026-09-21",
+      "sabado": "2026-09-26",
+      "jornada": "Amistoso",
+      "hay_partido": true,
+      "carga": 9,
+      "contactos_pliometria": 68,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 4,
+      "mesociclo": "M0",
+      "microciclo": null,
+      "lunes": "2026-09-28",
+      "sabado": "2026-10-03",
+      "jornada": "J1",
+      "hay_partido": true,
+      "carga": 6,
+      "contactos_pliometria": 45,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 5,
+      "mesociclo": "M1",
+      "microciclo": "MC1",
+      "lunes": "2026-10-05",
+      "sabado": "2026-10-10",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 10,
+      "contactos_pliometria": 90,
+      "tipo": "construccion",
+      "viernes_tipo": "D"
+    },
+    {
+      "semana": 6,
+      "mesociclo": "M1",
+      "microciclo": "MC2",
+      "lunes": "2026-10-12",
+      "sabado": "2026-10-17",
+      "jornada": "J2",
+      "hay_partido": true,
+      "carga": 8,
+      "contactos_pliometria": 80,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 7,
+      "mesociclo": "M1",
+      "microciclo": "MC3",
+      "lunes": "2026-10-19",
+      "sabado": "2026-10-24",
+      "jornada": "J3",
+      "hay_partido": true,
+      "carga": 9,
+      "contactos_pliometria": 100,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 8,
+      "mesociclo": "M1",
+      "microciclo": "MC4",
+      "lunes": "2026-10-26",
+      "sabado": "2026-10-31",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 10,
+      "contactos_pliometria": 120,
+      "tipo": "construccion",
+      "viernes_tipo": "D"
+    },
+    {
+      "semana": 9,
+      "mesociclo": "M1",
+      "microciclo": "MC5",
+      "lunes": "2026-11-02",
+      "sabado": "2026-11-07",
+      "jornada": "J4",
+      "hay_partido": true,
+      "carga": 7,
+      "contactos_pliometria": 70,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 10,
+      "mesociclo": "M1",
+      "microciclo": "MC6",
+      "lunes": "2026-11-09",
+      "sabado": "2026-11-14",
+      "jornada": "J5",
+      "hay_partido": true,
+      "carga": 9,
+      "contactos_pliometria": 100,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 11,
+      "mesociclo": "M1",
+      "microciclo": "MC7",
+      "lunes": "2026-11-16",
+      "sabado": "2026-11-21",
+      "jornada": "J6",
+      "hay_partido": true,
+      "carga": 9,
+      "contactos_pliometria": 100,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 12,
+      "mesociclo": "M1",
+      "microciclo": "MC8",
+      "lunes": "2026-11-23",
+      "sabado": "2026-11-28",
+      "jornada": "J7",
+      "hay_partido": true,
+      "carga": 6,
+      "contactos_pliometria": 70,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 13,
+      "mesociclo": "M2",
+      "microciclo": "MC9",
+      "lunes": "2026-11-30",
+      "sabado": "2026-12-05",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 9,
+      "contactos_pliometria": 100,
+      "tipo": "construccion",
+      "viernes_tipo": "D"
+    },
+    {
+      "semana": 14,
+      "mesociclo": "M2",
+      "microciclo": "MC10",
+      "lunes": "2026-12-07",
+      "sabado": "2026-12-12",
+      "jornada": "J8",
+      "hay_partido": true,
+      "carga": 7,
+      "contactos_pliometria": 80,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 15,
+      "mesociclo": "M2",
+      "microciclo": "MC11",
+      "lunes": "2026-12-14",
+      "sabado": "2026-12-19",
+      "jornada": "J9",
+      "hay_partido": true,
+      "carga": 6,
+      "contactos_pliometria": 60,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 16,
+      "mesociclo": "M3",
+      "microciclo": "MC12",
+      "lunes": "2026-12-21",
+      "sabado": "2026-12-26",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 5,
+      "contactos_pliometria": 40,
+      "tipo": "paron",
+      "viernes_tipo": "AUT"
+    },
+    {
+      "semana": 17,
+      "mesociclo": "M3",
+      "microciclo": "MC13",
+      "lunes": "2026-12-28",
+      "sabado": "2027-01-02",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 3,
+      "contactos_pliometria": 20,
+      "tipo": "paron",
+      "viernes_tipo": "AUT"
+    },
+    {
+      "semana": 18,
+      "mesociclo": "M3",
+      "microciclo": "MC14",
+      "lunes": "2027-01-04",
+      "sabado": "2027-01-09",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 5,
+      "contactos_pliometria": 40,
+      "tipo": "paron",
+      "viernes_tipo": "AUT"
+    },
+    {
+      "semana": 19,
+      "mesociclo": "M3",
+      "microciclo": "MC15",
+      "lunes": "2027-01-11",
+      "sabado": "2027-01-16",
+      "jornada": "J10",
+      "hay_partido": true,
+      "carga": 6,
+      "contactos_pliometria": 50,
+      "tipo": "paron",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 20,
+      "mesociclo": "M4",
+      "microciclo": "SemA",
+      "lunes": "2027-01-18",
+      "sabado": "2027-01-23",
+      "jornada": "J11",
+      "hay_partido": true,
+      "carga": 5,
+      "contactos_pliometria": 55,
+      "tipo": "mantenimiento",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 21,
+      "mesociclo": "M4",
+      "microciclo": "SemB",
+      "lunes": "2027-01-25",
+      "sabado": "2027-01-30",
+      "jornada": "J12",
+      "hay_partido": true,
+      "carga": 5,
+      "contactos_pliometria": 55,
+      "tipo": "mantenimiento",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 22,
+      "mesociclo": "M4",
+      "microciclo": "SemC",
+      "lunes": "2027-02-01",
+      "sabado": "2027-02-06",
+      "jornada": "J13",
+      "hay_partido": true,
+      "carga": 6,
+      "contactos_pliometria": 65,
+      "tipo": "mantenimiento",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 23,
+      "mesociclo": "M4",
+      "microciclo": "SemD",
+      "lunes": "2027-02-08",
+      "sabado": "2027-02-13",
+      "jornada": "J14",
+      "hay_partido": true,
+      "carga": 4,
+      "contactos_pliometria": 40,
+      "tipo": "mantenimiento",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 24,
+      "mesociclo": "M4",
+      "microciclo": "MC12",
+      "lunes": "2027-02-15",
+      "sabado": "2027-02-20",
+      "jornada": "J15",
+      "hay_partido": true,
+      "carga": 6,
+      "contactos_pliometria": 65,
+      "tipo": "mantenimiento",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 25,
+      "mesociclo": "M4",
+      "microciclo": "MC13",
+      "lunes": "2027-02-22",
+      "sabado": "2027-02-27",
+      "jornada": "J16",
+      "hay_partido": true,
+      "carga": 4,
+      "contactos_pliometria": 40,
+      "tipo": "mantenimiento",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 26,
+      "mesociclo": "M5",
+      "microciclo": "MC14",
+      "lunes": "2027-03-01",
+      "sabado": "2027-03-06",
+      "jornada": "J17",
+      "hay_partido": true,
+      "carga": 5,
+      "contactos_pliometria": 55,
+      "tipo": "mantenimiento",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 27,
+      "mesociclo": "M5",
+      "microciclo": "MC15",
+      "lunes": "2027-03-08",
+      "sabado": "2027-03-13",
+      "jornada": "J18",
+      "hay_partido": true,
+      "carga": 4,
+      "contactos_pliometria": 40,
+      "tipo": "mantenimiento",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 28,
+      "mesociclo": "M6",
+      "microciclo": "MC16",
+      "lunes": "2027-03-15",
+      "sabado": "2027-03-20",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 10,
+      "contactos_pliometria": 120,
+      "tipo": "construccion",
+      "viernes_tipo": "D"
+    },
+    {
+      "semana": 29,
+      "mesociclo": "M6",
+      "microciclo": "MC17",
+      "lunes": "2027-03-22",
+      "sabado": "2027-03-27",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 5,
+      "contactos_pliometria": 40,
+      "tipo": "paron",
+      "viernes_tipo": "AUT"
+    },
+    {
+      "semana": 30,
+      "mesociclo": "M6",
+      "microciclo": "MC18",
+      "lunes": "2027-03-29",
+      "sabado": "2027-04-03",
+      "jornada": "J19",
+      "hay_partido": true,
+      "carga": 7,
+      "contactos_pliometria": 70,
+      "tipo": "construccion",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 31,
+      "mesociclo": "M7",
+      "microciclo": "MC19",
+      "lunes": "2027-04-05",
+      "sabado": "2027-04-10",
+      "jornada": "J20",
+      "hay_partido": true,
+      "carga": 6,
+      "contactos_pliometria": 60,
+      "tipo": "final",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 32,
+      "mesociclo": "M7",
+      "microciclo": "MC20",
+      "lunes": "2027-04-12",
+      "sabado": "2027-04-17",
+      "jornada": "J21",
+      "hay_partido": true,
+      "carga": 5,
+      "contactos_pliometria": 50,
+      "tipo": "final",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 33,
+      "mesociclo": "M7",
+      "microciclo": "MC21",
+      "lunes": "2027-04-19",
+      "sabado": "2027-04-24",
+      "jornada": "J22",
+      "hay_partido": true,
+      "carga": 5,
+      "contactos_pliometria": 50,
+      "tipo": "final",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 34,
+      "mesociclo": "M8",
+      "microciclo": "MC22",
+      "lunes": "2027-04-26",
+      "sabado": "2027-05-01",
+      "jornada": null,
+      "hay_partido": false,
+      "carga": 6,
+      "contactos_pliometria": 90,
+      "tipo": "final",
+      "viernes_tipo": "D"
+    },
+    {
+      "semana": 35,
+      "mesociclo": "M8",
+      "microciclo": "MC23",
+      "lunes": "2027-05-03",
+      "sabado": "2027-05-08",
+      "jornada": "2F-1",
+      "hay_partido": true,
+      "carga": 4,
+      "contactos_pliometria": 40,
+      "tipo": "final",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 36,
+      "mesociclo": "M9",
+      "microciclo": "MC24",
+      "lunes": "2027-05-10",
+      "sabado": "2027-05-15",
+      "jornada": "2F-2",
+      "hay_partido": true,
+      "carga": 4,
+      "contactos_pliometria": 40,
+      "tipo": "final",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 37,
+      "mesociclo": "M9",
+      "microciclo": "MC25",
+      "lunes": "2027-05-17",
+      "sabado": "2027-05-22",
+      "jornada": "2F-3",
+      "hay_partido": true,
+      "carga": 4,
+      "contactos_pliometria": 40,
+      "tipo": "final",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 38,
+      "mesociclo": "M9",
+      "microciclo": "MC26",
+      "lunes": "2027-05-24",
+      "sabado": "2027-05-29",
+      "jornada": "2F-4",
+      "hay_partido": true,
+      "carga": 3,
+      "contactos_pliometria": 30,
+      "tipo": "final",
+      "viernes_tipo": "C"
+    },
+    {
+      "semana": 39,
+      "mesociclo": "M9",
+      "microciclo": "MC27",
+      "lunes": "2027-05-31",
+      "sabado": "2027-06-05",
+      "jornada": "FINAL",
+      "hay_partido": true,
+      "carga": 3,
+      "contactos_pliometria": 30,
+      "tipo": "final",
+      "viernes_tipo": "C"
+    }
+  ],
+  "protocolo_dolor": [
+    {
+      "min": 0,
+      "max": 3,
+      "accion": "Sesión normal"
+    },
+    {
+      "min": 4,
+      "max": 6,
+      "accion": "Sin pliometría el lunes. Sustituir por sentadilla española 5x45 s"
+    },
+    {
+      "min": 7,
+      "max": 10,
+      "accion": "Sin pliometría ni velocidad alta. Solo isométricos, movilidad y tren superior. Valoración médica"
+    }
+  ],
+  "umbral_crecimiento_cm_2meses": 1.2,
+  "fijos_todo_el_ano": [
+    "Curl nórdico todos los lunes",
+    "Velocidad alta todos los miércoles, 4-6 rep, 3 min de descanso",
+    "Bloque de tobillo todos los miércoles, 8 min",
+    "Sentadilla española todos los viernes"
+  ]
+}

@@ -430,7 +430,7 @@
     {
       "semana": 16,
       "mesociclo": "M3",
-      "microciclo": "MC12",
+      "microciclo": "SemA",
       "lunes": "2026-12-21",
       "sabado": "2026-12-26",
       "jornada": null,
@@ -443,7 +443,7 @@
     {
       "semana": 17,
       "mesociclo": "M3",
-      "microciclo": "MC13",
+      "microciclo": "SemB",
       "lunes": "2026-12-28",
       "sabado": "2027-01-02",
       "jornada": null,
@@ -456,7 +456,7 @@
     {
       "semana": 18,
       "mesociclo": "M3",
-      "microciclo": "MC14",
+      "microciclo": "SemC",
       "lunes": "2027-01-04",
       "sabado": "2027-01-09",
       "jornada": null,
@@ -469,7 +469,7 @@
     {
       "semana": 19,
       "mesociclo": "M3",
-      "microciclo": "MC15",
+      "microciclo": "SemD",
       "lunes": "2027-01-11",
       "sabado": "2027-01-16",
       "jornada": "J10",
@@ -482,7 +482,7 @@
     {
       "semana": 20,
       "mesociclo": "M4",
-      "microciclo": "SemA",
+      "microciclo": "MC12",
       "lunes": "2027-01-18",
       "sabado": "2027-01-23",
       "jornada": "J11",
@@ -495,7 +495,7 @@
     {
       "semana": 21,
       "mesociclo": "M4",
-      "microciclo": "SemB",
+      "microciclo": "MC13",
       "lunes": "2027-01-25",
       "sabado": "2027-01-30",
       "jornada": "J12",
@@ -508,7 +508,7 @@
     {
       "semana": 22,
       "mesociclo": "M4",
-      "microciclo": "SemC",
+      "microciclo": "MC14",
       "lunes": "2027-02-01",
       "sabado": "2027-02-06",
       "jornada": "J13",
@@ -521,7 +521,7 @@
     {
       "semana": 23,
       "mesociclo": "M4",
-      "microciclo": "SemD",
+      "microciclo": "MC15",
       "lunes": "2027-02-08",
       "sabado": "2027-02-13",
       "jornada": "J14",
@@ -534,7 +534,7 @@
     {
       "semana": 24,
       "mesociclo": "M4",
-      "microciclo": "MC12",
+      "microciclo": "MC16",
       "lunes": "2027-02-15",
       "sabado": "2027-02-20",
       "jornada": "J15",
@@ -547,7 +547,7 @@
     {
       "semana": 25,
       "mesociclo": "M4",
-      "microciclo": "MC13",
+      "microciclo": "MC17",
       "lunes": "2027-02-22",
       "sabado": "2027-02-27",
       "jornada": "J16",
@@ -560,7 +560,7 @@
     {
       "semana": 26,
       "mesociclo": "M5",
-      "microciclo": "MC14",
+      "microciclo": "MC18",
       "lunes": "2027-03-01",
       "sabado": "2027-03-06",
       "jornada": "J17",
@@ -573,7 +573,7 @@
     {
       "semana": 27,
       "mesociclo": "M5",
-      "microciclo": "MC15",
+      "microciclo": "MC19",
       "lunes": "2027-03-08",
       "sabado": "2027-03-13",
       "jornada": "J18",
@@ -586,7 +586,7 @@
     {
       "semana": 28,
       "mesociclo": "M6",
-      "microciclo": "MC16",
+      "microciclo": "MC20",
       "lunes": "2027-03-15",
       "sabado": "2027-03-20",
       "jornada": null,
@@ -599,7 +599,7 @@
     {
       "semana": 29,
       "mesociclo": "M6",
-      "microciclo": "MC17",
+      "microciclo": "MC21",
       "lunes": "2027-03-22",
       "sabado": "2027-03-27",
       "jornada": null,
@@ -612,7 +612,7 @@
     {
       "semana": 30,
       "mesociclo": "M6",
-      "microciclo": "MC18",
+      "microciclo": "MC22",
       "lunes": "2027-03-29",
       "sabado": "2027-04-03",
       "jornada": "J19",
@@ -625,7 +625,7 @@
     {
       "semana": 31,
       "mesociclo": "M7",
-      "microciclo": "MC19",
+      "microciclo": "MC23",
       "lunes": "2027-04-05",
       "sabado": "2027-04-10",
       "jornada": "J20",
@@ -638,7 +638,7 @@
     {
       "semana": 32,
       "mesociclo": "M7",
-      "microciclo": "MC20",
+      "microciclo": "MC24",
       "lunes": "2027-04-12",
       "sabado": "2027-04-17",
       "jornada": "J21",
@@ -651,7 +651,7 @@
     {
       "semana": 33,
       "mesociclo": "M7",
-      "microciclo": "MC21",
+      "microciclo": "MC25",
       "lunes": "2027-04-19",
       "sabado": "2027-04-24",
       "jornada": "J22",
@@ -664,7 +664,7 @@
     {
       "semana": 34,
       "mesociclo": "M8",
-      "microciclo": "MC22",
+      "microciclo": "MC26",
       "lunes": "2027-04-26",
       "sabado": "2027-05-01",
       "jornada": null,
@@ -677,7 +677,7 @@
     {
       "semana": 35,
       "mesociclo": "M8",
-      "microciclo": "MC23",
+      "microciclo": "MC27",
       "lunes": "2027-05-03",
       "sabado": "2027-05-08",
       "jornada": "2F-1",
@@ -690,7 +690,7 @@
     {
       "semana": 36,
       "mesociclo": "M9",
-      "microciclo": "MC24",
+      "microciclo": "MC28",
       "lunes": "2027-05-10",
       "sabado": "2027-05-15",
       "jornada": "2F-2",
@@ -703,7 +703,7 @@
     {
       "semana": 37,
       "mesociclo": "M9",
-      "microciclo": "MC25",
+      "microciclo": "MC29",
       "lunes": "2027-05-17",
       "sabado": "2027-05-22",
       "jornada": "2F-3",
@@ -716,7 +716,7 @@
     {
       "semana": 38,
       "mesociclo": "M9",
-      "microciclo": "MC26",
+      "microciclo": "MC30",
       "lunes": "2027-05-24",
       "sabado": "2027-05-29",
       "jornada": "2F-4",
@@ -729,7 +729,7 @@
     {
       "semana": 39,
       "mesociclo": "M9",
-      "microciclo": "MC27",
+      "microciclo": "MC31",
       "lunes": "2027-05-31",
       "sabado": "2027-06-05",
       "jornada": "FINAL",

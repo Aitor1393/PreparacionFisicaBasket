@@ -9,7 +9,7 @@ modifica: lo hace consultable desde el móvil, en el pabellón, en dos toques.
 
 ## Estado
 
-En construcción. Ahora mismo el repositorio solo guarda las fuentes.
+En construcción. El contenido ya está completo y verificado; falta la web.
 
 | | |
 |---|---|
@@ -26,14 +26,14 @@ En construcción. Ahora mismo el repositorio solo guarda las fuentes.
 | `catalogo-ejercicios-progresiones-cadete.md` | ✅ |
 | `Apendice-movilidad-y-ejercicios.md` | ✅ |
 | `M0-pretemporada-sesiones-v2.md` | ✅ |
-| `M1-acumulacion-sesiones.md` | ⬜ falta |
+| `M1-acumulacion-sesiones.md` | ✅ |
 | `M2-intensificacion-sesiones.md` | ✅ |
 | `M3-navidad-plan.md` | ✅ |
 | `M4-M5-mantenimiento-sesiones.md` | ✅ |
-| `M6-M9-cierre-temporada.md` | ⬜ falta |
+| `M6-M9-cierre-temporada.md` | ✅ |
 | `Protocolo-vuelta-tras-lesion.md` | ✅ |
 
-Los dos que faltan sí están, como capítulos, dentro del Word de `entregables/`.
+Las nueve están. Son la única verdad del contenido deportivo.
 
 ## Entregables
 
@@ -47,10 +47,16 @@ diario:
 
 ## Comprobaciones hechas sobre `datos-temporada.json`
 
-Contrastado contra el póster de calendario: **39 semanas, sin una sola
-discrepancia** en fechas, cargas ni jornadas. Todos los lunes caen en lunes y
-todos los sábados son lunes + 5.
+Cruzado semana a semana contra el póster de calendario y contra los nueve
+markdown de `fuentes/`:
+
+- **Fechas, cargas y jornadas de las 39 semanas: sin una sola discrepancia.**
+  Todos los lunes caen en lunes y todos los sábados son lunes + 5.
+- **Contactos de pliometría: coinciden en las 33 semanas** para las que los
+  documentos dan cifra (M8 y M9 no la dan en sus tablas).
 
 Queda una cosa por resolver, anotada para no perderla: las **etiquetas de
-microciclo** del JSON no coinciden con las de los markdown a partir de la
-semana 16, y `MC12` a `MC15` aparecen dos veces cada una.
+microciclo** del JSON no coinciden con las de los markdown de la semana 16 en
+adelante, y `MC12` a `MC15` aparecen dos veces cada una. Los markdown numeran
+MC1 a MC31, que es justo lo que declara `CLAUDE.md`; el JSON se queda en MC27.
+Es contenido deportivo: no se toca sin preguntar.

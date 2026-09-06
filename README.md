@@ -1,62 +1,126 @@
 # Preparación física · Cadete Masculino 2026/2027
 
-Web de consulta de la planificación física de una temporada de baloncesto
-cadete masculino. Sitio **estático**: HTML, CSS y JavaScript, sin dependencias
-ni compilación, para servirlo con GitHub Pages.
+La planificación física de una temporada de baloncesto cadete, consultable
+desde el móvil. Sitio **estático**: HTML, CSS y JavaScript a pelo, sin
+dependencias y sin compilación. Se sirve y funciona.
 
-El contenido deportivo ya está cerrado y validado. Este repositorio no lo
-modifica: lo hace consultable desde el móvil, en el pabellón, en dos toques.
+El problema que resuelve lo dice el [brief](BRIEF-web.md): la planificación
+existe en un Word de 58 páginas, y el entrenador la consulta en el pabellón,
+desde el teléfono, con cinco minutos antes de empezar. Un documento de 58
+páginas no sirve para eso.
 
-## Estado
+## Qué hace
 
-En construcción. El contenido ya está completo y verificado; falta la web.
+**Hoy.** La pantalla de entrada. Localiza la fecha en el calendario y enseña la
+sesión que toca con sus bloques, sus minutos y sus ejercicios. Si es sábado,
+el partido; si es domingo, la rutina de regeneración; si es una semana de
+parón, el plan autónomo; y fuera de temporada cae al calendario.
+
+**Calendario.** Las 39 semanas con su carga, su mesociclo y su jornada, con la
+lógica del póster: barra de carga, color por tipo de bloque y las semanas sin
+partido a la vista. Cada semana lleva a su detalle.
+
+**Microciclo y sesión.** Las tres sesiones de la semana y el detalle de cada
+una. Cada ejercicio enlaza con su ficha y cada bloque de movilidad con su
+rutina cronometrada. Cualquier sesión se imprime en una hoja limpia.
+
+**Ejercicios.** 85 fichas buscables y filtrables por capacidad: cómo se hace,
+la clave técnica, el error frecuente, el escalón de su progresión y en qué
+sesiones de la temporada aparece.
+
+**Protocolos.** Las banderas rojas primero y bien visibles, después el
+protocolo de dolor, el semáforo semanal, la batería de tests y los cinco
+protocolos por lesión.
+
+**Para jugadores.** Ruta aparte y sin jerga, para compartir por enlace: la
+rutina del domingo y el plan de Navidad.
+
+Funciona **sin conexión** una vez cargada, que es lo que hace falta en un
+pabellón con mala cobertura.
+
+## Cómo está hecho
+
+```
+index.html                  una sola página; las vistas se pintan por JS
+assets/css/estilos.css      móvil primero, claro y oscuro, hoja de impresión
+assets/js/                  ver el orden de carga más abajo
+sw.js                       service worker: caché primero, refresco por detrás
+datos-temporada.json        el calendario. Escrito a mano, fuente de verdad
+fuentes/*.md                el contenido deportivo. Única verdad
+data/*.json                 GENERADO. No editar a mano
+scripts/generar.py          lo que convierte fuentes/ en data/
+pruebas/ejecutar.js         14 pruebas en un Chromium de verdad
+entregables/                Word, póster, hoja del domingo y Excel de seguimiento
+```
+
+### El orden de carga importa
+
+No hay imports: cada archivo cuelga su objeto de `window` y los siguientes lo
+usan.
+
+| Archivo | Global | Qué hace |
+|---|---|---|
+| `util.js` | `U` | fechas, formato, DOM, `localStorage`. Sin dependencias |
+| `datos.js` | `D` | el modelo: carga los JSON y contesta qué toca hoy. **Aquí van las reglas** |
+| `vistas.js` | `V` | genera HTML. No decide nada |
+| `app.js` | `App` | rutas, delegación de eventos, arranque |
+
+Si te ves calculando algo dentro de un `V.`, casi seguro va en `D.`.
+
+## El contenido no se copia: se genera
+
+El brief lo pide y es la decisión que sostiene todo lo demás: **nada del
+contenido deportivo se escribe a mano dos veces.** Los nueve markdown de
+`fuentes/` y `datos-temporada.json` son la única verdad, y `scripts/generar.py`
+los convierte en los cuatro JSON que consume la web.
+
+```bash
+python3 scripts/generar.py
+```
+
+Cada sesión guarda **el texto original de su fuente** además de los campos
+partidos, y lleva anotado de qué archivo y de qué sección sale. Si algún día el
+troceado se equivoca, el entrenador sigue leyendo lo que dice el documento.
+
+El generador **sale en rojo** si una fuente no tiene la forma esperada o si
+falla alguna comprobación: que las 35 semanas presenciales tengan sus tres
+días, que los bloques sumen los 55 o 50 minutos que fija `CLAUDE.md`, y que
+estén los contenidos fijos del año. Más vale que falle a que publique una
+sesión a medias.
+
+Las tres formas de sesión no significan lo mismo y la web las distingue:
 
 | | |
 |---|---|
-| [`CLAUDE.md`](CLAUDE.md) | Contexto del proyecto: vocabulario, restricciones y decisiones contrastadas |
-| [`BRIEF-web.md`](BRIEF-web.md) | El encargo: pantallas, requisitos y criterio de aceptación |
-| [`datos-temporada.json`](datos-temporada.json) | Calendario, plantillas de sesión y protocolo de dolor. Fuente de todo lo que sea carga o fecha |
-| [`fuentes/`](fuentes/) | Contenido deportivo en markdown. **Única verdad** |
-| [`entregables/`](entregables/) | Los documentos que hoy se entregan a jugadores y club |
+| **explícita** | el documento detalla ese día concreto |
+| **por plantilla** | el documento asigna una plantilla (A1, B2, C…) y la carga de la semana decide las series |
+| **autónoma** | no hay sesión presencial: manda el plan del jugador |
 
-## Fuentes
+## Probar los cambios
 
-| Archivo | Estado |
-|---|---|
-| `catalogo-ejercicios-progresiones-cadete.md` | ✅ |
-| `Apendice-movilidad-y-ejercicios.md` | ✅ |
-| `M0-pretemporada-sesiones-v2.md` | ✅ |
-| `M1-acumulacion-sesiones.md` | ✅ |
-| `M2-intensificacion-sesiones.md` | ✅ |
-| `M3-navidad-plan.md` | ✅ |
-| `M4-M5-mantenimiento-sesiones.md` | ✅ |
-| `M6-M9-cierre-temporada.md` | ✅ |
-| `Protocolo-vuelta-tras-lesion.md` | ✅ |
+```bash
+python3 -m http.server 8777     # desde la raíz, en otra terminal
+node pruebas/ejecutar.js
+```
 
-Las nueve están. Son la única verdad del contenido deportivo.
+Detalles y qué cubre cada una en [`pruebas/README.md`](pruebas/README.md).
+Playwright vive en `pruebas/package.json`, no en la raíz, para que la web siga
+sin dependencias.
 
-## Entregables
+## La Action
 
-Los cuatro documentos que existen hoy y que la web viene a sustituir en el uso
-diario:
+`pages.yml` valida y despliega en cada push a `main`. Además de pasar las
+pruebas, **regenera `data/` y falla si no coincide con `fuentes/`**: es lo que
+evita que alguien edite un documento, se olvide de generar y la web siga
+sirviendo la versión vieja sin que nadie se entere.
 
-- `planificacion-fisica-cadete-2026-27.docx` — el documento completo, 58 páginas
-- `calendario-cargas-2026-27.pdf` — el póster de las 39 semanas
-- `hoja-regeneracion-domingo.pdf` — la rutina del domingo, para los jugadores
-- `seguimiento-carga-dolor-2026-27.xlsx` — la hoja de seguimiento
+## Límites
 
-## Comprobaciones hechas sobre `datos-temporada.json`
-
-Cruzado semana a semana contra el póster de calendario y contra los nueve
-markdown de `fuentes/`:
-
-- **Fechas, cargas y jornadas de las 39 semanas: sin una sola discrepancia.**
-  Todos los lunes caen en lunes y todos los sábados son lunes + 5.
-- **Contactos de pliometría: coinciden en las 33 semanas** para las que los
-  documentos dan cifra (M8 y M9 no la dan en sus tablas).
-
-Queda una cosa por resolver, anotada para no perderla: las **etiquetas de
-microciclo** del JSON no coinciden con las de los markdown de la semana 16 en
-adelante, y `MC12` a `MC15` aparecen dos veces cada una. Los markdown numeran
-MC1 a MC31, que es justo lo que declara `CLAUDE.md`; el JSON se queda en MC27.
-Es contenido deportivo: no se toca sin preguntar.
+- El contenido deportivo **no se inventa ni se modifica**. Si no está en las
+  fuentes, no está en la web.
+- Los protocolos de lesión describen progresión de carga a partir de un
+  diagnóstico y una autorización médica. La web conserva esa distinción tal
+  como la escribe el documento y no la diluye.
+- Fase 2 del brief —registro de RPE y dolor por parte de los jugadores— **no
+  está construida y no se empieza sin hablarlo**: implica datos personales de
+  menores.

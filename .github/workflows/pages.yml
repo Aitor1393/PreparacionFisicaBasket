@@ -1,0 +1,71 @@
+name: Validar y desplegar en GitHub Pages
+
+# Requiere Settings → Pages → Source: GitHub Actions.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validar datos-temporada.json
+        run: python3 -c "import json;d=json.load(open('datos-temporada.json'));print(len(d['microciclos']),'microciclos')"
+
+      - name: Regenerar los datos desde las fuentes
+        run: python3 scripts/generar.py
+
+      # Esta es la comprobación que de verdad importa. Si alguien edita un
+      # markdown de fuentes/ y no vuelve a generar, la web serviría la versión
+      # vieja sin avisar. Aquí se ve.
+      - name: Comprobar que data/ está al día con fuentes/
+        run: |
+          if ! git diff --quiet -- data/; then
+            echo "::error::data/ no coincide con fuentes/. Ejecuta: python3 scripts/generar.py"
+            git diff --stat -- data/
+            exit 1
+          fi
+          echo "data/ está al día"
+
+      - name: Validar la sintaxis del JavaScript
+        run: for f in assets/js/*.js sw.js; do node --check "$f"; done
+
+      - name: Instalar Playwright
+        working-directory: pruebas
+        run: npm install --no-audit --no-fund
+
+      - name: Pasar las pruebas del navegador
+        run: |
+          python3 -m http.server 8777 &
+          sleep 2
+          node pruebas/ejecutar.js
+
+  desplegar:
+    needs: validar
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.despliegue.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Subir el sitio
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: despliegue
+        uses: actions/deploy-pages@v4

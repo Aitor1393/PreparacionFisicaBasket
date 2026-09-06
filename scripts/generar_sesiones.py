@@ -445,7 +445,8 @@ def construir():
         if not series:
             raise ErrorDeFuente('la carga %s de %s no está en la regla de series'
                                 % (sem['carga'], etiqueta))
-        ajustes = ['Carga %d de la semana → %s' % (sem['carga'], series)]
+        ajustes = ['Esta semana toca hacer %s: es lo que dice M4-M5 para una carga de %d.'
+                   % (series, sem['carga'])]
         por_plantilla(sem, asignacion['lunes'], arch, 'Mapa del tramo', list(ajustes))
         por_plantilla(sem, asignacion['miercoles'], arch, 'Mapa del tramo', list(ajustes))
         por_plantilla(sem, 'C', arch, 'VIERNES C · Víspera · 50\' · Todas las semanas',

@@ -4,9 +4,19 @@ Contexto del proyecto para agentes que trabajen en este repositorio.
 
 ## Qué es esto
 
-Planificación física completa de un equipo **cadete masculino de baloncesto** (14-15 años) para la temporada 2026/2027. El contenido deportivo ya está cerrado y validado. El trabajo pendiente es **construir una web** que haga consultable ese contenido.
+Planificación física completa de un equipo **cadete masculino de baloncesto** (14-15 años) para la temporada 2026/2027. El contenido deportivo ya está cerrado y validado. Encima de él hay una **web de consulta**, que es lo que se desarrolla en este repositorio.
 
 **El contenido deportivo no se inventa ni se modifica.** Los documentos fuente son la única verdad. Si algo no está en ellos, no existe.
+
+## Cómo está hecha la web
+
+Sitio estático sin dependencias ni compilación. `README.md` lo explica entero; lo imprescindible antes de tocar nada:
+
+- **El contenido no se copia, se genera.** `scripts/generar.py` convierte `/fuentes` y `datos-temporada.json` en los cuatro JSON de `data/`. **`data/` no se edita a mano nunca.** Después de tocar una fuente, hay que volver a generar; la Action falla si no coincide.
+- El generador **sale en rojo** si una fuente cambia de forma o si falla una comprobación. Eso es lo que se espera de él: mejor rojo que publicar una sesión a medias.
+- Cada sesión guarda el texto original de su fuente y de qué archivo y sección sale.
+- Las reglas van en `assets/js/datos.js`; `vistas.js` solo pinta.
+- Antes de dar algo por hecho, pasa las pruebas: `python3 -m http.server 8777` y `node pruebas/ejecutar.js`.
 
 ## Idioma
 

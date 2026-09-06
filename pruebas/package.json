@@ -1,0 +1,11 @@
+{
+  "name": "preparacion-fisica-pruebas",
+  "private": true,
+  "description": "Playwright vive aquí y no en la raíz, para que la web siga sin dependencias.",
+  "scripts": {
+    "pruebas": "node ejecutar.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.1"
+  }
+}

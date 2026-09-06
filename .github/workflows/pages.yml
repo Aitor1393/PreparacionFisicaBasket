@@ -63,9 +63,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+
+      # Solo se publica la web. Los documentos de trabajo —el Word, el Excel de
+      # seguimiento, los markdown de fuentes/— se quedan fuera: no hacen falta
+      # para que la web funcione y no tienen por qué ser descargables desde la
+      # dirección que se le pasa al equipo.
+      - name: Preparar el sitio con lo justo
+        run: |
+          mkdir -p _sitio
+          cp -r index.html sw.js assets data _sitio/
+          touch _sitio/.nojekyll
+          echo "Se publica:"
+          find _sitio -type f | sort
+
       - name: Subir el sitio
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _sitio
+
       - id: despliegue
         uses: actions/deploy-pages@v4

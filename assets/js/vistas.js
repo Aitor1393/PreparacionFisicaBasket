@@ -127,10 +127,24 @@
 
   V.fueraDeTemporada = function (que) {
     var t = D.temporada.meta.temporada;
-    return '<h1>Fuera de temporada</h1>' +
-      '<p class="sub">Hoy es ' + U.esc(U.fechaLarga(que.fecha)) + '. La temporada va del ' +
-      U.esc(U.fechaLarga(t.inicio)) + ' al ' + U.esc(U.fechaLarga(t.fin)) + '.</p>' +
-      V.calendario();
+    var antes = que.fecha < t.inicio;
+    var h = '<h1>' + (antes ? 'La temporada aún no ha empezado' : 'La temporada ha terminado') +
+      '</h1><p class="sub">Hoy es ' + U.esc(U.fechaLarga(que.fecha)) + '. Va del ' +
+      U.esc(U.fechaLarga(t.inicio)) + ' al ' + U.esc(U.fechaLarga(t.fin)) + '.</p>';
+
+    // Si queda poco para empezar, la primera sesión es lo que hace falta ver.
+    if (antes) {
+      var primera = D.proximaSesion(que.fecha);
+      if (primera) {
+        var dias = Math.round(
+          (U.aFecha(primera.fecha) - U.aFecha(que.fecha)) / 86400000);
+        h += '<div class="caja caja--acento"><p><strong>La primera sesión es ' +
+          (dias === 1 ? 'mañana' : 'dentro de ' + dias + ' días') + ':</strong> ' +
+          U.esc(U.fechaLarga(primera.fecha)) + ', ' + primera.minutos + ' minutos. ' +
+          '<a href="#/sesion/' + primera.fecha + '">Verla</a>.</p></div>';
+      }
+    }
+    return h + V.calendario();
   };
 
   /* -------------------------------------------------------------- sesión */

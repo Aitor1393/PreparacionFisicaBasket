@@ -58,8 +58,12 @@ prueba('hoy enseña la fecha de hoy y su semana', async (page) => {
   if (dentro) {
     afirmar(texto.includes(meses[hoy.getMonth()]), 'no aparece el mes en curso');
   } else {
-    afirmar(texto.includes('Fuera de temporada'),
-      'estamos fuera de temporada y no lo dice; cae al calendario');
+    // Fuera de temporada el brief pide caer al calendario. Se comprueba la
+    // propiedad, no el titular: el texto puede cambiar y la prueba no debe.
+    const filas = await page.locator('.cal__fila').count();
+    afirmar(filas === semanas.semanas.length,
+      'estamos fuera de temporada y no cae al calendario');
+    afirmar(/temporada/i.test(texto), 'no dice nada de la temporada');
   }
 });
 

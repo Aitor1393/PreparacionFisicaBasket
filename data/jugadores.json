@@ -1,0 +1,197 @@
+{
+ "navidad": {
+  "titulo": "Plan de Navidad",
+  "intro": [
+   "Son cuatro semanas. Si no haces nada, en enero vuelves más débil, más lento y con más papeletas de lesionarte justo cuando empieza la parte más dura de la liga. Con 25 minutos, tres días por semana, mantienes todo lo que has ganado desde octubre.",
+   "Necesitas: tu goma, una silla o sofá, y una pared."
+  ],
+  "sesiones": [
+   {
+    "titulo": "Sesión A — Piernas y core",
+    "ejercicios": [
+     {
+      "ejercicio": "Movilidad: tobillo contra pared, cadera 90/90, sentadilla profunda",
+      "dosis": "5'"
+     },
+     {
+      "ejercicio": "Split squat búlgaro (pie de atrás en la silla)",
+      "dosis": "3 × 8 por pierna"
+     },
+     {
+      "ejercicio": "Peso muerto rumano a una pierna",
+      "dosis": "3 × 10 por pierna"
+     },
+     {
+      "ejercicio": "Curl nórdico (alguien te sujeta los tobillos) o puente de glúteo a una pierna",
+      "dosis": "3 × 5 · o 3 × 12"
+     },
+     {
+      "ejercicio": "Sentadilla española con la goma",
+      "dosis": "4 × 30\""
+     },
+     {
+      "ejercicio": "Plancha frontal",
+      "dosis": "3 × 40\""
+     },
+     {
+      "ejercicio": "Plancha lateral",
+      "dosis": "3 × 30\" por lado"
+     }
+    ]
+   },
+   {
+    "titulo": "Sesión B — Tren superior, tobillo y saltos",
+    "ejercicios": [
+     {
+      "ejercicio": "Movilidad",
+      "dosis": "5'"
+     },
+     {
+      "ejercicio": "Saltos: caída y stick, salto vertical y stick",
+      "dosis": "4 × 5 de cada"
+     },
+     {
+      "ejercicio": "Flexiones",
+      "dosis": "3 × 10"
+     },
+     {
+      "ejercicio": "Remo con goma",
+      "dosis": "3 × 12"
+     },
+     {
+      "ejercicio": "Face pull con goma",
+      "dosis": "2 × 15"
+     },
+     {
+      "ejercicio": "Elevación de talón a una pierna",
+      "dosis": "3 × 15"
+     },
+     {
+      "ejercicio": "Equilibrio a una pierna con ojos cerrados",
+      "dosis": "3 × 30\""
+     },
+     {
+      "ejercicio": "Pallof press con goma",
+      "dosis": "3 × 10 por lado"
+     }
+    ]
+   }
+  ],
+  "carrera": [
+   "Una o dos veces por semana, 15-20 minutos suaves, a ritmo de poder hablar. No hace falta más.",
+   "---"
+  ],
+  "calendario": [
+   {
+    "semana": "21-27 dic",
+    "que": "Sesión A · Sesión B · Sesión A · una carrera"
+   },
+   {
+    "semana": "28 dic – 3 ene",
+    "que": "Sesión A · Sesión B. Nada más"
+   },
+   {
+    "semana": "4-10 ene",
+    "que": "Sesión A · Sesión B · Sesión A · una carrera"
+   },
+   {
+    "semana": "11-16 ene",
+    "que": "Vuelta a los entrenamientos. Partido el sábado 16"
+   }
+  ],
+  "cierre": [
+   "Si te duele algo: no hagas los saltos y quédate solo con la sentadilla española, que además ayuda a que la rodilla vaya mejor. Avisa el primer día de vuelta."
+  ],
+  "origen": "M3-navidad-plan.md"
+ },
+ "domingo": {
+  "id": "rutina_domingo",
+  "titulo": "Rutina de regeneración · Domingo, 20'",
+  "bloques": [
+   {
+    "nombre": null,
+    "ejercicios": [
+     {
+      "grupo": "Respirar",
+      "ejercicio": "Respiración diafragmática tumbado",
+      "dosis": "3'",
+      "tiempo": null
+     },
+     {
+      "grupo": "Mover",
+      "ejercicio": "Cadera 90/90 con giro",
+      "dosis": "8/lado",
+      "tiempo": null
+     },
+     {
+      "grupo": "Mover",
+      "ejercicio": "",
+      "dosis": "Gato-camello",
+      "tiempo": "12 rep"
+     },
+     {
+      "grupo": "Mover",
+      "ejercicio": "",
+      "dosis": "Rotación torácica en cuadrupedia",
+      "tiempo": "8/lado"
+     },
+     {
+      "grupo": "Mover",
+      "ejercicio": "",
+      "dosis": "Dorsiflexión de tobillo contra pared",
+      "tiempo": "10/pierna"
+     },
+     {
+      "grupo": "Mover",
+      "ejercicio": "",
+      "dosis": "Sentadilla profunda con apoyo",
+      "tiempo": "3×30\""
+     },
+     {
+      "grupo": "Mover",
+      "ejercicio": "",
+      "dosis": "Zancada con rotación",
+      "tiempo": "6/lado"
+     },
+     {
+      "grupo": "Soltar",
+      "ejercicio": "Pelota en la planta del pie",
+      "dosis": "60\"/pie",
+      "tiempo": null
+     },
+     {
+      "grupo": "Soltar",
+      "ejercicio": "",
+      "dosis": "Pelota en el glúteo",
+      "tiempo": "60\"/lado"
+     },
+     {
+      "grupo": "Soltar",
+      "ejercicio": "",
+      "dosis": "Pelota en gemelo y sóleo",
+      "tiempo": "60\"/pierna"
+     },
+     {
+      "grupo": "Cerrar",
+      "ejercicio": "Isquiotibiales, psoas y gemelo",
+      "dosis": "30\" cada uno",
+      "tiempo": null
+     },
+     {
+      "grupo": "Cerrar",
+      "ejercicio": "",
+      "dosis": "Respiración final",
+      "tiempo": "1'"
+     }
+    ]
+   }
+  ],
+  "notas": [
+   "Autónoma, se entrega impresa en septiembre.",
+   "Conviene ser honesto sobre para qué sirve. Hay evidencia de moderada a fuerte de que el estiramiento estático rutinario no reduce las tasas globales de lesión, aunque sí hay indicios preliminares de reducción de lesiones musculotendinosas. Así que esta rutina no es prevención: es movilidad, automasaje y un rato de bajar revoluciones el día después de competir. El automasaje sí tiene evidencia aceptada sobre la modulación del dolor en puntos gatillo y sobre las agujetas.",
+   "El bloque de gemelo y sóleo con pelota es el que más rendimiento da a los jugadores con dolor de talón.",
+   "---"
+  ],
+  "origen": "Apendice-movilidad-y-ejercicios.md"
+ }
+}

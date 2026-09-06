@@ -1,0 +1,1719 @@
+{
+ "aviso": "Archivo generado por scripts/generar_contenido.py. No editar a mano.",
+ "capacidades": {
+  "movilidad": "Movilidad",
+  "fuerza": "Fuerza",
+  "core": "Core",
+  "tobillo": "Tobillo y pie",
+  "isometricos": "Isométricos de tendón",
+  "pliometria": "Pliometría",
+  "velocidad": "Velocidad",
+  "cod": "Cambios de dirección"
+ },
+ "fichas": [
+  {
+   "id": "5-10-5",
+   "nombre": "5-10-5",
+   "capacidad": "cod",
+   "grupo": "Cambios de dirección y escalera",
+   "como": "Desde el cono central, 5 m a un lado, 10 m al otro, 5 m de vuelta",
+   "clave": "Bajar el centro de gravedad antes del cambio",
+   "error": "llegar erguido al cono",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "aceleracion-resistida",
+   "nombre": "Aceleración resistida",
+   "capacidad": "velocidad",
+   "grupo": "Velocidad",
+   "como": "Un compañero sujeta una goma en la cintura, resistencia ligera",
+   "clave": "Que no distorsione la técnica",
+   "error": "poner demasiada tensión",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "balanceos-de-pierna",
+   "nombre": "Balanceos de pierna",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Apoyado en pared, balancear la pierna adelante-atrás y de lado a lado",
+   "clave": "Torso quieto",
+   "error": "mover el tronco para dar impulso",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "bird-dog",
+   "nombre": "Bird dog",
+   "capacidad": "core",
+   "grupo": "Core",
+   "como": "En cuadrupedia, extender brazo y pierna contrarios",
+   "clave": "Cadera quieta",
+   "error": "subir demasiado la pierna arqueando la lumbar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "bloque-de-tobillo",
+   "nombre": "Bloque de tobillo",
+   "capacidad": "tobillo",
+   "grupo": "Contenido fijo del miércoles",
+   "como": "Elevaciones de talón a una pierna, 3×15, progresión a excéntrico lento · Elevaciones con rodilla flexionada, para sóleo · Eversión e inversión con goma, 2×15 por lado · Equilibrio monopodal con ojos cerrados, 3×30 s · Equilibrio monopodal con perturbación de compañero, 3×20 s",
+   "clave": "Contenido fijo del miércoles, 8 minutos, todo el año. El esguince de tobillo es la lesión más frecuente en formación.",
+   "error": null,
+   "niveles": [],
+   "contenido": [
+    "Elevaciones de talón a una pierna, 3×15, progresión a excéntrico lento",
+    "Elevaciones con rodilla flexionada, para sóleo",
+    "Eversión e inversión con goma, 2×15 por lado",
+    "Equilibrio monopodal con ojos cerrados, 3×30 s",
+    "Equilibrio monopodal con perturbación de compañero, 3×20 s"
+   ],
+   "origen": "catalogo-ejercicios-progresiones-cadete.md"
+  },
+  {
+   "id": "bounding",
+   "nombre": "Bounding",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Zancadas saltadas alternando piernas, buscando amplitud",
+   "clave": "Zancada larga y aterrizaje activo",
+   "error": "correr en vez de saltar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "bulgaro-excentrico-4",
+   "nombre": "Búlgaro excéntrico 4\"",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Igual, bajando en cuatro segundos y subiendo normal",
+   "clave": "Contar en voz alta",
+   "error": "acelerar la bajada al fatigarse",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "cadera-90-90",
+   "nombre": "Cadera 90/90",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Sentado, una pierna delante y otra al lado a 90°, girar de un lado al otro",
+   "clave": "Torso alto",
+   "error": "redondear la espalda para llegar más",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "caida-a-una-pierna",
+   "nombre": "Caída a una pierna",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Igual pero recibiendo con un solo pie",
+   "clave": "Tres segundos inmóvil",
+   "error": "dar un paso para recuperar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "caida-y-stick",
+   "nombre": "Caída y stick",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Caer desde un cajón bajo y quedarse congelado en la recepción",
+   "clave": "Aterrizaje silencioso, rodillas fuera",
+   "error": "aterrizar rígido o con rodillas hacia dentro",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "cod-reactivo",
+   "nombre": "COD reactivo",
+   "capacidad": "cod",
+   "grupo": "Cambios de dirección y escalera",
+   "como": "El entrenador señala la dirección cuando el jugador ya está en carrera",
+   "clave": "La señal debe llegar tarde",
+   "error": "anticiparla",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "curl-de-isquios-deslizante",
+   "nombre": "Curl de isquios deslizante",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de cadera",
+   "como": "Tumbado, talones sobre algo que deslice, extender y flexionar rodillas con la cadera alta",
+   "clave": "La cadera no cae",
+   "error": "bajarla al extender",
+   "niveles": [
+    {
+     "nivel": "N5",
+     "patron": "Dominante de cadera, bilateral"
+    },
+    {
+     "nivel": "N4",
+     "patron": "Dominante de cadera, unilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "curl-nordico",
+   "nombre": "Curl nórdico",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de cadera",
+   "como": "De rodillas, un compañero sujeta los tobillos, caer hacia delante frenando y amortiguar con las manos",
+   "clave": "Bajar lo más lejos posible controlando",
+   "error": "dejarse caer sin frenar desde el principio",
+   "niveles": [
+    {
+     "nivel": "N5",
+     "patron": "Dominante de cadera, unilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "dead-bug",
+   "nombre": "Dead bug",
+   "capacidad": "core",
+   "grupo": "Core",
+   "como": "Tumbado, brazos y rodillas a 90°, bajar brazo y pierna contrarios",
+   "clave": "Lumbar pegada al suelo",
+   "error": "despegarla al bajar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "dorsiano-con-goma",
+   "nombre": "Dorsiano con goma",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Goma anclada alta, brazos casi rectos, bajar hasta los muslos",
+   "clave": "Iniciar con la espalda",
+   "error": "doblar los codos",
+   "niveles": [
+    {
+     "nivel": "N3",
+     "patron": "Tracción"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "dorsiflexion-contra-pared",
+   "nombre": "Dorsiflexión contra pared",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Pie a un palmo de la pared, llevar la rodilla a tocarla sin levantar el talón",
+   "clave": "El talón nunca se despega",
+   "error": "dejar caer el arco del pie",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "elevacion-con-rodilla-flexionada",
+   "nombre": "Elevación con rodilla flexionada",
+   "capacidad": "tobillo",
+   "grupo": "Tobillo y pie",
+   "como": "Igual con la rodilla doblada, para trabajar el sóleo",
+   "clave": "Rodilla fija",
+   "error": "extenderla al subir",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "elevacion-de-talon-a-una-pierna",
+   "nombre": "Elevación de talón a una pierna",
+   "capacidad": "tobillo",
+   "grupo": "Tobillo y pie",
+   "como": "De pie sobre una pierna, subir al máximo y bajar controlado",
+   "clave": "Rango completo",
+   "error": "rebotar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "equilibrio-monopodal",
+   "nombre": "Equilibrio monopodal",
+   "capacidad": "tobillo",
+   "grupo": "Tobillo y pie",
+   "como": "Sobre una pierna, con ojos cerrados o con un compañero empujando suave",
+   "clave": "Corregir con el pie, no con los brazos",
+   "error": "apoyar el otro pie",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "escalera-dentro-dentro-fuera-fuera",
+   "nombre": "Escalera: dentro-dentro-fuera-fuera",
+   "capacidad": "cod",
+   "grupo": "Cambios de dirección y escalera",
+   "como": "Dos apoyos dentro del cuadro y dos fuera, avanzando",
+   "clave": "Contacto de antepié, rápido",
+   "error": "mirar los pies",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "escalera-lateral",
+   "nombre": "Escalera lateral",
+   "capacidad": "cod",
+   "grupo": "Cambios de dirección y escalera",
+   "como": "Recorrer la escalera de lado con dos apoyos por cuadro",
+   "clave": "Cadera baja",
+   "error": "cruzar los pies",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "eversion-e-inversion-con-goma",
+   "nombre": "Eversión e inversión con goma",
+   "capacidad": "tobillo",
+   "grupo": "Tobillo y pie",
+   "como": "Sentado, goma en el pie, llevarlo hacia fuera y hacia dentro",
+   "clave": "Solo se mueve el tobillo",
+   "error": "girar toda la pierna",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "face-pull",
+   "nombre": "Face pull",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Goma a la altura de la cara, tirar hacia la frente separando las manos",
+   "clave": "Codos altos",
+   "error": "bajar los codos y convertirlo en remo",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "flexion-completa",
+   "nombre": "Flexión completa",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "En suelo, pecho hasta casi tocar",
+   "clave": "Codos a 45°, no abiertos",
+   "error": "bajar solo la cabeza",
+   "niveles": [
+    {
+     "nivel": "N2",
+     "patron": "Empuje"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "flexion-con-goma-cruzada",
+   "nombre": "Flexión con goma cruzada",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Goma por la espalda, extremos bajo las manos",
+   "clave": "Tensión máxima arriba",
+   "error": "perder la línea del cuerpo",
+   "niveles": [
+    {
+     "nivel": "N3",
+     "patron": "Empuje"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "flexion-con-manos-elevadas",
+   "nombre": "Flexión con manos elevadas",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Manos en banco o pared, cuerpo en línea",
+   "clave": "Cuerpo rígido",
+   "error": "hundir la cadera",
+   "niveles": [
+    {
+     "nivel": "N1",
+     "patron": "Empuje"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "flexion-con-pies-elevados",
+   "nombre": "Flexión con pies elevados",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Pies en silla",
+   "clave": "Más carga en hombro",
+   "error": "cadera alta",
+   "niveles": [
+    {
+     "nivel": "N4",
+     "patron": "Empuje"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "frenada-en-3-y-en-2-pasos",
+   "nombre": "Frenada en 3 y en 2 pasos",
+   "capacidad": "cod",
+   "grupo": "Cambios de dirección y escalera",
+   "como": "Correr y detenerse por completo en el número de apoyos indicado",
+   "clave": "Cadera atrás, pecho alto, rodilla no colapsa",
+   "error": "frenar con la rodilla adelantada y el tronco caído",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "gato-camello",
+   "nombre": "Gato-camello",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "En cuadrupedia, alternar arqueo y redondeo de toda la columna",
+   "clave": "Movimiento vértebra a vértebra",
+   "error": "mover solo la zona lumbar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "hip-thrust-en-suelo-con-goma",
+   "nombre": "Hip thrust en suelo con goma",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de cadera",
+   "como": "Espalda apoyada, goma sobre la cadera, empujar con talones",
+   "clave": "Barbilla al pecho",
+   "error": "hiperextender el cuello",
+   "niveles": [
+    {
+     "nivel": "N3",
+     "patron": "Dominante de cadera, bilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "icky-shuffle",
+   "nombre": "Icky shuffle",
+   "capacidad": "cod",
+   "grupo": "Cambios de dirección y escalera",
+   "como": "Dentro, dentro, fuera, alternando el pie que sale",
+   "clave": "Ritmo constante",
+   "error": "perder el patrón y parar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "inchworm",
+   "nombre": "Inchworm",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "De pie, manos al suelo, caminar con las manos hasta plancha y volver",
+   "clave": "Piernas lo más rectas posible",
+   "error": "doblar rodillas",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "isometria-de-gemelo-en-escalon",
+   "nombre": "Isometría de gemelo en escalón",
+   "capacidad": "isometricos",
+   "grupo": "Isométricos de tendón",
+   "como": "De puntillas en un escalón, aguantar arriba",
+   "clave": "Sin oscilar",
+   "error": "bajar el talón poco a poco",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "isometria-de-isquios-en-puente",
+   "nombre": "Isometría de isquios en puente",
+   "capacidad": "isometricos",
+   "grupo": "Isométricos de tendón",
+   "como": "Puente de glúteo con talones lejos, aguantar",
+   "clave": "Se nota detrás del muslo",
+   "error": "acercar los talones y pasarlo al glúteo",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "isometria-en-pared",
+   "nombre": "Isometría en pared",
+   "capacidad": "isometricos",
+   "grupo": "Isométricos de tendón",
+   "como": "Espalda contra la pared, rodillas a 90°, aguantar",
+   "clave": "Peso en los talones",
+   "error": "apoyar las manos en los muslos",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "l-drill",
+   "nombre": "L-drill",
+   "capacidad": "cod",
+   "grupo": "Cambios de dirección y escalera",
+   "como": "Recorrido en forma de L entre tres conos",
+   "clave": "Giro cerrado",
+   "error": "abrirse en la curva",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "libro-abierto",
+   "nombre": "Libro abierto",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Tumbado de lado, rodillas flexionadas a 90°, abrir el brazo de arriba hasta el suelo",
+   "clave": "La rodilla de arriba no se despega",
+   "error": "dejar que la cadera acompañe",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "marcha-con-inclinacion",
+   "nombre": "Marcha con inclinación",
+   "capacidad": "velocidad",
+   "grupo": "Velocidad",
+   "como": "Caminar con el cuerpo inclinado hacia delante, empujando el suelo atrás",
+   "clave": "Cuerpo en línea recta inclinada",
+   "error": "doblar la cadera",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "marcha-lateral-con-goma",
+   "nombre": "Marcha lateral con goma",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Goma en tobillos, pasos laterales sin juntar los pies",
+   "clave": "Tensión constante",
+   "error": "juntar los pies entre pasos",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "monster-walk-con-goma",
+   "nombre": "Monster walk con goma",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Goma en tobillos o rodillas, pasos adelante y atrás en semisentadilla",
+   "clave": "Rodillas siempre abiertas",
+   "error": "que se junten al dar el paso",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "pallof-press",
+   "nombre": "Pallof press",
+   "capacidad": "core",
+   "grupo": "Core",
+   "como": "Goma anclada al lado, manos al pecho, extender los brazos al frente resistiendo la rotación",
+   "clave": "No girar nada",
+   "error": "dejar que el torso rote",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "peso-muerto-rumano-a-una-pierna",
+   "nombre": "Peso muerto rumano a una pierna",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de cadera",
+   "como": "Sobre una pierna, llevar la cadera atrás bajando el torso, pierna libre alineada",
+   "clave": "Espalda neutra, cadera cuadrada",
+   "error": "abrir la cadera de la pierna libre",
+   "niveles": [
+    {
+     "nivel": "N1",
+     "patron": "Dominante de cadera, unilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "plancha-con-marcha-de-brazos",
+   "nombre": "Plancha con marcha de brazos",
+   "capacidad": "core",
+   "grupo": "Core",
+   "como": "Desde plancha, pasar de antebrazos a manos y volver, alternando",
+   "clave": "La cadera no rota",
+   "error": "balancearse de lado a lado",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "plancha-frontal",
+   "nombre": "Plancha frontal",
+   "capacidad": "core",
+   "grupo": "Core",
+   "como": "Antebrazos y pies, cuerpo en línea",
+   "clave": "Glúteo apretado, costillas abajo",
+   "error": "cadera alta o lumbar hundida",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "plancha-lateral",
+   "nombre": "Plancha lateral",
+   "capacidad": "core",
+   "grupo": "Core",
+   "como": "Apoyo en un antebrazo y el canto del pie",
+   "clave": "Cadera alta y alineada",
+   "error": "caer hacia delante",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "plancha-lateral-con-elevacion",
+   "nombre": "Plancha lateral con elevación",
+   "capacidad": "core",
+   "grupo": "Core",
+   "como": "Igual, levantando la pierna de arriba",
+   "clave": "Sin rotar",
+   "error": "adelantar la pierna",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "pogos",
+   "nombre": "Pogos",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Saltos pequeños desde el tobillo, rodillas casi rectas",
+   "clave": "Contacto rapidísimo",
+   "error": "doblar rodillas y convertirlo en sentadilla saltada",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "press-de-hombro-con-goma",
+   "nombre": "Press de hombro con goma",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Goma pisada, empujar por encima de la cabeza",
+   "clave": "Costillas abajo",
+   "error": "arquear la lumbar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "puente-a-una-pierna",
+   "nombre": "Puente a una pierna",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de cadera",
+   "como": "Una pierna en el suelo, la otra recogida",
+   "clave": "Cadera nivelada",
+   "error": "que caiga el lado libre",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "puente-con-pies-elevados",
+   "nombre": "Puente con pies elevados",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de cadera",
+   "como": "Igual con los pies en una silla",
+   "clave": "Mayor rango",
+   "error": "perder el control en la bajada",
+   "niveles": [
+    {
+     "nivel": "N2",
+     "patron": "Dominante de cadera, bilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "puente-de-gluteo",
+   "nombre": "Puente de glúteo",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de cadera",
+   "como": "Tumbado, rodillas flexionadas, empujar con talones hasta extender la cadera",
+   "clave": "Extensión completa sin arquear lumbar",
+   "error": "arquear la espalda en vez de apretar el glúteo",
+   "niveles": [
+    {
+     "nivel": "N1",
+     "patron": "Dominante de cadera, bilateral"
+    },
+    {
+     "nivel": "N3",
+     "patron": "Dominante de cadera, unilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "remo-a-un-brazo",
+   "nombre": "Remo a un brazo",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "En posición de zancada, tirar con un brazo",
+   "clave": "Torso quieto",
+   "error": "rotar el tronco para ayudarse",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "remo-con-goma-sentado",
+   "nombre": "Remo con goma sentado",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Goma anclada baja o en los pies, tirar hacia el abdomen",
+   "clave": "Juntar escápulas",
+   "error": "tirar solo con brazos",
+   "niveles": [
+    {
+     "nivel": "N1",
+     "patron": "Tracción"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "remo-isometrico",
+   "nombre": "Remo isométrico",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Mantener 5\" en la posición de máxima contracción",
+   "clave": "Escápulas apretadas todo el tiempo",
+   "error": "aflojar antes de tiempo",
+   "niveles": [
+    {
+     "nivel": "N5",
+     "patron": "Tracción"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "remo-pretensado",
+   "nombre": "Remo pretensado",
+   "capacidad": "fuerza",
+   "grupo": "Empuje y tracción",
+   "como": "Doblar la goma o alejarse para aumentar tensión",
+   "clave": "Control en la vuelta",
+   "error": "dejar que la goma tire de vuelta",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "rotacion-toracica-en-cuadrupedia",
+   "nombre": "Rotación torácica en cuadrupedia",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Mano en la nuca, abrir el codo hacia el techo girando el pecho",
+   "clave": "Gira el pecho, no la cadera",
+   "error": "compensar con la lumbar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "rueda-simulada",
+   "nombre": "Rueda simulada",
+   "capacidad": "core",
+   "grupo": "Core",
+   "como": "En rodillas con las manos sobre algo que deslice, rodar hacia delante y volver",
+   "clave": "Sin arquear la lumbar",
+   "error": "llegar más lejos de lo que se controla",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "salidas-de-5-m",
+   "nombre": "Salidas de 5 m",
+   "capacidad": "velocidad",
+   "grupo": "Velocidad",
+   "como": "Arrancar desde parado a máxima intensidad",
+   "clave": "Primeros pasos cortos y potentes",
+   "error": "incorporarse demasiado pronto",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "salidas-desde-desplazamiento-defensivo",
+   "nombre": "Salidas desde desplazamiento defensivo",
+   "capacidad": "velocidad",
+   "grupo": "Velocidad",
+   "como": "Dos o tres pasos laterales defensivos y arrancar a esprintar",
+   "clave": "Girar la cadera hacia la dirección de carrera",
+   "error": "arrancar de lado",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "salto-a-cajon",
+   "nombre": "Salto a cajón",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Saltar arriba y bajar caminando",
+   "clave": "Bajar siempre andando",
+   "error": "saltar hacia abajo desde el cajón",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "salto-a-cajon-con-contacto-minimo",
+   "nombre": "Salto a cajón con contacto mínimo",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Subir y bajar encadenando, con el menor tiempo de apoyo",
+   "clave": "Rapidez, no altura",
+   "error": "alargar el contacto",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "salto-en-profundidad",
+   "nombre": "Salto en profundidad",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Caer de un cajón de 25-30 cm y saltar inmediatamente",
+   "clave": "Tocar el suelo lo mínimo",
+   "error": "usar cajón alto y alargar el contacto",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "salto-lateral-a-una-pierna-con-stick",
+   "nombre": "Salto lateral a una pierna con stick",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Saltar de lado y recibir con la misma pierna, congelando",
+   "clave": "Estabilidad total al caer",
+   "error": "apoyar la otra pierna",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "salto-lateral-a-una-pierna-reactivo",
+   "nombre": "Salto lateral a una pierna reactivo",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Igual encadenando sin parar",
+   "clave": "Mínimo tiempo en el suelo",
+   "error": "perder la técnica al acelerar",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "salto-vertical-y-stick",
+   "nombre": "Salto vertical y stick",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Saltar al máximo y congelar el aterrizaje",
+   "clave": "Absorber con cadera y rodilla",
+   "error": "caer con las piernas rectas",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "saltos-bajos",
+   "nombre": "Saltos bajos",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Pogos desde el tobillo",
+   "clave": "Contacto rapidísimo",
+   "error": "doblar rodillas",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "saltos-en-zigzag",
+   "nombre": "Saltos en zigzag",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Saltos diagonales avanzando",
+   "clave": "Control del aterrizaje",
+   "error": "perder la dirección",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "saltos-sobre-linea",
+   "nombre": "Saltos sobre línea",
+   "capacidad": "pliometria",
+   "grupo": "Pliometría",
+   "como": "Saltos rápidos cruzando una línea, adelante-atrás o lateral",
+   "clave": "Contacto corto",
+   "error": "saltar alto",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "sentadilla-a-una-pierna-a-banco",
+   "nombre": "Sentadilla a una pierna a banco",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "De pie sobre una pierna, sentarse en un banco bajo y levantarse sin ayuda",
+   "clave": "Sin rebote al tocar",
+   "error": "dejarse caer",
+   "niveles": [
+    {
+     "nivel": "N5",
+     "patron": "Dominante de rodilla, unilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "sentadilla-con-goma-bajo-los-pies",
+   "nombre": "Sentadilla con goma bajo los pies",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Pisar la goma, pasarla por los hombros, hacer la sentadilla",
+   "clave": "Pecho alto",
+   "error": "inclinarse adelante por la tensión de la goma",
+   "niveles": [
+    {
+     "nivel": "N4",
+     "patron": "Dominante de rodilla, bilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "sentadilla-con-goma-en-rodillas",
+   "nombre": "Sentadilla con goma en rodillas",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Goma por encima de las rodillas, empujarla hacia fuera todo el recorrido",
+   "clave": "La goma no debe ganar",
+   "error": "dejar que junte las rodillas al subir",
+   "niveles": [
+    {
+     "nivel": "N3",
+     "patron": "Dominante de rodilla, bilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "sentadilla-con-pausa",
+   "nombre": "Sentadilla con pausa",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Igual, manteniendo 3\" abajo sin perder tensión",
+   "clave": "No rebotar al salir",
+   "error": "relajar en el valle y usar el rebote",
+   "niveles": [
+    {
+     "nivel": "N2",
+     "patron": "Dominante de rodilla, bilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "sentadilla-con-peso-corporal",
+   "nombre": "Sentadilla con peso corporal",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Pies a la anchura de hombros, bajar hasta que el muslo pase la paralela",
+   "clave": "Rodilla alineada con el segundo dedo",
+   "error": "rodillas hacia dentro",
+   "niveles": [
+    {
+     "nivel": "N1",
+     "patron": "Dominante de rodilla, bilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "sentadilla-espanola",
+   "nombre": "Sentadilla española",
+   "capacidad": "isometricos",
+   "grupo": "Isométricos de tendón",
+   "como": "Goma anclada a la altura de la rodilla y pasada por detrás de las rodillas. Sentarse hacia atrás manteniendo la tibia vertical y aguantar",
+   "clave": "Tibia vertical y torso vertical",
+   "error": "inclinarse hacia delante y descargar el cuádriceps",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "sentadilla-profunda-con-apoyo",
+   "nombre": "Sentadilla profunda con apoyo",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Agarrado a algo fijo, bajar todo lo posible y mantener",
+   "clave": "Talones en el suelo, pecho alto",
+   "error": "despegar los talones",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "skipping",
+   "nombre": "Skipping",
+   "capacidad": "velocidad",
+   "grupo": "Velocidad",
+   "como": "Carrera elevando la rodilla, con contacto activo",
+   "clave": "Tobillo firme",
+   "error": "elevar la rodilla y aterrizar blando",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "split-squat-bulgaro",
+   "nombre": "Split squat búlgaro",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Pie trasero elevado en silla o banco, bajar en vertical",
+   "clave": "Cadera cuadrada, descenso vertical",
+   "error": "adelantar demasiado el pie y convertirlo en zancada",
+   "niveles": [
+    {
+     "nivel": "N3",
+     "patron": "Dominante de rodilla, unilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "talon-gluteo",
+   "nombre": "Talón-glúteo",
+   "capacidad": "velocidad",
+   "grupo": "Velocidad",
+   "como": "Carrera llevando el talón al glúteo",
+   "clave": "Sin echar el tronco atrás",
+   "error": "arquear la espalda",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "velocidad-alta-lanzada",
+   "nombre": "Velocidad alta lanzada",
+   "capacidad": "velocidad",
+   "grupo": "Velocidad",
+   "como": "15 m progresivos y 20-30 m al 95-100%",
+   "clave": "Descanso completo, 3'",
+   "error": "hacerlo cansado o con descanso corto",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "zancada-atras",
+   "nombre": "Zancada atrás",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Paso hacia atrás y volver",
+   "clave": "Más segura para rodillas sensibles",
+   "error": "pisar hacia dentro",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "zancada-caminando",
+   "nombre": "Zancada caminando",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Igual pero avanzando en cada repetición",
+   "clave": "Control al aterrizar el pie",
+   "error": "dar zancadas cortas",
+   "niveles": [
+    {
+     "nivel": "N2",
+     "patron": "Dominante de rodilla, unilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "zancada-con-rotacion-toracica",
+   "nombre": "Zancada con rotación torácica",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Zancada larga, mano interior al suelo, abrir el brazo contrario hacia arriba",
+   "clave": "Cadera baja",
+   "error": "no bajar lo suficiente y girar solo el brazo",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "zancada-estatica",
+   "nombre": "Zancada estática",
+   "capacidad": "fuerza",
+   "grupo": "Fuerza · Dominante de rodilla",
+   "como": "Un pie delante y otro detrás, bajar en vertical hasta casi tocar el suelo",
+   "clave": "Torso vertical, no avanza",
+   "error": "inclinarse hacia delante",
+   "niveles": [
+    {
+     "nivel": "N1",
+     "patron": "Dominante de rodilla, unilateral"
+    }
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "zancada-lateral",
+   "nombre": "Zancada lateral",
+   "capacidad": "movilidad",
+   "grupo": "Movilidad",
+   "como": "Paso amplio al lado, cargar el peso en esa pierna, la otra estirada",
+   "clave": "Cadera atrás",
+   "error": "doblar la pierna estirada",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  {
+   "id": "zigzag-entre-conos",
+   "nombre": "Zigzag entre conos",
+   "capacidad": "cod",
+   "grupo": "Cambios de dirección y escalera",
+   "como": "Recorrido en diagonal cambiando de dirección en cada cono",
+   "clave": "Plantar el pie exterior",
+   "error": "redondear el giro",
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  }
+ ],
+ "progresiones": [
+  {
+   "nivel": "N1",
+   "patron": "Dominante de rodilla, bilateral",
+   "ejercicio": "Sentadilla con peso corporal, tempo 3-1-1",
+   "clave": "Rodilla alineada con el 2º dedo, talón apoyado",
+   "ficha": "sentadilla-con-peso-corporal"
+  },
+  {
+   "nivel": "N2",
+   "patron": "Dominante de rodilla, bilateral",
+   "ejercicio": "Sentadilla con pausa isométrica de 3 s abajo",
+   "clave": "Sin perder tensión en el valle",
+   "ficha": "sentadilla-con-pausa"
+  },
+  {
+   "nivel": "N3",
+   "patron": "Dominante de rodilla, bilateral",
+   "ejercicio": "Sentadilla con goma en rodillas",
+   "clave": "Empujar la goma hacia fuera durante todo el recorrido",
+   "ficha": "sentadilla-con-goma-en-rodillas"
+  },
+  {
+   "nivel": "N4",
+   "patron": "Dominante de rodilla, bilateral",
+   "ejercicio": "Sentadilla con goma bajo los pies y sobre hombros",
+   "clave": "Pecho alto, la goma tira hacia abajo",
+   "ficha": "sentadilla-con-goma-bajo-los-pies"
+  },
+  {
+   "nivel": "N5",
+   "patron": "Dominante de rodilla, bilateral",
+   "ejercicio": "Sentadilla con salto controlado, aterrizaje absorbido",
+   "clave": "Aterrizar en silencio"
+  },
+  {
+   "nivel": "N1",
+   "patron": "Dominante de rodilla, unilateral",
+   "ejercicio": "Zancada estática",
+   "clave": "Torso vertical, rodilla trasera casi al suelo",
+   "ficha": "zancada-estatica"
+  },
+  {
+   "nivel": "N2",
+   "patron": "Dominante de rodilla, unilateral",
+   "ejercicio": "Zancada caminando o zancada atrás",
+   "clave": "Control del apoyo, sin colapso de rodilla",
+   "ficha": "zancada-caminando"
+  },
+  {
+   "nivel": "N3",
+   "patron": "Dominante de rodilla, unilateral",
+   "ejercicio": "Split squat búlgaro, pie trasero elevado",
+   "clave": "Cadera cuadrada, descenso vertical",
+   "ficha": "split-squat-bulgaro"
+  },
+  {
+   "nivel": "N4",
+   "patron": "Dominante de rodilla, unilateral",
+   "ejercicio": "Búlgaro con goma sobre hombros o excéntrico 4 s",
+   "clave": "Bajar lento, subir normal"
+  },
+  {
+   "nivel": "N5",
+   "patron": "Dominante de rodilla, unilateral",
+   "ejercicio": "Sentadilla a una pierna a banco o cajón bajo",
+   "clave": "Sin rebote, control total en la bajada",
+   "ficha": "sentadilla-a-una-pierna-a-banco"
+  },
+  {
+   "nivel": "N1",
+   "patron": "Dominante de cadera, bilateral",
+   "ejercicio": "Puente de glúteo en suelo",
+   "clave": "Extensión completa de cadera, sin arquear lumbar",
+   "ficha": "puente-de-gluteo"
+  },
+  {
+   "nivel": "N2",
+   "patron": "Dominante de cadera, bilateral",
+   "ejercicio": "Puente con pies elevados",
+   "clave": "Mismo control con mayor rango",
+   "ficha": "puente-con-pies-elevados"
+  },
+  {
+   "nivel": "N3",
+   "patron": "Dominante de cadera, bilateral",
+   "ejercicio": "Hip thrust en suelo con goma sobre la cadera",
+   "clave": "Empuje con talones",
+   "ficha": "hip-thrust-en-suelo-con-goma"
+  },
+  {
+   "nivel": "N4",
+   "patron": "Dominante de cadera, bilateral",
+   "ejercicio": "Puente con marcha o desplazamiento de talones",
+   "clave": "Cadera estable durante todo el movimiento"
+  },
+  {
+   "nivel": "N5",
+   "patron": "Dominante de cadera, bilateral",
+   "ejercicio": "Curl de isquios deslizante a dos piernas",
+   "clave": "Cadera alta, sin que caiga",
+   "ficha": "curl-de-isquios-deslizante"
+  },
+  {
+   "nivel": "N1",
+   "patron": "Dominante de cadera, unilateral",
+   "ejercicio": "Peso muerto rumano a una pierna, sin carga",
+   "clave": "Cadera atrás, espalda neutra, pierna libre alineada",
+   "ficha": "peso-muerto-rumano-a-una-pierna"
+  },
+  {
+   "nivel": "N2",
+   "patron": "Dominante de cadera, unilateral",
+   "ejercicio": "Mismo ejercicio con goma anclada al suelo",
+   "clave": "Tensión creciente al final del recorrido"
+  },
+  {
+   "nivel": "N3",
+   "patron": "Dominante de cadera, unilateral",
+   "ejercicio": "Puente de glúteo a una pierna",
+   "clave": "Cadera nivelada, sin rotación",
+   "ficha": "puente-de-gluteo"
+  },
+  {
+   "nivel": "N4",
+   "patron": "Dominante de cadera, unilateral",
+   "ejercicio": "Curl de isquios deslizante a una pierna",
+   "clave": "Excéntrico controlado",
+   "ficha": "curl-de-isquios-deslizante"
+  },
+  {
+   "nivel": "N5",
+   "patron": "Dominante de cadera, unilateral",
+   "ejercicio": "Curl nórdico con compañero sujetando tobillos",
+   "clave": "Bajar lo más lejos posible sin caer",
+   "ficha": "curl-nordico"
+  },
+  {
+   "nivel": "N1",
+   "patron": "Empuje",
+   "ejercicio": "Flexión con manos elevadas en banco o pared",
+   "clave": null,
+   "ficha": "flexion-con-manos-elevadas"
+  },
+  {
+   "nivel": "N2",
+   "patron": "Empuje",
+   "ejercicio": "Flexión completa en suelo, tempo 3-1-1",
+   "clave": null,
+   "ficha": "flexion-completa"
+  },
+  {
+   "nivel": "N3",
+   "patron": "Empuje",
+   "ejercicio": "Flexión con goma cruzada en la espalda",
+   "clave": null,
+   "ficha": "flexion-con-goma-cruzada"
+  },
+  {
+   "nivel": "N4",
+   "patron": "Empuje",
+   "ejercicio": "Flexión con pies elevados o press de hombro con goma",
+   "clave": null,
+   "ficha": "flexion-con-pies-elevados"
+  },
+  {
+   "nivel": "N5",
+   "patron": "Empuje",
+   "ejercicio": "Flexión a una mano asistida, o flexión con desplazamiento lateral",
+   "clave": null
+  },
+  {
+   "nivel": "N1",
+   "patron": "Tracción",
+   "ejercicio": "Remo con goma sentado, dos brazos",
+   "clave": null,
+   "ficha": "remo-con-goma-sentado"
+  },
+  {
+   "nivel": "N2",
+   "patron": "Tracción",
+   "ejercicio": "Remo con goma en pie, un brazo",
+   "clave": null
+  },
+  {
+   "nivel": "N3",
+   "patron": "Tracción",
+   "ejercicio": "Dorsiano con goma anclada alta",
+   "clave": null,
+   "ficha": "dorsiano-con-goma"
+  },
+  {
+   "nivel": "N4",
+   "patron": "Tracción",
+   "ejercicio": "Remo con goma doblada o pretensada",
+   "clave": null
+  },
+  {
+   "nivel": "N5",
+   "patron": "Tracción",
+   "ejercicio": "Remo isométrico con mantenimiento de 5 s en contracción",
+   "clave": null,
+   "ficha": "remo-isometrico"
+  }
+ ],
+ "fases_pliometria": [
+  {
+   "fase": "F1",
+   "nombre": "Aterrizaje",
+   "contenido": "Aprender a absorber",
+   "ejemplos": "Caída desde cajón bajo, salto y stick, caída a una pierna"
+  },
+  {
+   "fase": "F2",
+   "nombre": "Bilateral extensiva",
+   "contenido": "Volumen bajo intensidad",
+   "ejemplos": "Saltos a cajón, saltos verticales, saltos a los lados de una línea"
+  },
+  {
+   "fase": "F3",
+   "nombre": "Unilateral",
+   "contenido": "Transferencia real al juego",
+   "ejemplos": "Salto lateral a una pierna con stick, saltos en zigzag, bounding"
+  },
+  {
+   "fase": "F4",
+   "nombre": "Reactiva",
+   "contenido": "Ciclo estiramiento-acortamiento corto",
+   "ejemplos": "Saltos con contacto mínimo, salto en profundidad, salto lateral repetido"
+  }
+ ],
+ "core_por_funcion": [
+  {
+   "funcion": "Anti-extensión",
+   "N1": "Plancha frontal",
+   "N3": "Plancha con marcha de brazos",
+   "N5": "Rueda simulada con deslizamiento"
+  },
+  {
+   "funcion": "Anti-rotación",
+   "N1": "Pallof press con goma de rodillas",
+   "N3": "Pallof en pie con paso",
+   "N5": "Pallof con desplazamiento lateral"
+  },
+  {
+   "funcion": "Anti-flexión lateral",
+   "N1": "Plancha lateral con rodillas",
+   "N3": "Plancha lateral completa",
+   "N5": "Plancha lateral con elevación de pierna"
+  },
+  {
+   "funcion": "Transferencia",
+   "N1": "Bird dog",
+   "N3": "Dead bug con goma",
+   "N5": "Lanzamiento rotacional con balón o goma"
+  }
+ ],
+ "rutinas": {
+  "rutina_10": {
+   "id": "rutina_10",
+   "titulo": "Rutina de 10' · Lunes y miércoles",
+   "bloques": [
+    {
+     "nombre": "Bloque 1 · Suelo (3')",
+     "ejercicios": [
+      {
+       "grupo": null,
+       "ejercicio": "Gato-camello",
+       "dosis": "8 rep",
+       "tiempo": "30\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Rotación torácica en cuadrupedia, mano a la nuca",
+       "dosis": "6/lado",
+       "tiempo": "45\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Cadera 90/90 con giro",
+       "dosis": "6/lado",
+       "tiempo": "45\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Puente de glúteo",
+       "dosis": "12 rep",
+       "tiempo": "30\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Dead bug",
+       "dosis": "8/lado",
+       "tiempo": "30\""
+      }
+     ]
+    },
+    {
+     "nombre": "Bloque 2 · De pie (4')",
+     "ejercicios": [
+      {
+       "grupo": null,
+       "ejercicio": "Sentadilla profunda con apoyo",
+       "dosis": "3×20\"",
+       "tiempo": "60\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Dorsiflexión de tobillo contra pared",
+       "dosis": "8/pierna",
+       "tiempo": "45\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Zancada con rotación torácica",
+       "dosis": "5/lado",
+       "tiempo": "60\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Balanceos de pierna frontales",
+       "dosis": "10/pierna",
+       "tiempo": "30\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Balanceos de pierna laterales",
+       "dosis": "10/pierna",
+       "tiempo": "30\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Inchworm",
+       "dosis": "5 rep",
+       "tiempo": "35\""
+      }
+     ]
+    },
+    {
+     "nombre": "Bloque 3 · Activación (3')",
+     "ejercicios": [
+      {
+       "grupo": null,
+       "ejercicio": "Monster walk con goma, adelante y atrás",
+       "dosis": "10 pasos ×2",
+       "tiempo": "45\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Marcha lateral con goma",
+       "dosis": "10 pasos/lado",
+       "tiempo": "30\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Elevación de talones",
+       "dosis": "15 rep",
+       "tiempo": "20\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Skipping suave",
+       "dosis": "2×15 m",
+       "tiempo": "40\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Pogos, saltos de tobillo",
+       "dosis": "2×10",
+       "tiempo": "30\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Carrera progresiva al 70-80%",
+       "dosis": "2×15 m",
+       "tiempo": "45\""
+      }
+     ]
+    }
+   ],
+   "notas": [
+    "Es la que aparece como \"movilidad y activación 10'\" en todas las sesiones de M0 a M9."
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  "rutina_12": {
+   "id": "rutina_12",
+   "titulo": "Rutina de 12' · Reentradas",
+   "bloques": [
+    {
+     "nombre": null,
+     "ejercicios": [
+      {
+       "grupo": null,
+       "ejercicio": "Estiramiento de psoas en zancada con elevación de brazo",
+       "dosis": "30\"/lado",
+       "tiempo": "60\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Movilidad de cadera en cuadrupedia, círculos",
+       "dosis": "8/lado",
+       "tiempo": "60\""
+      }
+     ]
+    }
+   ],
+   "notas": [
+    "Se usa el 11 de enero, el 29 de marzo y siempre que el equipo vuelva de un parón. Es la rutina de 10' con dos añadidos al final del bloque 2:",
+    "---"
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  "rutina_15": {
+   "id": "rutina_15",
+   "titulo": "Rutina de 15' · Viernes, movilidad global",
+   "bloques": [
+    {
+     "nombre": "Bloque 1 · Columna y cadera en suelo (5')",
+     "ejercicios": [
+      {
+       "grupo": null,
+       "ejercicio": "Gato-camello",
+       "dosis": "10 rep",
+       "tiempo": "40\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Rotación torácica tumbado de lado, libro abierto",
+       "dosis": "8/lado",
+       "tiempo": "60\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Cadera 90/90 con giro y elevación",
+       "dosis": "8/lado",
+       "tiempo": "60\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Estiramiento de glúteo en figura 4, dinámico",
+       "dosis": "8/lado",
+       "tiempo": "45\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Puente de glúteo con marcha",
+       "dosis": "10/lado",
+       "tiempo": "45\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Dead bug con goma",
+       "dosis": "8/lado",
+       "tiempo": "40\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Bird dog",
+       "dosis": "8/lado",
+       "tiempo": "40\""
+      }
+     ]
+    },
+    {
+     "nombre": "Bloque 2 · De pie (6')",
+     "ejercicios": [
+      {
+       "grupo": null,
+       "ejercicio": "Sentadilla profunda con apoyo y balanceo lateral",
+       "dosis": "3×25\"",
+       "tiempo": "75\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Dorsiflexión de tobillo contra pared",
+       "dosis": "10/pierna",
+       "tiempo": "60\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Zancada con rotación torácica",
+       "dosis": "6/lado",
+       "tiempo": "70\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Zancada lateral con desplazamiento de peso",
+       "dosis": "6/lado",
+       "tiempo": "60\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Balanceos de pierna frontales y laterales",
+       "dosis": "10/pierna cada uno",
+       "tiempo": "60\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Inchworm con flexión",
+       "dosis": "6 rep",
+       "tiempo": "45\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Círculos de hombro y movilidad de muñeca",
+       "dosis": "8 cada uno",
+       "tiempo": "30\""
+      }
+     ]
+    },
+    {
+     "nombre": "Bloque 3 · Activación ligera (4')",
+     "ejercicios": [
+      {
+       "grupo": null,
+       "ejercicio": "Monster walk con goma",
+       "dosis": "10 pasos ×2",
+       "tiempo": "45\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Marcha lateral con goma",
+       "dosis": "10 pasos/lado",
+       "tiempo": "30\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Elevación de talones a una pierna",
+       "dosis": "12/pierna",
+       "tiempo": "40\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Skipping y talón-glúteo",
+       "dosis": "2×15 m cada uno",
+       "tiempo": "70\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Pogos",
+       "dosis": "2×10",
+       "tiempo": "30\""
+      },
+      {
+       "grupo": null,
+       "ejercicio": "Carrera progresiva al 80%",
+       "dosis": "2×20 m",
+       "tiempo": "45\""
+      }
+     ]
+    }
+   ],
+   "notas": [
+    "El viernes la movilidad es más amplia porque hay partido al día siguiente y porque el objetivo del día es dejar al jugador suelto, no cargarlo. Sigue siendo dinámica: nada de estiramientos estáticos largos antes de pista."
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  },
+  "rutina_domingo": {
+   "id": "rutina_domingo",
+   "titulo": "Rutina de regeneración · Domingo, 20'",
+   "bloques": [
+    {
+     "nombre": null,
+     "ejercicios": [
+      {
+       "grupo": "Respirar",
+       "ejercicio": "Respiración diafragmática tumbado",
+       "dosis": "3'",
+       "tiempo": null
+      },
+      {
+       "grupo": "Mover",
+       "ejercicio": "Cadera 90/90 con giro",
+       "dosis": "8/lado",
+       "tiempo": null
+      },
+      {
+       "grupo": "Mover",
+       "ejercicio": "",
+       "dosis": "Gato-camello",
+       "tiempo": "12 rep"
+      },
+      {
+       "grupo": "Mover",
+       "ejercicio": "",
+       "dosis": "Rotación torácica en cuadrupedia",
+       "tiempo": "8/lado"
+      },
+      {
+       "grupo": "Mover",
+       "ejercicio": "",
+       "dosis": "Dorsiflexión de tobillo contra pared",
+       "tiempo": "10/pierna"
+      },
+      {
+       "grupo": "Mover",
+       "ejercicio": "",
+       "dosis": "Sentadilla profunda con apoyo",
+       "tiempo": "3×30\""
+      },
+      {
+       "grupo": "Mover",
+       "ejercicio": "",
+       "dosis": "Zancada con rotación",
+       "tiempo": "6/lado"
+      },
+      {
+       "grupo": "Soltar",
+       "ejercicio": "Pelota en la planta del pie",
+       "dosis": "60\"/pie",
+       "tiempo": null
+      },
+      {
+       "grupo": "Soltar",
+       "ejercicio": "",
+       "dosis": "Pelota en el glúteo",
+       "tiempo": "60\"/lado"
+      },
+      {
+       "grupo": "Soltar",
+       "ejercicio": "",
+       "dosis": "Pelota en gemelo y sóleo",
+       "tiempo": "60\"/pierna"
+      },
+      {
+       "grupo": "Cerrar",
+       "ejercicio": "Isquiotibiales, psoas y gemelo",
+       "dosis": "30\" cada uno",
+       "tiempo": null
+      },
+      {
+       "grupo": "Cerrar",
+       "ejercicio": "",
+       "dosis": "Respiración final",
+       "tiempo": "1'"
+      }
+     ]
+    }
+   ],
+   "notas": [
+    "Autónoma, se entrega impresa en septiembre.",
+    "Conviene ser honesto sobre para qué sirve. Hay evidencia de moderada a fuerte de que el estiramiento estático rutinario no reduce las tasas globales de lesión, aunque sí hay indicios preliminares de reducción de lesiones musculotendinosas. Así que esta rutina no es prevención: es movilidad, automasaje y un rato de bajar revoluciones el día después de competir. El automasaje sí tiene evidencia aceptada sobre la modulación del dolor en puntos gatillo y sobre las agujetas.",
+    "El bloque de gemelo y sóleo con pelota es el que más rendimiento da a los jugadores con dolor de talón.",
+    "---"
+   ],
+   "origen": "Apendice-movilidad-y-ejercicios.md"
+  }
+ }
+}

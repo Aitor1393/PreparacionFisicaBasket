@@ -119,8 +119,14 @@
      "nombre": "Pliometría",
      "contactos": null,
      "ejercicios": [
-      "Salto a cajón con contacto mínimo 3-4×5",
-      "Salto lateral a una pierna reactivo 2-3×5/pierna"
+      {
+       "texto": "Salto a cajón con contacto mínimo 3-4×5",
+       "ficha": "salto-a-cajon-con-contacto-minimo"
+      },
+      {
+       "texto": "Salto lateral a una pierna reactivo 2-3×5/pierna",
+       "ficha": "salto-lateral-a-una-pierna-reactivo"
+      }
      ],
      "detalle": null,
      "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna"
@@ -130,11 +136,26 @@
      "nombre": "Fuerza",
      "contactos": null,
      "ejercicios": [
-      "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
-      "Curl nórdico 2-3×5",
-      "Puente de glúteo a una pierna 2-3×10/pierna",
-      "Remo con goma pretensada 2-3×12/lado",
-      "Plancha con marcha 2-3×12/lado"
+      {
+       "texto": "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
+       "ficha": "split-squat-bulgaro"
+      },
+      {
+       "texto": "Curl nórdico 2-3×5",
+       "ficha": "curl-nordico"
+      },
+      {
+       "texto": "Puente de glúteo a una pierna 2-3×10/pierna",
+       "ficha": "puente-de-gluteo"
+      },
+      {
+       "texto": "Remo con goma pretensada 2-3×12/lado",
+       "ficha": null
+      },
+      {
+       "texto": "Plancha con marcha 2-3×12/lado",
+       "ficha": "plancha-con-marcha-de-brazos"
+      }
      ],
      "detalle": null,
      "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado"
@@ -172,8 +193,14 @@
      "nombre": "Pliometría",
      "contactos": null,
      "ejercicios": [
-      "Salto en profundidad desde cajón bajo 3-4×5",
-      "Saltos en zigzag 2-3×6"
+      {
+       "texto": "Salto en profundidad desde cajón bajo 3-4×5",
+       "ficha": "salto-en-profundidad"
+      },
+      {
+       "texto": "Saltos en zigzag 2-3×6",
+       "ficha": "saltos-en-zigzag"
+      }
      ],
      "detalle": null,
      "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6"
@@ -183,11 +210,26 @@
      "nombre": "Fuerza",
      "contactos": null,
      "ejercicios": [
-      "Sentadilla a una pierna a banco 2-3×6/pierna",
-      "Curl de isquios deslizante a una pierna 2-3×6/pierna",
-      "Curl nórdico 2-3×5",
-      "Dorsiano con goma pretensada 2-3×12",
-      "Pallof con desplazamiento lateral 2-3×10/lado"
+      {
+       "texto": "Sentadilla a una pierna a banco 2-3×6/pierna",
+       "ficha": "sentadilla-a-una-pierna-a-banco"
+      },
+      {
+       "texto": "Curl de isquios deslizante a una pierna 2-3×6/pierna",
+       "ficha": "curl-de-isquios-deslizante"
+      },
+      {
+       "texto": "Curl nórdico 2-3×5",
+       "ficha": "curl-nordico"
+      },
+      {
+       "texto": "Dorsiano con goma pretensada 2-3×12",
+       "ficha": "dorsiano-con-goma"
+      },
+      {
+       "texto": "Pallof con desplazamiento lateral 2-3×10/lado",
+       "ficha": null
+      }
      ],
      "detalle": null,
      "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado"
@@ -225,10 +267,22 @@
      "nombre": "Neuromuscular",
      "contactos": null,
      "ejercicios": [
-      "Escalera 3'",
-      "COD reactivo con señal visual 6-8 rep",
-      "Salidas de 10 m desde desplazamiento defensivo 6 rep",
-      "Velocidad alta 4-5×25 m"
+      {
+       "texto": "Escalera 3'",
+       "ficha": null
+      },
+      {
+       "texto": "COD reactivo con señal visual 6-8 rep",
+       "ficha": "cod-reactivo"
+      },
+      {
+       "texto": "Salidas de 10 m desde desplazamiento defensivo 6 rep",
+       "ficha": null
+      },
+      {
+       "texto": "Velocidad alta 4-5×25 m",
+       "ficha": "velocidad-alta-lanzada"
+      }
      ],
      "detalle": null,
      "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m"
@@ -238,11 +292,26 @@
      "nombre": "Complementaria",
      "contactos": null,
      "ejercicios": [
-      "Flexión con pies elevados 2-3×10",
-      "Press de hombro con goma 2-3×12",
-      "Face pull 2×15",
-      "Bloque de tobillo 8'",
-      "Equilibrio con perturbación 3×25\""
+      {
+       "texto": "Flexión con pies elevados 2-3×10",
+       "ficha": "flexion-con-pies-elevados"
+      },
+      {
+       "texto": "Press de hombro con goma 2-3×12",
+       "ficha": "press-de-hombro-con-goma"
+      },
+      {
+       "texto": "Face pull 2×15",
+       "ficha": "face-pull"
+      },
+      {
+       "texto": "Bloque de tobillo 8'",
+       "ficha": "bloque-de-tobillo"
+      },
+      {
+       "texto": "Equilibrio con perturbación 3×25\"",
+       "ficha": null
+      }
      ],
      "detalle": null,
      "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Press de hombro con goma 2-3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\""
@@ -272,10 +341,22 @@
      "nombre": "Neuromuscular",
      "contactos": null,
      "ejercicios": [
-      "Escalera 3'",
-      "5-10-5 3-4 rep",
-      "Salidas de 10 m 5-6 rep",
-      "Velocidad alta 4×30 m"
+      {
+       "texto": "Escalera 3'",
+       "ficha": null
+      },
+      {
+       "texto": "5-10-5 3-4 rep",
+       "ficha": "5-10-5"
+      },
+      {
+       "texto": "Salidas de 10 m 5-6 rep",
+       "ficha": null
+      },
+      {
+       "texto": "Velocidad alta 4×30 m",
+       "ficha": "velocidad-alta-lanzada"
+      }
      ],
      "detalle": null,
      "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m"
@@ -285,11 +366,26 @@
      "nombre": "Complementaria",
      "contactos": null,
      "ejercicios": [
-      "Flexión con goma 2-3×10",
-      "Remo con goma 2-3×12/lado",
-      "Face pull 2×15",
-      "Bloque de tobillo 8'",
-      "Equilibrio ojos cerrados 3×30\""
+      {
+       "texto": "Flexión con goma 2-3×10",
+       "ficha": "flexion-con-goma-cruzada"
+      },
+      {
+       "texto": "Remo con goma 2-3×12/lado",
+       "ficha": null
+      },
+      {
+       "texto": "Face pull 2×15",
+       "ficha": "face-pull"
+      },
+      {
+       "texto": "Bloque de tobillo 8'",
+       "ficha": "bloque-de-tobillo"
+      },
+      {
+       "texto": "Equilibrio ojos cerrados 3×30\"",
+       "ficha": null
+      }
      ],
      "detalle": null,
      "texto": "Complementaria. Flexión con goma 2-3×10 · Remo con goma 2-3×12/lado · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio ojos cerrados 3×30\""
@@ -319,8 +415,14 @@
      "nombre": null,
      "contactos": null,
      "ejercicios": [
-      "Sentadilla española 5×30\"",
-      "Isometría de gemelo 4×30\""
+      {
+       "texto": "Sentadilla española 5×30\"",
+       "ficha": "sentadilla-espanola"
+      },
+      {
+       "texto": "Isometría de gemelo 4×30\"",
+       "ficha": "isometria-de-gemelo-en-escalon"
+      }
      ],
      "detalle": null,
      "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\""
@@ -330,8 +432,14 @@
      "nombre": null,
      "contactos": null,
      "ejercicios": [
-      "Saltos bajos 5×4",
-      "Salidas de 5 m 5 rep"
+      {
+       "texto": "Saltos bajos 5×4",
+       "ficha": "saltos-bajos"
+      },
+      {
+       "texto": "Salidas de 5 m 5 rep",
+       "ficha": "salidas-de-5-m"
+      }
      ],
      "detalle": null,
      "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep"
@@ -369,8 +477,14 @@
      "nombre": "Pliometría de activación",
      "contactos": 30,
      "ejercicios": [
-      "Salto a cajón con contacto mínimo 3×5",
-      "Salto lateral a una pierna con stick 3×5/pierna"
+      {
+       "texto": "Salto a cajón con contacto mínimo 3×5",
+       "ficha": "salto-a-cajon-con-contacto-minimo"
+      },
+      {
+       "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+       "ficha": "salto-lateral-a-una-pierna-con-stick"
+      }
      ],
      "detalle": null,
      "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna"
@@ -380,10 +494,22 @@
      "nombre": "Fuerza mínima, intención de velocidad",
      "contactos": null,
      "ejercicios": [
-      "Sentadilla a una pierna a banco 2×6/pierna",
-      "Curl nórdico 2×5",
-      "Remo con goma 2×12/lado",
-      "Plancha con marcha 2×10/lado"
+      {
+       "texto": "Sentadilla a una pierna a banco 2×6/pierna",
+       "ficha": "sentadilla-a-una-pierna-a-banco"
+      },
+      {
+       "texto": "Curl nórdico 2×5",
+       "ficha": "curl-nordico"
+      },
+      {
+       "texto": "Remo con goma 2×12/lado",
+       "ficha": null
+      },
+      {
+       "texto": "Plancha con marcha 2×10/lado",
+       "ficha": "plancha-con-marcha-de-brazos"
+      }
      ],
      "detalle": null,
      "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado"
@@ -421,10 +547,22 @@
      "nombre": "Neuromuscular",
      "contactos": null,
      "ejercicios": [
-      "Escalera 3'",
-      "COD reactivo 5 rep",
-      "Salidas de 10 m 5 rep",
-      "Velocidad alta 4×25 m"
+      {
+       "texto": "Escalera 3'",
+       "ficha": null
+      },
+      {
+       "texto": "COD reactivo 5 rep",
+       "ficha": "cod-reactivo"
+      },
+      {
+       "texto": "Salidas de 10 m 5 rep",
+       "ficha": null
+      },
+      {
+       "texto": "Velocidad alta 4×25 m",
+       "ficha": "velocidad-alta-lanzada"
+      }
      ],
      "detalle": null,
      "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m"
@@ -434,8 +572,14 @@
      "nombre": null,
      "contactos": null,
      "ejercicios": [
-      "Face pull 2×15",
-      "Bloque de tobillo 8'"
+      {
+       "texto": "Face pull 2×15",
+       "ficha": "face-pull"
+      },
+      {
+       "texto": "Bloque de tobillo 8'",
+       "ficha": "bloque-de-tobillo"
+      }
      ],
      "detalle": null,
      "texto": "Face pull 2×15 · Bloque de tobillo 8'"
@@ -534,9 +678,18 @@
        "nombre": "Pliometría F1",
        "contactos": 46,
        "ejercicios": [
-        "Caída y stick bilateral 3×5",
-        "Salto vertical y stick 3×5",
-        "Caída a una pierna 2×4/pierna"
+        {
+         "texto": "Caída y stick bilateral 3×5",
+         "ficha": "caida-y-stick"
+        },
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Caída a una pierna 2×4/pierna",
+         "ficha": "caida-a-una-pierna"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría F1 (~46 contactos). Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 2×4/pierna",
@@ -547,11 +700,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla peso corporal tempo 3-1-1, 3×10",
-        "Zancada estática 3×8/pierna",
-        "Puente de glúteo 3×12",
-        "Remo con goma sentado 3×12",
-        "Plancha frontal 3×30\""
+        {
+         "texto": "Sentadilla peso corporal tempo 3-1-1, 3×10",
+         "ficha": null
+        },
+        {
+         "texto": "Zancada estática 3×8/pierna",
+         "ficha": "zancada-estatica"
+        },
+        {
+         "texto": "Puente de glúteo 3×12",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma sentado 3×12",
+         "ficha": "remo-con-goma-sentado"
+        },
+        {
+         "texto": "Plancha frontal 3×30\"",
+         "ficha": "plancha-frontal"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla peso corporal tempo 3-1-1, 3×10 · Zancada estática 3×8/pierna · Puente de glúteo 3×12 · Remo con goma sentado 3×12 · Plancha frontal 3×30\"",
@@ -598,10 +766,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Técnica de carrera 6' (skipping, talón-glúteo, marcha con inclinación)",
-        "Escalera, 4 patrones ×2",
-        "Técnica de frenada en 3 pasos, 6 rep",
-        "Salidas de 5 m, 6 rep"
+        {
+         "texto": "Técnica de carrera 6' (skipping, talón-glúteo, marcha con inclinación)",
+         "ficha": null
+        },
+        {
+         "texto": "Escalera, 4 patrones ×2",
+         "ficha": null
+        },
+        {
+         "texto": "Técnica de frenada en 3 pasos, 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Salidas de 5 m, 6 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Técnica de carrera 6' (skipping, talón-glúteo, marcha con inclinación) · Escalera, 4 patrones ×2 · Técnica de frenada en 3 pasos, 6 rep · Salidas de 5 m, 6 rep",
@@ -612,11 +792,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con manos elevadas 3×10",
-        "Face pull con goma 2×15",
-        "Elevación de talón a una pierna 3×15",
-        "Eversión e inversión con goma 2×15/lado",
-        "Equilibrio monopodal ojos cerrados 3×30\""
+        {
+         "texto": "Flexión con manos elevadas 3×10",
+         "ficha": "flexion-con-manos-elevadas"
+        },
+        {
+         "texto": "Face pull con goma 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Elevación de talón a una pierna 3×15",
+         "ficha": "elevacion-de-talon-a-una-pierna"
+        },
+        {
+         "texto": "Eversión e inversión con goma 2×15/lado",
+         "ficha": "eversion-e-inversion-con-goma"
+        },
+        {
+         "texto": "Equilibrio monopodal ojos cerrados 3×30\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con manos elevadas 3×10 · Face pull con goma 2×15 · Elevación de talón a una pierna 3×15 · Eversión e inversión con goma 2×15/lado · Equilibrio monopodal ojos cerrados 3×30\"",
@@ -654,10 +849,22 @@
        "nombre": "Core",
        "contactos": null,
        "ejercicios": [
-        "Plancha frontal 3×30\"",
-        "Plancha lateral 3×25\"/lado",
-        "Bird dog 3×8/lado",
-        "Pallof press de rodillas 2×10/lado"
+        {
+         "texto": "Plancha frontal 3×30\"",
+         "ficha": "plancha-frontal"
+        },
+        {
+         "texto": "Plancha lateral 3×25\"/lado",
+         "ficha": "plancha-lateral"
+        },
+        {
+         "texto": "Bird dog 3×8/lado",
+         "ficha": "bird-dog"
+        },
+        {
+         "texto": "Pallof press de rodillas 2×10/lado",
+         "ficha": "pallof-press"
+        }
        ],
        "detalle": null,
        "texto": "Core. Plancha frontal 3×30\" · Plancha lateral 3×25\"/lado · Bird dog 3×8/lado · Pallof press de rodillas 2×10/lado",
@@ -734,9 +941,18 @@
        "nombre": "Pliometría F1→F2",
        "contactos": 58,
        "ejercicios": [
-        "Salto a cajón bajo 4×5",
-        "Saltos laterales sobre línea 3×6",
-        "Caída a una pierna 2×5/pierna"
+        {
+         "texto": "Salto a cajón bajo 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Saltos laterales sobre línea 3×6",
+         "ficha": null
+        },
+        {
+         "texto": "Caída a una pierna 2×5/pierna",
+         "ficha": "caida-a-una-pierna"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría F1→F2 (~58 contactos). Salto a cajón bajo 4×5 · Saltos laterales sobre línea 3×6 · Caída a una pierna 2×5/pierna",
@@ -747,11 +963,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla con pausa isométrica de 3\" abajo, 3×8",
-        "Zancada caminando 3×10/pierna",
-        "Peso muerto rumano a una pierna 3×10/pierna",
-        "Remo con goma a un brazo 3×12/lado",
-        "Pallof press de rodillas 3×10/lado"
+        {
+         "texto": "Sentadilla con pausa isométrica de 3\" abajo, 3×8",
+         "ficha": "sentadilla-con-pausa"
+        },
+        {
+         "texto": "Zancada caminando 3×10/pierna",
+         "ficha": "zancada-caminando"
+        },
+        {
+         "texto": "Peso muerto rumano a una pierna 3×10/pierna",
+         "ficha": "peso-muerto-rumano-a-una-pierna"
+        },
+        {
+         "texto": "Remo con goma a un brazo 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Pallof press de rodillas 3×10/lado",
+         "ficha": "pallof-press"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla con pausa isométrica de 3\" abajo, 3×8 · Zancada caminando 3×10/pierna · Peso muerto rumano a una pierna 3×10/pierna · Remo con goma a un brazo 3×12/lado · Pallof press de rodillas 3×10/lado",
@@ -798,10 +1029,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 4'",
-        "Frenada en 2 pasos, 8 rep",
-        "Zigzag entre conos, 6 rep",
-        "Salidas de 10 m desde desplazamiento defensivo, 6 rep"
+        {
+         "texto": "Escalera 4'",
+         "ficha": null
+        },
+        {
+         "texto": "Frenada en 2 pasos, 8 rep",
+         "ficha": "frenada-en-3-y-en-2-pasos"
+        },
+        {
+         "texto": "Zigzag entre conos, 6 rep",
+         "ficha": "zigzag-entre-conos"
+        },
+        {
+         "texto": "Salidas de 10 m desde desplazamiento defensivo, 6 rep",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 4' · Frenada en 2 pasos, 8 rep · Zigzag entre conos, 6 rep · Salidas de 10 m desde desplazamiento defensivo, 6 rep",
@@ -812,11 +1055,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión completa tempo 3-1-1, 3×8",
-        "Press de hombro con goma 3×12",
-        "Face pull 2×15",
-        "Elevación de talón con rodilla flexionada 3×15",
-        "Equilibrio monopodal con perturbación de compañero 3×20\""
+        {
+         "texto": "Flexión completa tempo 3-1-1, 3×8",
+         "ficha": "flexion-completa"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Elevación de talón con rodilla flexionada 3×15",
+         "ficha": null
+        },
+        {
+         "texto": "Equilibrio monopodal con perturbación de compañero 3×20\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión completa tempo 3-1-1, 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Elevación de talón con rodilla flexionada 3×15 · Equilibrio monopodal con perturbación de compañero 3×20\"",
@@ -854,8 +1112,14 @@
        "nombre": "Isométricos",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 4×30\"",
-        "Isometría de gemelo en escalón 4×30\""
+        {
+         "texto": "Sentadilla española 4×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo en escalón 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Isométricos. Sentadilla española 4×30\" · Isometría de gemelo en escalón 4×30\"",
@@ -932,9 +1196,18 @@
        "nombre": "Pliometría F2→F3",
        "contactos": 68,
        "ejercicios": [
-        "Salto a cajón bajo 4×5",
-        "Salto lateral a una pierna con stick 3×5/pierna",
-        "Saltos en zigzag 3×6"
+        {
+         "texto": "Salto a cajón bajo 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Saltos en zigzag 3×6",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría F2→F3 (~68 contactos). Salto a cajón bajo 4×5 · Salto lateral a una pierna con stick 3×5/pierna · Saltos en zigzag 3×6",
@@ -945,11 +1218,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro 3×8/pierna",
-        "Puente de glúteo con pies elevados 3×12",
-        "Curl nórdico 3×5",
-        "Dorsiano con goma anclada alta 3×12",
-        "Plancha lateral 3×30\"/lado"
+        {
+         "texto": "Split squat búlgaro 3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Puente de glúteo con pies elevados 3×12",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Curl nórdico 3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Dorsiano con goma anclada alta 3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Plancha lateral 3×30\"/lado",
+         "ficha": "plancha-lateral"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro 3×8/pierna · Puente de glúteo con pies elevados 3×12 · Curl nórdico 3×5 · Dorsiano con goma anclada alta 3×12 · Plancha lateral 3×30\"/lado",
@@ -998,10 +1286,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5, 4 rep",
-        "Salidas de 10 m, 6 rep",
-        "Velocidad alta 4×20 m lanzados, 3' de descanso entre repeticiones"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5, 4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m, 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×20 m lanzados, 3' de descanso entre repeticiones",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5, 4 rep · Salidas de 10 m, 6 rep · Velocidad alta 4×20 m lanzados, 3' de descanso entre repeticiones",
@@ -1012,11 +1312,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con goma cruzada 3×8",
-        "Press de hombro con goma 3×12",
-        "Face pull 2×15",
-        "Bloque completo de tobillo",
-        "Equilibrio con perturbación 3×20\""
+        {
+         "texto": "Flexión con goma cruzada 3×8",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque completo de tobillo",
+         "ficha": null
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×20\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma cruzada 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque completo de tobillo · Equilibrio con perturbación 3×20\"",
@@ -1056,8 +1371,14 @@
        "nombre": "Isométricos",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Isométricos. Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -1068,8 +1389,14 @@
        "nombre": "Activación neural",
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 6×4",
-        "Salidas de 5 m, 6 rep. Calidad máxima, cero fatiga"
+        {
+         "texto": "Saltos bajos 6×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m, 6 rep. Calidad máxima, cero fatiga",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Activación neural. Saltos bajos 6×4 · Salidas de 5 m, 6 rep. Calidad máxima, cero fatiga",
@@ -1137,8 +1464,14 @@
        "nombre": "Pliometría",
        "contactos": 45,
        "ejercicios": [
-        "Salto vertical y stick 3×5",
-        "Salto lateral a una pierna con stick 3×5/pierna"
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (~45 contactos). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
@@ -1149,12 +1482,30 @@
        "nombre": "Fuerza, volumen reducido",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla con goma en rodillas 2×10",
-        "Split squat búlgaro 2×8/pierna",
-        "Peso muerto rumano a una pierna con goma 2×10/pierna",
-        "Curl nórdico 2×5",
-        "Remo con goma a un brazo 2×12/lado",
-        "Pallof press en pie 2×10/lado"
+        {
+         "texto": "Sentadilla con goma en rodillas 2×10",
+         "ficha": "sentadilla-con-goma-en-rodillas"
+        },
+        {
+         "texto": "Split squat búlgaro 2×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Peso muerto rumano a una pierna con goma 2×10/pierna",
+         "ficha": "peso-muerto-rumano-a-una-pierna"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma a un brazo 2×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Pallof press en pie 2×10/lado",
+         "ficha": "pallof-press"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza, volumen reducido. Sentadilla con goma en rodillas 2×10 · Split squat búlgaro 2×8/pierna · Peso muerto rumano a una pierna con goma 2×10/pierna · Curl nórdico 2×5 · Remo con goma a un brazo 2×12/lado · Pallof press en pie 2×10/lado",
@@ -1201,10 +1552,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5, 3 rep",
-        "Salidas de 10 m, 5 rep",
-        "Velocidad alta 4×20 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5, 3 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m, 5 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×20 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5, 3 rep · Salidas de 10 m, 5 rep · Velocidad alta 4×20 m",
@@ -1215,10 +1578,22 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión 2×8",
-        "Face pull 2×15",
-        "Bloque completo de tobillo",
-        "Equilibrio monopodal 3×30\""
+        {
+         "texto": "Flexión 2×8",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque completo de tobillo",
+         "ficha": null
+        },
+        {
+         "texto": "Equilibrio monopodal 3×30\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 2×8 · Face pull 2×15 · Bloque completo de tobillo · Equilibrio monopodal 3×30\"",
@@ -1256,8 +1631,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 4×30\"",
-        "Isometría de gemelo 3×30\""
+        {
+         "texto": "Sentadilla española 4×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 3×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 4×30\" · Isometría de gemelo 3×30\"",
@@ -1268,8 +1649,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 4×4",
-        "Salidas de 5 m, 4 rep. Volumen mínimo"
+        {
+         "texto": "Saltos bajos 4×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m, 4 rep. Volumen mínimo",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 4×4 · Salidas de 5 m, 4 rep. Volumen mínimo",
@@ -1340,8 +1727,14 @@
        "nombre": "Pliometría",
        "contactos": 34,
        "ejercicios": [
-        "Salto a cajón 4×5",
-        "Salto lateral a una pierna con stick 2×7/pierna"
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×7/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (34). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×7/pierna",
@@ -1352,11 +1745,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Zancada caminando 4×10/pierna",
-        "Peso muerto rumano a una pierna con goma 3×10/pierna",
-        "Curl nórdico 3×5",
-        "Remo con goma a un brazo 3×12/lado",
-        "Pallof press en pie 3×10/lado"
+        {
+         "texto": "Zancada caminando 4×10/pierna",
+         "ficha": "zancada-caminando"
+        },
+        {
+         "texto": "Peso muerto rumano a una pierna con goma 3×10/pierna",
+         "ficha": "peso-muerto-rumano-a-una-pierna"
+        },
+        {
+         "texto": "Curl nórdico 3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma a un brazo 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Pallof press en pie 3×10/lado",
+         "ficha": "pallof-press"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Zancada caminando 4×10/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 3×5 · Remo con goma a un brazo 3×12/lado · Pallof press en pie 3×10/lado",
@@ -1405,11 +1813,26 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "Frenada en 2 pasos 8 rep",
-        "Zigzag entre conos 6 rep",
-        "Salidas de 10 m desde desplazamiento defensivo 6 rep",
-        "Velocidad alta 5×20 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "Frenada en 2 pasos 8 rep",
+         "ficha": "frenada-en-3-y-en-2-pasos"
+        },
+        {
+         "texto": "Zigzag entre conos 6 rep",
+         "ficha": "zigzag-entre-conos"
+        },
+        {
+         "texto": "Salidas de 10 m desde desplazamiento defensivo 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 5×20 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · Frenada en 2 pasos 8 rep · Zigzag entre conos 6 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 5×20 m",
@@ -1420,11 +1843,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión completa tempo 3-1-1 3×10",
-        "Press de hombro con goma 3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×20\""
+        {
+         "texto": "Flexión completa tempo 3-1-1 3×10",
+         "ficha": "flexion-completa"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×20\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión completa tempo 3-1-1 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20\"",
@@ -1463,8 +1901,14 @@
        "nombre": "Pliometría",
        "contactos": 56,
        "ejercicios": [
-        "Saltos en zigzag 4×6",
-        "Salto lateral a una pierna con stick 2×8/pierna"
+        {
+         "texto": "Saltos en zigzag 4×6",
+         "ficha": "saltos-en-zigzag"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×8/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (56). Saltos en zigzag 4×6 · Salto lateral a una pierna con stick 2×8/pierna",
@@ -1475,11 +1919,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla con goma en rodillas 4×10",
-        "Puente de glúteo con pies elevados 4×12",
-        "Dorsiano con goma 3×12",
-        "Plancha lateral 3×35\"/lado",
-        "Bird dog 3×10/lado"
+        {
+         "texto": "Sentadilla con goma en rodillas 4×10",
+         "ficha": "sentadilla-con-goma-en-rodillas"
+        },
+        {
+         "texto": "Puente de glúteo con pies elevados 4×12",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Dorsiano con goma 3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Plancha lateral 3×35\"/lado",
+         "ficha": "plancha-lateral"
+        },
+        {
+         "texto": "Bird dog 3×10/lado",
+         "ficha": "bird-dog"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla con goma en rodillas 4×10 · Puente de glúteo con pies elevados 4×12 · Dorsiano con goma 3×12 · Plancha lateral 3×35\"/lado · Bird dog 3×10/lado",
@@ -1539,9 +1998,18 @@
        "nombre": "Pliometría",
        "contactos": 46,
        "ejercicios": [
-        "Salto a cajón 4×5",
-        "Salto lateral a una pierna con stick 2×6/pierna",
-        "Saltos sobre línea 2×7"
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Saltos sobre línea 2×7",
+         "ficha": "saltos-sobre-linea"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (46). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×6/pierna · Saltos sobre línea 2×7",
@@ -1552,11 +2020,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro 3×8/pierna",
-        "Peso muerto rumano a una pierna con goma 3×10/pierna",
-        "Curl nórdico 3×5",
-        "Remo con goma a un brazo 3×12/lado",
-        "Plancha con marcha de brazos 3×10/lado"
+        {
+         "texto": "Split squat búlgaro 3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Peso muerto rumano a una pierna con goma 3×10/pierna",
+         "ficha": "peso-muerto-rumano-a-una-pierna"
+        },
+        {
+         "texto": "Curl nórdico 3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma a un brazo 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha de brazos 3×10/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro 3×8/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 3×5 · Remo con goma a un brazo 3×12/lado · Plancha con marcha de brazos 3×10/lado",
@@ -1605,10 +2088,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 4 rep",
-        "Salidas de 10 m 6 rep",
-        "Velocidad alta 4×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 4 rep · Salidas de 10 m 6 rep · Velocidad alta 4×25 m",
@@ -1619,11 +2114,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con goma cruzada 3×8",
-        "Press de hombro con goma 3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×20\""
+        {
+         "texto": "Flexión con goma cruzada 3×8",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×20\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma cruzada 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20\"",
@@ -1692,8 +2202,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -1704,8 +2220,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 6×4",
-        "Salidas de 5 m 6 rep"
+        {
+         "texto": "Saltos bajos 6×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 6 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 6×4 · Salidas de 5 m 6 rep",
@@ -1765,9 +2287,18 @@
        "nombre": "Pliometría",
        "contactos": 60,
        "ejercicios": [
-        "Salto a cajón 4×5",
-        "Salto lateral a una pierna con stick 3×6/pierna",
-        "Bounding 2×2 (4 contactos cada uno)"
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Bounding 2×2 (4 contactos cada uno)",
+         "ficha": "bounding"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (60). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×2 (4 contactos cada uno)",
@@ -1778,11 +2309,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro 4×8/pierna",
-        "Puente de glúteo a una pierna 3×10/pierna",
-        "Curl nórdico 3×6",
-        "Dorsiano con goma 3×12",
-        "Pallof press con paso 3×10/lado"
+        {
+         "texto": "Split squat búlgaro 4×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Curl nórdico 3×6",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Dorsiano con goma 3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Pallof press con paso 3×10/lado",
+         "ficha": "pallof-press"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro 4×8/pierna · Puente de glúteo a una pierna 3×10/pierna · Curl nórdico 3×6 · Dorsiano con goma 3×12 · Pallof press con paso 3×10/lado",
@@ -1831,10 +2377,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "L-drill 4 rep",
-        "Salidas desde desplazamiento defensivo 6×10 m",
-        "Velocidad alta 5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "L-drill 4 rep",
+         "ficha": "l-drill"
+        },
+        {
+         "texto": "Salidas desde desplazamiento defensivo 6×10 m",
+         "ficha": "salidas-desde-desplazamiento-defensivo"
+        },
+        {
+         "texto": "Velocidad alta 5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · L-drill 4 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
@@ -1845,11 +2403,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 3×8",
-        "Press de hombro con goma 3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 3×8",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -1969,8 +2542,14 @@
        "nombre": "Pliometría",
        "contactos": 50,
        "ejercicios": [
-        "Salto a cajón 4×5",
-        "Salto lateral a una pierna con stick 3×5/pierna"
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (50). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×5/pierna",
@@ -1981,11 +2560,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con goma 4×8/pierna",
-        "Peso muerto rumano a una pierna con goma 4×10/pierna",
-        "Curl nórdico 3×6",
-        "Remo con goma pretensado 3×12/lado",
-        "Plancha con marcha 3×12/lado"
+        {
+         "texto": "Split squat búlgaro con goma 4×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Peso muerto rumano a una pierna con goma 4×10/pierna",
+         "ficha": "peso-muerto-rumano-a-una-pierna"
+        },
+        {
+         "texto": "Curl nórdico 3×6",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma pretensado 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con goma 4×8/pierna · Peso muerto rumano a una pierna con goma 4×10/pierna · Curl nórdico 3×6 · Remo con goma pretensado 3×12/lado · Plancha con marcha 3×12/lado",
@@ -2034,10 +2628,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 4 rep",
-        "Zigzag 6 rep",
-        "Velocidad alta 6×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Zigzag 6 rep",
+         "ficha": "zigzag-entre-conos"
+        },
+        {
+         "texto": "Velocidad alta 6×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 4 rep · Zigzag 6 rep · Velocidad alta 6×25 m",
@@ -2048,11 +2654,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 3×10",
-        "Press de hombro con goma 3×15",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -2091,9 +2712,18 @@
        "nombre": "Pliometría",
        "contactos": 70,
        "ejercicios": [
-        "Saltos en zigzag 4×6",
-        "Salto lateral a una pierna con stick 3×6/pierna",
-        "Saltos sobre línea 2×5"
+        {
+         "texto": "Saltos en zigzag 4×6",
+         "ficha": "saltos-en-zigzag"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Saltos sobre línea 2×5",
+         "ficha": "saltos-sobre-linea"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (70). Saltos en zigzag 4×6 · Salto lateral a una pierna con stick 3×6/pierna · Saltos sobre línea 2×5",
@@ -2104,11 +2734,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla con goma bajo los pies 4×10",
-        "Curl de isquios deslizante a dos piernas 3×8",
-        "Zancada atrás 3×10/pierna",
-        "Dorsiano con goma 3×15",
-        "Plancha lateral con elevación de pierna 3×10/lado"
+        {
+         "texto": "Sentadilla con goma bajo los pies 4×10",
+         "ficha": "sentadilla-con-goma-bajo-los-pies"
+        },
+        {
+         "texto": "Curl de isquios deslizante a dos piernas 3×8",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Zancada atrás 3×10/pierna",
+         "ficha": "zancada-atras"
+        },
+        {
+         "texto": "Dorsiano con goma 3×15",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Plancha lateral con elevación de pierna 3×10/lado",
+         "ficha": "plancha-lateral-con-elevacion"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla con goma bajo los pies 4×10 · Curl de isquios deslizante a dos piernas 3×8 · Zancada atrás 3×10/pierna · Dorsiano con goma 3×15 · Plancha lateral con elevación de pierna 3×10/lado",
@@ -2170,8 +2815,14 @@
        "nombre": "Pliometría",
        "contactos": 34,
        "ejercicios": [
-        "Salto vertical y stick 3×5",
-        "Salto lateral a una pierna con stick 2×5/pierna"
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (34). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 2×5/pierna",
@@ -2182,11 +2833,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro 3×8/pierna",
-        "Puente de glúteo a una pierna 2×10/pierna",
-        "Curl nórdico 2×5",
-        "Remo con goma 2×12/lado",
-        "Pallof press en pie 2×10/lado"
+        {
+         "texto": "Split squat búlgaro 3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma 2×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Pallof press en pie 2×10/lado",
+         "ficha": "pallof-press"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro 3×8/pierna · Puente de glúteo a una pierna 2×10/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Pallof press en pie 2×10/lado",
@@ -2235,10 +2901,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 3 rep",
-        "Salidas de 10 m 5 rep",
-        "Velocidad alta 4×20 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 3 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m 5 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×20 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3 rep · Salidas de 10 m 5 rep · Velocidad alta 4×20 m",
@@ -2249,10 +2927,22 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión 2×10",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio 3×25\""
+        {
+         "texto": "Flexión 2×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
@@ -2321,8 +3011,14 @@
        "nombre": "Volumen reducido",
        "contactos": null,
        "ejercicios": [
-        "saltos bajos 4×4",
-        "Salidas de 5 m 4 rep"
+        {
+         "texto": "saltos bajos 4×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 4 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Volumen reducido: saltos bajos 4×4 · Salidas de 5 m 4 rep",
@@ -2384,9 +3080,18 @@
        "nombre": "Pliometría",
        "contactos": 56,
        "ejercicios": [
-        "Salto a cajón 4×5",
-        "Salto lateral a una pierna con stick 3×6/pierna",
-        "Bounding 2×3"
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Bounding 2×3",
+         "ficha": "bounding"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (56). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×3",
@@ -2397,11 +3102,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con excéntrico de 4\" 3×8/pierna",
-        "Curl de isquios deslizante a una pierna 3×6/pierna",
-        "Curl nórdico 3×6",
-        "Remo con goma pretensado 3×12/lado",
-        "Plancha con marcha 3×12/lado"
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 3×6",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma pretensado 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 3×8/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 3×6 · Remo con goma pretensado 3×12/lado · Plancha con marcha 3×12/lado",
@@ -2450,10 +3170,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo con señal visual 6 rep",
-        "Salidas desde desplazamiento defensivo 6×10 m",
-        "Velocidad alta 5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo con señal visual 6 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas desde desplazamiento defensivo 6×10 m",
+         "ficha": "salidas-desde-desplazamiento-defensivo"
+        },
+        {
+         "texto": "Velocidad alta 5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
@@ -2464,11 +3196,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 3×10",
-        "Press de hombro con goma 3×15",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -2588,9 +3335,18 @@
        "nombre": "Pliometría",
        "contactos": 60,
        "ejercicios": [
-        "Salto a cajón 4×5",
-        "Salto lateral a una pierna con stick 3×6/pierna",
-        "Saltos en zigzag 2×11"
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Saltos en zigzag 2×11",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (60). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Saltos en zigzag 2×11",
@@ -2601,11 +3357,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 3×6/pierna",
-        "Curl de isquios deslizante a una pierna 3×6/pierna",
-        "Curl nórdico 4×5",
-        "Remo isométrico con goma, 5\" de mantenimiento, 3×8/lado",
-        "Pallof con desplazamiento lateral 3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 4×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo isométrico con goma, 5\" de mantenimiento, 3×8/lado",
+         "ficha": "remo-isometrico"
+        },
+        {
+         "texto": "Pallof con desplazamiento lateral 3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 3×6/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma, 5\" de mantenimiento, 3×8/lado · Pallof con desplazamiento lateral 3×10/lado",
@@ -2654,10 +3425,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 8 rep",
-        "Salidas de 10 m 6 rep",
-        "Velocidad alta 5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 5×25 m",
@@ -2668,11 +3451,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 3×10",
-        "Press de hombro con goma 3×15",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -2790,8 +3588,14 @@
        "nombre": "Pliometría",
        "contactos": 40,
        "ejercicios": [
-        "Salto vertical y stick 3×5",
-        "Salto lateral a una pierna con stick 2×6/pierna"
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (40). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 2×6/pierna",
@@ -2802,11 +3606,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2×6/pierna",
-        "Curl nórdico 2×5",
-        "Puente de glúteo a una pierna 2×10/pierna",
-        "Remo con goma 2×12/lado",
-        "Plancha lateral 2×30\"/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma 2×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha lateral 2×30\"/lado",
+         "ficha": "plancha-lateral"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Puente de glúteo a una pierna 2×10/pierna · Remo con goma 2×12/lado · Plancha lateral 2×30\"/lado",
@@ -2855,10 +3674,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 5 rep",
-        "Salidas de 10 m 5 rep",
-        "Velocidad alta 4×20 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 5 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 5 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×20 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×20 m",
@@ -2869,10 +3700,22 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión 2×10",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio 3×25\""
+        {
+         "texto": "Flexión 2×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
@@ -3001,9 +3844,18 @@
        "nombre": "Pliometría",
        "contactos": 46,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 4×5",
-        "Salto lateral a una pierna reactivo 3×5/pierna",
-        "Saltos en zigzag 1×6"
+        {
+         "texto": "Salto a cajón con contacto mínimo 4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        },
+        {
+         "texto": "Saltos en zigzag 1×6",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (46). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Saltos en zigzag 1×6",
@@ -3014,11 +3866,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 4×6/pierna",
-        "Curl de isquios deslizante a una pierna 3×6/pierna",
-        "Curl nórdico 4×5",
-        "Remo isométrico con goma, 5\" de mantenimiento, 3×8/lado",
-        "Pallof con desplazamiento lateral 3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 4×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 4×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo isométrico con goma, 5\" de mantenimiento, 3×8/lado",
+         "ficha": "remo-isometrico"
+        },
+        {
+         "texto": "Pallof con desplazamiento lateral 3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma, 5\" de mantenimiento, 3×8/lado · Pallof con desplazamiento lateral 3×10/lado",
@@ -3067,10 +3934,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo con señal visual 8 rep",
-        "Salidas desde desplazamiento defensivo 6×10 m",
-        "Velocidad alta 5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo con señal visual 8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas desde desplazamiento defensivo 6×10 m",
+         "ficha": "salidas-desde-desplazamiento-defensivo"
+        },
+        {
+         "texto": "Velocidad alta 5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 8 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
@@ -3081,11 +3960,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 3×10",
-        "Press de hombro con goma 3×15",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -3124,9 +4018,18 @@
        "nombre": "Pliometría",
        "contactos": 54,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 4×5",
-        "Salto lateral a una pierna reactivo 3×5/pierna",
-        "Bounding 2×4 (2 contactos cada uno)"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        },
+        {
+         "texto": "Bounding 2×4 (2 contactos cada uno)",
+         "ficha": "bounding"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (54). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Bounding 2×4 (2 contactos cada uno)",
@@ -3137,11 +4040,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla con goma bajo los pies y sobre hombros 4×10",
-        "Curl de isquios deslizante a dos piernas 3×10",
-        "Zancada atrás con goma 3×10/pierna",
-        "Dorsiano con goma pretensada 3×12",
-        "Rueda simulada con deslizamiento 3×8"
+        {
+         "texto": "Sentadilla con goma bajo los pies y sobre hombros 4×10",
+         "ficha": "sentadilla-con-goma-bajo-los-pies"
+        },
+        {
+         "texto": "Curl de isquios deslizante a dos piernas 3×10",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Zancada atrás con goma 3×10/pierna",
+         "ficha": "zancada-atras"
+        },
+        {
+         "texto": "Dorsiano con goma pretensada 3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Rueda simulada con deslizamiento 3×8",
+         "ficha": "rueda-simulada"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla con goma bajo los pies y sobre hombros 4×10 · Curl de isquios deslizante a dos piernas 3×10 · Zancada atrás con goma 3×10/pierna · Dorsiano con goma pretensada 3×12 · Rueda simulada con deslizamiento 3×8",
@@ -3205,8 +4123,14 @@
        "nombre": "Pliometría",
        "contactos": 40,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 4×5",
-        "Salto lateral a una pierna reactivo 2×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna",
@@ -3217,11 +4141,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con excéntrico de 4\" 3×8/pierna",
-        "Curl nórdico 3×6",
-        "Puente de glúteo a una pierna 3×10/pierna",
-        "Remo con goma pretensada 3×12/lado",
-        "Plancha con marcha 3×12/lado"
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl nórdico 3×6",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma pretensada 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 3×8/pierna · Curl nórdico 3×6 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado",
@@ -3270,10 +4209,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 6 rep",
-        "Salidas de 10 m 6 rep",
-        "Velocidad alta 4×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 6 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · Velocidad alta 4×25 m",
@@ -3284,11 +4235,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 3×10",
-        "Press de hombro con goma 3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio 3×25\""
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
@@ -3357,8 +4323,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -3369,8 +4341,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 6×4",
-        "Salidas de 5 m 6 rep"
+        {
+         "texto": "Saltos bajos 6×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 6 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 6×4 · Salidas de 5 m 6 rep",
@@ -3442,8 +4420,14 @@
        "nombre": "Pliometría",
        "contactos": 30,
        "ejercicios": [
-        "Salto vertical y stick 3×5",
-        "Salto lateral a una pierna con stick 3×5/pierna"
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (30). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
@@ -3454,11 +4438,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2×6/pierna",
-        "Curl nórdico 2×5",
-        "Peso muerto rumano a una pierna con goma 2×10/pierna",
-        "Remo con goma 2×12/lado",
-        "Pallof press en pie 2×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Peso muerto rumano a una pierna con goma 2×10/pierna",
+         "ficha": "peso-muerto-rumano-a-una-pierna"
+        },
+        {
+         "texto": "Remo con goma 2×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Pallof press en pie 2×10/lado",
+         "ficha": "pallof-press"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Peso muerto rumano a una pierna con goma 2×10/pierna · Remo con goma 2×12/lado · Pallof press en pie 2×10/lado",
@@ -3507,10 +4506,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 5 rep",
-        "Salidas de 10 m 5 rep",
-        "Velocidad alta 4×20 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 5 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 5 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×20 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×20 m",
@@ -3521,10 +4532,22 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión 2×10",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio 3×25\""
+        {
+         "texto": "Flexión 2×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
@@ -3593,8 +4616,14 @@
        "nombre": "Volumen mínimo",
        "contactos": null,
        "ejercicios": [
-        "saltos bajos 4×4",
-        "Salidas de 5 m 4 rep"
+        {
+         "texto": "saltos bajos 4×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 4 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Volumen mínimo: saltos bajos 4×4 · Salidas de 5 m 4 rep",
@@ -3733,9 +4762,18 @@
        "nombre": "Pliometría, reintroducción",
        "contactos": 32,
        "ejercicios": [
-        "Caída y stick bilateral 3×5",
-        "Salto vertical y stick 3×5",
-        "Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito"
+        {
+         "texto": "Caída y stick bilateral 3×5",
+         "ficha": "caida-y-stick"
+        },
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
+         "ficha": "caida-a-una-pierna"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría, reintroducción (32 contactos). Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
@@ -3746,11 +4784,26 @@
        "nombre": "Fuerza, volumen medio",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro 3×8/pierna",
-        "Peso muerto rumano a una pierna con goma 3×10/pierna",
-        "Curl nórdico 2×5",
-        "Remo con goma 3×12/lado",
-        "Plancha con marcha 3×10/lado"
+        {
+         "texto": "Split squat búlgaro 3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Peso muerto rumano a una pierna con goma 3×10/pierna",
+         "ficha": "peso-muerto-rumano-a-una-pierna"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 3×10/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza, volumen medio. Split squat búlgaro 3×8/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 2×5 · Remo con goma 3×12/lado · Plancha con marcha 3×10/lado",
@@ -3797,11 +4850,26 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Técnica de carrera 5'",
-        "Escalera 3'",
-        "Frenada en 2 pasos 6 rep",
-        "Salidas de 10 m 6 rep",
-        "Velocidad progresiva: 2×20 m al 85% + 3×20 m al 95%"
+        {
+         "texto": "Técnica de carrera 5'",
+         "ficha": null
+        },
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "Frenada en 2 pasos 6 rep",
+         "ficha": "frenada-en-3-y-en-2-pasos"
+        },
+        {
+         "texto": "Salidas de 10 m 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad progresiva: 2×20 m al 85% + 3×20 m al 95%",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Técnica de carrera 5' · Escalera 3' · Frenada en 2 pasos 6 rep · Salidas de 10 m 6 rep · Velocidad progresiva: 2×20 m al 85% + 3×20 m al 95%",
@@ -3812,11 +4880,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión 3×10",
-        "Press de hombro con goma 3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión 3×10",
+         "ficha": null
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -3856,8 +4939,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -3868,8 +4957,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -3940,8 +5035,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3-4×5",
-        "Salto lateral a una pierna reactivo 2-3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3-4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2-3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
@@ -3952,11 +5053,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
-        "Curl nórdico 2-3×5",
-        "Puente de glúteo a una pierna 2-3×10/pierna",
-        "Remo con goma pretensada 2-3×12/lado",
-        "Plancha con marcha 2-3×12/lado"
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2-3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma pretensada 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2-3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
@@ -4005,10 +5121,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo con señal visual 6-8 rep",
-        "Salidas de 10 m desde desplazamiento defensivo 6 rep",
-        "Velocidad alta 4-5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo con señal visual 6-8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m desde desplazamiento defensivo 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4-5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m",
@@ -4019,11 +5147,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 2-3×10",
-        "Press de hombro con goma 2-3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 2-3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 2-3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Press de hombro con goma 2-3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -4063,8 +5206,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -4075,8 +5224,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -4150,8 +5305,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 3-4×5",
-        "Saltos en zigzag 2-3×6"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 3-4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Saltos en zigzag 2-3×6",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
@@ -4162,11 +5323,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2-3×6/pierna",
-        "Curl de isquios deslizante a una pierna 2-3×6/pierna",
-        "Curl nórdico 2-3×5",
-        "Dorsiano con goma pretensada 2-3×12",
-        "Pallof con desplazamiento lateral 2-3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2-3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 2-3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Dorsiano con goma pretensada 2-3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Pallof con desplazamiento lateral 2-3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
@@ -4215,10 +5391,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 3-4 rep",
-        "Salidas de 10 m 5-6 rep",
-        "Velocidad alta 4×30 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 3-4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m 5-6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×30 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m",
@@ -4229,11 +5417,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con goma 2-3×10",
-        "Remo con goma 2-3×12/lado",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio ojos cerrados 3×30\""
+        {
+         "texto": "Flexión con goma 2-3×10",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Remo con goma 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio ojos cerrados 3×30\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Remo con goma 2-3×12/lado · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio ojos cerrados 3×30\"",
@@ -4273,8 +5476,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -4285,8 +5494,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -4360,8 +5575,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3-4×5",
-        "Salto lateral a una pierna reactivo 2-3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3-4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2-3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
@@ -4372,11 +5593,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
-        "Curl nórdico 2-3×5",
-        "Puente de glúteo a una pierna 2-3×10/pierna",
-        "Remo con goma pretensada 2-3×12/lado",
-        "Plancha con marcha 2-3×12/lado"
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2-3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma pretensada 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2-3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
@@ -4425,10 +5661,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo con señal visual 6-8 rep",
-        "Salidas de 10 m desde desplazamiento defensivo 6 rep",
-        "Velocidad alta 4-5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo con señal visual 6-8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m desde desplazamiento defensivo 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4-5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m",
@@ -4439,11 +5687,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 2-3×10",
-        "Press de hombro con goma 2-3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 2-3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 2-3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Press de hombro con goma 2-3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -4483,8 +5746,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -4495,8 +5764,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -4570,8 +5845,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 3-4×5",
-        "Saltos en zigzag 2-3×6"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 3-4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Saltos en zigzag 2-3×6",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
@@ -4582,11 +5863,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2-3×6/pierna",
-        "Curl de isquios deslizante a una pierna 2-3×6/pierna",
-        "Curl nórdico 2-3×5",
-        "Dorsiano con goma pretensada 2-3×12",
-        "Pallof con desplazamiento lateral 2-3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2-3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 2-3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Dorsiano con goma pretensada 2-3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Pallof con desplazamiento lateral 2-3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
@@ -4635,10 +5931,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 3-4 rep",
-        "Salidas de 10 m 5-6 rep",
-        "Velocidad alta 4×30 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 3-4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m 5-6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×30 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m",
@@ -4649,11 +5957,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con goma 2-3×10",
-        "Remo con goma 2-3×12/lado",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio ojos cerrados 3×30\""
+        {
+         "texto": "Flexión con goma 2-3×10",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Remo con goma 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio ojos cerrados 3×30\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Remo con goma 2-3×12/lado · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio ojos cerrados 3×30\"",
@@ -4693,8 +6016,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -4705,8 +6034,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -4780,8 +6115,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3-4×5",
-        "Salto lateral a una pierna reactivo 2-3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3-4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2-3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
@@ -4792,11 +6133,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
-        "Curl nórdico 2-3×5",
-        "Puente de glúteo a una pierna 2-3×10/pierna",
-        "Remo con goma pretensada 2-3×12/lado",
-        "Plancha con marcha 2-3×12/lado"
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2-3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma pretensada 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2-3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
@@ -4845,10 +6201,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo con señal visual 6-8 rep",
-        "Salidas de 10 m desde desplazamiento defensivo 6 rep",
-        "Velocidad alta 4-5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo con señal visual 6-8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m desde desplazamiento defensivo 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4-5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m",
@@ -4859,11 +6227,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 2-3×10",
-        "Press de hombro con goma 2-3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 2-3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 2-3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Press de hombro con goma 2-3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -4903,8 +6286,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -4915,8 +6304,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -4990,8 +6385,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 3-4×5",
-        "Saltos en zigzag 2-3×6"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 3-4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Saltos en zigzag 2-3×6",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
@@ -5002,11 +6403,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2-3×6/pierna",
-        "Curl de isquios deslizante a una pierna 2-3×6/pierna",
-        "Curl nórdico 2-3×5",
-        "Dorsiano con goma pretensada 2-3×12",
-        "Pallof con desplazamiento lateral 2-3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2-3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 2-3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Dorsiano con goma pretensada 2-3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Pallof con desplazamiento lateral 2-3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
@@ -5055,10 +6471,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 3-4 rep",
-        "Salidas de 10 m 5-6 rep",
-        "Velocidad alta 4×30 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 3-4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m 5-6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×30 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m",
@@ -5069,11 +6497,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con goma 2-3×10",
-        "Remo con goma 2-3×12/lado",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio ojos cerrados 3×30\""
+        {
+         "texto": "Flexión con goma 2-3×10",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Remo con goma 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio ojos cerrados 3×30\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Remo con goma 2-3×12/lado · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio ojos cerrados 3×30\"",
@@ -5113,8 +6556,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -5125,8 +6574,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -5200,8 +6655,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3-4×5",
-        "Salto lateral a una pierna reactivo 2-3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3-4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2-3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
@@ -5212,11 +6673,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
-        "Curl nórdico 2-3×5",
-        "Puente de glúteo a una pierna 2-3×10/pierna",
-        "Remo con goma pretensada 2-3×12/lado",
-        "Plancha con marcha 2-3×12/lado"
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2-3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma pretensada 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2-3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
@@ -5265,10 +6741,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo con señal visual 6-8 rep",
-        "Salidas de 10 m desde desplazamiento defensivo 6 rep",
-        "Velocidad alta 4-5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo con señal visual 6-8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m desde desplazamiento defensivo 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4-5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m",
@@ -5279,11 +6767,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 2-3×10",
-        "Press de hombro con goma 2-3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 2-3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 2-3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Press de hombro con goma 2-3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -5323,8 +6826,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -5335,8 +6844,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -5410,8 +6925,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 3-4×5",
-        "Saltos en zigzag 2-3×6"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 3-4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Saltos en zigzag 2-3×6",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
@@ -5422,11 +6943,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2-3×6/pierna",
-        "Curl de isquios deslizante a una pierna 2-3×6/pierna",
-        "Curl nórdico 2-3×5",
-        "Dorsiano con goma pretensada 2-3×12",
-        "Pallof con desplazamiento lateral 2-3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2-3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 2-3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Dorsiano con goma pretensada 2-3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Pallof con desplazamiento lateral 2-3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
@@ -5475,10 +7011,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 3-4 rep",
-        "Salidas de 10 m 5-6 rep",
-        "Velocidad alta 4×30 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 3-4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m 5-6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×30 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m",
@@ -5489,11 +7037,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con goma 2-3×10",
-        "Remo con goma 2-3×12/lado",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio ojos cerrados 3×30\""
+        {
+         "texto": "Flexión con goma 2-3×10",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Remo con goma 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio ojos cerrados 3×30\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Remo con goma 2-3×12/lado · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio ojos cerrados 3×30\"",
@@ -5533,8 +7096,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -5545,8 +7114,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -5611,8 +7186,14 @@
        "nombre": "Pliometría",
        "contactos": 56,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 4×5",
-        "Salto lateral a una pierna reactivo 3×6/pierna"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (56). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna",
@@ -5623,11 +7204,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 4×6/pierna",
-        "Curl de isquios deslizante a una pierna 4×6/pierna",
-        "Curl nórdico 4×5",
-        "Remo isométrico con goma 3×8/lado",
-        "Pallof con desplazamiento 3×12/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 4×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 4×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 4×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo isométrico con goma 3×8/lado",
+         "ficha": "remo-isometrico"
+        },
+        {
+         "texto": "Pallof con desplazamiento 3×12/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 4×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×12/lado",
@@ -5656,10 +7252,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 8 rep",
-        "Salidas de 10 m 6 rep",
-        "Velocidad alta 6×30 m, 3' de descanso"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 6×30 m, 3' de descanso",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 6×30 m, 3' de descanso",
@@ -5670,11 +7278,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 3×12",
-        "Press de hombro con goma 3×15",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 3×12",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×12 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -5703,8 +7326,14 @@
        "nombre": "Pliometría",
        "contactos": 64,
        "ejercicios": [
-        "Saltos en zigzag reactivos 4×6",
-        "Salto lateral a una pierna reactivo 4×5/pierna"
+        {
+         "texto": "Saltos en zigzag reactivos 4×6",
+         "ficha": "saltos-en-zigzag"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 4×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (64). Saltos en zigzag reactivos 4×6 · Salto lateral a una pierna reactivo 4×5/pierna",
@@ -5715,11 +7344,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con goma 4×8/pierna",
-        "Curl de isquios deslizante a dos piernas 3×10",
-        "Zancada atrás con goma 3×10/pierna",
-        "Dorsiano con goma pretensada 3×15",
-        "Rueda simulada 3×10"
+        {
+         "texto": "Split squat búlgaro con goma 4×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl de isquios deslizante a dos piernas 3×10",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Zancada atrás con goma 3×10/pierna",
+         "ficha": "zancada-atras"
+        },
+        {
+         "texto": "Dorsiano con goma pretensada 3×15",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Rueda simulada 3×10",
+         "ficha": "rueda-simulada"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con goma 4×8/pierna · Curl de isquios deslizante a dos piernas 3×10 · Zancada atrás con goma 3×10/pierna · Dorsiano con goma pretensada 3×15 · Rueda simulada 3×10",
@@ -5794,8 +7438,14 @@
        "nombre": "Pliometría",
        "contactos": 40,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 4×5",
-        "Salto lateral a una pierna con stick 2×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna",
@@ -5806,11 +7456,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 3×6/pierna",
-        "Curl nórdico 3×5",
-        "Puente de glúteo a una pierna 3×10/pierna",
-        "Remo con goma pretensada 3×12/lado",
-        "Plancha con marcha 3×12/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl nórdico 3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma pretensada 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado",
@@ -5839,10 +7504,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 6 rep",
-        "Salidas de 10 m 6 rep",
-        "Velocidad progresiva: 2×20 m al 90% + 3×25 m al 95%"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 6 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad progresiva: 2×20 m al 90% + 3×25 m al 95%",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · Velocidad progresiva: 2×20 m al 90% + 3×25 m al 95%",
@@ -5853,10 +7530,22 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión 3×10",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio 3×25\""
+        {
+         "texto": "Flexión 3×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 3×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
@@ -5973,8 +7662,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3-4×5",
-        "Salto lateral a una pierna reactivo 2-3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3-4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2-3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
@@ -5985,11 +7680,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
-        "Curl nórdico 2-3×5",
-        "Puente de glúteo a una pierna 2-3×10/pierna",
-        "Remo con goma pretensada 2-3×12/lado",
-        "Plancha con marcha 2-3×12/lado"
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2-3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma pretensada 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2-3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
@@ -6041,10 +7751,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo con señal visual 6-8 rep",
-        "Salidas de 10 m desde desplazamiento defensivo 6 rep",
-        "Velocidad alta 4-5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo con señal visual 6-8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m desde desplazamiento defensivo 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4-5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m",
@@ -6055,11 +7777,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 2-3×10",
-        "Press de hombro con goma 2-3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 2-3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 2-3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Press de hombro con goma 2-3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -6102,8 +7839,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -6114,8 +7857,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -6191,8 +7940,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 3-4×5",
-        "Saltos en zigzag 2-3×6"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 3-4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Saltos en zigzag 2-3×6",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
@@ -6203,11 +7958,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2-3×6/pierna",
-        "Curl de isquios deslizante a una pierna 2-3×6/pierna",
-        "Curl nórdico 2-3×5",
-        "Dorsiano con goma pretensada 2-3×12",
-        "Pallof con desplazamiento lateral 2-3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2-3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 2-3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Dorsiano con goma pretensada 2-3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Pallof con desplazamiento lateral 2-3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
@@ -6259,10 +8029,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 3-4 rep",
-        "Salidas de 10 m 5-6 rep",
-        "Velocidad alta 4×30 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 3-4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m 5-6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×30 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m",
@@ -6273,11 +8055,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con goma 2-3×10",
-        "Remo con goma 2-3×12/lado",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio ojos cerrados 3×30\""
+        {
+         "texto": "Flexión con goma 2-3×10",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Remo con goma 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio ojos cerrados 3×30\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Remo con goma 2-3×12/lado · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio ojos cerrados 3×30\"",
@@ -6320,8 +8117,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -6332,8 +8135,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -6409,8 +8218,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3-4×5",
-        "Salto lateral a una pierna reactivo 2-3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3-4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2-3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
@@ -6421,11 +8236,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
-        "Curl nórdico 2-3×5",
-        "Puente de glúteo a una pierna 2-3×10/pierna",
-        "Remo con goma pretensada 2-3×12/lado",
-        "Plancha con marcha 2-3×12/lado"
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2-3×10/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Remo con goma pretensada 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2-3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
@@ -6477,10 +8307,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "5-10-5 3-4 rep",
-        "Salidas de 10 m 5-6 rep",
-        "Velocidad alta 4×30 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "5-10-5 3-4 rep",
+         "ficha": "5-10-5"
+        },
+        {
+         "texto": "Salidas de 10 m 5-6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×30 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m",
@@ -6491,11 +8333,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con goma 2-3×10",
-        "Remo con goma 2-3×12/lado",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio ojos cerrados 3×30\""
+        {
+         "texto": "Flexión con goma 2-3×10",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Remo con goma 2-3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio ojos cerrados 3×30\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Remo con goma 2-3×12/lado · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio ojos cerrados 3×30\"",
@@ -6538,8 +8395,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -6550,8 +8413,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -6618,8 +8487,14 @@
        "nombre": "Pliometría",
        "contactos": 50,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 4×5",
-        "Salto lateral a una pierna reactivo 3×5/pierna"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (50). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna",
@@ -6630,11 +8505,26 @@
        "nombre": "Fuerza, con intención de velocidad",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 3×6/pierna",
-        "Curl nórdico 3×5",
-        "Curl de isquios deslizante a una pierna 3×6/pierna",
-        "Remo isométrico con goma 3×8/lado",
-        "Pallof con desplazamiento 3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl nórdico 3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Remo isométrico con goma 3×8/lado",
+         "ficha": "remo-isometrico"
+        },
+        {
+         "texto": "Pallof con desplazamiento 3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza, con intención de velocidad. Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Curl de isquios deslizante a una pierna 3×6/pierna · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×10/lado",
@@ -6663,10 +8553,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 8 rep",
-        "Salidas de 10 m 6 rep",
-        "Velocidad alta 5×30 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 5×30 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 5×30 m",
@@ -6677,11 +8579,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 3×10",
-        "Press de hombro con goma 3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio 3×25\""
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
@@ -6710,8 +8627,14 @@
        "nombre": "Pliometría",
        "contactos": 40,
        "ejercicios": [
-        "Saltos en zigzag reactivos 4×5",
-        "Salto lateral a una pierna reactivo 2×5/pierna"
+        {
+         "texto": "Saltos en zigzag reactivos 4×5",
+         "ficha": "saltos-en-zigzag"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría (40). Saltos en zigzag reactivos 4×5 · Salto lateral a una pierna reactivo 2×5/pierna",
@@ -6722,10 +8645,22 @@
        "nombre": "Fuerza ligera",
        "contactos": null,
        "ejercicios": [
-        "Split squat búlgaro 2×8/pierna",
-        "Puente de glúteo a una pierna 2×12/pierna",
-        "Dorsiano con goma 2×15",
-        "Plancha lateral con elevación 2×10/lado"
+        {
+         "texto": "Split squat búlgaro 2×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 2×12/pierna",
+         "ficha": "puente-de-gluteo"
+        },
+        {
+         "texto": "Dorsiano con goma 2×15",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Plancha lateral con elevación 2×10/lado",
+         "ficha": "plancha-lateral-con-elevacion"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza ligera. Split squat búlgaro 2×8/pierna · Puente de glúteo a una pierna 2×12/pierna · Dorsiano con goma 2×15 · Plancha lateral con elevación 2×10/lado",
@@ -6795,8 +8730,14 @@
        "nombre": "Pliometría",
        "contactos": null,
        "ejercicios": [
-        "Salto en profundidad desde cajón bajo 3-4×5",
-        "Saltos en zigzag 2-3×6"
+        {
+         "texto": "Salto en profundidad desde cajón bajo 3-4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Saltos en zigzag 2-3×6",
+         "ficha": "saltos-en-zigzag"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
@@ -6807,11 +8748,26 @@
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2-3×6/pierna",
-        "Curl de isquios deslizante a una pierna 2-3×6/pierna",
-        "Curl nórdico 2-3×5",
-        "Dorsiano con goma pretensada 2-3×12",
-        "Pallof con desplazamiento lateral 2-3×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2-3×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl de isquios deslizante a una pierna 2-3×6/pierna",
+         "ficha": "curl-de-isquios-deslizante"
+        },
+        {
+         "texto": "Curl nórdico 2-3×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Dorsiano con goma pretensada 2-3×12",
+         "ficha": "dorsiano-con-goma"
+        },
+        {
+         "texto": "Pallof con desplazamiento lateral 2-3×10/lado",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
@@ -6860,10 +8816,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo con señal visual 6-8 rep",
-        "Salidas de 10 m desde desplazamiento defensivo 6 rep",
-        "Velocidad alta 4-5×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo con señal visual 6-8 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m desde desplazamiento defensivo 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4-5×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m",
@@ -6874,11 +8842,26 @@
        "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
-        "Flexión con pies elevados 2-3×10",
-        "Press de hombro con goma 2-3×12",
-        "Face pull 2×15",
-        "Bloque de tobillo 8'",
-        "Equilibrio con perturbación 3×25\""
+        {
+         "texto": "Flexión con pies elevados 2-3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 2-3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Press de hombro con goma 2-3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
@@ -6918,8 +8901,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -6930,8 +8919,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -7003,8 +8998,14 @@
        "nombre": "Pliometría de activación",
        "contactos": 30,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3×5",
-        "Salto lateral a una pierna con stick 3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
@@ -7015,10 +9016,22 @@
        "nombre": "Fuerza mínima, intención de velocidad",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2×6/pierna",
-        "Curl nórdico 2×5",
-        "Remo con goma 2×12/lado",
-        "Plancha con marcha 2×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma 2×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2×10/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado",
@@ -7065,10 +9078,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 5 rep",
-        "Salidas de 10 m 5 rep",
-        "Velocidad alta 4×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 5 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 5 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m",
@@ -7079,8 +9104,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Face pull 2×15",
-        "Bloque de tobillo 8'"
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        }
        ],
        "detalle": null,
        "texto": "Face pull 2×15 · Bloque de tobillo 8'",
@@ -7127,8 +9158,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -7139,8 +9176,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -7214,8 +9257,14 @@
        "nombre": "Pliometría de activación",
        "contactos": 30,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3×5",
-        "Salto lateral a una pierna con stick 3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
@@ -7226,10 +9275,22 @@
        "nombre": "Fuerza mínima, intención de velocidad",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2×6/pierna",
-        "Curl nórdico 2×5",
-        "Remo con goma 2×12/lado",
-        "Plancha con marcha 2×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma 2×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2×10/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado",
@@ -7276,10 +9337,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 5 rep",
-        "Salidas de 10 m 5 rep",
-        "Velocidad alta 4×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 5 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 5 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m",
@@ -7290,8 +9363,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Face pull 2×15",
-        "Bloque de tobillo 8'"
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        }
        ],
        "detalle": null,
        "texto": "Face pull 2×15 · Bloque de tobillo 8'",
@@ -7338,8 +9417,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -7350,8 +9435,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -7425,8 +9516,14 @@
        "nombre": "Pliometría de activación",
        "contactos": 30,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3×5",
-        "Salto lateral a una pierna con stick 3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
@@ -7437,10 +9534,22 @@
        "nombre": "Fuerza mínima, intención de velocidad",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2×6/pierna",
-        "Curl nórdico 2×5",
-        "Remo con goma 2×12/lado",
-        "Plancha con marcha 2×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma 2×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2×10/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado",
@@ -7489,10 +9598,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 5 rep",
-        "Salidas de 10 m 5 rep",
-        "Velocidad alta 4×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 5 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 5 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m",
@@ -7503,8 +9624,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Face pull 2×15",
-        "Bloque de tobillo 8'"
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        }
        ],
        "detalle": null,
        "texto": "Face pull 2×15 · Bloque de tobillo 8'",
@@ -7553,8 +9680,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -7565,8 +9698,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
@@ -7641,8 +9780,14 @@
        "nombre": "Pliometría de activación",
        "contactos": 30,
        "ejercicios": [
-        "Salto a cajón con contacto mínimo 3×5",
-        "Salto lateral a una pierna con stick 3×5/pierna"
+        {
+         "texto": "Salto a cajón con contacto mínimo 3×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
        ],
        "detalle": null,
        "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
@@ -7653,10 +9798,22 @@
        "nombre": "Fuerza mínima, intención de velocidad",
        "contactos": null,
        "ejercicios": [
-        "Sentadilla a una pierna a banco 2×6/pierna",
-        "Curl nórdico 2×5",
-        "Remo con goma 2×12/lado",
-        "Plancha con marcha 2×10/lado"
+        {
+         "texto": "Sentadilla a una pierna a banco 2×6/pierna",
+         "ficha": "sentadilla-a-una-pierna-a-banco"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma 2×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 2×10/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
        ],
        "detalle": null,
        "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado",
@@ -7705,10 +9862,22 @@
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
-        "Escalera 3'",
-        "COD reactivo 5 rep",
-        "Salidas de 10 m 5 rep",
-        "Velocidad alta 4×25 m"
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 5 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 5 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m",
@@ -7719,8 +9888,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Face pull 2×15",
-        "Bloque de tobillo 8'"
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        }
        ],
        "detalle": null,
        "texto": "Face pull 2×15 · Bloque de tobillo 8'",
@@ -7769,8 +9944,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Sentadilla española 5×30\"",
-        "Isometría de gemelo 4×30\""
+        {
+         "texto": "Sentadilla española 5×30\"",
+         "ficha": "sentadilla-espanola"
+        },
+        {
+         "texto": "Isometría de gemelo 4×30\"",
+         "ficha": "isometria-de-gemelo-en-escalon"
+        }
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
@@ -7781,8 +9962,14 @@
        "nombre": null,
        "contactos": null,
        "ejercicios": [
-        "Saltos bajos 5×4",
-        "Salidas de 5 m 5 rep"
+        {
+         "texto": "Saltos bajos 5×4",
+         "ficha": "saltos-bajos"
+        },
+        {
+         "texto": "Salidas de 5 m 5 rep",
+         "ficha": "salidas-de-5-m"
+        }
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",

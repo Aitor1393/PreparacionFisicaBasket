@@ -1,0 +1,347 @@
+{
+ "aviso": [
+  "Este protocolo cubre la progresión de carga desde que hay un diagnóstico y una autorización médica hasta que el jugador vuelve a competir. Esa es la parte que corresponde al preparador físico.",
+  "No corresponde a este documento, ni a ti:",
+  "- Diagnosticar. \"Parece un tirón de isquios\" no es un diagnóstico. - Dar el alta. El alta la da quien ha diagnosticado. - Decidir sobre pruebas de imagen, tratamiento o medicación. - Gestionar una lesión que no ha sido vista por un profesional sanitario.",
+  "Tu papel empieza cuando alguien con competencia clínica ha dicho qué hay y ha autorizado a empezar a cargar. A partir de ahí, la progresión es tuya, y hacerla bien es lo que evita las recaídas.",
+  "---"
+ ],
+ "banderas_rojas": [
+  {
+   "senal": "Chasquido audible con hinchazón inmediata en rodilla",
+   "porque": "Posible rotura de ligamento cruzado o menisco"
+  },
+  {
+   "senal": "Incapacidad de apoyar el peso cuatro pasos seguidos",
+   "porque": "Posible fractura"
+  },
+  {
+   "senal": "Deformidad visible, o el tobillo se \"va\" sin control",
+   "porque": "Inestabilidad estructural"
+  },
+  {
+   "senal": "Dolor lumbar que aumenta al arquear la espalda hacia atrás, en un adolescente",
+   "porque": "Posible espondilólisis. Muy frecuente en deportistas jóvenes y se agrava si se entrena encima"
+  },
+  {
+   "senal": "Dolor que despierta por la noche o que no cede con reposo",
+   "porque": "Requiere valoración"
+  },
+  {
+   "senal": "Hormigueo, pérdida de fuerza o de sensibilidad",
+   "porque": "Posible afectación nerviosa"
+  },
+  {
+   "senal": "Dolor de rodilla o cadera en un jugador que cojea sin haberse golpeado",
+   "porque": "En esta edad hay patologías de crecimiento que exigen descarte"
+  }
+ ],
+ "principios": [
+  "1. Se progresa por criterios, no por días. \"Dos semanas de baja\" no significa nada. El jugador avanza de fase cuando cumple los criterios de esa fase, tarde lo que tarde.",
+  "2. Regla del dolor. Durante el ejercicio se admite hasta 2 sobre 10. Al terminar debe bajar. A las 24 horas debe estar igual o mejor que antes de la sesión. Si a la mañana siguiente está peor, la sesión anterior fue excesiva: se repite la fase anterior.",
+  "3. Simetría antes que rendimiento. Antes de volver a competir, la pierna lesionada debe rendir al menos el 90% de la sana en la batería de tests. No al 100%, porque eso raramente se alcanza, pero tampoco al 75%.",
+  "4. La secuencia no se salta. Isométrico, luego fuerza controlada, luego pliometría, luego carrera lineal, luego cambios de dirección, luego velocidad máxima, luego contacto, luego juego. Cada escalón depende del anterior.",
+  "5. La progresión no es lineal en el tiempo. Se puede retroceder. Retroceder una fase no es un fracaso, es el sistema funcionando."
+ ],
+ "semaforo": [
+  {
+   "estado": "Verde — sin dolor, tests por encima del 90%, alta médica",
+   "puede": "Sesión completa y competición"
+  },
+  {
+   "estado": "Ámbar — dolor 1-3, tests entre el 80 y el 90%",
+   "puede": "Entrena con el grupo pero sin pliometría ni velocidad máxima. No compite"
+  },
+  {
+   "estado": "Naranja — dolor 4-6, tests por debajo del 80%",
+   "puede": "Trabajo individual, sin pista"
+  },
+  {
+   "estado": "Rojo — dolor 7 o más, sin alta médica, o banderas rojas",
+   "puede": "No entrena. Médico"
+  }
+ ],
+ "tests": [
+  {
+   "test": "Salto horizontal a una pierna",
+   "como": "Máxima distancia, aterrizaje controlado",
+   "criterio": "≥ 90%"
+  },
+  {
+   "test": "Triple salto a una pierna",
+   "como": "Tres saltos encadenados",
+   "criterio": "≥ 90%"
+  },
+  {
+   "test": "Salto lateral a una pierna",
+   "como": "Máxima distancia lateral",
+   "criterio": "≥ 90%"
+  },
+  {
+   "test": "Saltos laterales en 30\"",
+   "como": "Cruzar una línea de 30 cm, contar repeticiones",
+   "criterio": "≥ 90%"
+  },
+  {
+   "test": "Elevación de talón a una pierna",
+   "como": "Repeticiones hasta el fallo, rango completo",
+   "criterio": "≥ 90%"
+  },
+  {
+   "test": "Sentadilla a una pierna",
+   "como": "Control visual: la rodilla no colapsa hacia dentro",
+   "criterio": "Simétrico"
+  }
+ ],
+ "lesiones": [
+  {
+   "numero": 1,
+   "nombre": "Esguince de tobillo",
+   "id": "esguince-de-tobillo",
+   "fases": [
+    {
+     "fase": "1 · Descarga",
+     "contenido": "Movilidad de dorsiflexión sin dolor, isométricos de eversión con goma, trabajo de todo lo demás del cuerpo",
+     "criterio": "Camina sin cojear"
+    },
+    {
+     "fase": "2 · Carga",
+     "contenido": "Elevaciones de talón bilateral y unilateral, eversión e inversión con goma, equilibrio monopodal con ojos abiertos",
+     "criterio": "20 elevaciones a una pierna con rango completo · equilibrio 30\""
+    },
+    {
+     "fase": "3 · Control",
+     "contenido": "Equilibrio con ojos cerrados y con perturbación, sentadilla a una pierna, carrera lineal progresiva",
+     "criterio": "Equilibrio 30\" con ojos cerrados · carrera 10' sin dolor"
+    },
+    {
+     "fase": "4 · Reactivo",
+     "contenido": "Pliometría bilateral y luego unilateral, frenadas, zigzag, 5-10-5",
+     "criterio": "Batería de tests ≥ 90%"
+    },
+    {
+     "fase": "5 · Vuelta",
+     "contenido": "COD reactivo, velocidad máxima, reintegración a pista",
+     "criterio": "Sin aprensión en 1c1"
+    }
+   ],
+   "tablas": [],
+   "notas": [
+    "La lesión más frecuente de la categoría. El error clásico es volver cuando deja de doler, sin recuperar el equilibrio, y encadenar tres esguinces en una temporada.",
+    "Después del alta, seis semanas mínimo de equilibrio monopodal con perturbación y trabajo de eversión, tres veces por semana. Es el bloque de tobillo que ya está en la sesión del miércoles, con volumen doble para él.",
+    "Plazos orientativos, solo como referencia para hablar con la familia y el club, nunca como criterio de vuelta: grado 1, de 1 a 3 semanas; grado 2, de 3 a 6; grado 3, de 2 a 4 meses.",
+    "Tobilleras de cordones. Son eficaces para reducir la recurrencia y tienen sentido en un jugador con esguinces de repetición. Con una advertencia: reducen la capacidad propioceptiva del tobillo, así que no sustituyen al trabajo de equilibrio, lo acompañan.",
+    "---"
+   ]
+  },
+  {
+   "numero": 2,
+   "nombre": "Lesión de isquiotibiales",
+   "id": "lesion-de-isquiotibiales",
+   "fases": [
+    {
+     "fase": "1 · Protección",
+     "contenido": "Isométricos de isquios en puente a ángulos cortos, sin estirar",
+     "criterio": "Camina y sube escaleras sin dolor"
+    },
+    {
+     "fase": "2 · Fuerza",
+     "contenido": "Puente de glúteo a una pierna, peso muerto rumano a una pierna sin carga, rango progresivo",
+     "criterio": "Sin dolor en rango completo"
+    },
+    {
+     "fase": "3 · Excéntrico",
+     "contenido": "Curl de isquios deslizante, luego curl nórdico, carrera continua suave",
+     "criterio": "Curl nórdico 3×5 sin molestia"
+    },
+    {
+     "fase": "4 · Velocidad",
+     "contenido": "Progresión de sprint: 60% → 70% → 80% → 90% → 95%. Una intensidad por sesión, nunca dos saltos el mismo día",
+     "criterio": "3 series a 95% sin molestia ni aprensión"
+    },
+    {
+     "fase": "5 · Vuelta",
+     "contenido": "Sprint máximo, aceleración desde desplazamiento, COD",
+     "criterio": "Batería de tests ≥ 90%"
+    }
+   ],
+   "tablas": [],
+   "notas": [
+    "Menos frecuente en cadete que en categorías superiores, pero con altísima tasa de recaída si se vuelve pronto. La recaída suele ocurrir en las dos primeras semanas tras el alta.",
+    "El curl nórdico no se negocia en este caso. Es el ejercicio con más evidencia detrás para prevenir la recaída, y en este protocolo es criterio de fase, no accesorio.",
+    "Test de aprensión: tumbado boca arriba, se eleva la pierna estirada llevándola hacia el estiramiento a velocidad moderada. Si el jugador frena, se tensa o dice \"ahí lo noto\", no está listo aunque los números salgan.",
+    "---"
+   ]
+  },
+  {
+   "numero": 3,
+   "nombre": "Tendinopatía rotuliana y Osgood-Schlatter",
+   "id": "tendinopatia-rotuliana-y-osgood-schlatter",
+   "fases": [],
+   "tablas": [
+    [
+     [
+      "Durante el ejercicio",
+      "Hasta 5 sobre 10 es aceptable"
+     ],
+     [
+      "Al acabar",
+      "Debe bajar"
+     ],
+     [
+      "A la mañana siguiente",
+      "Igual o mejor que el día anterior"
+     ]
+    ],
+    [
+     [
+      "1-3",
+      "Nada",
+      "Sesión completa"
+     ],
+     [
+      "4-6",
+      "Pliometría del lunes",
+      "Sentadilla española 5×45\", cinco días por semana incluidos los que no hay entrenamiento"
+     ],
+     [
+      "7 o más",
+      "Pliometría, velocidad alta y saltos del viernes",
+      "Isométricos diarios, fuerza de cadera, tren superior. Valoración médica"
+     ]
+    ]
+   ],
+   "notas": [
+    "Esto no es una lesión de baja, es un problema de gestión de carga. Vas a tener varios casos entre enero y marzo. El error es mandarlos a parar: el reposo completo empeora el tendón y la vuelta es peor que la ida.",
+    "El principio: se sigue entrenando y jugando con la carga ajustada.",
+    "Si por la mañana está peor, se recorta la carga de impacto de la semana siguiente. Si está igual o mejor, se mantiene.",
+    "La sentadilla española es la herramienta central, pero por un motivo distinto al que se suele dar. Se popularizó por su supuesto efecto analgésico inmediato, y ese efecto está mucho menos demostrado de lo que se dice: los estudios posteriores encuentran descensos de dolor pequeños y que no se mantienen, y el isométrico no resulta superior al isotónico. Lo que sí aporta es carga sobre el tendón en una forma que el jugador tolera en plena competición, sin el volumen de impacto que le está provocando el problema. Esa es la razón para usarla.",
+    "Osgood-Schlatter en concreto: es una irritación del punto donde el tendón se ancla a la tibia, típica del estirón. Se resuelve sola cuando el crecimiento se completa. Duele al golpe directo y al salto. Se gestiona igual: isométricos, ajuste del volumen de impacto, y no prohibir jugar.",
+    "---"
+   ]
+  },
+  {
+   "numero": 4,
+   "nombre": "Sever · Dolor de talón",
+   "id": "sever-dolor-de-talon",
+   "fases": [],
+   "tablas": [
+    [
+     [
+      "Liberación del tríceps sural",
+      "Foam roller o pelota en gemelo, sóleo y zona del Aquiles, 60\" cada uno"
+     ],
+     [
+      "Liberación del arco plantar",
+      "Pelota bajo la planta, 60\" por pie"
+     ],
+     [
+      "Movilidad del arco y del primer dedo",
+      "Extensión del dedo gordo contra el suelo, arco corto, 2×15"
+     ],
+     [
+      "Técnica de carrera",
+      "Revisar los apoyos. Una entrada de talón marcada empeora el cuadro"
+     ],
+     [
+      "Fuerza",
+      "Elevaciones de talón progresivas, primero bilaterales, después a una pierna"
+     ],
+     [
+      "Isométricos",
+      "Isometría de gemelo en escalón, 5×30\", como en el tendón rotuliano"
+     ],
+     [
+      "Dosificación",
+      "Recortar el volumen de impacto, no el entrenamiento entero"
+     ]
+    ]
+   ],
+   "notas": [
+    "Es la tercera lesión de crecimiento propia de esta edad, junto a la tendinopatía rotuliana y el Osgood-Schlatter. Consiste en una irritación de la placa de crecimiento del calcáneo y aparece con el estirón. Duele al correr y al saltar, y a veces basta con apretar el talón para reproducirlo.",
+    "Igual que el Osgood, no es una lesión de baja. Se gestiona.",
+    "Si duele al caminar por la mañana o el jugador cojea, se deriva.",
+    "---"
+   ]
+  },
+  {
+   "numero": 5,
+   "nombre": "Sobrecarga lumbar",
+   "id": "sobrecarga-lumbar",
+   "fases": [
+    {
+     "fase": "1",
+     "contenido": "Respiración, control de posición neutra, gato-camello, bird dog",
+     "criterio": "Sentarse y levantarse sin dolor"
+    },
+    {
+     "fase": "2",
+     "contenido": "Plancha frontal y lateral, dead bug, Pallof press",
+     "criterio": "Plancha 45\" sin dolor"
+    },
+    {
+     "fase": "3",
+     "contenido": "Peso muerto rumano a una pierna, puente, carga unilateral",
+     "criterio": "Rango completo sin dolor"
+    },
+    {
+     "fase": "4",
+     "contenido": "Pliometría y rotaciones, carga progresiva",
+     "criterio": "Batería de tests ≥ 90%"
+    }
+   ],
+   "tablas": [],
+   "notas": [
+    "Primero, descartada la bandera roja de la extensión. Si el dolor aumenta al arquear la espalda hacia atrás, va al médico y no entra en este protocolo.",
+    "Casi siempre hay detrás una cadera rígida o un core que no aguanta. Cuando el episodio pase, esos dos siguen siendo el trabajo.",
+    "---"
+   ]
+  }
+ ],
+ "reintegracion": [
+  {
+   "paso": "1",
+   "que_hace": "Trabajo individual de tiro y manejo, sin oposición",
+   "duracion": "2 sesiones"
+  },
+  {
+   "paso": "2",
+   "que_hace": "Trabajo colectivo sin contacto, ejercicios de pase y lectura",
+   "duracion": "2 sesiones"
+  },
+  {
+   "paso": "3",
+   "que_hace": "1c1 y 2c2 controlados, contacto progresivo",
+   "duracion": "2 sesiones"
+  },
+  {
+   "paso": "4",
+   "que_hace": "5c5 completo",
+   "duracion": "1 sesión mínima"
+  },
+  {
+   "paso": "5",
+   "que_hace": "Partido con minutos limitados: la mitad de sus minutos habituales",
+   "duracion": "1-2 partidos"
+  },
+  {
+   "paso": "6",
+   "que_hace": "Minutos completos",
+   "duracion": "—"
+  }
+ ],
+ "reintegracion_nota": "---",
+ "despues_del_alta": [
+  "Las cuatro semanas siguientes al alta son las de mayor riesgo de recaída. Durante ese periodo:",
+  "- Se mantiene el trabajo específico de la lesión, con volumen doble, dentro de las sesiones normales. - Se registra el dolor dos veces por semana en lugar de una, en la hoja de seguimiento. - No se le carga en las semanas de choque. Si el equipo está en MC1, MC4, MC9 o MC20, él hace la versión de descarga. - Se vigila el minutaje en partido. Un jugador que vuelve y juega 30 minutos porque el equipo lo necesita es un jugador que recae.",
+  "---"
+ ],
+ "registro": [
+  "Para cada lesión, anota en una hoja aparte o en las notas de la plantilla de seguimiento:",
+  "fecha y mecanismo · diagnóstico y quién lo dio · fecha de autorización para empezar a cargar · fecha de superación de cada fase · resultados de la batería de tests · fecha del primer partido · minutos de ese partido.",
+  "Esto sirve para dos cosas: para justificar decisiones ante el club o la familia si alguien pregunta, y para que la temporada siguiente sepas quién arrastra qué.",
+  "---",
+  "La presión para acelerar la vuelta va a existir, y va a ser mayor en abril, con el puesto de play-off en juego, y en mayo si llegáis a eliminatorias. La respuesta a esa presión son los criterios escritos, no la discusión del momento. Por eso conviene que este documento esté entregado al club y al técnico de pista en septiembre, y no el día que se lesione el primero."
+ ],
+ "origen": "Protocolo-vuelta-tras-lesion.md"
+}

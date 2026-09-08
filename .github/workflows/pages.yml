@@ -63,9 +63,17 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
+
+      # La lista de qué se publica vive en el script, y la usan igual esta
+      # Action y la compilación de Cloudflare Pages. Dos listas separadas
+      # acaban divergiendo.
+      - name: Preparar el sitio con lo justo
+        run: bash scripts/preparar-sitio.sh
+
       - name: Subir el sitio
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _sitio
+
       - id: despliegue
         uses: actions/deploy-pages@v4

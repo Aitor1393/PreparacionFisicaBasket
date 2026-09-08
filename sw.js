@@ -22,11 +22,24 @@ self.addEventListener('activate', function (ev) {
   }).then(function () { return self.clients.claim(); }));
 });
 
+/* Solo se guarda lo que es de esta web y ha llegado entero.
+
+   Importa cuando delante hay un control de acceso como Cloudflare Access: al
+   caducar la sesión, la petición acaba redirigida a la pantalla de
+   identificación. Si esa respuesta entrara en la caché, la web se quedaría
+   enseñando el formulario de login para siempre y no habría forma de sacarla
+   de ahí desde el móvil. */
+function guardable(respuesta, peticion) {
+  return respuesta && respuesta.ok && respuesta.type === 'basic' &&
+    !respuesta.redirected &&
+    new URL(peticion.url).origin === self.location.origin;
+}
+
 self.addEventListener('fetch', function (ev) {
   if (ev.request.method !== 'GET') return;
   ev.respondWith(caches.match(ev.request).then(function (guardado) {
     var red = fetch(ev.request).then(function (r) {
-      if (r && r.ok) {
+      if (guardable(r, ev.request)) {
         var copia = r.clone();
         caches.open(CACHE).then(function (c) { c.put(ev.request, copia); });
       }

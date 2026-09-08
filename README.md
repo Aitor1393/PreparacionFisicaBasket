@@ -114,6 +114,20 @@ pruebas, **regenera `data/` y falla si no coincide con `fuentes/`**: es lo que
 evita que alguien edite un documento, se olvide de generar y la web siga
 sirviendo la versión vieja sin que nadie se entere.
 
+**Se publica solo la web**, no el repositorio entero:
+
+```
+index.html · sw.js · assets/ · data/
+```
+
+Fuera se quedan `fuentes/`, `entregables/`, `scripts/` y `pruebas/`. No hacen
+falta para que la web funcione y no tienen por qué ser descargables desde la
+dirección que se le pasa al equipo.
+
+Ojo con la distinción: eso los quita del **sitio publicado**, pero siguen en el
+repositorio, que es público. Si algún día tienen que dejar de estar al alcance
+de cualquiera, hay que sacarlos del repositorio, no del despliegue.
+
 ## Límites
 
 - El contenido deportivo **no se inventa ni se modifica**. Si no está en las

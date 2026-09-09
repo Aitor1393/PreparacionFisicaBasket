@@ -6,11 +6,12 @@ Nada de esto se escribe a mano en ningún sitio: si el apéndice cambia una
 clave técnica, la ficha de la web cambia con él.
 """
 
+import os
 import re
 import sys
 
 sys.path.insert(0, __file__.rsplit('/', 1)[0])
-from comun import (ErrorDeFuente, calendario, escribir, leer, limpiar, secciones,
+from comun import (DATOS, ErrorDeFuente, calendario, escribir, leer, limpiar, secciones,
                    sin_tildes, todas_las_tablas)
 
 # La parte 2 del apéndice va por capítulos numerados. Cada uno cae en una de
@@ -438,6 +439,18 @@ def main():
             fichas[ident]['video'].append(
                 {'tipo': 'enlace', 'texto': 'Enlace verificado', 'url': url})
 
+    # Toda ficha acaba con algo a lo que tirar. Las que el apéndice no cubre
+    # reciben una búsqueda construida con su nombre, marcada como automática:
+    # no es lo mismo que un enlace comprobado y el entrenador tiene que poder
+    # distinguirlo. Inventar una URL sería justo lo que el apéndice pide evitar.
+    sin_material = []
+    for f in fichas.values():
+        if f['video']:
+            continue
+        sin_material.append(f['nombre'])
+        f['video'].append({'tipo': 'busqueda', 'automatica': True,
+                           'termino': f['nombre'] + ' ejercicio técnica'})
+
     escribir('ejercicios.json', {
         'aviso': 'Archivo generado por scripts/generar_contenido.py. No editar a mano.',
         'capacidades': NOMBRES_CAPACIDAD,
@@ -452,6 +465,24 @@ def main():
     escribir('jugadores.json', para_jugadores(rut))
     print('%d fichas · %d escalones · %d rutinas · 5 protocolos por lesión'
           % (len(fichas), len(progresiones), len(rut)))
+    comprobados = sum(1 for f in fichas.values()
+                      if any(v['tipo'] == 'enlace' for v in f['video']))
+    curadas = sum(1 for f in fichas.values()
+                  if any(v['tipo'] == 'busqueda' and not v.get('automatica')
+                         for v in f['video']))
+    print('material visual: %d con enlace comprobado · %d con búsqueda del apéndice '
+          '· %d con búsqueda automática' % (comprobados, curadas, len(sin_material)))
+    if sin_material:
+        carpeta = os.path.join(os.path.dirname(DATOS), 'informes')
+        os.makedirs(carpeta, exist_ok=True)
+        with open(os.path.join(carpeta, 'sin-material-visual.md'), 'w', encoding='utf-8') as f:
+            f.write('# Ejercicios sin material visual\n\n'
+                    'Generado por `scripts/generar.py`. No editar a mano.\n\n'
+                    'Estos %d ejercicios no traen ni enlace ▶ ni término 🔍 en el\n'
+                    'apéndice. La web les pone una búsqueda automática con su nombre,\n'
+                    'marcada como tal. Añadir un ▶ o un 🔍 en el apéndice la sustituye.\n\n'
+                    % len(sin_material))
+            f.write('\n'.join('- ' + n for n in sorted(sin_material)) + '\n')
 
 
 if __name__ == '__main__':

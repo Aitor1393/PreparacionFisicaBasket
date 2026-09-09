@@ -324,7 +324,10 @@
       } else {
         h += '<li><a href="https://www.youtube.com/results?search_query=' +
           encodeURIComponent(v.termino) + '" target="_blank" rel="noopener noreferrer">🔍 ' +
-          U.esc(v.termino) + '</a> <span class="pequeno silencio">búsqueda, no hay enlace estable</span></li>';
+          U.esc(v.termino) + '</a> <span class="pequeno silencio">' +
+          (v.automatica
+            ? 'búsqueda automática con el nombre del ejercicio: el apéndice aún no trae material para este'
+            : 'búsqueda, porque no hay enlace estable') + '</span></li>';
       }
     });
     return h + '</ul>';

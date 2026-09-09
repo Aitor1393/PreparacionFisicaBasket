@@ -37,6 +37,13 @@ segundos con el ejercicio ya empezado. Del material visual, **▶** es un enlace
 comprobado y **🔍** un término de búsqueda que abre el buscador con esa frase
 exacta. Un 🔍 nunca se convierte en un enlace directo inventado.
 
+**Ninguna ficha se queda sin nada a lo que tirar.** Las que el apéndice todavía
+no cubre reciben una búsqueda construida con su nombre, marcada en pantalla
+como automática: no es lo mismo que un enlace comprobado y el entrenador tiene
+que poder distinguirlo. Cuáles son está en
+[`informes/sin-material-visual.md`](informes/sin-material-visual.md), que se
+regenera solo; añadir un ▶ o un 🔍 en el apéndice sustituye la búsqueda.
+
 **Protocolos.** Las banderas rojas primero y bien visibles, después el
 protocolo de dolor, el semáforo semanal, la batería de tests y los cinco
 protocolos por lesión.
@@ -57,6 +64,7 @@ sw.js                       service worker: caché primero, refresco por detrás
 datos-temporada.json        el calendario. Escrito a mano, fuente de verdad
 fuentes/*.md                el contenido deportivo. Única verdad
 data/*.json                 GENERADO. No editar a mano
+informes/                   GENERADO. Qué le falta al contenido
 scripts/generar.py          lo que convierte fuentes/ en data/
 pruebas/ejecutar.js         14 pruebas en un Chromium de verdad
 entregables/                Word, póster, hoja del domingo y Excel de seguimiento

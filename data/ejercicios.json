@@ -56,7 +56,13 @@
    "nombre": "Aceleración resistida con goma",
    "capacidad": "velocidad",
    "grupo": "Velocidad",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Aceleración resistida con goma ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "montaje": "Un compañero sujeta la goma por la cintura. Resistencia ligera.",
@@ -117,7 +123,13 @@
     "Equilibrio monopodal con perturbación de compañero, 3×20 s"
    ],
    "por_que": "Contenido fijo del miércoles, 8 minutos, todo el año. El esguince de tobillo es la lesión más frecuente en formación.",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Bloque de tobillo ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "notas": [],
    "origen": "catalogo-ejercicios-progresiones-cadete.md"
@@ -127,7 +139,13 @@
    "nombre": "Bounding",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Bounding ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Zancadas saltadas alternando piernas, buscando amplitud y no frecuencia.",
@@ -139,7 +157,13 @@
    "nombre": "Búlgaro con excéntrico de 4 segundos",
    "capacidad": "fuerza",
    "grupo": "Fuerza · Dominante de rodilla",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Búlgaro con excéntrico de 4 segundos ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Baja contando cuatro, sube normal.",
@@ -173,7 +197,13 @@
    "nombre": "Caída a una pierna",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Caída a una pierna ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Igual recibiendo con un solo pie. Tres segundos inmóvil.",
@@ -206,7 +236,13 @@
    "nombre": "COD reactivo",
    "capacidad": "cod",
    "grupo": "Cambios de dirección y escalera",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "COD reactivo ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "El entrenador señala la dirección cuando el jugador ya está en carrera.",
@@ -344,7 +380,13 @@
    "nombre": "Elevación con rodilla flexionada",
    "capacidad": "tobillo",
    "grupo": "Tobillo y pie",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Elevación con rodilla flexionada ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "por_que": "Con la rodilla doblada se trabaja el sóleo, que es el que aguanta la carga en la carrera.",
@@ -357,7 +399,13 @@
    "nombre": "Elevación de talón a una pierna",
    "capacidad": "tobillo",
    "grupo": "Tobillo y pie",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Elevación de talón a una pierna ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Sobre una pierna, sube al máximo y baja controlado.",
@@ -372,7 +420,13 @@
    "nombre": "Equilibrio monopodal",
    "capacidad": "tobillo",
    "grupo": "Tobillo y pie",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Equilibrio monopodal ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "progresion": "Ojos abiertos → ojos cerrados → con un compañero dando empujones suaves e imprevisibles → sobre superficie inestable.",
@@ -405,7 +459,13 @@
    "nombre": "Escalera lateral",
    "capacidad": "cod",
    "grupo": "Cambios de dirección y escalera",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Escalera lateral ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Recorrer de lado con dos apoyos por cuadro. Cadera baja.",
@@ -417,7 +477,13 @@
    "nombre": "Eversión e inversión con goma",
    "capacidad": "tobillo",
    "grupo": "Tobillo y pie",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Eversión e inversión con goma ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "montaje": "Sentado, goma alrededor del antepié.",
@@ -454,7 +520,13 @@
    "nombre": "Flexión completa, tempo 3-1-1",
    "capacidad": "fuerza",
    "grupo": "Empuje",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Flexión completa, tempo 3-1-1 ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Baja en tres, pecho a casi tocar el suelo, sube en uno.",
@@ -468,7 +540,13 @@
    "nombre": "Flexión con goma cruzada",
    "capacidad": "fuerza",
    "grupo": "Empuje",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Flexión con goma cruzada ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N3",
@@ -511,7 +589,13 @@
    "nombre": "Flexión con pies elevados",
    "capacidad": "fuerza",
    "grupo": "Empuje",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Flexión con pies elevados ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N4",
@@ -569,7 +653,13 @@
    "nombre": "Hip thrust en suelo con goma",
    "capacidad": "fuerza",
    "grupo": "Fuerza · Dominante de cadera",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Hip thrust en suelo con goma ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N3",
@@ -627,7 +717,13 @@
    "nombre": "Isometría de gemelo en escalón",
    "capacidad": "isometricos",
    "grupo": "Isométricos de tendón",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Isometría de gemelo en escalón ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "De puntillas en un escalón, aguanta arriba sin oscilar.",
@@ -639,7 +735,13 @@
    "nombre": "Isometría de isquios en puente",
    "capacidad": "isometricos",
    "grupo": "Isométricos de tendón",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Isometría de isquios en puente ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Puente de glúteo con los talones lejos de la cadera, aguanta.",
@@ -652,7 +754,13 @@
    "nombre": "Isometría en pared",
    "capacidad": "isometricos",
    "grupo": "Isométricos de tendón",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Isometría en pared ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Espalda contra la pared, rodillas a 90°, peso en los talones. Aguanta.",
@@ -814,7 +922,13 @@
    "nombre": "Plancha con marcha de brazos",
    "capacidad": "core",
    "grupo": "Core",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Plancha con marcha de brazos ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Desde plancha de antebrazos, pasa a manos y vuelve, alternando el brazo que inicia.",
@@ -847,7 +961,13 @@
    "nombre": "Plancha lateral",
    "capacidad": "core",
    "grupo": "Core",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Plancha lateral ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Apoyo en un antebrazo y el canto del pie, cadera alta y alineada.",
@@ -918,7 +1038,13 @@
    "nombre": "Puente con pies elevados",
    "capacidad": "fuerza",
    "grupo": "Fuerza · Dominante de cadera",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Puente con pies elevados ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N2",
@@ -998,7 +1124,13 @@
    "nombre": "Remo a un brazo",
    "capacidad": "fuerza",
    "grupo": "Tracción",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Remo a un brazo ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "montaje": "Posición de zancada, goma anclada al frente.",
@@ -1012,7 +1144,13 @@
    "nombre": "Remo con goma pretensada",
    "capacidad": "fuerza",
    "grupo": "Tracción",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Remo con goma pretensada ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Dobla la goma o aléjate del anclaje para aumentar la tensión inicial.",
@@ -1050,7 +1188,13 @@
    "nombre": "Remo isométrico",
    "capacidad": "fuerza",
    "grupo": "Tracción",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Remo isométrico ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N5",
@@ -1087,7 +1231,13 @@
    "nombre": "Rueda simulada con deslizamiento",
    "capacidad": "core",
    "grupo": "Core",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Rueda simulada con deslizamiento ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "De rodillas, manos sobre algo que deslice. Rueda hacia delante hasta donde controles y vuelve.",
@@ -1100,7 +1250,13 @@
    "nombre": "Salidas de 5 m",
    "capacidad": "velocidad",
    "grupo": "Velocidad",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Salidas de 5 m ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Arranque desde parado a máxima intensidad.",
@@ -1114,7 +1270,13 @@
    "nombre": "Salidas desde desplazamiento defensivo",
    "capacidad": "velocidad",
    "grupo": "Velocidad",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Salidas desde desplazamiento defensivo ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Dos o tres pasos laterales defensivos y arrancar a esprintar.",
@@ -1144,7 +1306,13 @@
    "nombre": "Salto a cajón con contacto mínimo",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Salto a cajón con contacto mínimo ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Encadena subida y bajada buscando el menor tiempo de apoyo en el suelo.",
@@ -1176,7 +1344,13 @@
    "nombre": "Salto lateral a una pierna con stick",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Salto lateral a una pierna con stick ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Salta de lado y recibe con la misma pierna, congelando la posición.",
@@ -1190,7 +1364,13 @@
    "nombre": "Salto lateral a una pierna reactivo",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Salto lateral a una pierna reactivo ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Igual encadenando sin parar.",
@@ -1203,7 +1383,13 @@
    "nombre": "Salto vertical y stick",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Salto vertical y stick ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Salta al máximo y congela el aterrizaje.",
@@ -1215,7 +1401,13 @@
    "nombre": "Saltos bajos",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Saltos bajos ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "notas": [
@@ -1227,7 +1419,13 @@
    "nombre": "Saltos en zigzag",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Saltos en zigzag ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Saltos diagonales avanzando, controlando cada aterrizaje.",
@@ -1238,7 +1436,13 @@
    "nombre": "Saltos sobre línea",
    "capacidad": "pliometria",
    "grupo": "Pliometría",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Saltos sobre línea ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Saltos rápidos cruzando una línea, adelante-atrás o lateral.",
@@ -1277,7 +1481,13 @@
    "nombre": "Sentadilla con goma bajo los pies y sobre hombros",
    "capacidad": "fuerza",
    "grupo": "Fuerza · Dominante de rodilla",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Sentadilla con goma bajo los pies y sobre hombros ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N4",
@@ -1297,7 +1507,13 @@
    "nombre": "Sentadilla con goma en rodillas",
    "capacidad": "fuerza",
    "grupo": "Fuerza · Dominante de rodilla",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Sentadilla con goma en rodillas ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N3",
@@ -1317,7 +1533,13 @@
    "nombre": "Sentadilla con pausa isométrica",
    "capacidad": "fuerza",
    "grupo": "Fuerza · Dominante de rodilla",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Sentadilla con pausa isométrica ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N2",
@@ -1411,7 +1633,13 @@
    "nombre": "Skipping",
    "capacidad": "velocidad",
    "grupo": "Velocidad",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Skipping ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Carrera elevando la rodilla con contacto activo del pie.",
@@ -1457,7 +1685,13 @@
    "nombre": "Talón-glúteo",
    "capacidad": "velocidad",
    "grupo": "Velocidad",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Talón-glúteo ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "error": "Echar el tronco hacia atrás y arquear la espalda",
@@ -1469,7 +1703,13 @@
    "nombre": "Velocidad alta lanzada",
    "capacidad": "velocidad",
    "grupo": "Velocidad",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Velocidad alta lanzada ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "15 metros progresivos y 20-30 metros al 95-100%.",
@@ -1484,7 +1724,13 @@
    "nombre": "Zancada atrás",
    "capacidad": "fuerza",
    "grupo": "Fuerza · Dominante de rodilla",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Zancada atrás ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Paso hacia atrás, baja, y vuelve al punto de partida.",
@@ -1498,7 +1744,13 @@
    "nombre": "Zancada caminando",
    "capacidad": "fuerza",
    "grupo": "Fuerza · Dominante de rodilla",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Zancada caminando ejercicio técnica"
+    }
+   ],
    "niveles": [
     {
      "nivel": "N2",
@@ -1584,7 +1836,13 @@
    "nombre": "Zigzag entre conos",
    "capacidad": "cod",
    "grupo": "Cambios de dirección y escalera",
-   "video": [],
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Zigzag entre conos ejercicio técnica"
+    }
+   ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "error": "Redondear el giro",

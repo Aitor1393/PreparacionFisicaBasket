@@ -79,7 +79,7 @@ El viernes es el día más importante del tramo, aunque parezca el más flojo. L
 
 **El curl nórdico, todos los miércoles.** Nueve partidos seguidos son nueve exposiciones a sprint máximo. Si algo se cae de la sesión por falta de tiempo, que no sea esto.
 
-**La velocidad alta, todos los miércoles.** Sigue siendo contraintuitivo y sigue siendo lo correcto. Cuatro o cinco repeticiones con descanso completo cuestan cinco minutos y protegen al isquiotibial.
+**La velocidad alta, todos los martes.** Sigue siendo contraintuitivo y sigue siendo lo correcto. Cuatro o cinco repeticiones con descanso completo cuestan cinco minutos y protegen al isquiotibial.
 
 **El bloque de tobillo, todos los miércoles.** Ocho minutos.
 

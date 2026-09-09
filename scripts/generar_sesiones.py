@@ -297,20 +297,69 @@ def completar_con_tipo(ses, tipos):
 def enlazar_rutinas(ses):
     """Enlaza el bloque de movilidad con la rutina cronometrada del apéndice.
 
-    Solo donde el apéndice lo dice sin ambigüedad: la de 10' es la del martes y
-    la de 15' la del viernes. La de 12' es para las reentradas y no se deduce de
-    los minutos, así que no se marca sola. El miércoles abre con 8' de movilidad
-    y el apéndice no le pone rutina con nombre, así que se deja sin enlazar.
+    La de 10' dice de sí misma que «es la que aparece como movilidad y
+    activación 10' en todas las sesiones de M0 a M9», así que vale para
+    cualquier bloque de 10', no solo el del martes. La de 15' es la del viernes
+    y la de 12' la de las reentradas.
+
+    Los bloques de movilidad de otra duración —los 8' del miércoles, por
+    ejemplo— no tienen rutina con nombre en el apéndice. No se les inventa una,
+    pero se marcan como movilidad para que la web pueda llevar igualmente al
+    listado de rutinas: el entrenador quiere ver los ejercicios, y quedarse sin
+    nada a lo que tirar es peor.
     """
     for b in ses['bloques']:
-        if primera_palabra(b['nombre']) != 'movilidad':
+        es_movilidad = primera_palabra(b['nombre']) in ('movilidad', 'estiramientos')
+        b['es_movilidad'] = es_movilidad
+        if not es_movilidad:
             b['rutina'] = None
-        elif b['min'] == 10 and ses['dia'] == 'martes':
+        elif b['min'] == 10:
             b['rutina'] = 'rutina_10'
         elif b['min'] == 15 and ses['dia'] == 'viernes':
             b['rutina'] = 'rutina_15'
+        elif b['min'] == 12:
+            b['rutina'] = 'rutina_12'
         else:
             b['rutina'] = None
+
+
+def dosis_referencia():
+    """La tabla de dosis y descansos del catálogo, tal cual.
+
+    El descanso entre series no aparece en las sesiones —ninguna lo escribe—,
+    pero el catálogo lo fija por tipo de contenido. Traerlo aquí es lo que
+    permite enseñarlo junto a cada bloque sin inventar ni un segundo.
+    """
+    for titulo, cuerpo in secciones(leer('catalogo-ejercicios-progresiones-cadete.md'), 2):
+        if not titulo.startswith('9. Dosis de referencia'):
+            continue
+        filas = todas_las_tablas(cuerpo)[0]
+        return [{'contenido': limpiar(f[0]), 'series': limpiar(f[1]),
+                 'descanso': limpiar(f[2])} for f in filas if len(f) >= 3]
+    raise ErrorDeFuente('no aparece la tabla de dosis de referencia en el catálogo')
+
+
+# Qué filas de esa tabla le corresponden a cada bloque, por su nombre. Un bloque
+# de fuerza mezcla patrones principales, unilaterales y accesorios, así que se
+# le enseñan los tres y que el entrenador elija: la tabla es de referencia, no
+# una prescripción por ejercicio.
+DESCANSOS_POR_BLOQUE = {
+    'fuerza': ('Fuerza, patrón principal', 'Fuerza, unilateral', 'Fuerza accesoria'),
+    'pliometria': ('Pliometría',),
+    'neuromuscular': ('Velocidad', 'COD'),
+    'complementaria': ('Fuerza accesoria',),
+    'core': ('Core',),
+    'isometricos': ('Isométricos de tendón',),
+    'velocidad': ('Velocidad',),
+}
+
+
+def enlazar_descansos(ses, tabla):
+    porNombre = dict((d['contenido'], d) for d in tabla)
+    for b in ses['bloques']:
+        clave = primera_palabra(b['nombre'])
+        filas = DESCANSOS_POR_BLOQUE.get(clave, ())
+        b['descansos'] = [porNombre[f] for f in filas if f in porNombre]
 
 
 def series_por_carga():
@@ -563,11 +612,13 @@ def construir():
         ordenar(sem)
 
     tipos = tipos_de_sesion()
+    tabla = dosis_referencia()
     for s in semanas.values():
         for ses in s['sesiones']:
             if ses['estado'] == 'explicita' and ses['plantilla']:
                 completar_con_tipo(ses, tipos)
             enlazar_rutinas(ses)
+            enlazar_descansos(ses, tabla)
     return semanas
 
 
@@ -685,6 +736,7 @@ def main():
         'mesociclos': cal['mesociclos'],
         'plantillas': plantillas(),
         'series_por_carga': {str(k): v for k, v in series_por_carga().items()},
+        'dosis_referencia': dosis_referencia(),
         'protocolo_dolor': cal['protocolo_dolor'],
         'fijos_todo_el_ano': cal['fijos_todo_el_ano'],
         'umbral_crecimiento_cm_2meses': cal['umbral_crecimiento_cm_2meses'],

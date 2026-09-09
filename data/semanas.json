@@ -599,6 +599,48 @@
   "5": "3 series",
   "6": "3 series con la variante más exigente"
  },
+ "dosis_referencia": [
+  {
+   "contenido": "Fuerza, patrón principal",
+   "series": "3-4 × 8-12",
+   "descanso": "90 s"
+  },
+  {
+   "contenido": "Fuerza, unilateral",
+   "series": "3 × 8-10 por pierna",
+   "descanso": "60-90 s"
+  },
+  {
+   "contenido": "Fuerza accesoria",
+   "series": "2-3 × 12-15",
+   "descanso": "45-60 s"
+  },
+  {
+   "contenido": "Isométricos de tendón",
+   "series": "4-5 × 30-45 s",
+   "descanso": "60 s"
+  },
+  {
+   "contenido": "Core",
+   "series": "3 × 30-40 s o 10-12 rep",
+   "descanso": "45 s"
+  },
+  {
+   "contenido": "Pliometría",
+   "series": "4-6 × 4-8 contactos",
+   "descanso": "60-90 s"
+  },
+  {
+   "contenido": "Velocidad",
+   "series": "4-8 repeticiones",
+   "descanso": "1 min por cada 10 m"
+  },
+  {
+   "contenido": "COD",
+   "series": "6-8 repeticiones",
+   "descanso": "60-90 s"
+  }
+ ],
  "protocolo_dolor": [
   {
    "min": 0,
@@ -657,7 +699,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -679,7 +723,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría F1 (~46 contactos). Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 2×4/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -705,7 +757,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Técnica de carrera 6' (skipping, talón-glúteo, marcha con inclinación) · Escalera, 4 patrones ×2 · Técnica de frenada en 3 pasos, 6 rep · Salidas de 5 m, 6 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -714,7 +779,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -741,7 +808,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -750,7 +819,7 @@
        "ejercicios": [
         {
          "texto": "Sentadilla peso corporal tempo 3-1-1, 3×10",
-         "ficha": null
+         "ficha": "sentadilla-con-peso-corporal-tempo-3-1-1"
         },
         {
          "texto": "Zancada estática 3×8/pierna",
@@ -771,7 +840,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla peso corporal tempo 3-1-1, 3×10 · Zancada estática 3×8/pierna · Puente de glúteo 3×12 · Remo con goma sentado 3×12 · Plancha frontal 3×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -801,7 +888,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con manos elevadas 3×10 · Face pull con goma 2×15 · Elevación de talón a una pierna 3×15 · Eversión e inversión con goma 2×15/lado · Equilibrio monopodal ojos cerrados 3×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -828,7 +923,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -854,7 +951,15 @@
        ],
        "detalle": null,
        "texto": "Core. Plancha frontal 3×30\" · Plancha lateral 3×25\"/lado · Bird dog 3×8/lado · Pallof press de rodillas 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Core",
+         "series": "3 × 30-40 s o 10-12 rep",
+         "descanso": "45 s"
+        }
+       ]
       },
       {
        "min": 18,
@@ -863,7 +968,9 @@
        "ejercicios": [],
        "detalle": "ritmo conversación",
        "texto": "Carrera continua suave, ritmo conversación",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 10,
@@ -872,7 +979,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos y respiración diafragmática",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       }
      ],
      "notas": [],
@@ -922,7 +1031,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -944,7 +1055,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría F1→F2 (~58 contactos). Salto a cajón bajo 4×5 · Saltos laterales sobre línea 3×6 · Caída a una pierna 2×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -970,7 +1089,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 4' · Frenada en 2 pasos, 8 rep · Zigzag entre conos, 6 rep · Salidas de 10 m desde desplazamiento defensivo, 6 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -979,7 +1111,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -1006,7 +1140,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -1036,7 +1172,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla con pausa isométrica de 3\" abajo, 3×8 · Zancada caminando 3×10/pierna · Peso muerto rumano a una pierna 3×10/pierna · Remo con goma a un brazo 3×12/lado · Pallof press de rodillas 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -1045,7 +1199,7 @@
        "ejercicios": [
         {
          "texto": "Flexión completa tempo 3-1-1, 3×8",
-         "ficha": null
+         "ficha": "flexion-completa-tempo-3-1-1"
         },
         {
          "texto": "Press de hombro con goma 3×12",
@@ -1066,7 +1220,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión completa tempo 3-1-1, 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Elevación de talón con rodilla flexionada 3×15 · Equilibrio monopodal con perturbación de compañero 3×20\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -1093,7 +1255,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": "rutina_12",
+       "descansos": []
       },
       {
        "min": 10,
@@ -1111,7 +1275,15 @@
        ],
        "detalle": null,
        "texto": "Isométricos. Sentadilla española 4×30\" · Isometría de gemelo en escalón 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 18,
@@ -1120,7 +1292,9 @@
        "ejercicios": [],
        "detalle": "cambios de ritmo cómodos",
        "texto": "Fartlek suave, cambios de ritmo cómodos",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 10,
@@ -1129,7 +1303,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos y respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       }
      ],
      "notas": [],
@@ -1179,7 +1355,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -1201,7 +1379,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría F2→F3 (~68 contactos). Salto a cajón bajo 4×5 · Salto lateral a una pierna con stick 3×5/pierna · Saltos en zigzag 3×6",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -1227,7 +1413,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5, 4 rep · Salidas de 10 m, 6 rep · Velocidad alta 4×20 m lanzados, 3' de descanso entre repeticiones",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -1236,7 +1435,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -1263,7 +1464,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -1293,7 +1496,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro 3×8/pierna · Puente de glúteo con pies elevados 3×12 · Curl nórdico 3×5 · Dorsiano con goma anclada alta 3×12 · Plancha lateral 3×30\"/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -1323,7 +1544,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma cruzada 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque completo de tobillo · Equilibrio con perturbación 3×20\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -1350,7 +1579,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -1368,7 +1599,15 @@
        ],
        "detalle": null,
        "texto": "Isométricos. Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -1386,7 +1625,9 @@
        ],
        "detalle": null,
        "texto": "Activación neural. Saltos bajos 6×4 · Salidas de 5 m, 6 rep. Calidad máxima, cero fatiga",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -1395,7 +1636,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -1445,7 +1688,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -1463,7 +1708,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (~45 contactos). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -1489,7 +1742,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5, 3 rep · Salidas de 10 m, 5 rep · Velocidad alta 4×20 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -1498,7 +1764,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -1525,7 +1793,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -1559,7 +1829,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza, volumen reducido. Sentadilla con goma en rodillas 2×10 · Split squat búlgaro 2×8/pierna · Peso muerto rumano a una pierna con goma 2×10/pierna · Curl nórdico 2×5 · Remo con goma a un brazo 2×12/lado · Pallof press en pie 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -1585,7 +1873,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 2×8 · Face pull 2×15 · Bloque completo de tobillo · Equilibrio monopodal 3×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -1612,7 +1908,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -1630,7 +1928,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 4×30\" · Isometría de gemelo 3×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -1648,7 +1948,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 4×4 · Salidas de 5 m, 4 rep. Volumen mínimo",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -1657,7 +1959,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -1710,7 +2014,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -1720,7 +2026,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -1750,7 +2064,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · Frenada en 2 pasos 8 rep · Zigzag entre conos 6 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 5×20 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -1760,7 +2087,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -1769,7 +2098,7 @@
        "ejercicios": [
         {
          "texto": "Flexión completa tempo 3-1-1 3×10",
-         "ficha": null
+         "ficha": "flexion-completa-tempo-3-1-1"
         },
         {
          "texto": "Press de hombro con goma 3×12",
@@ -1790,7 +2119,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión completa tempo 3-1-1 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -1818,7 +2155,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -1848,7 +2187,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Zancada caminando 4×10/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 3×5 · Remo con goma a un brazo 3×12/lado · Pallof press en pie 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -1858,7 +2215,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -1876,7 +2241,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (34). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×7/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -1904,7 +2277,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "D",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -1922,7 +2297,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (56). Saltos en zigzag 4×6 · Salto lateral a una pierna con stick 2×8/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 28,
@@ -1952,7 +2335,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla con goma en rodillas 4×10 · Puente de glúteo con pies elevados 4×12 · Dorsiano con goma 3×12 · Plancha lateral 3×35\"/lado · Bird dog 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2003,7 +2404,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -2013,7 +2416,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -2039,7 +2450,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 4 rep · Salidas de 10 m 6 rep · Velocidad alta 4×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -2049,7 +2473,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -2079,7 +2505,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma cruzada 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2107,7 +2541,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -2137,7 +2573,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro 3×8/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 3×5 · Remo con goma a un brazo 3×12/lado · Plancha con marcha de brazos 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -2147,7 +2601,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -2169,7 +2631,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (46). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×6/pierna · Saltos sobre línea 2×7",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2197,7 +2667,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -2207,7 +2679,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -2217,7 +2697,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -2227,7 +2709,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -2245,7 +2729,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -2263,7 +2749,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 6×4 · Salidas de 5 m 6 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -2314,7 +2802,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -2324,7 +2814,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -2350,7 +2848,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · L-drill 4 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -2360,7 +2871,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -2390,7 +2903,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2418,7 +2939,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -2448,7 +2971,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro 4×8/pierna · Puente de glúteo a una pierna 3×10/pierna · Curl nórdico 3×6 · Dorsiano con goma 3×12 · Pallof press con paso 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -2458,7 +2999,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -2480,7 +3029,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (60). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×2 (4 contactos cada uno)",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2508,7 +3065,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -2518,7 +3077,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -2528,7 +3095,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -2538,7 +3107,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [
@@ -2591,7 +3162,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -2601,7 +3174,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -2627,7 +3208,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 4 rep · Zigzag 6 rep · Velocidad alta 6×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -2637,7 +3231,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -2667,7 +3263,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2695,7 +3299,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -2725,7 +3331,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con goma 4×8/pierna · Peso muerto rumano a una pierna con goma 4×10/pierna · Curl nórdico 3×6 · Remo con goma pretensado 3×12/lado · Plancha con marcha 3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -2735,7 +3359,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -2753,7 +3385,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (50). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2781,7 +3421,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "D",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -2803,7 +3445,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (70). Saltos en zigzag 4×6 · Salto lateral a una pierna con stick 3×6/pierna · Saltos sobre línea 2×5",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 28,
@@ -2833,7 +3483,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla con goma bajo los pies 4×10 · Curl de isquios deslizante a dos piernas 3×8 · Zancada atrás 3×10/pierna · Dorsiano con goma 3×15 · Plancha lateral con elevación de pierna 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2886,7 +3554,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -2896,7 +3566,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -2922,7 +3600,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3 rep · Salidas de 10 m 5 rep · Velocidad alta 4×20 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -2932,7 +3623,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -2958,7 +3651,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -2986,7 +3687,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -3016,7 +3719,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro 3×8/pierna · Puente de glúteo a una pierna 2×10/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Pallof press en pie 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -3026,7 +3747,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -3044,7 +3773,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (34). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 2×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -3072,7 +3809,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -3082,7 +3821,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -3092,7 +3839,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -3102,7 +3851,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -3120,7 +3871,9 @@
        ],
        "detalle": null,
        "texto": "Volumen reducido: saltos bajos 4×4 · Salidas de 5 m 4 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -3173,7 +3926,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -3183,7 +3938,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -3209,7 +3972,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -3219,7 +3995,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -3249,7 +4027,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [
@@ -3279,7 +4065,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -3309,7 +4097,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 3×8/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 3×6 · Remo con goma pretensado 3×12/lado · Plancha con marcha 3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -3319,7 +4125,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -3341,7 +4155,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (56). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×3",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -3369,7 +4191,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -3379,7 +4203,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -3389,7 +4221,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -3399,7 +4233,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -3450,7 +4286,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -3460,7 +4298,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -3486,7 +4332,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 5×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -3496,7 +4355,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -3526,7 +4387,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -3554,7 +4423,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -3584,7 +4455,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 3×6/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma, 5\" de mantenimiento, 3×8/lado · Pallof con desplazamiento lateral 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -3594,7 +4483,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -3616,7 +4513,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (60). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Saltos en zigzag 2×11",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -3644,7 +4549,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -3654,7 +4561,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -3664,7 +4579,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -3674,7 +4591,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -3725,7 +4644,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -3735,7 +4656,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -3761,7 +4690,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×20 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -3771,7 +4713,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -3797,7 +4741,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -3825,7 +4777,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -3855,7 +4809,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Puente de glúteo a una pierna 2×10/pierna · Remo con goma 2×12/lado · Plancha lateral 2×30\"/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -3865,7 +4837,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -3883,7 +4863,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (40). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 2×6/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -3911,7 +4899,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -3921,7 +4911,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -3931,7 +4929,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -3941,7 +4941,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -3950,7 +4952,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Volumen mínimo",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -4003,7 +5007,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -4013,7 +5019,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -4039,7 +5053,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 8 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -4049,7 +5076,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -4079,7 +5108,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -4107,7 +5144,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -4137,7 +5176,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma, 5\" de mantenimiento, 3×8/lado · Pallof con desplazamiento lateral 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -4147,7 +5204,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -4169,7 +5234,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (46). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Saltos en zigzag 1×6",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -4197,7 +5270,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "D",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -4219,7 +5294,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (54). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Bounding 2×4 (2 contactos cada uno)",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 28,
@@ -4249,7 +5332,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla con goma bajo los pies y sobre hombros 4×10 · Curl de isquios deslizante a dos piernas 3×10 · Zancada atrás con goma 3×10/pierna · Dorsiano con goma pretensada 3×12 · Rueda simulada con deslizamiento 3×8",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [
@@ -4304,7 +5405,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -4314,7 +5417,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -4340,7 +5451,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · Velocidad alta 4×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -4350,7 +5474,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -4380,7 +5506,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -4408,7 +5542,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -4438,7 +5574,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 3×8/pierna · Curl nórdico 3×6 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -4448,7 +5602,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -4466,7 +5628,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -4494,7 +5664,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -4504,7 +5676,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -4514,7 +5694,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -4524,7 +5706,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -4542,7 +5726,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -4560,7 +5746,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 6×4 · Salidas de 5 m 6 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -4623,7 +5811,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "N",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -4633,7 +5823,15 @@
        "detalle": null,
        "texto": "Pliometría",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -4659,7 +5857,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×20 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -4669,7 +5880,9 @@
        "detalle": null,
        "texto": "Transición",
        "remite_a": "N",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -4695,7 +5908,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -4723,7 +5944,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -4753,7 +5976,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Peso muerto rumano a una pierna con goma 2×10/pierna · Remo con goma 2×12/lado · Pallof press en pie 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -4763,7 +6004,15 @@
        "detalle": null,
        "texto": "Complementaria",
        "remite_a": "F",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -4781,7 +6030,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (30). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -4809,7 +6066,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -4819,7 +6078,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -4829,7 +6096,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -4839,7 +6108,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -4857,7 +6128,9 @@
        ],
        "detalle": null,
        "texto": "Volumen mínimo: saltos bajos 4×4 · Salidas de 5 m 4 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": null,
@@ -4866,7 +6139,9 @@
        "ejercicios": [],
        "detalle": "Es la última sesión con todos juntos hasta enero.",
        "texto": "Reserva 10' al final para explicar el plan de Navidad y repartir las gomas. Es la última sesión con todos juntos hasta enero.",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -4993,7 +6268,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 22,
@@ -5023,7 +6300,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Técnica de carrera 5' · Escalera 3' · Frenada en 2 pasos 6 rep · Salidas de 10 m 6 rep · Velocidad progresiva: 2×20 m al 85% + 3×20 m al 95%",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 18,
@@ -5053,7 +6343,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [
@@ -5082,7 +6380,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 10,
@@ -5104,7 +6404,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría, reintroducción (32 contactos). Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 28,
@@ -5134,7 +6442,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza, volumen medio. Split squat búlgaro 3×8/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 2×5 · Remo con goma 3×12/lado · Plancha con marcha 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -5143,7 +6469,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -5170,7 +6498,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -5188,7 +6518,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -5206,7 +6538,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -5215,7 +6549,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -5268,7 +6604,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -5286,7 +6624,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -5312,7 +6658,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -5321,7 +6680,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -5350,7 +6711,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -5380,7 +6743,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -5402,7 +6783,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -5431,7 +6820,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -5449,7 +6840,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -5467,7 +6860,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -5476,7 +6871,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -5532,7 +6929,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -5550,7 +6949,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -5576,7 +6983,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -5585,7 +7005,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -5614,7 +7036,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -5644,7 +7068,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -5666,7 +7108,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -5695,7 +7145,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -5713,7 +7165,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -5731,7 +7185,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -5740,7 +7196,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -5796,7 +7254,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -5814,7 +7274,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -5840,7 +7308,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -5849,7 +7330,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -5878,7 +7361,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -5908,7 +7393,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -5930,7 +7433,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -5959,7 +7470,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -5977,7 +7490,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -5995,7 +7510,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -6004,7 +7521,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -6060,7 +7579,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -6078,7 +7599,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -6104,7 +7633,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -6113,7 +7655,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -6142,7 +7686,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -6172,7 +7718,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -6194,7 +7758,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -6223,7 +7795,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -6241,7 +7815,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -6259,7 +7835,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -6268,7 +7846,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -6324,7 +7904,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -6342,7 +7924,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -6368,7 +7958,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -6377,7 +7980,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -6406,7 +8011,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -6436,7 +8043,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -6458,7 +8083,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -6487,7 +8120,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -6505,7 +8140,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -6523,7 +8160,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -6532,7 +8171,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -6588,7 +8229,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -6606,7 +8249,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -6632,7 +8283,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -6641,7 +8305,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -6670,7 +8336,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -6700,7 +8368,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -6722,7 +8408,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -6751,7 +8445,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -6769,7 +8465,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -6787,7 +8485,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -6796,7 +8496,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -6852,7 +8554,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -6870,7 +8574,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -6896,7 +8608,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -6905,7 +8630,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -6934,7 +8661,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -6964,7 +8693,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -6986,7 +8733,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -7015,7 +8770,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -7033,7 +8790,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -7051,7 +8810,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -7060,7 +8821,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -7116,7 +8879,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -7134,7 +8899,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -7160,7 +8933,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -7169,7 +8955,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -7198,7 +8986,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -7228,7 +9018,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -7250,7 +9058,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -7279,7 +9095,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -7297,7 +9115,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -7315,7 +9135,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -7324,7 +9146,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -7397,7 +9221,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 6×30 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -7427,7 +9264,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×12 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -7463,7 +9308,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (56). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -7493,7 +9346,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 4×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -7529,7 +9400,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (64). Saltos en zigzag reactivos 4×6 · Salto lateral a una pierna reactivo 4×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -7559,7 +9438,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con goma 4×8/pierna · Curl de isquios deslizante a dos piernas 3×10 · Zancada atrás con goma 3×10/pierna · Dorsiano con goma pretensada 3×15 · Rueda simulada 3×10",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -7653,7 +9550,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · Velocidad progresiva: 2×20 m al 90% + 3×25 m al 95%",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -7679,7 +9589,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión 3×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -7715,7 +9633,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -7745,7 +9671,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -7773,7 +9717,9 @@
        "detalle": null,
        "texto": "Movilidad",
        "remite_a": "C",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -7783,7 +9729,15 @@
        "detalle": null,
        "texto": "Isométricos",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Isométricos de tendón",
+         "series": "4-5 × 30-45 s",
+         "descanso": "60 s"
+        }
+       ]
       },
       {
        "min": 15,
@@ -7793,7 +9747,9 @@
        "detalle": null,
        "texto": "Activación neural",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -7803,7 +9759,9 @@
        "detalle": null,
        "texto": "Respiración",
        "remite_a": "C",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -7853,7 +9811,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -7871,7 +9831,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -7897,7 +9865,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -7906,7 +9887,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -7938,7 +9921,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -7968,7 +9953,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -7990,7 +9993,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -8022,7 +10033,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -8040,7 +10053,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -8058,7 +10073,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -8067,7 +10084,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -8125,7 +10144,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -8143,7 +10164,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -8169,7 +10198,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -8178,7 +10220,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -8210,7 +10254,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -8240,7 +10286,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -8262,7 +10326,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -8294,7 +10366,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -8312,7 +10386,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -8330,7 +10406,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -8339,7 +10417,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -8397,7 +10477,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -8415,7 +10497,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -8441,7 +10531,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6-8 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 4-5×25 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -8450,7 +10553,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -8482,7 +10587,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -8512,7 +10619,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · Curl nórdico 2-3×5 · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -8534,7 +10659,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con goma 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -8566,7 +10699,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -8584,7 +10719,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -8602,7 +10739,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -8611,7 +10750,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -8686,7 +10827,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 5×30 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -8716,7 +10870,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -8752,7 +10914,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (50). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -8782,7 +10952,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza, con intención de velocidad. Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Curl de isquios deslizante a una pierna 3×6/pierna · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -8818,7 +11006,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría (40). Saltos en zigzag reactivos 4×5 · Salto lateral a una pierna reactivo 2×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -8844,7 +11040,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza ligera. Split squat búlgaro 2×8/pierna · Puente de glúteo a una pierna 2×12/pierna · Dorsiano con goma 2×15 · Plancha lateral con elevación 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": null,
@@ -8853,7 +11067,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos 10'",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -8905,7 +11121,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 12,
@@ -8923,7 +11141,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría. Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 23,
@@ -8949,7 +11175,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · Velocidad alta 4×30 m, 3' de descanso",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 5,
@@ -8958,7 +11197,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Transición a pista",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -8987,7 +11228,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 30,
@@ -9017,7 +11260,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 2-3×8/pierna · Curl nórdico 2-3×5 · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -9039,7 +11300,15 @@
        ],
        "detalle": null,
        "texto": "Complementaria. Flexión con pies elevados 2-3×10 · Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -9068,7 +11337,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -9086,7 +11357,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -9104,7 +11377,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9113,7 +11388,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9167,7 +11444,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 20,
@@ -9193,7 +11472,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -9211,7 +11503,9 @@
        ],
        "detalle": null,
        "texto": "Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9220,7 +11514,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9247,7 +11543,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad amplia",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9265,7 +11563,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 22,
@@ -9291,7 +11597,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 13,
@@ -9300,7 +11624,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos, movilidad de cadera y tobillo, respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9327,7 +11653,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -9345,7 +11673,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -9363,7 +11693,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9372,7 +11704,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9428,7 +11762,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 20,
@@ -9454,7 +11790,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -9472,7 +11821,9 @@
        ],
        "detalle": null,
        "texto": "Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9481,7 +11832,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9508,7 +11861,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad amplia",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9526,7 +11881,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 22,
@@ -9552,7 +11915,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 13,
@@ -9561,7 +11942,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos, movilidad de cadera y tobillo, respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9588,7 +11971,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -9606,7 +11991,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -9624,7 +12011,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9633,7 +12022,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9689,7 +12080,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 20,
@@ -9715,7 +12108,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -9733,7 +12139,9 @@
        ],
        "detalle": null,
        "texto": "Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9742,7 +12150,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9771,7 +12181,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad amplia",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9789,7 +12201,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 22,
@@ -9815,7 +12235,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 13,
@@ -9824,7 +12262,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos, movilidad de cadera y tobillo, respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9853,7 +12293,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -9871,7 +12313,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -9889,7 +12333,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -9898,7 +12344,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9955,7 +12403,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y activación",
-       "rutina": "rutina_10"
+       "es_movilidad": true,
+       "rutina": "rutina_10",
+       "descansos": []
       },
       {
        "min": 20,
@@ -9981,7 +12431,20 @@
        ],
        "detalle": null,
        "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Velocidad",
+         "series": "4-8 repeticiones",
+         "descanso": "1 min por cada 10 m"
+        },
+        {
+         "contenido": "COD",
+         "series": "6-8 repeticiones",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 12,
@@ -9999,7 +12462,9 @@
        ],
        "detalle": null,
        "texto": "Face pull 2×15 · Bloque de tobillo 8'",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -10008,7 +12473,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad y respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -10037,7 +12504,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad amplia",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -10055,7 +12524,15 @@
        ],
        "detalle": null,
        "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
       },
       {
        "min": 22,
@@ -10081,7 +12558,25 @@
        ],
        "detalle": null,
        "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Fuerza, patrón principal",
+         "series": "3-4 × 8-12",
+         "descanso": "90 s"
+        },
+        {
+         "contenido": "Fuerza, unilateral",
+         "series": "3 × 8-10 por pierna",
+         "descanso": "60-90 s"
+        },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       },
       {
        "min": 13,
@@ -10090,7 +12585,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos, movilidad de cadera y tobillo, respiración",
-       "rutina": null
+       "es_movilidad": true,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -10119,7 +12616,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad global",
-       "rutina": "rutina_15"
+       "es_movilidad": true,
+       "rutina": "rutina_15",
+       "descansos": []
       },
       {
        "min": 12,
@@ -10137,7 +12636,9 @@
        ],
        "detalle": null,
        "texto": "Sentadilla española 5×30\" · Isometría de gemelo 4×30\"",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 15,
@@ -10155,7 +12656,9 @@
        ],
        "detalle": null,
        "texto": "Saltos bajos 5×4 · Salidas de 5 m 5 rep",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       },
       {
        "min": 8,
@@ -10164,7 +12667,9 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Respiración y transición",
-       "rutina": null
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],

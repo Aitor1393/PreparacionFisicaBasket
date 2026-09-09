@@ -214,6 +214,40 @@ prueba('toda ficha tiene a dónde tirar para ver el ejercicio', async (page) => 
   }
 });
 
+prueba('la sesión dice el descanso entre series', async (page) => {
+  // El descanso no lo escribe ninguna sesión: sale de la tabla del catálogo.
+  // Sin él, media hora de fuerza parece mucho para cinco ejercicios.
+  let objetivo = null;
+  semanas.semanas.forEach(s => s.sesiones.forEach(ses => {
+    if (!objetivo && ses.bloques.some(b => (b.descansos || []).length)) objetivo = ses;
+  }));
+  afirmar(objetivo, 'ninguna sesión trae descansos');
+  await ir(page, '/sesion/' + objetivo.fecha);
+  const texto = await page.textContent('#app');
+  const esperado = objetivo.bloques.find(b => (b.descansos || []).length).descansos[0];
+  afirmar(texto.includes(esperado.descanso),
+    `no se ve el descanso «${esperado.descanso}» de ${objetivo.fecha}`);
+});
+
+prueba('todo bloque de movilidad lleva a sus ejercicios', async (page) => {
+  const conMovilidad = [];
+  semanas.semanas.forEach(s => s.sesiones.forEach(ses => {
+    if (ses.bloques.some(b => b.es_movilidad)) conMovilidad.push(ses);
+  }));
+  afirmar(conMovilidad.length > 0, 'ninguna sesión tiene bloque de movilidad');
+  // Se prueban una con rutina exacta y otra sin ella: las dos tienen que
+  // ofrecer salida, que era justo lo que faltaba.
+  const conRutina = conMovilidad.find(s => s.bloques.some(b => b.es_movilidad && b.rutina));
+  const sinRutina = conMovilidad.find(s => s.bloques.some(b => b.es_movilidad && !b.rutina));
+  for (const ses of [conRutina, sinRutina].filter(Boolean)) {
+    await ir(page, '/sesion/' + ses.fecha);
+    const enlaces = await page.locator('.remite a').evaluateAll(
+      as => as.map(a => a.getAttribute('href')));
+    afirmar(enlaces.some(h => /^#\/rutinas?/.test(h)),
+      `${ses.fecha}: el bloque de movilidad no lleva a ninguna rutina`);
+  }
+});
+
 prueba('los protocolos ponen las banderas rojas antes que nada', async (page) => {
   await ir(page, '/protocolos');
   const texto = await page.textContent('#app');

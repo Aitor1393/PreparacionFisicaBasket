@@ -14,6 +14,7 @@
     [/^\/plantilla\/([\w-]+)$/, function (m) { return V.plantilla(m[1]); }],
     [/^\/ejercicios$/, function () { return V.ejercicios(App.estado); }],
     [/^\/ejercicio\/([\w-]+)$/, function (m) { return V.ficha(m[1]); }],
+    [/^\/rutinas$/, function () { return V.rutinas(); }],
     [/^\/rutina\/([\w-]+)$/, function (m) { return V.rutina(m[1]); }],
     [/^\/protocolos$/, function () { return V.protocolos(); }],
     [/^\/lesion\/([\w-]+)$/, function (m) { return V.lesion(m[1]); }],
@@ -50,7 +51,8 @@
     var raiz = '/' + (r.split('/')[1] || 'hoy');
     var equivalencias = {
       '/semana': '/calendario', '/sesion': '/hoy', '/plantilla': '/hoy',
-      '/ejercicio': '/ejercicios', '/rutina': '/ejercicios', '/lesion': '/protocolos'
+      '/ejercicio': '/ejercicios', '/rutina': '/ejercicios',
+      '/rutinas': '/ejercicios', '/lesion': '/protocolos'
     };
     var activa = equivalencias[raiz] || raiz;
     U.$$('.nav a').forEach(function (a) {

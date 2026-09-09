@@ -59,40 +59,61 @@ def clave(t):
     return re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', sin_tildes(t).lower())).strip('-')
 
 
+# Palabras de enlace que las sesiones se saltan al nombrar un ejercicio: la
+# ficha se llama «Sentadilla con peso corporal, tempo 3-1-1» y la sesión escribe
+# «Sentadilla peso corporal tempo 3-1-1». Comparar por palabras y sin estas dos
+# empareja las dos formas sin abrir la puerta a emparejar cosas distintas.
+VACIAS = ('con', 'de')
+
+# Nombres que en las sesiones designan una familia y no un ejercicio: hay cuatro
+# remos con goma y la sesión no dice cuál, así que no se enlaza ninguno. Vale más
+# quedarse sin enlace que mandar al entrenador a la ficha equivocada un martes
+# por la mañana.
+# Ya sin las palabras de enlace, que es como salen de palabras().
+GENERICOS = ('remo goma', 'flexion', 'salidas')
+
+
+def palabras(texto):
+    """Parte un nombre en palabras comparables: sin tildes, sin puntuación."""
+    limpio = sin_tildes(limpiar(texto)).lower()
+    limpio = re.sub(r'[^a-z0-9×\'"\-/ ]+', ' ', limpio)
+    return [p for p in limpio.split() if p and p not in VACIAS]
+
+
 def buscar_ficha(texto, fichas):
     """Busca a qué ficha corresponde un ejercicio escrito en una sesión.
 
-    Dos pasadas. Primero, el nombre de la ficha al principio del texto, y entre
-    varias gana la más larga: así «Plancha lateral con elevación 3×10» va a su
-    ficha y no a «Plancha lateral». Segundo, al revés, porque las sesiones
-    abrevian —dicen «Isometría de gemelo 4×30"» y la ficha es «Isometría de
-    gemelo en escalón»—, pero solo si encaja **una sola** ficha: «Remo con goma
-    2×12/lado» encaja con cuatro remos distintos y ahí es preferible no enlazar
-    a llevar al entrenador a la ficha equivocada.
+    Se compara palabra a palabra. Primero, que el nombre de la ficha esté al
+    principio del texto, y entre varias gana la más larga: así «Plancha lateral
+    con elevación 3×10» va a su ficha y no a «Plancha lateral». Segundo, al
+    revés, porque las sesiones abrevian —dicen «Isometría de gemelo 4×30"» y la
+    ficha es «Isometría de gemelo en escalón»—, pero solo si encaja **una sola**
+    ficha.
     """
-    limpio = sin_tildes(limpiar(texto)).lower().lstrip('*· ')
+    suyas = palabras(texto)
+    if not suyas:
+        return None
+
     mejor = None
     for k, f in fichas.items():
-        nombre = sin_tildes(f['nombre']).lower()
-        if limpio.startswith(nombre) and (mejor is None or len(nombre) > len(mejor[1])):
-            mejor = (k, nombre)
+        nombre = palabras(f['nombre'])
+        if nombre and suyas[:len(nombre)] == nombre:
+            if mejor is None or len(nombre) > mejor[1]:
+                mejor = (k, len(nombre))
     if mejor:
         return mejor[0]
 
-    # Nombres que en las sesiones designan una familia y no un ejercicio: hay
-    # cuatro remos con goma y la sesión no dice cuál, así que no se enlaza
-    # ninguno. Vale más quedarse sin enlace que mandar al entrenador a la ficha
-    # equivocada un lunes por la mañana.
-    GENERICOS = ('remo con goma', 'flexion', 'salidas de')
-
-    # Se corta la dosis: lo que va desde la primera cifra ya no es el nombre.
-    sin_dosis = re.split(r'\s(?=[\d×])', limpio)[0].strip(' ,.')
-    if len(sin_dosis) < 6:
-        return None
-    if sin_dosis in GENERICOS:
+    # Se corta la dosis: desde la primera cifra ya no es el nombre.
+    corte = next((i for i, p in enumerate(suyas)
+                  if re.match(r'^[\d]', p) or '×' in p), len(suyas))
+    prefijo = suyas[:corte]
+    # Basta una palabra: lo que protege de emparejar mal no es la longitud
+    # sino que encaje una única ficha. «Zigzag» solo puede ser «Zigzag entre
+    # conos», mientras que «Escalera» encaja con dos y se descarta sola.
+    if not prefijo or ' '.join(prefijo) in GENERICOS:
         return None
     candidatos = [k for k, f in fichas.items()
-                  if sin_tildes(f['nombre']).lower().startswith(sin_dosis)]
+                  if palabras(f['nombre'])[:len(prefijo)] == prefijo]
     return candidatos[0] if len(candidatos) == 1 else None
 
 

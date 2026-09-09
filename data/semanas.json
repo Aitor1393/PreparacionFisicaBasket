@@ -1805,8 +1805,8 @@
      "fecha": "2026-10-07",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 7 — Tipo N",
-     "plantilla": "N",
+     "titulo": "Miércoles 7 — Tipo F",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -1817,7 +1817,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -1857,7 +1857,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -2094,8 +2094,8 @@
      "fecha": "2026-10-14",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 14 — Tipo N",
-     "plantilla": "N",
+     "titulo": "Miércoles 14 — Tipo F",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -2106,7 +2106,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -2146,7 +2146,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -2405,8 +2405,8 @@
      "fecha": "2026-10-21",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 21 — Tipo N",
-     "plantilla": "N",
+     "titulo": "Miércoles 21 — Tipo F",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -2417,7 +2417,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -2457,7 +2457,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -2682,8 +2682,8 @@
      "fecha": "2026-10-28",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 28 — Tipo N",
-     "plantilla": "N",
+     "titulo": "Miércoles 28 — Tipo F",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -2694,7 +2694,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -2734,7 +2734,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -2973,8 +2973,8 @@
      "fecha": "2026-11-04",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 4 — Tipo N",
-     "plantilla": "N",
+     "titulo": "Miércoles 4 — Tipo F",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -2985,7 +2985,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -3025,7 +3025,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -3266,8 +3266,8 @@
      "fecha": "2026-11-11",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 11 — Tipo N",
-     "plantilla": "N",
+     "titulo": "Miércoles 11 — Tipo F",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -3278,7 +3278,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -3318,7 +3318,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -3541,8 +3541,8 @@
      "fecha": "2026-11-18",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 18 — Tipo N",
-     "plantilla": "N",
+     "titulo": "Miércoles 18 — Tipo F",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -3553,7 +3553,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -3593,7 +3593,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -3812,8 +3812,8 @@
      "fecha": "2026-11-25",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 25 — Tipo N",
-     "plantilla": "N",
+     "titulo": "Miércoles 25 — Tipo F",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -3824,7 +3824,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -3864,7 +3864,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -3990,7 +3990,7 @@
      "fecha": "2026-12-01",
      "dia": "martes",
      "md": "MD-4",
-     "titulo": "Martes 31 nov — Tipo N (50')",
+     "titulo": "Martes 1 dic — Tipo N (50')",
      "plantilla": "N",
      "minutos": 50,
      "estado": "explicita",
@@ -4094,8 +4094,8 @@
      "fecha": "2026-12-02",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 2 dic — Tipo N (50')",
-     "plantilla": "N",
+     "titulo": "Miércoles 2 dic — Tipo F (50')",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -4106,7 +4106,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -4146,7 +4146,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -4387,8 +4387,8 @@
      "fecha": "2026-12-09",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 9 — Tipo N (50')",
-     "plantilla": "N",
+     "titulo": "Miércoles 9 — Tipo F (50')",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -4399,7 +4399,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -4409,7 +4409,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Fuerza principal",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -4710,8 +4710,8 @@
      "fecha": "2026-12-16",
      "dia": "miercoles",
      "md": "MD-3",
-     "titulo": "Miércoles 16 — Tipo N (50')",
-     "plantilla": "N",
+     "titulo": "Miércoles 16 — Tipo F (50')",
+     "plantilla": "F",
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
@@ -4722,7 +4722,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {
@@ -4762,7 +4762,7 @@
        "ejercicios": [],
        "detalle": null,
        "texto": "Complementaria",
-       "remite_a": "N",
+       "remite_a": "F",
        "rutina": null
       },
       {

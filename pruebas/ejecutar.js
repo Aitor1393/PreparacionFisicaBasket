@@ -197,6 +197,23 @@ prueba('un término de búsqueda no se convierte en un enlace inventado', async 
     'el término abre un enlace directo en vez de una búsqueda: ' + dela[0]);
 });
 
+prueba('toda ficha tiene a dónde tirar para ver el ejercicio', async (page) => {
+  const sinNada = ejercicios.fichas.filter(f => !f.video || !f.video.length);
+  afirmar(sinNada.length === 0,
+    'fichas sin material visual: ' + sinNada.map(f => f.nombre).join(', '));
+
+  // Y una búsqueda automática tiene que decir que lo es: no es lo mismo que un
+  // enlace comprobado y el entrenador tiene que poder distinguirlo.
+  const automatica = ejercicios.fichas.find(f =>
+    (f.video || []).some(v => v.automatica));
+  if (automatica) {
+    await ir(page, '/ejercicio/' + automatica.id);
+    const texto = await page.textContent('.medios');
+    afirmar(/autom[áa]tica/i.test(texto),
+      'una búsqueda automática se enseña como si fuera material comprobado');
+  }
+});
+
 prueba('los protocolos ponen las banderas rojas antes que nada', async (page) => {
   await ir(page, '/protocolos');
   const texto = await page.textContent('#app');

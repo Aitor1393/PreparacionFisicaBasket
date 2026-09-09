@@ -265,6 +265,22 @@ p { margin: .5rem 0; }
 .caja ul { margin: .25rem 0 0; padding-left: 1.1rem; }
 .caja li { margin: .3rem 0; }
 
+/* El descanso ocupa la mitad del bloque y hasta ahora no se veía. */
+.descanso {
+  margin: .3rem 0 0 3.6rem; font-size: .88rem;
+  color: var(--tinta-suave);
+}
+.descanso__etiqueta {
+  font-size: .72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--tinta-tenue); margin-right: .3rem;
+}
+
+.plegable { margin: 1rem 0; }
+.plegable summary {
+  cursor: pointer; font-weight: 600; padding: .5rem 0;
+  color: var(--acento);
+}
+
 /* ------------------------------------------- la instrucción de la banda */
 
 /* Es lo que el entrenador lee en tres segundos con el ejercicio ya empezado,

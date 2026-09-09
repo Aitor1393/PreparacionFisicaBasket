@@ -45,9 +45,25 @@
     if (b.ejercicios && b.ejercicios.length) {
       h += '<ul class="ejercicios">' + b.ejercicios.map(ejercicio).join('') + '</ul>';
     }
+    /* El descanso entre series no lo escribe ninguna sesión: lo fija el
+       catálogo por tipo de contenido. Se enseña aquí porque es la mitad de lo
+       que dura el bloque y sin él parece que sobra tiempo. */
+    if (b.descansos && b.descansos.length) {
+      h += '<p class="descanso"><span class="descanso__etiqueta">Descanso</span> ' +
+        b.descansos.map(function (d) {
+          return '<strong>' + U.esc(d.descanso) + '</strong> <span class="silencio">' +
+            U.esc(d.contenido.replace(/^Fuerza, /, '')) + '</span>';
+        }).join(' · ') + '</p>';
+    }
     if (b.rutina) {
       h += '<p class="remite">Rutina cronometrada: <a href="#/rutina/' + U.esc(b.rutina) +
         '">' + U.esc(D.rutina(b.rutina).titulo) + '</a></p>';
+    } else if (b.es_movilidad) {
+      // El apéndice no le pone rutina con nombre a esta duración, pero el
+      // entrenador sigue queriendo ver los ejercicios.
+      h += '<p class="remite">El apéndice no define una rutina de ' +
+        (b.min ? b.min + " minutos" : 'esta duración') +
+        '. <a href="#/rutinas">Ver las rutinas de movilidad</a>.</p>';
     }
     if (b.remite_a) {
       h += '<p class="remite">El documento no repite el detalle aquí. Es el bloque de la ' +
@@ -163,6 +179,18 @@
     h += avisos(ses.ajustes, 'caja--acento', 'Cómo se ejecuta esta semana');
     h += V.bloques(ses.bloques);
     h += avisos(ses.notas);
+    var tabla = D.temporada.dosis_referencia || [];
+    if (tabla.length) {
+      h += '<details class="plegable no-imprimir"><summary>Dosis y descansos de referencia</summary>' +
+        '<div class="desliza"><table class="tabla"><thead><tr><th>Contenido</th>' +
+        '<th>Series × rep</th><th>Descanso</th></tr></thead><tbody>' +
+        tabla.map(function (d) {
+          return '<tr><td>' + U.esc(d.contenido) + '</td><td>' + U.esc(d.series) +
+            '</td><td>' + U.esc(d.descanso) + '</td></tr>';
+        }).join('') + '</tbody></table></div>' +
+        '<p class="pequeno silencio">Del catálogo. Es referencia, no una ' +
+        'prescripción por ejercicio.</p></details>';
+    }
     h += '<p class="pequeno silencio">Fuente: ' + U.esc(ses.origen.archivo) +
       ' · ' + U.esc(ses.origen.seccion) + '</p>';
     return h;
@@ -428,6 +456,18 @@
 
     h += '<p class="pequeno silencio">Fuente: ' + U.esc(f.origen) + '</p>';
     return h;
+  };
+
+  V.rutinas = function () {
+    var r = D.ejercicios.rutinas;
+    return '<h1>Rutinas de movilidad</h1>' +
+      '<p class="sub">Las cuatro que define el apéndice, cronometradas al segundo.</p>' +
+      '<div class="lista">' + Object.keys(r).map(function (k) {
+        var n = r[k].bloques.reduce(function (t, b) { return t + b.ejercicios.length; }, 0);
+        return '<a class="enlace-tarjeta" href="#/rutina/' + U.esc(k) + '">' +
+          '<div class="enlace-tarjeta__titulo">' + U.esc(r[k].titulo) + '</div>' +
+          '<div class="enlace-tarjeta__pie">' + n + ' ejercicios</div></a>';
+      }).join('') + '</div>';
   };
 
   V.rutina = function (id) {

@@ -25,8 +25,13 @@ lógica del póster: barra de carga, color por tipo de bloque y las semanas sin
 partido a la vista. Cada semana lleva a su detalle.
 
 **Microciclo y sesión.** Las tres sesiones de la semana y el detalle de cada
-una. Cada ejercicio enlaza con su ficha y cada bloque de movilidad con su
-rutina cronometrada. Cualquier sesión se imprime en una hoja limpia.
+una. Cada ejercicio enlaza con su ficha y cada bloque de movilidad con sus
+rutinas. Cualquier sesión se imprime en una hoja limpia.
+
+Cada bloque lleva además **el descanso entre series**, que ninguna sesión
+escribe y que fija el catálogo por tipo de contenido. No es un detalle menor:
+en un bloque de fuerza el descanso es cerca del 40 % del tiempo, y sin verlo
+media hora parece mucho para cinco ejercicios.
 
 **Ejercicios.** 85 fichas buscables y filtrables por capacidad, con los seis
 campos que pide el brief: montaje, ejecución, **instrucción en voz alta**,

@@ -248,6 +248,30 @@ prueba('todo bloque de movilidad lleva a sus ejercicios', async (page) => {
   }
 });
 
+prueba('la semana avisa del CMJ, del intermitente y de la dosis de sprint', async (page) => {
+  // La dosis de sprint dejó de ser fija: sube en las ventanas de carga y se
+  // congela en febrero. Si la web enseñara un valor constante, mentiría.
+  const conTodo = semanas.semanas.find(s =>
+    s.cmj && s.intermitente_equipo && s.aceleracion_resistida && s.sprint);
+  afirmar(conTodo, 'ninguna semana trae los cuatro indicadores');
+  await ir(page, '/semana/' + conTodo.semana);
+  const texto = await page.textContent('#app .marcas');
+  afirmar(/CMJ/i.test(texto), 'no avisa de que toca medir el CMJ');
+  afirmar(/intermitente/i.test(texto), 'no avisa del intermitente del equipo');
+  afirmar(/resistida/i.test(texto), 'no avisa de la aceleración resistida');
+  afirmar(texto.includes(conTodo.sprint.replace('x', '×')),
+    `no enseña la dosis de sprint «${conTodo.sprint}»`);
+
+  // Y una semana sin nada de eso no debe inventarse marcas.
+  const sinNada = semanas.semanas.find(s =>
+    !s.cmj && !s.intermitente_equipo && !s.aceleracion_resistida && !s.sprint);
+  if (sinNada) {
+    await ir(page, '/semana/' + sinNada.semana);
+    afirmar(await page.locator('#app .marcas').count() === 0,
+      `la semana ${sinNada.semana} enseña marcas que no tiene`);
+  }
+});
+
 prueba('los protocolos ponen las banderas rojas antes que nada', async (page) => {
   await ir(page, '/protocolos');
   const texto = await page.textContent('#app');

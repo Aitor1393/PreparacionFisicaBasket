@@ -29,30 +29,31 @@ Las dos semanas sin partido, MC1 y MC4, son el motor del bloque. Ahí el viernes
 **N · Martes, 50'** — Movilidad 10' · Pliometría 12' · Neuromuscular 23' · Transición 5'
 **F · Miércoles, 50'** — Movilidad 8' · Fuerza principal 30' · Complementaria 12'
 **C · Viernes víspera, 50'** — Movilidad 15' · Isométricos 12' · Activación neural 15' · Respiración 8'
-**D · Viernes de carga (solo MC1 y MC4), 50'** — Movilidad 10' · Pliometría 12' · Fuerza 28'
+**D · Viernes de carga (solo MC1 y MC4), 50'** — Movilidad 8' · Pliometría 12' · Fuerza 20' · Intermitente 10'
 
 ---
 
 ## MC1 · 5-11 oct · Carga 10 · Sin partido
 
 ### Martes 6 — Tipo N
-- **Neuromuscular.** Escalera 3' · Frenada en 2 pasos 8 rep · Zigzag entre conos 6 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · **Velocidad alta 5×20 m**
+- **Neuromuscular.** Escalera 3' · Frenada en 2 pasos 8 rep · Zigzag entre conos 6 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · **Velocidad alta 5×20 m** · **Aceleración resistida con goma 4×15 m**
 - **Complementaria.** Flexión completa tempo 3-1-1 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20"
 
 ### Miércoles 7 — Tipo F
-- **Pliometría (34).** Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×7/pierna
+- **Pliometría (34).** Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×7/pierna · **CMJ: 3 saltos antes de la pliometría**
 - **Fuerza.** Zancada caminando 4×10/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 3×5 · Remo con goma a un brazo 3×12/lado · Pallof press en pie 3×10/lado
 
 ### Viernes 9 — Tipo D
 - **Pliometría (56).** Saltos en zigzag 4×6 · Salto lateral a una pierna con stick 2×8/pierna
 - **Fuerza.** Sentadilla con goma en rodillas 4×10 · Puente de glúteo con pies elevados 4×12 · Dorsiano con goma 3×12 · Plancha lateral 3×35"/lado · Bird dog 3×10/lado
+- **Intermitente 15"/15", 10'.** Veinte repeticiones. Pausa activa caminando.
 
 ---
 
 ## MC2 · 12-18 oct · Carga 8 · J2 sábado 17
 
 ### Martes 13 — Tipo N
-- **Neuromuscular.** Escalera 3' · 5-10-5 4 rep · Salidas de 10 m 6 rep · **Velocidad alta 4×25 m**
+- **Neuromuscular.** Escalera 3' · 5-10-5 4 rep · Salidas de 10 m 6 rep · **Velocidad alta 5×25 m**
 - **Complementaria.** Flexión con goma cruzada 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20"
 
 ### Miércoles 14 — Tipo F
@@ -68,7 +69,7 @@ Las dos semanas sin partido, MC1 y MC4, son el motor del bloque. Ahí el viernes
 ## MC3 · 19-25 oct · Carga 9 · J3 sábado 24
 
 ### Martes 20 — Tipo N
-- **Neuromuscular.** Escalera 3' · L-drill 4 rep · Salidas desde desplazamiento defensivo 6×10 m · **Velocidad alta 5×25 m**
+- **Neuromuscular.** Escalera 3' · L-drill 4 rep · Salidas desde desplazamiento defensivo 6×10 m · **Velocidad alta 6×25 m** · **Aceleración resistida 4×15 m**
 - **Complementaria.** Flexión con pies elevados 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25"
 
 ### Miércoles 21 — Tipo F
@@ -85,16 +86,17 @@ Las dos semanas sin partido, MC1 y MC4, son el motor del bloque. Ahí el viernes
 Microciclo de mayor carga de todo el año.
 
 ### Martes 27 — Tipo N
-- **Neuromuscular.** Escalera 3' · 5-10-5 4 rep · Zigzag 6 rep · **Velocidad alta 6×25 m**
+- **Neuromuscular.** Escalera 3' · 5-10-5 4 rep · Zigzag 6 rep · **Velocidad alta 5×30 m** · **Aceleración resistida 6×15 m**
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25"
 
 ### Miércoles 28 — Tipo F
-- **Pliometría (50).** Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×5/pierna
+- **Pliometría (50).** Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×5/pierna · **CMJ: 3 saltos antes de la pliometría**
 - **Fuerza.** Split squat búlgaro con goma 4×8/pierna · Peso muerto rumano a una pierna con goma 4×10/pierna · Curl nórdico 3×6 · Remo con goma pretensado 3×12/lado · Plancha con marcha 3×12/lado
 
 ### Viernes 30 — Tipo D
 - **Pliometría (70).** Saltos en zigzag 4×6 · Salto lateral a una pierna con stick 3×6/pierna · Saltos sobre línea 2×5
 - **Fuerza.** Sentadilla con goma bajo los pies 4×10 · Curl de isquios deslizante a dos piernas 3×8 · Zancada atrás 3×10/pierna · Dorsiano con goma 3×15 · Plancha lateral con elevación de pierna 3×10/lado
+- **Intermitente 15"/15", 10'.** Veinte repeticiones. Pausa activa caminando.
 
 ---
 
@@ -118,13 +120,13 @@ Después del choque de MC4 el equipo llega cansado. Baja el volumen y mantén la
 ## MC6 · 9-15 nov · Carga 9 · J5 sábado 14
 
 ### Martes 10 — Tipo N
-- **Neuromuscular.** Escalera 3' · **COD reactivo con señal visual** 6 rep · Salidas desde desplazamiento defensivo 6×10 m · **Velocidad alta 5×25 m**
+- **Neuromuscular.** Escalera 3' · **COD reactivo con señal visual** 6 rep · Salidas desde desplazamiento defensivo 6×10 m · **Velocidad alta 6×30 m**
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25"
 
 Aquí entra por primera vez el trabajo reactivo. Hasta ahora todos los cambios de dirección eran programados. A partir de MC6 el jugador reacciona a una señal, que es lo que ocurre en el partido.
 
 ### Miércoles 11 — Tipo F
-- **Pliometría (56).** Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×3
+- **Pliometría (56).** Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×3 · **CMJ: 3 saltos antes de la pliometría**
 - **Fuerza.** Split squat búlgaro con excéntrico de 4" 3×8/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 3×6 · Remo con goma pretensado 3×12/lado · Plancha con marcha 3×12/lado
 
 ### Viernes 13 — Tipo C
@@ -134,7 +136,7 @@ Aquí entra por primera vez el trabajo reactivo. Hasta ahora todos los cambios d
 ## MC7 · 16-22 nov · Carga 9 · J6 sábado 21
 
 ### Martes 17 — Tipo N
-- **Neuromuscular.** Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · **Velocidad alta 5×25 m**
+- **Neuromuscular.** Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · **Velocidad alta 6×30 m** · **Aceleración resistida 4×15 m**
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25"
 
 ### Miércoles 18 — Tipo F
@@ -170,7 +172,11 @@ Cierre del bloque. Baja el volumen y prepara la entrada en M2.
 
 **Curl nórdico.** Todos los miércoles desde MC1. Es lo más eficaz que tienes contra la lesión de isquiotibial y llega en el momento justo antes del bloque de seis jornadas seguidas de febrero.
 
-**Velocidad alta.** Una serie cada miércoles, sin excepción. Con jugadores frescos y descanso de 2' entre repeticiones. Si jadean, no están entrenando velocidad.
+**Velocidad alta.** Una serie cada martes, sin excepción, con 3' de descanso entre repeticiones. Si jadean, no están entrenando velocidad.
+
+**La progresión no es plana.** M1 es ventana de carga, así que la velocidad también progresa: de 5×20 m en MC1 a 6×30 m en MC6 y MC7. Las semanas de descarga, MC5 y MC8, bajan a 4×20 m. En febrero, con seis jornadas seguidas, se congela en 4-5×25 m y no se toca.
+
+**Aceleración resistida.** Entra en MC1, MC3, MC4 y MC7. Un compañero sujeta la goma por la cintura con resistencia ligera: si le cambia el patrón de carrera, sobra tensión.
 
 ---
 

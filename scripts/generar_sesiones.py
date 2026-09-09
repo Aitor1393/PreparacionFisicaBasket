@@ -611,6 +611,22 @@ def construir():
                [n for n in notas_de(m9) if 'escenario' not in n.lower()][:3])
         ordenar(sem)
 
+    # Los indicadores por semana que el JSON declara aparte: qué semanas miden
+    # el salto vertical, cuáles llevan intermitente para todo el equipo, cuáles
+    # aceleración resistida, y qué dosis de sprint toca. La progresión del
+    # sprint ya no es un valor fijo: sube en las ventanas de carga y se congela
+    # en el bloque denso, así que se guarda semana a semana.
+    marcas = {
+        'cmj': set(cal.get('semanas_cmj', [])),
+        'intermitente_equipo': set(cal.get('semanas_intermitente_equipo', [])),
+        'aceleracion_resistida': set(cal.get('semanas_aceleracion_resistida', [])),
+    }
+    sprint = (cal.get('progresion_velocidad_alta') or {}).get('por_semana', {})
+    for n, s in semanas.items():
+        for clave, cuales in marcas.items():
+            s[clave] = n in cuales
+        s['sprint'] = sprint.get(str(n))
+
     tipos = tipos_de_sesion()
     tabla = dosis_referencia()
     for s in semanas.values():
@@ -737,6 +753,8 @@ def main():
         'plantillas': plantillas(),
         'series_por_carga': {str(k): v for k, v in series_por_carga().items()},
         'dosis_referencia': dosis_referencia(),
+        'progresion_velocidad_alta': cal.get('progresion_velocidad_alta'),
+        'intermitente_postpartido_umbral_min': cal.get('intermitente_postpartido_umbral_min'),
         'protocolo_dolor': cal['protocolo_dolor'],
         'fijos_todo_el_ano': cal['fijos_todo_el_ano'],
         'umbral_crecimiento_cm_2meses': cal['umbral_crecimiento_cm_2meses'],

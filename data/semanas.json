@@ -641,6 +641,45 @@
    "descanso": "60-90 s"
   }
  ],
+ "progresion_velocidad_alta": {
+  "descripcion": "Distancia y repeticiones del sprint lanzado de los martes. Sube en las ventanas de carga, se congela en el bloque denso.",
+  "por_semana": {
+   "3": "4x20",
+   "4": "4x20",
+   "5": "5x20",
+   "6": "5x25",
+   "7": "6x25",
+   "8": "5x30",
+   "9": "4x20",
+   "10": "6x30",
+   "11": "6x30",
+   "12": "4x20",
+   "13": "6x30",
+   "14": "4x25",
+   "15": "4x20",
+   "19": "2x20 al 85% + 3x20 al 95%",
+   "20": "4-5x25",
+   "21": "4x30",
+   "22": "4-5x25",
+   "23": "4x30",
+   "24": "4-5x25",
+   "25": "4x30",
+   "26": "4-5x25",
+   "27": "4x30",
+   "28": "6x30",
+   "30": "2x20 al 90% + 3x25 al 95%",
+   "31": "4x25",
+   "32": "4x25",
+   "33": "4x25",
+   "34": "5x30",
+   "35": "4x25",
+   "36": "4x25",
+   "37": "4x25",
+   "38": "4x25",
+   "39": "4x25"
+  }
+ },
+ "intermitente_postpartido_umbral_min": 15,
  "protocolo_dolor": [
   {
    "min": 0,
@@ -996,7 +1035,11 @@
    "origen": {
     "archivo": "M0-pretemporada-sesiones-v2.md",
     "seccion": "Semana 1 · 8-11 sep · Carga 6"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": null
   },
   {
    "semana": 2,
@@ -1037,12 +1080,16 @@
       },
       {
        "min": 12,
-       "nombre": "Pliometría F1→F2",
-       "contactos": 58,
+       "nombre": null,
+       "contactos": null,
        "ejercicios": [
         {
-         "texto": "Salto a cajón bajo 4×5",
-         "ficha": "salto-a-cajon"
+         "texto": "Pliometría F1→F2 (~58 contactos)",
+         "ficha": null
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría. Salto a cajón bajo 4×5",
+         "ficha": null
         },
         {
          "texto": "Saltos laterales sobre línea 3×6",
@@ -1054,16 +1101,10 @@
         }
        ],
        "detalle": null,
-       "texto": "Pliometría F1→F2 (~58 contactos). Salto a cajón bajo 4×5 · Saltos laterales sobre línea 3×6 · Caída a una pierna 2×5/pierna",
+       "texto": "Pliometría F1→F2 (~58 contactos) · CMJ: 3 saltos antes de la pliometría. Salto a cajón bajo 4×5 · Saltos laterales sobre línea 3×6 · Caída a una pierna 2×5/pierna",
        "es_movilidad": false,
        "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
+       "descansos": []
       },
       {
        "min": 23,
@@ -1320,7 +1361,11 @@
    "origen": {
     "archivo": "M0-pretemporada-sesiones-v2.md",
     "seccion": "Semana 2 · 14-18 sep · Carga 8"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": null
   },
   {
    "semana": 3,
@@ -1653,7 +1698,11 @@
    "origen": {
     "archivo": "M0-pretemporada-sesiones-v2.md",
     "seccion": "Semana 3 · 21-25 sep · Carga 9 — Pico del bloque"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x20"
   },
   {
    "semana": 4,
@@ -1978,7 +2027,11 @@
    "origen": {
     "archivo": "M0-pretemporada-sesiones-v2.md",
     "seccion": "Semana 4 · 28 sep – 2 oct · Carga 6 — Descarga"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x20"
   },
   {
    "semana": 5,
@@ -2060,10 +2113,14 @@
         {
          "texto": "Velocidad alta 5×20 m",
          "ficha": "velocidad-alta-lanzada"
+        },
+        {
+         "texto": "Aceleración resistida con goma 4×15 m",
+         "ficha": "aceleracion-resistida-con-goma"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · Frenada en 2 pasos 8 rep · Zigzag entre conos 6 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 5×20 m",
+       "texto": "Neuromuscular. Escalera 3' · Frenada en 2 pasos 8 rep · Zigzag entre conos 6 rep · Salidas de 10 m desde desplazamiento defensivo 6 rep · Velocidad alta 5×20 m · Aceleración resistida con goma 4×15 m",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -2237,10 +2294,14 @@
         {
          "texto": "Salto lateral a una pierna con stick 2×7/pierna",
          "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
         }
        ],
        "detalle": null,
-       "texto": "Pliometría (34). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×7/pierna",
+       "texto": "Pliometría (34). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×7/pierna · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -2270,7 +2331,7 @@
      "estado": "explicita",
      "bloques": [
       {
-       "min": 10,
+       "min": 8,
        "nombre": "Movilidad",
        "contactos": null,
        "ejercicios": [],
@@ -2278,7 +2339,7 @@
        "texto": "Movilidad",
        "remite_a": "D",
        "es_movilidad": true,
-       "rutina": "rutina_10",
+       "rutina": null,
        "descansos": []
       },
       {
@@ -2308,7 +2369,7 @@
        ]
       },
       {
-       "min": 28,
+       "min": 20,
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
@@ -2354,6 +2415,17 @@
          "descanso": "45-60 s"
         }
        ]
+      },
+      {
+       "min": 10,
+       "nombre": "Intermitente 15\"/15\", 10'",
+       "contactos": null,
+       "ejercicios": [],
+       "detalle": "Veinte repeticiones. Pausa activa caminando.",
+       "texto": "Intermitente 15\"/15\", 10'. Veinte repeticiones. Pausa activa caminando.",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -2368,7 +2440,11 @@
    "origen": {
     "archivo": "M1-acumulacion-sesiones.md",
     "seccion": "MC1 · 5-11 oct · Carga 10 · Sin partido"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": true,
+   "aceleracion_resistida": true,
+   "sprint": "5x20"
   },
   {
    "semana": 6,
@@ -2444,12 +2520,12 @@
          "ficha": null
         },
         {
-         "texto": "Velocidad alta 4×25 m",
+         "texto": "Velocidad alta 5×25 m",
          "ficha": "velocidad-alta-lanzada"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · 5-10-5 4 rep · Salidas de 10 m 6 rep · Velocidad alta 4×25 m",
+       "texto": "Neuromuscular. Escalera 3' · 5-10-5 4 rep · Salidas de 10 m 6 rep · Velocidad alta 5×25 m",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -2766,7 +2842,11 @@
    "origen": {
     "archivo": "M1-acumulacion-sesiones.md",
     "seccion": "MC2 · 12-18 oct · Carga 8 · J2 sábado 17"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "5x25"
   },
   {
    "semana": 7,
@@ -2842,12 +2922,16 @@
          "ficha": "salidas-desde-desplazamiento-defensivo"
         },
         {
-         "texto": "Velocidad alta 5×25 m",
+         "texto": "Velocidad alta 6×25 m",
          "ficha": "velocidad-alta-lanzada"
+        },
+        {
+         "texto": "Aceleración resistida 4×15 m",
+         "ficha": "aceleracion-resistida-con-goma"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · L-drill 4 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
+       "texto": "Neuromuscular. Escalera 3' · L-drill 4 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 6×25 m · Aceleración resistida 4×15 m",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -3126,7 +3210,11 @@
    "origen": {
     "archivo": "M1-acumulacion-sesiones.md",
     "seccion": "MC3 · 19-25 oct · Carga 9 · J3 sábado 24"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": true,
+   "sprint": "6x25"
   },
   {
    "semana": 8,
@@ -3202,12 +3290,16 @@
          "ficha": "zigzag-entre-conos"
         },
         {
-         "texto": "Velocidad alta 6×25 m",
+         "texto": "Velocidad alta 5×30 m",
          "ficha": "velocidad-alta-lanzada"
+        },
+        {
+         "texto": "Aceleración resistida 6×15 m",
+         "ficha": "aceleracion-resistida-con-goma"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · 5-10-5 4 rep · Zigzag 6 rep · Velocidad alta 6×25 m",
+       "texto": "Neuromuscular. Escalera 3' · 5-10-5 4 rep · Zigzag 6 rep · Velocidad alta 5×30 m · Aceleración resistida 6×15 m",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -3381,10 +3473,14 @@
         {
          "texto": "Salto lateral a una pierna con stick 3×5/pierna",
          "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
         }
        ],
        "detalle": null,
-       "texto": "Pliometría (50). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×5/pierna",
+       "texto": "Pliometría (50). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×5/pierna · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -3414,7 +3510,7 @@
      "estado": "explicita",
      "bloques": [
       {
-       "min": 10,
+       "min": 8,
        "nombre": "Movilidad",
        "contactos": null,
        "ejercicios": [],
@@ -3422,7 +3518,7 @@
        "texto": "Movilidad",
        "remite_a": "D",
        "es_movilidad": true,
-       "rutina": "rutina_10",
+       "rutina": null,
        "descansos": []
       },
       {
@@ -3456,7 +3552,7 @@
        ]
       },
       {
-       "min": 28,
+       "min": 20,
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
@@ -3502,6 +3598,17 @@
          "descanso": "45-60 s"
         }
        ]
+      },
+      {
+       "min": 10,
+       "nombre": "Intermitente 15\"/15\", 10'",
+       "contactos": null,
+       "ejercicios": [],
+       "detalle": "Veinte repeticiones. Pausa activa caminando.",
+       "texto": "Intermitente 15\"/15\", 10'. Veinte repeticiones. Pausa activa caminando.",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -3518,7 +3625,11 @@
    "origen": {
     "archivo": "M1-acumulacion-sesiones.md",
     "seccion": "MC4 · 26 oct – 1 nov · Carga 10 · Sin partido"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": true,
+   "aceleracion_resistida": true,
+   "sprint": "5x30"
   },
   {
    "semana": 9,
@@ -3890,7 +4001,11 @@
    "origen": {
     "archivo": "M1-acumulacion-sesiones.md",
     "seccion": "MC5 · 2-8 nov · Carga 7 · J4 sábado 7 — Descarga"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x20"
   },
   {
    "semana": 10,
@@ -3966,12 +4081,12 @@
          "ficha": "salidas-desde-desplazamiento-defensivo"
         },
         {
-         "texto": "Velocidad alta 5×25 m",
+         "texto": "Velocidad alta 6×30 m",
          "ficha": "velocidad-alta-lanzada"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
+       "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 6 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 6×30 m",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4151,10 +4266,14 @@
         {
          "texto": "Bounding 2×3",
          "ficha": "bounding"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
         }
        ],
        "detalle": null,
-       "texto": "Pliometría (56). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×3",
+       "texto": "Pliometría (56). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×3 · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4250,7 +4369,11 @@
    "origen": {
     "archivo": "M1-acumulacion-sesiones.md",
     "seccion": "MC6 · 9-15 nov · Carga 9 · J5 sábado 14"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "6x30"
   },
   {
    "semana": 11,
@@ -4326,12 +4449,16 @@
          "ficha": null
         },
         {
-         "texto": "Velocidad alta 5×25 m",
+         "texto": "Velocidad alta 6×30 m",
          "ficha": "velocidad-alta-lanzada"
+        },
+        {
+         "texto": "Aceleración resistida 4×15 m",
+         "ficha": "aceleracion-resistida-con-goma"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 5×25 m",
+       "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 6×30 m · Aceleración resistida 4×15 m",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4608,7 +4735,11 @@
    "origen": {
     "archivo": "M1-acumulacion-sesiones.md",
     "seccion": "MC7 · 16-22 nov · Carga 9 · J6 sábado 21"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": true,
+   "sprint": "6x30"
   },
   {
    "semana": 12,
@@ -4971,7 +5102,11 @@
    "origen": {
     "archivo": "M1-acumulacion-sesiones.md",
     "seccion": "MC8 · 23-29 nov · Carga 6 · J7 sábado 28 — Descarga"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x20"
   },
   {
    "semana": 13,
@@ -5047,12 +5182,16 @@
          "ficha": "salidas-desde-desplazamiento-defensivo"
         },
         {
-         "texto": "Velocidad alta 5×25 m",
+         "texto": "Velocidad alta 6×30 m",
          "ficha": "velocidad-alta-lanzada"
+        },
+        {
+         "texto": "Aceleración resistida 6×15 m",
+         "ficha": "aceleracion-resistida-con-goma"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 8 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 5×25 m",
+       "texto": "Neuromuscular. Escalera 3' · COD reactivo con señal visual 8 rep · Salidas desde desplazamiento defensivo 6×10 m · Velocidad alta 6×30 m · Aceleración resistida 6×15 m",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -5228,12 +5367,16 @@
          "ficha": "salto-lateral-a-una-pierna-reactivo"
         },
         {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
+        },
+        {
          "texto": "Saltos en zigzag 1×6",
          "ficha": "saltos-en-zigzag"
         }
        ],
        "detalle": null,
-       "texto": "Pliometría (46). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Saltos en zigzag 1×6",
+       "texto": "Pliometría (46). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · CMJ: 3 saltos antes de la pliometría · Saltos en zigzag 1×6",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -5263,7 +5406,7 @@
      "estado": "explicita",
      "bloques": [
       {
-       "min": 10,
+       "min": 8,
        "nombre": "Movilidad",
        "contactos": null,
        "ejercicios": [],
@@ -5271,7 +5414,7 @@
        "texto": "Movilidad",
        "remite_a": "D",
        "es_movilidad": true,
-       "rutina": "rutina_10",
+       "rutina": null,
        "descansos": []
       },
       {
@@ -5305,7 +5448,7 @@
        ]
       },
       {
-       "min": 28,
+       "min": 20,
        "nombre": "Fuerza",
        "contactos": null,
        "ejercicios": [
@@ -5351,6 +5494,17 @@
          "descanso": "45-60 s"
         }
        ]
+      },
+      {
+       "min": 10,
+       "nombre": "Intermitente 15\"/15\", 10'",
+       "contactos": null,
+       "ejercicios": [],
+       "detalle": "Veinte repeticiones. Pausa activa caminando.",
+       "texto": "Intermitente 15\"/15\", 10'. Veinte repeticiones. Pausa activa caminando.",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [
@@ -5369,7 +5523,11 @@
    "origen": {
     "archivo": "M2-intensificacion-sesiones.md",
     "seccion": "MC9 · 30 nov – 6 dic · Carga 9 · Sin partido"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": true,
+   "aceleracion_resistida": true,
+   "sprint": "6x30"
   },
   {
    "semana": 14,
@@ -5775,7 +5933,11 @@
       "No intentes meter lo del martes y lo del miércoles en la misma sesión completa. Prioriza el patrón unilateral, el curl nórdico y la exposición a velocidad, y sacrifica el resto."
      ]
     }
-   ]
+   ],
+   "cmj": true,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   },
   {
    "semana": 15,
@@ -6158,7 +6320,11 @@
    "origen": {
     "archivo": "M2-intensificacion-sesiones.md",
     "seccion": "MC11 · 14-20 dic · Carga 6 · J9 sábado 19 — Descarga"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x20"
   },
   {
    "semana": 16,
@@ -6183,7 +6349,11 @@
     "archivo": "M3-navidad-plan.md",
     "seccion": "Mapa del bloque"
    },
-   "plan_autonomo": "Autónomo, 3 sesiones"
+   "plan_autonomo": "Autónomo, 3 sesiones",
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": null
   },
   {
    "semana": 17,
@@ -6208,7 +6378,11 @@
     "archivo": "M3-navidad-plan.md",
     "seccion": "Mapa del bloque"
    },
-   "plan_autonomo": "Autónomo, 2 sesiones"
+   "plan_autonomo": "Autónomo, 2 sesiones",
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": null
   },
   {
    "semana": 18,
@@ -6233,7 +6407,11 @@
     "archivo": "M3-navidad-plan.md",
     "seccion": "Mapa del bloque"
    },
-   "plan_autonomo": "Autónomo, 3 sesiones"
+   "plan_autonomo": "Autónomo, 3 sesiones",
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": null
   },
   {
    "semana": 19,
@@ -6569,7 +6747,11 @@
    "origen": {
     "archivo": "M3-navidad-plan.md",
     "seccion": "Semana D · 11-16 ene · Reactivación presencial"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "2x20 al 85% + 3x20 al 95%"
   },
   {
    "semana": 20,
@@ -6894,7 +7076,11 @@
    "origen": {
     "archivo": "M4-M5-mantenimiento-sesiones.md",
     "seccion": "Mapa del tramo"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4-5x25"
   },
   {
    "semana": 21,
@@ -7219,7 +7405,11 @@
    "origen": {
     "archivo": "M4-M5-mantenimiento-sesiones.md",
     "seccion": "Mapa del tramo"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x30"
   },
   {
    "semana": 22,
@@ -7544,7 +7734,11 @@
    "origen": {
     "archivo": "M4-M5-mantenimiento-sesiones.md",
     "seccion": "Mapa del tramo"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4-5x25"
   },
   {
    "semana": 23,
@@ -7869,7 +8063,11 @@
    "origen": {
     "archivo": "M4-M5-mantenimiento-sesiones.md",
     "seccion": "Mapa del tramo"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x30"
   },
   {
    "semana": 24,
@@ -8194,7 +8392,11 @@
    "origen": {
     "archivo": "M4-M5-mantenimiento-sesiones.md",
     "seccion": "Mapa del tramo"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4-5x25"
   },
   {
    "semana": 25,
@@ -8519,7 +8721,11 @@
    "origen": {
     "archivo": "M4-M5-mantenimiento-sesiones.md",
     "seccion": "Mapa del tramo"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x30"
   },
   {
    "semana": 26,
@@ -8844,7 +9050,11 @@
    "origen": {
     "archivo": "M4-M5-mantenimiento-sesiones.md",
     "seccion": "Mapa del tramo"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4-5x25"
   },
   {
    "semana": 27,
@@ -9169,7 +9379,11 @@
    "origen": {
     "archivo": "M4-M5-mantenimiento-sesiones.md",
     "seccion": "Mapa del tramo"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x30"
   },
   {
    "semana": 28,
@@ -9217,10 +9431,14 @@
         {
          "texto": "Velocidad alta 6×30 m, 3' de descanso",
          "ficha": "velocidad-alta-lanzada"
+        },
+        {
+         "texto": "Aceleración resistida 6×15 m",
+         "ficha": "aceleracion-resistida-con-goma"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 6×30 m, 3' de descanso",
+       "texto": "Neuromuscular. Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · Velocidad alta 6×30 m, 3' de descanso · Aceleración resistida 6×15 m",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -9304,10 +9522,14 @@
         {
          "texto": "Salto lateral a una pierna reactivo 3×6/pierna",
          "ficha": "salto-lateral-a-una-pierna-reactivo"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
         }
        ],
        "detalle": null,
-       "texto": "Pliometría (56). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna",
+       "texto": "Pliometría (56). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -9457,6 +9679,17 @@
          "descanso": "45-60 s"
         }
        ]
+      },
+      {
+       "min": null,
+       "nombre": "Intermitente 15\"/15\", 10'",
+       "contactos": null,
+       "ejercicios": [],
+       "detalle": "Veinte repeticiones. Pausa activa caminando.",
+       "texto": "Intermitente 15\"/15\", 10'. Veinte repeticiones. Pausa activa caminando.",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
       }
      ],
      "notas": [],
@@ -9471,7 +9704,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "MC20 · 15-21 mar · Carga 10 — Última semana de carga del año"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": true,
+   "aceleracion_resistida": true,
+   "sprint": "6x30"
   },
   {
    "semana": 29,
@@ -9498,7 +9735,11 @@
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "MC21 · 22-28 mar · Semana Santa · Autónomo"
    },
-   "plan_autonomo": "Tres sesiones de 25 minutos, alternando las sesiones A y B del plan de Navidad"
+   "plan_autonomo": "Tres sesiones de 25 minutos, alternando las sesiones A y B del plan de Navidad",
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": null
   },
   {
    "semana": 30,
@@ -9629,10 +9870,14 @@
         {
          "texto": "Salto lateral a una pierna con stick 2×5/pierna",
          "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
         }
        ],
        "detalle": null,
-       "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna",
+       "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -9776,7 +10021,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "MC22 · 29 mar – 3 abr · Carga 7 · J19 sábado 3"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "2x20 al 90% + 3x25 al 95%"
   },
   {
    "semana": 31,
@@ -10109,7 +10358,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "M7 · 5 – 25 abril · Las cuatro jornadas decisivas"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   },
   {
    "semana": 32,
@@ -10442,7 +10695,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "M7 · 5 – 25 abril · Las cuatro jornadas decisivas"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   },
   {
    "semana": 33,
@@ -10775,7 +11032,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "M7 · 5 – 25 abril · Las cuatro jornadas decisivas"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   },
   {
    "semana": 34,
@@ -10910,10 +11171,14 @@
         {
          "texto": "Salto lateral a una pierna reactivo 3×5/pierna",
          "ficha": "salto-lateral-a-una-pierna-reactivo"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
         }
        ],
        "detalle": null,
-       "texto": "Pliometría (50). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna",
+       "texto": "Pliometría (50). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -11062,6 +11327,17 @@
       },
       {
        "min": null,
+       "nombre": "Intermitente 15\"/15\", 10'",
+       "contactos": null,
+       "ejercicios": [],
+       "detalle": "Veinte repeticiones. Pausa activa caminando.",
+       "texto": "Intermitente 15\"/15\", 10'. Veinte repeticiones. Pausa activa caminando.",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
+      },
+      {
+       "min": null,
        "nombre": "Estiramientos 10'",
        "contactos": null,
        "ejercicios": [],
@@ -11086,7 +11362,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "MC26 · 26 abr – 2 may · Recarga corta"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": true,
+   "aceleracion_resistida": false,
+   "sprint": "5x30"
   },
   {
    "semana": 35,
@@ -11409,7 +11689,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "MC27 · 3-9 may · Afinamiento"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   },
   {
    "semana": 36,
@@ -11727,7 +12011,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "M9 · 10 mayo – 6 junio · Segunda fase"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   },
   {
    "semana": 37,
@@ -12045,7 +12333,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "M9 · 10 mayo – 6 junio · Segunda fase"
-   }
+   },
+   "cmj": true,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   },
   {
    "semana": 38,
@@ -12368,7 +12660,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "M9 · 10 mayo – 6 junio · Segunda fase"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   },
   {
    "semana": 39,
@@ -12691,7 +12987,11 @@
    "origen": {
     "archivo": "M6-M9-cierre-temporada.md",
     "seccion": "M9 · 10 mayo – 6 junio · Segunda fase"
-   }
+   },
+   "cmj": false,
+   "intermitente_equipo": false,
+   "aceleracion_resistida": false,
+   "sprint": "4x25"
   }
  ]
 }

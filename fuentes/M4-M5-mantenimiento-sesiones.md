@@ -79,7 +79,7 @@ El viernes es el día más importante del tramo, aunque parezca el más flojo. L
 
 **El curl nórdico, todos los miércoles.** Nueve partidos seguidos son nueve exposiciones a sprint máximo. Si algo se cae de la sesión por falta de tiempo, que no sea esto.
 
-**La velocidad alta, todos los martes.** Sigue siendo contraintuitivo y sigue siendo lo correcto. Cuatro o cinco repeticiones con descanso completo cuestan cinco minutos y protegen al isquiotibial.
+**La velocidad alta, todos los miércoles.** Sigue siendo contraintuitivo y sigue siendo lo correcto. Cuatro o cinco repeticiones con descanso completo cuestan cinco minutos y protegen al isquiotibial.
 
 **El bloque de tobillo, todos los miércoles.** Ocho minutos.
 
@@ -103,11 +103,11 @@ Un jugador con dolor de 4-6 puede seguir entrenando y jugando perfectamente. Lo 
 
 ## Jugadores con poco minutaje
 
-Los que jueguen menos de 10 minutos el sábado acumulan una carga muy inferior al resto y llegan a marzo desacondicionados. Añádeles un bloque intermitente el miércoles, después de pista:
+Los que jueguen menos de 15 minutos el sábado acumulan una carga muy inferior al resto y llegan a marzo desacondicionados. Añádeles un bloque intermitente **justo después del partido del sábado**, que es el único momento en que no le quita calidad a ninguna sesión de pista:
 
 **8-12 minutos en formato 15"/15"** a intensidad alta, o 10"/20" si van muy justos. Es la única resistencia programada de todo el tramo.
 
-No se lo pongas a los que juegan 20 minutos o más. Ellos ya tienen de sobra.
+No se lo pongas a los que juegan 20 minutos o más. Ellos ya tienen de sobra, y añadirles carga el sábado es contraproducente.
 
 ---
 

@@ -50,7 +50,7 @@ Versión sin bloque de evaluación. Se entrena con carga desde la primera sesió
 | Min | Contenido |
 |---|---|
 | 10' | Movilidad y activación |
-| 12' | **Pliometría F1→F2** (~58 contactos). Salto a cajón bajo 4×5 · Saltos laterales sobre línea 3×6 · Caída a una pierna 2×5/pierna |
+| 12' | **Pliometría F1→F2** (~58 contactos) · **CMJ: 3 saltos antes de la pliometría**. Salto a cajón bajo 4×5 · Saltos laterales sobre línea 3×6 · Caída a una pierna 2×5/pierna |
 | 23' | **Neuromuscular.** Escalera 4' · Frenada en 2 pasos, 8 rep · Zigzag entre conos, 6 rep · Salidas de 10 m desde desplazamiento defensivo, 6 rep |
 | 5' | Transición a pista |
 

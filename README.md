@@ -20,6 +20,13 @@ Se entrena **martes, miércoles y viernes**, 50 minutos cada día. Martes y
 miércoles son consecutivos: el martes lleva el trabajo neural, que exige
 frescura, y el miércoles la fuerza, que tolera fatiga previa.
 
+Cada semana avisa además de lo que la distingue: si toca **medir el CMJ**, si
+lleva **intermitente para todo el equipo**, si entra la **aceleración
+resistida** y **qué dosis de sprint** toca, que ya no es fija —sube en las
+ventanas de carga y se congela en el bloque denso de febrero—. Y el sábado de
+partido recuerda el umbral: quien juegue menos de 15 minutos hace intermitente
+después.
+
 **Calendario.** Las 39 semanas con su carga, su mesociclo y su jornada, con la
 lógica del póster: barra de carga, color por tipo de bloque y las semanas sin
 partido a la vista. Cada semana lleva a su detalle.

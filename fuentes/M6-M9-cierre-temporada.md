@@ -145,7 +145,7 @@ En los dos casos la estructura física es idéntica: **carga 3-4, una sesión de
 ### Miércoles · 50'
 | Min | Contenido |
 |---|---|
-| 12' | Movilidad amplia |
+| 7' | Movilidad amplia |
 | 8' | **Pliometría de activación (30).** Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna |
 | 22' | **Fuerza mínima, intención de velocidad.** Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado |
 | 13' | Estiramientos, movilidad de cadera y tobillo, respiración |

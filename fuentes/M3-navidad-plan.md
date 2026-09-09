@@ -14,7 +14,7 @@ El objetivo no es mejorar. Es llegar al 11 de enero con la fuerza que había el 
 | **A** | 21-27 dic | Autónomo, 3 sesiones | 5 | 40 |
 | **B** | 28 dic – 3 ene | Autónomo, 2 sesiones | 3 | 20 |
 | **C** | 4-10 ene | Autónomo, 3 sesiones | 5 | 40 |
-| **D** | 11-16 ene | **Presencial**, L-X-V · J10 sábado 16 | 6 | 50 |
+| **D** | 11-16 ene | **Presencial**, M-X-V · J10 sábado 16 | 6 | 50 |
 
 La semana B está deliberadamente vacía. Entre Nochebuena, Navidad, Nochevieja y Reyes, un plan ambicioso no se cumple y solo genera culpa. Es mejor pedir poco y que se haga.
 
@@ -101,20 +101,20 @@ Tres sesiones y un partido el sábado. Es poquísimo margen después de cuatro s
 
 | Min | Contenido |
 |---|---|
-| 12' | Movilidad amplia. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no |
-| 10' | **Pliometría, reintroducción (32 contactos).** Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito |
-| 28' | **Fuerza, volumen medio.** Split squat búlgaro 3×8/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 2×5 · Remo con goma 3×12/lado · Plancha con marcha 3×10/lado |
-| 5' | Transición |
+| 10' | Movilidad y activación. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no |
+| 22' | **Neuromuscular.** Técnica de carrera 5' · Escalera 3' · Frenada en 2 pasos 6 rep · Salidas de 10 m 6 rep · **Velocidad progresiva: 2×20 m al 85% + 3×20 m al 95%** |
+| 18' | **Complementaria.** Flexión 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25" |
+
+La exposición a velocidad tiene que volver ya, porque el sábado hay partido y en el partido van a esprintar al máximo. Pero se hace progresiva, no de golpe al 100%.
 
 ### Miércoles 13 · 50'
 
 | Min | Contenido |
 |---|---|
-| 10' | Movilidad y activación |
-| 22' | **Neuromuscular.** Técnica de carrera 5' · Escalera 3' · Frenada en 2 pasos 6 rep · Salidas de 10 m 6 rep · **Velocidad progresiva: 2×20 m al 85% + 3×20 m al 95%** |
-| 18' | **Complementaria.** Flexión 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25" |
-
-La exposición a velocidad tiene que volver ya, porque el sábado hay partido y en el partido van a esprintar al máximo. Pero se hace progresiva, no de golpe al 100%.
+| 7' | Movilidad y activación |
+| 10' | **Pliometría, reintroducción (32 contactos).** Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito |
+| 28' | **Fuerza, volumen medio.** Split squat búlgaro 3×8/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 2×5 · Remo con goma 3×12/lado · Plancha con marcha 3×10/lado |
+| 5' | Transición |
 
 ### Viernes 15 · 50' — Víspera de J10
 

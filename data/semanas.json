@@ -519,7 +519,7 @@
    "minutos": 50,
    "bloques": [
     {
-     "min": 12,
+     "min": 7,
      "nombre": "Movilidad amplia",
      "contactos": null,
      "ejercicios": [],
@@ -4309,29 +4309,37 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": 40,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón con contacto mínimo 4×5",
-         "ficha": "salto-a-cajon-con-contacto-minimo"
-        },
-        {
-         "texto": "Salto lateral a una pierna reactivo 2×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-reactivo"
-        }
-       ],
+       "contactos": null,
+       "ejercicios": [],
        "detalle": null,
-       "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna",
+       "texto": "Pliometría",
+       "remite_a": "N",
        "rutina": null
       },
       {
        "min": 23,
        "nombre": "Neuromuscular",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Escalera 3'",
+         "ficha": null
+        },
+        {
+         "texto": "COD reactivo 6 rep",
+         "ficha": "cod-reactivo"
+        },
+        {
+         "texto": "Salidas de 10 m 6 rep",
+         "ficha": null
+        },
+        {
+         "texto": "Velocidad alta 4×25 m",
+         "ficha": "velocidad-alta-lanzada"
+        }
+       ],
        "detalle": null,
-       "texto": "Neuromuscular",
-       "remite_a": "N",
+       "texto": "Neuromuscular. Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · Velocidad alta 4×25 m",
        "rutina": null
       },
       {
@@ -4346,32 +4354,32 @@
       },
       {
        "min": null,
-       "nombre": "Fuerza",
+       "nombre": "Complementaria",
        "contactos": null,
        "ejercicios": [
         {
-         "texto": "Split squat búlgaro con excéntrico de 4\" 3×8/pierna",
-         "ficha": "split-squat-bulgaro"
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
         },
         {
-         "texto": "Curl nórdico 3×6",
-         "ficha": "curl-nordico"
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
         },
         {
-         "texto": "Puente de glúteo a una pierna 3×10/pierna",
-         "ficha": "puente-de-gluteo-a-una-pierna"
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
         },
         {
-         "texto": "Remo con goma pretensada 3×12/lado",
-         "ficha": "remo-con-goma-pretensada"
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
         },
         {
-         "texto": "Plancha con marcha 3×12/lado",
-         "ficha": "plancha-con-marcha-de-brazos"
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
         }
        ],
        "detalle": null,
-       "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 3×8/pierna · Curl nórdico 3×6 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado",
+       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
        "rutina": null
       }
      ],
@@ -4404,68 +4412,60 @@
       },
       {
        "min": 30,
-       "nombre": "Fuerza principal",
+       "nombre": "Fuerza",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Split squat búlgaro con excéntrico de 4\" 3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Curl nórdico 3×6",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Puente de glúteo a una pierna 3×10/pierna",
+         "ficha": "puente-de-gluteo-a-una-pierna"
+        },
+        {
+         "texto": "Remo con goma pretensada 3×12/lado",
+         "ficha": "remo-con-goma-pretensada"
+        },
+        {
+         "texto": "Plancha con marcha 3×12/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
+       ],
        "detalle": null,
-       "texto": "Fuerza principal",
-       "remite_a": "F",
+       "texto": "Fuerza. Split squat búlgaro con excéntrico de 4\" 3×8/pierna · Curl nórdico 3×6 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado",
        "rutina": null
       },
       {
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×10",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×12",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio 3×25\"",
-         "ficha": "equilibrio-monopodal"
-        }
-       ],
+       "ejercicios": [],
        "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
+       "texto": "Complementaria",
+       "remite_a": "F",
        "rutina": null
       },
       {
        "min": null,
-       "nombre": "Neuromuscular",
-       "contactos": null,
+       "nombre": "Pliometría",
+       "contactos": 40,
        "ejercicios": [
         {
-         "texto": "Escalera 3'",
-         "ficha": null
+         "texto": "Salto a cajón con contacto mínimo 4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
         },
         {
-         "texto": "COD reactivo 6 rep",
-         "ficha": "cod-reactivo"
-        },
-        {
-         "texto": "Salidas de 10 m 6 rep",
-         "ficha": null
-        },
-        {
-         "texto": "Velocidad alta 4×25 m",
-         "ficha": "velocidad-alta-lanzada"
+         "texto": "Salto lateral a una pierna reactivo 2×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
         }
        ],
        "detalle": null,
-       "texto": "Neuromuscular. Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · Velocidad alta 4×25 m",
+       "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna",
        "rutina": null
       }
      ],
@@ -4578,13 +4578,13 @@
    },
    "variantes": [
     {
-     "titulo": "Versión sin entreno el miércoles",
+     "titulo": "Versión sin entreno el martes",
      "sesiones": [
       "Miércoles 9 (50')",
       "Viernes 11 — Tipo C"
      ],
      "texto": [
-      "No intentes meter lo del miércoles y lo del miércoles en la misma sesión completa. Prioriza el patrón unilateral, el curl nórdico y la exposición a velocidad, y sacrifica el resto."
+      "No intentes meter lo del martes y lo del miércoles en la misma sesión completa. Prioriza el patrón unilateral, el curl nórdico y la exposición a velocidad, y sacrifica el resto."
      ]
     }
    ]
@@ -4987,101 +4987,13 @@
      "estado": "explicita",
      "bloques": [
       {
-       "min": 12,
-       "nombre": "Movilidad amplia. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
-       "contactos": null,
-       "ejercicios": [],
-       "detalle": null,
-       "texto": "Movilidad amplia. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
-       "rutina": null
-      },
-      {
        "min": 10,
-       "nombre": "Pliometría, reintroducción",
-       "contactos": 32,
-       "ejercicios": [
-        {
-         "texto": "Caída y stick bilateral 3×5",
-         "ficha": "caida-y-stick"
-        },
-        {
-         "texto": "Salto vertical y stick 3×5",
-         "ficha": "salto-vertical-y-stick"
-        },
-        {
-         "texto": "Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
-         "ficha": "caida-a-una-pierna"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría, reintroducción (32 contactos). Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
-       "rutina": null
-      },
-      {
-       "min": 28,
-       "nombre": "Fuerza, volumen medio",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Split squat búlgaro 3×8/pierna",
-         "ficha": "split-squat-bulgaro"
-        },
-        {
-         "texto": "Peso muerto rumano a una pierna con goma 3×10/pierna",
-         "ficha": "peso-muerto-rumano-a-una-pierna"
-        },
-        {
-         "texto": "Curl nórdico 2×5",
-         "ficha": "curl-nordico"
-        },
-        {
-         "texto": "Remo con goma 3×12/lado",
-         "ficha": null
-        },
-        {
-         "texto": "Plancha con marcha 3×10/lado",
-         "ficha": "plancha-con-marcha-de-brazos"
-        }
-       ],
-       "detalle": null,
-       "texto": "Fuerza, volumen medio. Split squat búlgaro 3×8/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 2×5 · Remo con goma 3×12/lado · Plancha con marcha 3×10/lado",
-       "rutina": null
-      },
-      {
-       "min": 5,
-       "nombre": "Transición",
+       "nombre": "Movilidad y activación. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
-       "texto": "Transición",
-       "rutina": null
-      }
-     ],
-     "notas": [],
-     "ajustes": [],
-     "origen": {
-      "archivo": "M3-navidad-plan.md",
-      "seccion": "Semana D · 11-16 ene · Reactivación presencial"
-     }
-    },
-    {
-     "semana": 19,
-     "fecha": "2027-01-13",
-     "dia": "miercoles",
-     "md": "MD-3",
-     "titulo": "Miércoles 13 · 50'",
-     "plantilla": null,
-     "minutos": 50,
-     "estado": "explicita",
-     "bloques": [
-      {
-       "min": 10,
-       "nombre": "Movilidad y activación",
-       "contactos": null,
-       "ejercicios": [],
-       "detalle": null,
-       "texto": "Movilidad y activación",
-       "rutina": null
+       "texto": "Movilidad y activación. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
+       "rutina": "rutina_10"
       },
       {
        "min": 22,
@@ -5147,6 +5059,94 @@
      "notas": [
       "La exposición a velocidad tiene que volver ya, porque el sábado hay partido y en el partido van a esprintar al máximo. Pero se hace progresiva, no de golpe al 100%."
      ],
+     "ajustes": [],
+     "origen": {
+      "archivo": "M3-navidad-plan.md",
+      "seccion": "Semana D · 11-16 ene · Reactivación presencial"
+     }
+    },
+    {
+     "semana": 19,
+     "fecha": "2027-01-13",
+     "dia": "miercoles",
+     "md": "MD-3",
+     "titulo": "Miércoles 13 · 50'",
+     "plantilla": null,
+     "minutos": 50,
+     "estado": "explicita",
+     "bloques": [
+      {
+       "min": 7,
+       "nombre": "Movilidad y activación",
+       "contactos": null,
+       "ejercicios": [],
+       "detalle": null,
+       "texto": "Movilidad y activación",
+       "rutina": null
+      },
+      {
+       "min": 10,
+       "nombre": "Pliometría, reintroducción",
+       "contactos": 32,
+       "ejercicios": [
+        {
+         "texto": "Caída y stick bilateral 3×5",
+         "ficha": "caida-y-stick"
+        },
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
+         "ficha": "caida-a-una-pierna"
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría, reintroducción (32 contactos). Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
+       "rutina": null
+      },
+      {
+       "min": 28,
+       "nombre": "Fuerza, volumen medio",
+       "contactos": null,
+       "ejercicios": [
+        {
+         "texto": "Split squat búlgaro 3×8/pierna",
+         "ficha": "split-squat-bulgaro"
+        },
+        {
+         "texto": "Peso muerto rumano a una pierna con goma 3×10/pierna",
+         "ficha": "peso-muerto-rumano-a-una-pierna"
+        },
+        {
+         "texto": "Curl nórdico 2×5",
+         "ficha": "curl-nordico"
+        },
+        {
+         "texto": "Remo con goma 3×12/lado",
+         "ficha": null
+        },
+        {
+         "texto": "Plancha con marcha 3×10/lado",
+         "ficha": "plancha-con-marcha-de-brazos"
+        }
+       ],
+       "detalle": null,
+       "texto": "Fuerza, volumen medio. Split squat búlgaro 3×8/pierna · Peso muerto rumano a una pierna con goma 3×10/pierna · Curl nórdico 2×5 · Remo con goma 3×12/lado · Plancha con marcha 3×10/lado",
+       "rutina": null
+      },
+      {
+       "min": 5,
+       "nombre": "Transición",
+       "contactos": null,
+       "ejercicios": [],
+       "detalle": null,
+       "texto": "Transición",
+       "rutina": null
+      }
+     ],
+     "notas": [],
      "ajustes": [],
      "origen": {
       "archivo": "M3-navidad-plan.md",
@@ -9241,7 +9241,7 @@
      "estado": "plantilla",
      "bloques": [
       {
-       "min": 12,
+       "min": 7,
        "nombre": "Movilidad amplia",
        "contactos": null,
        "ejercicios": [],
@@ -9502,7 +9502,7 @@
      "estado": "plantilla",
      "bloques": [
       {
-       "min": 12,
+       "min": 7,
        "nombre": "Movilidad amplia",
        "contactos": null,
        "ejercicios": [],
@@ -9765,7 +9765,7 @@
      "estado": "plantilla",
      "bloques": [
       {
-       "min": 12,
+       "min": 7,
        "nombre": "Movilidad amplia",
        "contactos": null,
        "ejercicios": [],
@@ -10031,7 +10031,7 @@
      "estado": "plantilla",
      "bloques": [
       {
-       "min": 12,
+       "min": 7,
        "nombre": "Movilidad amplia",
        "contactos": null,
        "ejercicios": [],

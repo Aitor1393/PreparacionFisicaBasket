@@ -638,12 +638,33 @@ def comprobar(semanas, cal):
             # que es otra cosa y no la lleva.
             if nombre == 'sentadilla española' and s['viernes_tipo'] != 'C':
                 continue
+
             dias = [ses['dia'] for ses in s['sesiones']
-                    if any(contiene(ses, a) for a in agujas)
-                    or any(b.get('remite_a') for b in ses['bloques'])]
+                    if any(contiene(ses, a) for a in agujas)]
+
+            # Un viernes que remite a la plantilla C no repite su contenido,
+            # así que cuenta como que lo lleva. Este comodín es solo para eso:
+            # aplicarlo a los cuatro contenidos daba por bueno cualquier día.
+            if not dias and nombre == 'sentadilla española':
+                if any(b.get('remite_a') == 'C'
+                       for ses in s['sesiones'] for b in ses['bloques']):
+                    continue
+
             if not dias and n >= 3:
                 problemas.append('semana %d (%s): ni un día con %s'
                                  % (n, s['martes'], nombre))
+
+            # Dos de las decisiones contrastadas de CLAUDE.md fijan el día, no
+            # solo la existencia: la velocidad va el martes y el curl nórdico el
+            # miércoles. Si alguna vez vuelven a cambiarse de sitio, esto lo
+            # dice en rojo en vez de dejarlo pasar.
+            dia_fijo = {'velocidad': 'martes', 'curl nórdico': 'miercoles'}.get(nombre)
+            if dia_fijo:
+                fuera = sorted(set(d for d in dias if d != dia_fijo))
+                if fuera:
+                    problemas.append('semana %d (%s): %s cae en %s y va el %s'
+                                     % (n, s['martes'], nombre,
+                                        ', '.join(fuera), dia_fijo))
 
     return problemas
 

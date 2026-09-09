@@ -15,7 +15,7 @@ Tres microciclos, dos jornadas. Bloque corto y con una lógica distinta a M1: **
 | **MC10** | 7-13 dic | J8 (12) | 7 | 80 | Intensificación · puente de la Constitución |
 | **MC11** | 14-20 dic | J9 (19) | 6 | 60 | Descarga · exámenes |
 
-**Aviso de calendario:** el miércoles 7 de diciembre cae en el puente. Si el club no entrena ese día, MC10 se convierte en un microciclo de dos sesiones. Abajo tienes las dos versiones.
+**Aviso de calendario:** el martes 8 de diciembre, la Inmaculada, cae en el puente de la Constitución. Si el club no entrena ese día, MC10 se convierte en un microciclo de dos sesiones. Abajo tienes las dos versiones.
 
 ---
 
@@ -41,21 +41,21 @@ El salto en profundidad entra aquí por primera vez. Cajón bajo, 25-30 cm como 
 
 ## MC10 · 7-13 dic · Carga 7 · J8 sábado 12
 
-### Versión con entreno el miércoles
+### Versión con entreno el martes
 
 **Martes 8 — Tipo N (50')**
-- **Pliometría (40).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna
-- **Fuerza.** Split squat búlgaro con excéntrico de 4" 3×8/pierna · Curl nórdico 3×6 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado
-
-**Miércoles 9 — Tipo F (50')**
 - **Neuromuscular.** Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · **Velocidad alta 4×25 m**
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25"
+
+**Miércoles 9 — Tipo F (50')**
+- **Pliometría (40).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna
+- **Fuerza.** Split squat búlgaro con excéntrico de 4" 3×8/pierna · Curl nórdico 3×6 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado
 
 **Viernes 11 — Tipo C (50')**
 - Sentadilla española 5×30" · Isometría de gemelo 4×30"
 - Saltos bajos 6×4 · Salidas de 5 m 6 rep
 
-### Versión sin entreno el miércoles
+### Versión sin entreno el martes
 
 **Miércoles 9 (50')** — Sesión mixta
 - Movilidad 10'
@@ -65,7 +65,7 @@ El salto en profundidad entra aquí por primera vez. Cajón bajo, 25-30 cm como 
 
 **Viernes 11 — Tipo C**, igual que arriba.
 
-No intentes meter lo del miércoles y lo del miércoles en la misma sesión completa. Prioriza el patrón unilateral, el curl nórdico y la exposición a velocidad, y sacrifica el resto.
+No intentes meter lo del martes y lo del miércoles en la misma sesión completa. Prioriza el patrón unilateral, el curl nórdico y la exposición a velocidad, y sacrifica el resto.
 
 ---
 

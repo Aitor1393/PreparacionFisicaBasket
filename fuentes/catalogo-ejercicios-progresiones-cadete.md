@@ -191,18 +191,21 @@ La técnica de frenada es la prioridad. Es el gesto más asociado a lesión de l
 
 ## 6. Resistencia
 
-La pista cubre de sobra la demanda aeróbica durante la temporada. El trabajo de resistencia solo aparece en cuatro situaciones concretas:
+El baloncesto es intermitente: esfuerzos de pocos segundos con pausas incompletas. El fartlek continuo entrena algo que el partido no pide. Cuando se acondiciona, se hace en formato intermitente.
 
-| Situación | Formato | Dosis |
-|---|---|---|
-| Primeras semanas de M0 | Carrera continua suave o fartlek | 15-20 min |
-| Reactivación tras M3 y M6 | Carrera continua o fartlek | 12-15 min |
-| Jugadores con poco minutaje | Intermitente 15/15 o 10/20 | 8-12 min tras el partido o el miércoles |
-| Vuelta tras lesión | Progresivo según fase | Individualizado |
+**El problema no es el método, es el hueco.** Las tres sesiones van antes de pista, así que cualquier minuto de acondicionamiento que metas degrada el entrenamiento de pista que viene detrás. Solo hay tres momentos en la semana donde eso no ocurre.
 
-Fuera de eso, en temporada no se programa resistencia. Si hace falta acondicionar, se hace en formato intermitente, no continuo, porque es lo que reproduce la demanda del juego.
+| Momento | Formato | Dosis | A quién |
+|---|---|---|---|
+| **Viernes de las semanas sin partido** (5, 8, 13, 28, 34) | Intermitente 15"/15" | 10 min | Todo el equipo |
+| **Después del partido del sábado** | Intermitente 15"/15" o 10"/20" | 8-12 min | Quien haya jugado menos de 15 min |
+| **Parones de Navidad y Semana Santa** | Continuo o fartlek | 15-20 min | Autónomo, todo el equipo |
+| Primeras dos semanas de M0 | Continuo suave o fartlek | 15-20 min | Todo el equipo. Tolerancia de tejidos tras el verano |
+| Vuelta tras lesión | Progresivo | Individualizado | Según fase |
 
----
+**Formato 15"/15".** Quince segundos a intensidad alta, quince de pausa activa caminando. Diez minutos son veinte repeticiones. Se puede hacer en la pista, de línea de fondo a línea de tiros libres y vuelta, o en carrera con conos.
+
+**Lo que esto da y lo que no.** Son cinco sesiones supervisadas en toda la temporada, unos cincuenta minutos. Eso no construye una base aeróbica. Lo que de verdad acondiciona a este equipo es el entrenamiento de pista, y en concreto el 5c5 continuo. Si quieres mejorar el cardio, la palanca no está en este documento: está en acordar con el técnico de pista que el martes sea la sesión de mayor intensidad de la semana.
 
 ## 7. Movilidad y regeneración
 
@@ -253,7 +256,11 @@ talla (cada dos meses, para detectar pico de crecimiento) · salto vertical · s
 **Seguimiento semanal:**
 percepción de esfuerzo tras cada sesión (0-10) · dolor en rodilla, talón y espalda (0-10) una vez por semana · cuestionario de bienestar (sueño, fatiga, agujetas, estado de ánimo, 1-5) los miércoles.
 
-**Salto vertical (CMJ) como control de fatiga, no solo como test.** Tres saltos el martes, cada dos o tres semanas, anotando el mejor. Un descenso mantenido respecto a la media del jugador indica fatiga acumulada. Es de los pocos indicadores objetivos que se pueden usar sin material.
+**Salto vertical (CMJ), cada tres semanas.** Tres saltos al empezar el martes, antes de la pliometría, anotando el mejor. Cinco minutos.
+
+Fechas: **semanas 2, 5, 8, 11, 14, 20, 23, 26, 28, 31, 34 y 37**. Son doce medidas repartidas por toda la temporada.
+
+Sirve para dos cosas a la vez. Hacia abajo, un descenso mantenido respecto a la media del jugador indica fatiga acumulada. Hacia arriba, es el único dato que te va a decir si la explosividad está mejorando de verdad o solo lo parece. Sin esto, el trabajo de potencia se hace a ciegas.
 
 **Foam roller o pelota.** Herramienta de apoyo en Osgood-Schlatter y Sever, sobre el cuádriceps y el tríceps sural. La evidencia sobre "liberación fascial" es inexistente, pero el automasaje sí tiene efecto aceptado sobre la modulación del dolor y las agujetas.
 

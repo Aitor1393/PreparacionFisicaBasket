@@ -24,16 +24,17 @@ Lo que queda de verdad es **una sola semana presencial de carga alta, del 15 al 
 ## MC20 · 15-21 mar · Carga 10 — Última semana de carga del año
 
 ### Martes 16 · 50'
-- **Neuromuscular.** Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · **Velocidad alta 6×30 m**, 3' de descanso
+- **Neuromuscular.** Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · **Velocidad alta 6×30 m**, 3' de descanso · **Aceleración resistida 6×15 m**
 - **Complementaria.** Flexión con pies elevados 3×12 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25"
 
 ### Miércoles 17 · 50'
-- **Pliometría (56).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna
+- **Pliometría (56).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna · **CMJ: 3 saltos antes de la pliometría**
 - **Fuerza.** Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 4×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×12/lado
 
 ### Viernes 19 · 50' — Sesión de carga
 - **Pliometría (64).** Saltos en zigzag reactivos 4×6 · Salto lateral a una pierna reactivo 4×5/pierna
 - **Fuerza.** Split squat búlgaro con goma 4×8/pierna · Curl de isquios deslizante a dos piernas 3×10 · Zancada atrás con goma 3×10/pierna · Dorsiano con goma pretensada 3×15 · Rueda simulada 3×10
+- **Intermitente 15"/15", 10'.** Veinte repeticiones. Pausa activa caminando.
 
 ## MC21 · 22-28 mar · Semana Santa · Autónomo
 
@@ -50,7 +51,7 @@ Sin carrera continua esta vez. La semana siguiente hay partido y lo que interesa
 - **Complementaria.** Flexión 3×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25"
 
 ### Miércoles 31 · 50'
-- **Pliometría (40).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna
+- **Pliometría (40).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna · **CMJ: 3 saltos antes de la pliometría**
 - **Fuerza.** Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado
 
 ### Viernes 2 abr · 50' — Víspera (plantilla C)
@@ -97,12 +98,13 @@ Una semana sin partido antes de la fase decisiva. No es momento de meter un choq
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25"
 
 ### Miércoles 28 · 50'
-- **Pliometría (50).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna
+- **Pliometría (50).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · **CMJ: 3 saltos antes de la pliometría**
 - **Fuerza, con intención de velocidad.** Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Curl de isquios deslizante a una pierna 3×6/pierna · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×10/lado
 
 ### Viernes 30 · 50'
 - **Pliometría (40).** Saltos en zigzag reactivos 4×5 · Salto lateral a una pierna reactivo 2×5/pierna
 - **Fuerza ligera.** Split squat búlgaro 2×8/pierna · Puente de glúteo a una pierna 2×12/pierna · Dorsiano con goma 2×15 · Plancha lateral con elevación 2×10/lado
+- **Intermitente 15"/15", 10'.** Veinte repeticiones. Pausa activa caminando.
 - Estiramientos 10'
 
 ## MC27 · 3-9 may · Afinamiento

@@ -24,16 +24,17 @@ Tres microciclos, dos jornadas. Bloque corto y con una lógica distinta a M1: **
 Tercera y última semana libre del trimestre. Aprovéchala igual que MC1 y MC4.
 
 ### Martes 1 dic — Tipo N (50')
-- **Neuromuscular.** Escalera 3' · COD reactivo con señal visual 8 rep · Salidas desde desplazamiento defensivo 6×10 m · **Velocidad alta 5×25 m**
+- **Neuromuscular.** Escalera 3' · COD reactivo con señal visual 8 rep · Salidas desde desplazamiento defensivo 6×10 m · **Velocidad alta 6×30 m** · **Aceleración resistida 6×15 m**
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25"
 
 ### Miércoles 2 dic — Tipo F (50')
-- **Pliometría (46).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Saltos en zigzag 1×6
+- **Pliometría (46).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · **CMJ: 3 saltos antes de la pliometría** · Saltos en zigzag 1×6
 - **Fuerza.** Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma, 5" de mantenimiento, 3×8/lado · Pallof con desplazamiento lateral 3×10/lado
 
 ### Viernes 4 dic — Tipo D (50', sesión de carga)
 - **Pliometría (54).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Bounding 2×4 (2 contactos cada uno)
 - **Fuerza.** Sentadilla con goma bajo los pies y sobre hombros 4×10 · Curl de isquios deslizante a dos piernas 3×10 · Zancada atrás con goma 3×10/pierna · Dorsiano con goma pretensada 3×12 · Rueda simulada con deslizamiento 3×8
+- **Intermitente 15"/15", 10'.** Veinte repeticiones. Pausa activa caminando.
 
 El salto en profundidad entra aquí por primera vez. Cajón bajo, 25-30 cm como máximo. La instrucción es tocar el suelo el menor tiempo posible, no saltar más alto. Si el contacto se alarga, se para la serie.
 

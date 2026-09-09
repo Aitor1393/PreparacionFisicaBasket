@@ -30,6 +30,24 @@
 
   V.nombreSemana = nombreSemana;
 
+  /* Lo que distingue a esta semana de las demás y no se ve en los bloques:
+     si toca medir el salto, si hay acondicionamiento para el equipo, si entra
+     la aceleración resistida y qué dosis de sprint toca. El sprint dejó de ser
+     un valor fijo: sube en las ventanas de carga y se congela en febrero. */
+  function marcasSemana(s) {
+    var m = [];
+    if (s.sprint) m.push(['Sprint ' + s.sprint.replace('x', '×') + ' m', 'eti', 'la dosis de velocidad alta del martes']);
+    if (s.cmj) m.push(['Mide el CMJ', 'eti--bien', 'tres saltos al empezar el martes, antes de la pliometría']);
+    if (s.aceleracion_resistida) m.push(['Aceleración resistida', 'eti--gris', 'con goma, resistencia ligera']);
+    if (s.intermitente_equipo) m.push(['Intermitente del equipo', 'eti--aviso', '15"/15" en el viernes, 10 minutos']);
+    if (!m.length) return '';
+    return '<div class="marcas">' + m.map(function (x) {
+      return '<span class="eti ' + x[1] + '" title="' + U.esc(x[2]) + '">' + U.esc(x[0]) + '</span>';
+    }).join('') + '</div>';
+  }
+
+  V.marcasSemana = marcasSemana;
+
   function ejercicio(e) {
     if (!e.ficha) return '<li><span class="sin-ficha">' + U.esc(e.texto) + '</span></li>';
     return '<li><a href="#/ejercicio/' + U.esc(e.ficha) + '">' + U.esc(e.texto) + '</a></li>';
@@ -121,6 +139,17 @@
       cifra(s.contactos_pliometria, 'Contactos') +
       cifra(s.hay_partido ? s.jornada : '—', s.hay_partido ? 'Sábado' : 'Sin partido') +
       '</div>';
+
+    h += marcasSemana(s);
+
+    if (que.estado === 'partido') {
+      var umbral = D.temporada.intermitente_postpartido_umbral_min;
+      if (umbral) {
+        h += '<div class="caja caja--aviso"><p>Quien juegue <strong>menos de ' + umbral +
+          ' minutos</strong> hace bloque intermitente después del partido: 15"/15" u ' +
+          '10"/20", de 8 a 12 minutos. A los que jueguen más, no.</p></div>';
+      }
+    }
 
     if (que.estado === 'sesion') {
       h += V.sesionCuerpo(que.sesion, s);
@@ -251,6 +280,7 @@
       cifra('Semana ' + s.semana, 'de 39') +
       '</div>';
 
+    h += marcasSemana(s);
     h += V.resumenSemana(s);
     if (s.variantes && s.variantes.length) {
       h += '<h2>Otra versión de la semana</h2>' + s.variantes.map(function (v) {

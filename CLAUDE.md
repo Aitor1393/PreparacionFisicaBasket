@@ -54,6 +54,10 @@ Todo en **español de España**. Interfaz, comentarios, nombres de variables de 
 
 **Martes y miércoles son días consecutivos.** Por eso el martes lleva todo el trabajo neural (pliometría, velocidad, cambios de dirección), que exige frescura, y el miércoles toda la fuerza, que tolera fatiga previa. Invertir ese orden degrada la calidad del salto y del sprint.
 
+## Si vienes a actualizar una web ya construida
+
+Lee **`CAMBIOS.md`** antes que nada. Recoge todo lo que ha cambiado respecto a la versión anterior, incluido un cambio estructural de días de entrenamiento que afecta a todas las pantallas.
+
 ## Archivos fuente
 
 Contenido deportivo, en `/fuentes`:
@@ -78,12 +82,14 @@ Nota: `M0-pretemporada-sesiones.md` (sin `-v2`) es una versión obsoleta con sem
 
 Estas se revisaron contra literatura externa y algunas corrigen lo que dice el material del curso de entrenador. Si un texto generado las contradice, es un error.
 
-1. **Velocidad alta todos los martes**, 4-6 repeticiones de 20-30 m, **3 minutos de descanso**. La exposición regular al sprint protege el isquiotibial; espaciarla es peor.
+1. **Velocidad alta todos los martes**, **3 minutos de descanso**. La exposición regular al sprint protege el isquiotibial; espaciarla es peor. **La progresión no es plana**: sube en las ventanas de carga (de 5×20 m en MC1 a 6×30 m en MC6-MC7 y MC20) y se congela en 4-5×25 m durante el bloque denso de febrero.
+8. **CMJ cada tres semanas**, tres saltos al empezar el martes, en las semanas 2, 5, 8, 11, 14, 20, 23, 26, 28, 31, 34 y 37. Es el único dato que dice si la explosividad mejora.
+9. **Aceleración resistida con goma** en MC1, MC3, MC4, MC7, MC9 y MC20. Resistencia ligera: si cambia el patrón de carrera, sobra tensión.
 2. **Curl nórdico todos los miércoles**, sin excepción.
 3. **Sentadilla española**: se usa porque aporta carga tolerable en competición, **no** porque tenga efecto analgésico. Ese efecto está poco demostrado. No escribir que "quita el dolor".
 4. **Umbral de crecimiento: 1,2 cm entre mediciones de dos meses** (equivale a 7,2 cm/año). No 2 cm.
 5. **Estiramiento estático**: no previene lesiones. La rutina del domingo es movilidad, automasaje y respiración. No venderla como prevención.
-6. **Trabajo intermitente** solo para jugadores con menos de 10 minutos de partido.
+6. **Trabajo intermitente 15"/15"**: en el viernes de las semanas sin partido (5, 8, 13, 28, 34) para todo el equipo, y después del partido del sábado para quien haya jugado menos de 15 minutos. Nunca antes de pista en semanas normales: degradaría la sesión de pista posterior.
 7. **Protocolo de dolor**: 0-3 normal, 4-6 sin pliometría el martes, 7+ sin pliometría ni velocidad y valoración médica.
 
 ## Material visual

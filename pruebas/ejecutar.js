@@ -51,7 +51,9 @@ prueba('hoy enseña la fecha de hoy y su semana', async (page) => {
   const meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio',
                  'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
   const dentro = semanas.semanas.some(s => {
-    const lunes = new Date(s.lunes + 'T12:00:00');
+    // El calendario ya no guarda el lunes: se entrena martes, miércoles y
+    // viernes. La semana sigue yendo de lunes a domingo.
+    const lunes = new Date(s.martes + 'T12:00:00'); lunes.setDate(lunes.getDate() - 1);
     const domingo = new Date(lunes); domingo.setDate(domingo.getDate() + 6);
     return hoy >= lunes && hoy <= domingo;
   });
@@ -158,6 +160,41 @@ prueba('el catálogo filtra por capacidad y por texto', async (page) => {
   const filtradas = await page.locator('.lista .enlace-tarjeta').count();
   afirmar(filtradas === esperadas && filtradas < todas,
     `el filtro «${capacidad}» deja ${filtradas} y deberían ser ${esperadas}`);
+});
+
+prueba('la ficha enseña los seis campos y destaca la instrucción de banda', async (page) => {
+  // Se elige una ficha que tenga los seis, para comprobar que se pintan todos.
+  const completa = ejercicios.fichas.find(f =>
+    f.montaje && f.ejecucion && f.voz_alta && f.error && (f.regresion || f.progresion) &&
+    f.video && f.video.length);
+  afirmar(completa, 'ninguna ficha del JSON trae los seis campos');
+  await ir(page, '/ejercicio/' + completa.id);
+  const texto = await page.textContent('#app');
+  for (const [nombre, valor] of [['montaje', completa.montaje], ['ejecución', completa.ejecucion],
+                                 ['error frecuente', completa.error]]) {
+    afirmar(texto.includes(valor.slice(0, 40)), `no se ve el campo ${nombre}`);
+  }
+  // La instrucción verbal va destacada y aparte, no perdida entre el resto.
+  const voz = await page.locator('.voz__texto').textContent();
+  afirmar(voz.trim() === completa.voz_alta.trim(),
+    'la instrucción en voz alta no está en su bloque destacado');
+  const antes = texto.indexOf(completa.voz_alta.slice(0, 20));
+  afirmar(antes >= 0 && antes < texto.indexOf(completa.ejecucion.slice(0, 20)),
+    'la instrucción en voz alta no sale antes que la ejecución');
+});
+
+prueba('un término de búsqueda no se convierte en un enlace inventado', async (page) => {
+  const conBusqueda = ejercicios.fichas.find(f =>
+    (f.video || []).some(v => v.tipo === 'busqueda'));
+  afirmar(conBusqueda, 'ninguna ficha trae un término de búsqueda');
+  const termino = conBusqueda.video.find(v => v.tipo === 'busqueda').termino;
+  await ir(page, '/ejercicio/' + conBusqueda.id);
+  const enlaces = await page.locator('.medios a').evaluateAll(
+    as => as.map(a => a.getAttribute('href')));
+  const dela = enlaces.filter(h => h.includes(encodeURIComponent(termino).slice(0, 20)));
+  afirmar(dela.length === 1, 'el término de búsqueda no aparece una sola vez');
+  afirmar(/\/results\?search_query=/.test(dela[0]),
+    'el término abre un enlace directo en vez de una búsqueda: ' + dela[0]);
 });
 
 prueba('los protocolos ponen las banderas rojas antes que nada', async (page) => {

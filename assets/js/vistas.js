@@ -214,7 +214,7 @@
     var m = D.mesociclo(s.mesociclo);
     var h = '<p class="pequeno no-imprimir"><a href="#/calendario">← Calendario</a></p>' +
       '<h1>' + U.esc(nombreSemana(s)) + '</h1>' +
-      '<p class="sub">' + U.esc(U.rango(s.lunes, U.sumarDias(s.lunes, 6))) + ' · ' +
+      '<p class="sub">' + U.esc(U.rango(D.lunesDe(s), U.sumarDias(D.lunesDe(s), 6))) + ' · ' +
       U.esc(s.mesociclo + ' ' + m.nombre) + '</p>' +
       '<div class="cifras">' +
       cifra(s.carga + '/10', 'Carga') +
@@ -261,7 +261,7 @@
       var esHoy = actual && actual.semana === s.semana;
       h += '<a class="cal__fila' + (esHoy ? ' cal__fila--hoy' : '') + '" href="#/semana/' + s.semana + '">' +
         '<span class="cal__num">' + s.semana + '</span>' +
-        '<span class="cal__fecha">' + U.esc(U.fechaCorta(s.lunes)) + '</span>' +
+        '<span class="cal__fecha">' + U.esc(U.fechaCorta(s.martes)) + '</span>' +
         '<span class="cal__barra"><span class="cal__relleno" style="width:' + (s.carga * 10) +
         '%;background:' + COLOR_TIPO[s.tipo] + ';opacity:.35"></span>' +
         '<span class="cal__carga">' + s.carga + (s.microciclo ? ' · ' + U.esc(s.microciclo) : '') +
@@ -302,10 +302,39 @@
       return '<a class="enlace-tarjeta" href="#/ejercicio/' + U.esc(f.id) + '">' +
         '<div class="enlace-tarjeta__titulo">' + U.esc(f.nombre) + '</div>' +
         '<div class="enlace-tarjeta__pie">' + U.esc(caps[f.capacidad] || f.capacidad) +
-        (niveles ? ' · ' + U.esc(niveles) : '') + ' · ' + U.esc(f.clave || '') + '</div></a>';
+        (niveles ? ' · ' + U.esc(niveles) : '') +
+        (f.voz_alta ? ' · ' + U.esc(f.voz_alta) : '') + '</div></a>';
     }).join('') + '</div>';
     return h;
   };
+
+  /* El material visual de una ficha.
+
+     ▶ es un enlace comprobado y se abre en pestaña nueva. 🔍 es un término de
+     búsqueda porque no hay enlace estable: se abre el buscador con ese término
+     exacto. Convertirlo en un enlace directo inventado es justo lo que el
+     apéndice pide no hacer. */
+  function material(f) {
+    if (!f.video || !f.video.length) return '';
+    var h = '<h3>Material visual</h3><ul class="medios">';
+    f.video.forEach(function (v) {
+      if (v.tipo === 'enlace') {
+        h += '<li><a href="' + U.esc(v.url) + '" target="_blank" rel="noopener noreferrer">▶ ' +
+          U.esc(v.texto || 'Ver vídeo') + '</a></li>';
+      } else {
+        h += '<li><a href="https://www.youtube.com/results?search_query=' +
+          encodeURIComponent(v.termino) + '" target="_blank" rel="noopener noreferrer">🔍 ' +
+          U.esc(v.termino) + '</a> <span class="pequeno silencio">búsqueda, no hay enlace estable</span></li>';
+      }
+    });
+    return h + '</ul>';
+  }
+
+  function campo(titulo, valor, clase) {
+    if (!valor) return '';
+    return '<h3>' + U.esc(titulo) + '</h3><p' + (clase ? ' class="' + clase + '"' : '') +
+      '>' + U.negritas(valor) + '</p>';
+  }
 
   V.ficha = function (id) {
     var f = D.ficha(id);
@@ -317,17 +346,40 @@
         return eti(n.nivel + ' · ' + n.patron, 'eti--gris');
       }).join('') + '</div>';
 
-    h += '<div class="tarjeta"><h3>Cómo se hace</h3><p>' + U.esc(f.como) + '</p>';
+    /* Lo primero, la instrucción que se grita desde la banda: es lo que el
+       entrenador mira en tres segundos con el ejercicio ya empezado. */
+    if (f.voz_alta) {
+      h += '<div class="voz"><span class="voz__etiqueta">Di en voz alta</span>' +
+        '<p class="voz__texto">' + U.esc(f.voz_alta) + '</p></div>';
+    }
+
+    h += '<div class="tarjeta">';
+    h += campo('Montaje', f.montaje);
+    h += campo('Ejecución', f.ejecucion);
     if (f.contenido) {
       h += '<ul>' + f.contenido.map(function (c) {
         return '<li>' + U.esc(c) + '</li>';
       }).join('') + '</ul>';
     }
-    if (f.clave) h += '<h3>Clave</h3><p>' + U.esc(f.clave) + '</p>';
     if (f.error) {
-      h += '<h3>Error frecuente</h3><p class="silencio">' + U.esc(f.error) + '</p>';
+      h += '<h3>Error frecuente</h3><p>' + U.negritas(f.error) + '</p>';
+      if (f.correccion) {
+        h += '<p class="correccion"><strong>Corrección.</strong> ' + U.negritas(f.correccion) + '</p>';
+      }
     }
+    if (f.regresion || f.progresion) {
+      h += '<h3>Si no sale, y si sale de sobra</h3>';
+      h += f.regresion ? '<p><strong>Regresión.</strong> ' + U.negritas(f.regresion) + '</p>' : '';
+      h += f.progresion ? '<p><strong>Progresión.</strong> ' + U.negritas(f.progresion) + '</p>' : '';
+    }
+    h += campo('Dosis', f.dosis);
+    h += campo('Por qué está', f.por_que);
+    h += material(f);
     h += '</div>';
+
+    (f.notas || []).forEach(function (n) {
+      h += '<p class="silencio">' + U.negritas(n) + '</p>';
+    });
 
     var progresion = D.ejercicios.progresiones.filter(function (p) {
       return f.niveles.some(function (n) { return n.patron === p.patron; });
@@ -349,7 +401,7 @@
     var usos = D.usosDeFicha(f.id);
     if (usos.length) {
       h += '<h2>Dónde aparece</h2><p class="sub">En ' + usos.length +
-        ' de las 105 sesiones de la temporada.</p><div class="lista">' +
+        ' de las ' + D.numSesiones() + ' sesiones de la temporada.</p><div class="lista">' +
         usos.slice(0, 12).map(function (u) {
           return '<a class="enlace-tarjeta" href="#/sesion/' + u.sesion.fecha + '">' +
             '<div class="enlace-tarjeta__titulo">' + U.esc(u.dosis.join(' · ')) + '</div>' +
@@ -360,6 +412,17 @@
         h += '<p class="pequeno silencio">Y en ' + (usos.length - 12) + ' sesiones más.</p>';
       }
     }
+
+    var bib = D.ejercicios.bibliotecas_video || {};
+    if (Object.keys(bib).length) {
+      h += '<h2>Si necesitas otra fuente</h2><ul class="medios">' +
+        Object.keys(bib).map(function (k) {
+          return '<li><a href="' + U.esc(bib[k].url) + '" target="_blank" rel="noopener noreferrer">' +
+            U.esc(k.replace(/_/g, ' ')) + '</a> <span class="pequeno silencio">' +
+            U.esc(bib[k].nota || '') + '</span></li>';
+        }).join('') + '</ul>';
+    }
+
     h += '<p class="pequeno silencio">Fuente: ' + U.esc(f.origen) + '</p>';
     return h;
   };

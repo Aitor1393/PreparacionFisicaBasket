@@ -143,7 +143,7 @@ Si por la mañana está peor, se recorta la carga de impacto de la semana siguie
 | Dolor | Qué se quita | Qué se mantiene y se sube |
 |---|---|---|
 | 1-3 | Nada | Sesión completa |
-| 4-6 | Pliometría del lunes | **Sentadilla española 5×45"**, cinco días por semana incluidos los que no hay entrenamiento |
+| 4-6 | Pliometría del martes | **Sentadilla española 5×45"**, cinco días por semana incluidos los que no hay entrenamiento |
 | 7 o más | Pliometría, velocidad alta y saltos del viernes | Isométricos diarios, fuerza de cadera, tren superior. Valoración médica |
 
 La sentadilla española es la herramienta central, pero por un motivo distinto al que se suele dar. Se popularizó por su supuesto efecto analgésico inmediato, y ese efecto está mucho menos demostrado de lo que se dice: los estudios posteriores encuentran descensos de dolor pequeños y que no se mantienen, y el isométrico no resulta superior al isotónico. Lo que sí aporta es carga sobre el tendón en una forma que el jugador tolera en plena competición, sin el volumen de impacto que le está provocando el problema. Esa es la razón para usarla.

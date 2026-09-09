@@ -14,7 +14,7 @@ RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FUENTES = os.path.join(RAIZ, 'fuentes')
 DATOS = os.path.join(RAIZ, 'data')
 
-DIAS = ('lunes', 'miercoles', 'viernes')
+DIAS = ('martes', 'miercoles', 'viernes')
 
 
 class ErrorDeFuente(Exception):

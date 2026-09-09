@@ -265,6 +265,26 @@ p { margin: .5rem 0; }
 .caja ul { margin: .25rem 0 0; padding-left: 1.1rem; }
 .caja li { margin: .3rem 0; }
 
+/* ------------------------------------------- la instrucción de la banda */
+
+/* Es lo que el entrenador lee en tres segundos con el ejercicio ya empezado,
+   así que va grande, arriba y separada de todo lo demás. */
+.voz {
+  background: var(--acento-fondo); border: 1px solid var(--acento);
+  border-radius: var(--radio); padding: .7rem .9rem; margin: .75rem 0;
+}
+.voz__etiqueta {
+  font-size: .72rem; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .08em; color: var(--acento);
+}
+.voz__texto { margin: .2rem 0 0; font-size: 1.2rem; line-height: 1.35; font-weight: 600; }
+
+.correccion { background: var(--bien-fondo); border-radius: var(--radio); padding: .5rem .7rem; }
+
+.medios { list-style: none; margin: .4rem 0 0; padding: 0; }
+.medios li { padding: .35rem 0; border-top: 1px dashed var(--borde); }
+.medios li:first-child { border-top: 0; }
+
 /* --------------------------------------------------------------- filtros */
 
 .filtros { display: flex; flex-wrap: wrap; gap: .35rem; margin: .5rem 0 1rem; }

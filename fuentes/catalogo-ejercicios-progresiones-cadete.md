@@ -197,7 +197,7 @@ La pista cubre de sobra la demanda aeróbica durante la temporada. El trabajo de
 |---|---|---|
 | Primeras semanas de M0 | Carrera continua suave o fartlek | 15-20 min |
 | Reactivación tras M3 y M6 | Carrera continua o fartlek | 12-15 min |
-| Jugadores con poco minutaje | Intermitente 15/15 o 10/20 | 8-12 min tras el partido o el lunes |
+| Jugadores con poco minutaje | Intermitente 15/15 o 10/20 | 8-12 min tras el partido o el miércoles |
 | Vuelta tras lesión | Progresivo según fase | Individualizado |
 
 Fuera de eso, en temporada no se programa resistencia. Si hace falta acondicionar, se hace en formato intermitente, no continuo, porque es lo que reproduce la demanda del juego.
@@ -251,9 +251,9 @@ Estiramiento estático de cadena posterior, psoas, aductores y gemelo, 45 s por 
 talla (cada dos meses, para detectar pico de crecimiento) · salto vertical · salto horizontal a una pierna · dorsiflexión de tobillo test rodilla-pared · control en aterrizaje unilateral · 5-10-5 · sprint 10 m.
 
 **Seguimiento semanal:**
-percepción de esfuerzo tras cada sesión (0-10) · dolor en rodilla, talón y espalda (0-10) una vez por semana · cuestionario de bienestar (sueño, fatiga, agujetas, estado de ánimo, 1-5) los lunes.
+percepción de esfuerzo tras cada sesión (0-10) · dolor en rodilla, talón y espalda (0-10) una vez por semana · cuestionario de bienestar (sueño, fatiga, agujetas, estado de ánimo, 1-5) los miércoles.
 
-**Salto vertical (CMJ) como control de fatiga, no solo como test.** Tres saltos el lunes, cada dos o tres semanas, anotando el mejor. Un descenso mantenido respecto a la media del jugador indica fatiga acumulada. Es de los pocos indicadores objetivos que se pueden usar sin material.
+**Salto vertical (CMJ) como control de fatiga, no solo como test.** Tres saltos el martes, cada dos o tres semanas, anotando el mejor. Un descenso mantenido respecto a la media del jugador indica fatiga acumulada. Es de los pocos indicadores objetivos que se pueden usar sin material.
 
 **Foam roller o pelota.** Herramienta de apoyo en Osgood-Schlatter y Sever, sobre el cuádriceps y el tríceps sural. La evidencia sobre "liberación fascial" es inexistente, pero el automasaje sí tiene efecto aceptado sobre la modulación del dolor y las agujetas.
 

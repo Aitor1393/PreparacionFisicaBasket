@@ -32,6 +32,8 @@ web no tiene dependencias y se abre sin instalar nada.
 | una sesión por plantilla dice cuántas series | El dato que el entrenador necesita en diez segundos |
 | los ejercicios enlazan con su ficha | Que tocar un ejercicio lleve a su ficha y no a otra |
 | el catálogo filtra | Buscador y filtros por capacidad |
+| la ficha enseña los seis campos | Montaje, ejecución, instrucción de banda destacada y arriba, error con corrección, regresión y progresión, material visual |
+| un término de búsqueda no se convierte en enlace | Que un 🔍 abra una búsqueda y no un enlace directo inventado |
 | los protocolos ponen las banderas rojas primero | Lo que pide el brief, y que no se diluya qué es competencia médica |
 | la ruta de jugadores no arrastra jerga | Que no se cuele «microciclo» ni «pliometría» en la hoja del jugador |
 | funciona sin conexión | El service worker, que es lo que la salva en un pabellón sin cobertura |

@@ -40,11 +40,17 @@
 
   D.mesociclo = function (id) { return D.temporada.mesociclos[id]; };
 
-  /* La semana que contiene una fecha, de lunes a domingo. */
+  /* El lunes de un microciclo. El calendario ya no guarda el lunes porque no
+     se entrena: guarda martes, miércoles, viernes y sábado. La semana sigue
+     yendo de lunes a domingo para que el domingo de regeneración caiga dentro
+     de su microciclo y no del siguiente. */
+  D.lunesDe = function (s) { return U.sumarDias(s.martes, -1); };
+
   D.semanaDeFecha = function (iso) {
     var semanas = D.temporada.semanas;
     for (var i = 0; i < semanas.length; i++) {
-      if (iso >= semanas[i].lunes && iso <= U.sumarDias(semanas[i].lunes, 6)) return semanas[i];
+      var lunes = D.lunesDe(semanas[i]);
+      if (iso >= lunes && iso <= U.sumarDias(lunes, 6)) return semanas[i];
     }
     return null;
   };
@@ -100,7 +106,7 @@
     return base;
   };
 
-  /* Cuántos días faltan para el partido. El lunes es MD-5, el miércoles MD-3
+  /* Cuántos días faltan para el partido. El martes es MD-4, el miércoles MD-3
      y el viernes MD-1, como dice el vocabulario del proyecto. */
   D.md = function (sesion) { return sesion.md; };
 
@@ -123,7 +129,9 @@
     return D.ejercicios.fichas.filter(function (f) {
       if (capacidad && f.capacidad !== capacidad) return false;
       if (!q) return true;
-      return U.normalizar(f.nombre + ' ' + f.como + ' ' + (f.clave || '')).indexOf(q) >= 0;
+      var texto = [f.nombre, f.montaje, f.ejecucion, f.voz_alta, f.error,
+                   f.grupo].filter(Boolean).join(' ');
+      return U.normalizar(texto).indexOf(q) >= 0;
     });
   };
 
@@ -146,6 +154,10 @@
   };
 
   D.rutina = function (id) { return D.ejercicios.rutinas[id] || null; };
+
+  D.numSesiones = function () {
+    return D.temporada.semanas.reduce(function (n, s) { return n + s.sesiones.length; }, 0);
+  };
 
   window.D = D;
 }());

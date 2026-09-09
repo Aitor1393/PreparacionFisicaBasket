@@ -15,7 +15,7 @@ Tres microciclos, dos jornadas. Bloque corto y con una lógica distinta a M1: **
 | **MC10** | 7-13 dic | J8 (12) | 7 | 80 | Intensificación · puente de la Constitución |
 | **MC11** | 14-20 dic | J9 (19) | 6 | 60 | Descarga · exámenes |
 
-**Aviso de calendario:** el lunes 7 de diciembre cae en el puente. Si el club no entrena ese día, MC10 se convierte en un microciclo de dos sesiones. Abajo tienes las dos versiones.
+**Aviso de calendario:** el miércoles 7 de diciembre cae en el puente. Si el club no entrena ese día, MC10 se convierte en un microciclo de dos sesiones. Abajo tienes las dos versiones.
 
 ---
 
@@ -23,13 +23,13 @@ Tres microciclos, dos jornadas. Bloque corto y con una lógica distinta a M1: **
 
 Tercera y última semana libre del trimestre. Aprovéchala igual que MC1 y MC4.
 
-### Lunes 30 nov — Tipo A (55')
-- **Pliometría (46).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Saltos en zigzag 1×6
-- **Fuerza.** Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma, 5" de mantenimiento, 3×8/lado · Pallof con desplazamiento lateral 3×10/lado
-
-### Miércoles 2 dic — Tipo B (50')
+### Martes 31 nov — Tipo N (50')
 - **Neuromuscular.** Escalera 3' · COD reactivo con señal visual 8 rep · Salidas desde desplazamiento defensivo 6×10 m · **Velocidad alta 5×25 m**
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25"
+
+### Miércoles 2 dic — Tipo N (50')
+- **Pliometría (46).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Saltos en zigzag 1×6
+- **Fuerza.** Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 3×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma, 5" de mantenimiento, 3×8/lado · Pallof con desplazamiento lateral 3×10/lado
 
 ### Viernes 4 dic — Tipo D (50', sesión de carga)
 - **Pliometría (54).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · Bounding 2×4 (2 contactos cada uno)
@@ -41,13 +41,13 @@ El salto en profundidad entra aquí por primera vez. Cajón bajo, 25-30 cm como 
 
 ## MC10 · 7-13 dic · Carga 7 · J8 sábado 12
 
-### Versión con entreno el lunes
+### Versión con entreno el miércoles
 
-**Lunes 7 — Tipo A (55')**
+**Martes 8 — Tipo N (50')**
 - **Pliometría (40).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna
 - **Fuerza.** Split squat búlgaro con excéntrico de 4" 3×8/pierna · Curl nórdico 3×6 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado
 
-**Miércoles 9 — Tipo B (50')**
+**Miércoles 9 — Tipo N (50')**
 - **Neuromuscular.** Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · **Velocidad alta 4×25 m**
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25"
 
@@ -55,7 +55,7 @@ El salto en profundidad entra aquí por primera vez. Cajón bajo, 25-30 cm como 
 - Sentadilla española 5×30" · Isometría de gemelo 4×30"
 - Saltos bajos 6×4 · Salidas de 5 m 6 rep
 
-### Versión sin entreno el lunes
+### Versión sin entreno el miércoles
 
 **Miércoles 9 (50')** — Sesión mixta
 - Movilidad 10'
@@ -65,7 +65,7 @@ El salto en profundidad entra aquí por primera vez. Cajón bajo, 25-30 cm como 
 
 **Viernes 11 — Tipo C**, igual que arriba.
 
-No intentes meter lo del lunes y lo del miércoles en la misma sesión completa. Prioriza el patrón unilateral, el curl nórdico y la exposición a velocidad, y sacrifica el resto.
+No intentes meter lo del miércoles y lo del miércoles en la misma sesión completa. Prioriza el patrón unilateral, el curl nórdico y la exposición a velocidad, y sacrifica el resto.
 
 ---
 
@@ -73,13 +73,13 @@ No intentes meter lo del lunes y lo del miércoles en la misma sesión completa.
 
 Semana de exámenes de la primera evaluación y último partido antes del parón. Volumen bajo, nada de fatiga.
 
-### Lunes 14 — Tipo A (55')
-- **Pliometría (30).** Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 3×5/pierna
-- **Fuerza.** Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Peso muerto rumano a una pierna con goma 2×10/pierna · Remo con goma 2×12/lado · Pallof press en pie 2×10/lado
-
-### Miércoles 16 — Tipo B (50')
+### Martes 15 — Tipo N (50')
 - **Neuromuscular.** Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · **Velocidad alta 4×20 m**
 - **Complementaria.** Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25"
+
+### Miércoles 16 — Tipo N (50')
+- **Pliometría (30).** Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 3×5/pierna
+- **Fuerza.** Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Peso muerto rumano a una pierna con goma 2×10/pierna · Remo con goma 2×12/lado · Pallof press en pie 2×10/lado
 
 ### Viernes 18 — Tipo C (50')
 - Volumen mínimo: saltos bajos 4×4 · Salidas de 5 m 4 rep

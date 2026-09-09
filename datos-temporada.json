@@ -10,14 +10,14 @@
       "jornadas": 22
     },
     "dias_entrenamiento": [
-      "lunes",
+      "martes",
       "miercoles",
       "viernes"
     ],
     "dia_partido": "sabado",
     "fisico_siempre": "antes del entrenamiento de pista",
     "duraciones_min": {
-      "lunes": 55,
+      "martes": 50,
       "miercoles": 50,
       "viernes": 50
     },
@@ -98,91 +98,95 @@
     }
   },
   "plantillas_sesion": {
-    "A1": {
-      "dia": "lunes",
-      "minutos": 55,
+    "N1": {
+      "dia": "martes",
+      "minutos": 50,
+      "nombre": "Neural reactivo",
+      "posicion": "MD-4",
+      "bloques": [
+        {
+          "min": 10,
+          "nombre": "Movilidad y activación",
+          "rutina": "rutina_10"
+        },
+        {
+          "min": 12,
+          "nombre": "Pliometría"
+        },
+        {
+          "min": 23,
+          "nombre": "Neuromuscular: COD reactivo, salidas, velocidad alta"
+        },
+        {
+          "min": 5,
+          "nombre": "Transición a pista"
+        }
+      ]
+    },
+    "N2": {
+      "dia": "martes",
+      "minutos": 50,
+      "nombre": "Neural aceleración",
+      "posicion": "MD-4",
+      "bloques": [
+        {
+          "min": 10,
+          "nombre": "Movilidad y activación",
+          "rutina": "rutina_10"
+        },
+        {
+          "min": 12,
+          "nombre": "Pliometría"
+        },
+        {
+          "min": 23,
+          "nombre": "Neuromuscular: 5-10-5, salidas, velocidad alta"
+        },
+        {
+          "min": 5,
+          "nombre": "Transición a pista"
+        }
+      ]
+    },
+    "F1": {
+      "dia": "miercoles",
+      "minutos": 50,
       "nombre": "Fuerza dominante de rodilla",
+      "posicion": "MD-3",
       "bloques": [
         {
-          "min": 10,
+          "min": 8,
           "nombre": "Movilidad y activación",
-          "rutina": "rutina_10"
-        },
-        {
-          "min": 10,
-          "nombre": "Pliometría"
+          "rutina": "rutina_10_corta"
         },
         {
           "min": 30,
           "nombre": "Fuerza principal"
         },
         {
-          "min": 5,
-          "nombre": "Transición a pista"
+          "min": 12,
+          "nombre": "Complementaria y prevención"
         }
       ]
     },
-    "A2": {
-      "dia": "lunes",
-      "minutos": 55,
+    "F2": {
+      "dia": "miercoles",
+      "minutos": 50,
       "nombre": "Fuerza dominante de cadera",
+      "posicion": "MD-3",
       "bloques": [
         {
-          "min": 10,
+          "min": 8,
           "nombre": "Movilidad y activación",
-          "rutina": "rutina_10"
-        },
-        {
-          "min": 10,
-          "nombre": "Pliometría"
+          "rutina": "rutina_10_corta"
         },
         {
           "min": 30,
           "nombre": "Fuerza principal"
         },
         {
-          "min": 5,
-          "nombre": "Transición a pista"
-        }
-      ]
-    },
-    "B1": {
-      "dia": "miercoles",
-      "minutos": 50,
-      "nombre": "Neuromuscular reactivo",
-      "bloques": [
-        {
-          "min": 10,
-          "nombre": "Movilidad y activación",
-          "rutina": "rutina_10"
-        },
-        {
-          "min": 22,
-          "nombre": "Neuromuscular"
-        },
-        {
-          "min": 18,
-          "nombre": "Fuerza complementaria"
-        }
-      ]
-    },
-    "B2": {
-      "dia": "miercoles",
-      "minutos": 50,
-      "nombre": "Neuromuscular aceleración",
-      "bloques": [
-        {
-          "min": 10,
-          "nombre": "Movilidad y activación",
-          "rutina": "rutina_10"
-        },
-        {
-          "min": 22,
-          "nombre": "Neuromuscular"
-        },
-        {
-          "min": 18,
-          "nombre": "Fuerza complementaria"
+          "min": 12,
+          "nombre": "Complementaria y prevención"
         }
       ]
     },
@@ -190,6 +194,7 @@
       "dia": "viernes",
       "minutos": 50,
       "nombre": "Víspera de partido",
+      "posicion": "MD-1",
       "bloques": [
         {
           "min": 15,
@@ -214,6 +219,7 @@
       "dia": "viernes",
       "minutos": 50,
       "nombre": "Sesión de carga (solo semanas sin partido)",
+      "posicion": "—",
       "bloques": [
         {
           "min": 10,
@@ -236,7 +242,9 @@
       "semana": 1,
       "mesociclo": "M0",
       "microciclo": null,
-      "lunes": "2026-09-07",
+      "martes": "2026-09-08",
+      "miercoles": "2026-09-09",
+      "viernes": "2026-09-11",
       "sabado": "2026-09-12",
       "jornada": null,
       "hay_partido": false,
@@ -249,7 +257,9 @@
       "semana": 2,
       "mesociclo": "M0",
       "microciclo": null,
-      "lunes": "2026-09-14",
+      "martes": "2026-09-15",
+      "miercoles": "2026-09-16",
+      "viernes": "2026-09-18",
       "sabado": "2026-09-19",
       "jornada": null,
       "hay_partido": false,
@@ -262,7 +272,9 @@
       "semana": 3,
       "mesociclo": "M0",
       "microciclo": null,
-      "lunes": "2026-09-21",
+      "martes": "2026-09-22",
+      "miercoles": "2026-09-23",
+      "viernes": "2026-09-25",
       "sabado": "2026-09-26",
       "jornada": "Amistoso",
       "hay_partido": true,
@@ -275,7 +287,9 @@
       "semana": 4,
       "mesociclo": "M0",
       "microciclo": null,
-      "lunes": "2026-09-28",
+      "martes": "2026-09-29",
+      "miercoles": "2026-09-30",
+      "viernes": "2026-10-02",
       "sabado": "2026-10-03",
       "jornada": "J1",
       "hay_partido": true,
@@ -288,7 +302,9 @@
       "semana": 5,
       "mesociclo": "M1",
       "microciclo": "MC1",
-      "lunes": "2026-10-05",
+      "martes": "2026-10-06",
+      "miercoles": "2026-10-07",
+      "viernes": "2026-10-09",
       "sabado": "2026-10-10",
       "jornada": null,
       "hay_partido": false,
@@ -301,7 +317,9 @@
       "semana": 6,
       "mesociclo": "M1",
       "microciclo": "MC2",
-      "lunes": "2026-10-12",
+      "martes": "2026-10-13",
+      "miercoles": "2026-10-14",
+      "viernes": "2026-10-16",
       "sabado": "2026-10-17",
       "jornada": "J2",
       "hay_partido": true,
@@ -314,7 +332,9 @@
       "semana": 7,
       "mesociclo": "M1",
       "microciclo": "MC3",
-      "lunes": "2026-10-19",
+      "martes": "2026-10-20",
+      "miercoles": "2026-10-21",
+      "viernes": "2026-10-23",
       "sabado": "2026-10-24",
       "jornada": "J3",
       "hay_partido": true,
@@ -327,7 +347,9 @@
       "semana": 8,
       "mesociclo": "M1",
       "microciclo": "MC4",
-      "lunes": "2026-10-26",
+      "martes": "2026-10-27",
+      "miercoles": "2026-10-28",
+      "viernes": "2026-10-30",
       "sabado": "2026-10-31",
       "jornada": null,
       "hay_partido": false,
@@ -340,7 +362,9 @@
       "semana": 9,
       "mesociclo": "M1",
       "microciclo": "MC5",
-      "lunes": "2026-11-02",
+      "martes": "2026-11-03",
+      "miercoles": "2026-11-04",
+      "viernes": "2026-11-06",
       "sabado": "2026-11-07",
       "jornada": "J4",
       "hay_partido": true,
@@ -353,7 +377,9 @@
       "semana": 10,
       "mesociclo": "M1",
       "microciclo": "MC6",
-      "lunes": "2026-11-09",
+      "martes": "2026-11-10",
+      "miercoles": "2026-11-11",
+      "viernes": "2026-11-13",
       "sabado": "2026-11-14",
       "jornada": "J5",
       "hay_partido": true,
@@ -366,7 +392,9 @@
       "semana": 11,
       "mesociclo": "M1",
       "microciclo": "MC7",
-      "lunes": "2026-11-16",
+      "martes": "2026-11-17",
+      "miercoles": "2026-11-18",
+      "viernes": "2026-11-20",
       "sabado": "2026-11-21",
       "jornada": "J6",
       "hay_partido": true,
@@ -379,7 +407,9 @@
       "semana": 12,
       "mesociclo": "M1",
       "microciclo": "MC8",
-      "lunes": "2026-11-23",
+      "martes": "2026-11-24",
+      "miercoles": "2026-11-25",
+      "viernes": "2026-11-27",
       "sabado": "2026-11-28",
       "jornada": "J7",
       "hay_partido": true,
@@ -392,7 +422,9 @@
       "semana": 13,
       "mesociclo": "M2",
       "microciclo": "MC9",
-      "lunes": "2026-11-30",
+      "martes": "2026-12-01",
+      "miercoles": "2026-12-02",
+      "viernes": "2026-12-04",
       "sabado": "2026-12-05",
       "jornada": null,
       "hay_partido": false,
@@ -405,7 +437,9 @@
       "semana": 14,
       "mesociclo": "M2",
       "microciclo": "MC10",
-      "lunes": "2026-12-07",
+      "martes": "2026-12-08",
+      "miercoles": "2026-12-09",
+      "viernes": "2026-12-11",
       "sabado": "2026-12-12",
       "jornada": "J8",
       "hay_partido": true,
@@ -418,7 +452,9 @@
       "semana": 15,
       "mesociclo": "M2",
       "microciclo": "MC11",
-      "lunes": "2026-12-14",
+      "martes": "2026-12-15",
+      "miercoles": "2026-12-16",
+      "viernes": "2026-12-18",
       "sabado": "2026-12-19",
       "jornada": "J9",
       "hay_partido": true,
@@ -431,7 +467,9 @@
       "semana": 16,
       "mesociclo": "M3",
       "microciclo": "SemA",
-      "lunes": "2026-12-21",
+      "martes": "2026-12-22",
+      "miercoles": "2026-12-23",
+      "viernes": "2026-12-25",
       "sabado": "2026-12-26",
       "jornada": null,
       "hay_partido": false,
@@ -444,7 +482,9 @@
       "semana": 17,
       "mesociclo": "M3",
       "microciclo": "SemB",
-      "lunes": "2026-12-28",
+      "martes": "2026-12-29",
+      "miercoles": "2026-12-30",
+      "viernes": "2027-01-01",
       "sabado": "2027-01-02",
       "jornada": null,
       "hay_partido": false,
@@ -457,7 +497,9 @@
       "semana": 18,
       "mesociclo": "M3",
       "microciclo": "SemC",
-      "lunes": "2027-01-04",
+      "martes": "2027-01-05",
+      "miercoles": "2027-01-06",
+      "viernes": "2027-01-08",
       "sabado": "2027-01-09",
       "jornada": null,
       "hay_partido": false,
@@ -470,7 +512,9 @@
       "semana": 19,
       "mesociclo": "M3",
       "microciclo": "SemD",
-      "lunes": "2027-01-11",
+      "martes": "2027-01-12",
+      "miercoles": "2027-01-13",
+      "viernes": "2027-01-15",
       "sabado": "2027-01-16",
       "jornada": "J10",
       "hay_partido": true,
@@ -483,7 +527,9 @@
       "semana": 20,
       "mesociclo": "M4",
       "microciclo": "MC12",
-      "lunes": "2027-01-18",
+      "martes": "2027-01-19",
+      "miercoles": "2027-01-20",
+      "viernes": "2027-01-22",
       "sabado": "2027-01-23",
       "jornada": "J11",
       "hay_partido": true,
@@ -496,7 +542,9 @@
       "semana": 21,
       "mesociclo": "M4",
       "microciclo": "MC13",
-      "lunes": "2027-01-25",
+      "martes": "2027-01-26",
+      "miercoles": "2027-01-27",
+      "viernes": "2027-01-29",
       "sabado": "2027-01-30",
       "jornada": "J12",
       "hay_partido": true,
@@ -509,7 +557,9 @@
       "semana": 22,
       "mesociclo": "M4",
       "microciclo": "MC14",
-      "lunes": "2027-02-01",
+      "martes": "2027-02-02",
+      "miercoles": "2027-02-03",
+      "viernes": "2027-02-05",
       "sabado": "2027-02-06",
       "jornada": "J13",
       "hay_partido": true,
@@ -522,7 +572,9 @@
       "semana": 23,
       "mesociclo": "M4",
       "microciclo": "MC15",
-      "lunes": "2027-02-08",
+      "martes": "2027-02-09",
+      "miercoles": "2027-02-10",
+      "viernes": "2027-02-12",
       "sabado": "2027-02-13",
       "jornada": "J14",
       "hay_partido": true,
@@ -535,7 +587,9 @@
       "semana": 24,
       "mesociclo": "M4",
       "microciclo": "MC16",
-      "lunes": "2027-02-15",
+      "martes": "2027-02-16",
+      "miercoles": "2027-02-17",
+      "viernes": "2027-02-19",
       "sabado": "2027-02-20",
       "jornada": "J15",
       "hay_partido": true,
@@ -548,7 +602,9 @@
       "semana": 25,
       "mesociclo": "M4",
       "microciclo": "MC17",
-      "lunes": "2027-02-22",
+      "martes": "2027-02-23",
+      "miercoles": "2027-02-24",
+      "viernes": "2027-02-26",
       "sabado": "2027-02-27",
       "jornada": "J16",
       "hay_partido": true,
@@ -561,7 +617,9 @@
       "semana": 26,
       "mesociclo": "M5",
       "microciclo": "MC18",
-      "lunes": "2027-03-01",
+      "martes": "2027-03-02",
+      "miercoles": "2027-03-03",
+      "viernes": "2027-03-05",
       "sabado": "2027-03-06",
       "jornada": "J17",
       "hay_partido": true,
@@ -574,7 +632,9 @@
       "semana": 27,
       "mesociclo": "M5",
       "microciclo": "MC19",
-      "lunes": "2027-03-08",
+      "martes": "2027-03-09",
+      "miercoles": "2027-03-10",
+      "viernes": "2027-03-12",
       "sabado": "2027-03-13",
       "jornada": "J18",
       "hay_partido": true,
@@ -587,7 +647,9 @@
       "semana": 28,
       "mesociclo": "M6",
       "microciclo": "MC20",
-      "lunes": "2027-03-15",
+      "martes": "2027-03-16",
+      "miercoles": "2027-03-17",
+      "viernes": "2027-03-19",
       "sabado": "2027-03-20",
       "jornada": null,
       "hay_partido": false,
@@ -600,7 +662,9 @@
       "semana": 29,
       "mesociclo": "M6",
       "microciclo": "MC21",
-      "lunes": "2027-03-22",
+      "martes": "2027-03-23",
+      "miercoles": "2027-03-24",
+      "viernes": "2027-03-26",
       "sabado": "2027-03-27",
       "jornada": null,
       "hay_partido": false,
@@ -613,7 +677,9 @@
       "semana": 30,
       "mesociclo": "M6",
       "microciclo": "MC22",
-      "lunes": "2027-03-29",
+      "martes": "2027-03-30",
+      "miercoles": "2027-03-31",
+      "viernes": "2027-04-02",
       "sabado": "2027-04-03",
       "jornada": "J19",
       "hay_partido": true,
@@ -626,7 +692,9 @@
       "semana": 31,
       "mesociclo": "M7",
       "microciclo": "MC23",
-      "lunes": "2027-04-05",
+      "martes": "2027-04-06",
+      "miercoles": "2027-04-07",
+      "viernes": "2027-04-09",
       "sabado": "2027-04-10",
       "jornada": "J20",
       "hay_partido": true,
@@ -639,7 +707,9 @@
       "semana": 32,
       "mesociclo": "M7",
       "microciclo": "MC24",
-      "lunes": "2027-04-12",
+      "martes": "2027-04-13",
+      "miercoles": "2027-04-14",
+      "viernes": "2027-04-16",
       "sabado": "2027-04-17",
       "jornada": "J21",
       "hay_partido": true,
@@ -652,7 +722,9 @@
       "semana": 33,
       "mesociclo": "M7",
       "microciclo": "MC25",
-      "lunes": "2027-04-19",
+      "martes": "2027-04-20",
+      "miercoles": "2027-04-21",
+      "viernes": "2027-04-23",
       "sabado": "2027-04-24",
       "jornada": "J22",
       "hay_partido": true,
@@ -665,7 +737,9 @@
       "semana": 34,
       "mesociclo": "M8",
       "microciclo": "MC26",
-      "lunes": "2027-04-26",
+      "martes": "2027-04-27",
+      "miercoles": "2027-04-28",
+      "viernes": "2027-04-30",
       "sabado": "2027-05-01",
       "jornada": null,
       "hay_partido": false,
@@ -678,7 +752,9 @@
       "semana": 35,
       "mesociclo": "M8",
       "microciclo": "MC27",
-      "lunes": "2027-05-03",
+      "martes": "2027-05-04",
+      "miercoles": "2027-05-05",
+      "viernes": "2027-05-07",
       "sabado": "2027-05-08",
       "jornada": "2F-1",
       "hay_partido": true,
@@ -691,7 +767,9 @@
       "semana": 36,
       "mesociclo": "M9",
       "microciclo": "MC28",
-      "lunes": "2027-05-10",
+      "martes": "2027-05-11",
+      "miercoles": "2027-05-12",
+      "viernes": "2027-05-14",
       "sabado": "2027-05-15",
       "jornada": "2F-2",
       "hay_partido": true,
@@ -704,7 +782,9 @@
       "semana": 37,
       "mesociclo": "M9",
       "microciclo": "MC29",
-      "lunes": "2027-05-17",
+      "martes": "2027-05-18",
+      "miercoles": "2027-05-19",
+      "viernes": "2027-05-21",
       "sabado": "2027-05-22",
       "jornada": "2F-3",
       "hay_partido": true,
@@ -717,7 +797,9 @@
       "semana": 38,
       "mesociclo": "M9",
       "microciclo": "MC30",
-      "lunes": "2027-05-24",
+      "martes": "2027-05-25",
+      "miercoles": "2027-05-26",
+      "viernes": "2027-05-28",
       "sabado": "2027-05-29",
       "jornada": "2F-4",
       "hay_partido": true,
@@ -730,7 +812,9 @@
       "semana": 39,
       "mesociclo": "M9",
       "microciclo": "MC31",
-      "lunes": "2027-05-31",
+      "martes": "2027-06-01",
+      "miercoles": "2027-06-02",
+      "viernes": "2027-06-04",
       "sabado": "2027-06-05",
       "jornada": "FINAL",
       "hay_partido": true,
@@ -740,6 +824,40 @@
       "viernes_tipo": "C"
     }
   ],
+  "bibliotecas_video": {
+    "catalyst_athletics": {
+      "url": "https://www.catalystathletics.com/exercises/",
+      "nota": "Vídeo y texto de ejecución por ejercicio. La mejor para fuerza."
+    },
+    "ace_fitness": {
+      "url": "https://www.acefitness.org/resources/everyone/exercise-library/329/single-leg-romanian-deadlift/",
+      "nota": "Fichas con fotos secuenciadas."
+    },
+    "precision_nutrition": {
+      "url": "https://www.precisionnutrition.com/video-exercise-library",
+      "nota": "Más de 400 vídeos gratuitos en hoja de cálculo con enlaces copiables."
+    },
+    "rehab_hero": {
+      "url": "https://www.rehabhero.ca/exercise",
+      "nota": "Movilidad, equilibrio y prevención."
+    },
+    "basketball_physio": {
+      "url": "https://basketball.physio/rehabilitation/spanishsquats/",
+      "nota": "Sentadilla española en baloncesto formativo."
+    }
+  },
+  "enlaces_ejercicio": {
+    "sentadilla_espanola": "https://www.catalystathletics.com/exercise/747/Spanish-Squat/",
+    "split_squat_bulgaro": "https://www.catalystathletics.com/exercise/173/Bulgarian-Split-Squat/",
+    "bulgaro_con_goma_rnt": "https://www.catalystathletics.com/exercise/736/RNT-Bulgarian-Split-Squat/",
+    "puente_gluteo_una_pierna": "https://www.catalystathletics.com/exercise/496/Single-Leg-Glute-Bridge/",
+    "puente_gluteo_una_pierna_isometrico": "https://www.catalystathletics.com/exercise/742/Single-Leg-Glute-Bridge-Hold/",
+    "puente_gluteo_banco": "https://www.catalystathletics.com/exercise/723/Single-Leg-Bench-Supported-Glute-Bridge/",
+    "peso_muerto_rumano": "https://www.catalystathletics.com/exercise/101/Romanian-Deadlift-RDL/",
+    "peso_muerto_rumano_una_pierna": "https://www.acefitness.org/resources/everyone/exercise-library/329/single-leg-romanian-deadlift/",
+    "plancha_lateral_elevacion": "https://www.catalystathletics.com/exercise/531/Side-Plank-Leg-Lift/",
+    "curl_nordico": "https://www.youtube.com/watch?v=_e9vFU9-tkc"
+  },
   "protocolo_dolor": [
     {
       "min": 0,
@@ -749,7 +867,7 @@
     {
       "min": 4,
       "max": 6,
-      "accion": "Sin pliometría el lunes. Sustituir por sentadilla española 5x45 s"
+      "accion": "Sin pliometría el martes. Sustituir por sentadilla española 5x45 s"
     },
     {
       "min": 7,
@@ -759,8 +877,8 @@
   ],
   "umbral_crecimiento_cm_2meses": 1.2,
   "fijos_todo_el_ano": [
-    "Curl nórdico todos los lunes",
-    "Velocidad alta todos los miércoles, 4-6 rep, 3 min de descanso",
+    "Curl nórdico todos los miércoles",
+    "Velocidad alta todos los martes, 4-6 rep, 3 min de descanso",
     "Bloque de tobillo todos los miércoles, 8 min",
     "Sentadilla española todos los viernes"
   ]

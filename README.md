@@ -16,6 +16,10 @@ sesión que toca con sus bloques, sus minutos y sus ejercicios. Si es sábado,
 el partido; si es domingo, la rutina de regeneración; si es una semana de
 parón, el plan autónomo; y fuera de temporada cae al calendario.
 
+Se entrena **martes, miércoles y viernes**, 50 minutos cada día. Martes y
+miércoles son consecutivos: el martes lleva el trabajo neural, que exige
+frescura, y el miércoles la fuerza, que tolera fatiga previa.
+
 **Calendario.** Las 39 semanas con su carga, su mesociclo y su jornada, con la
 lógica del póster: barra de carga, color por tipo de bloque y las semanas sin
 partido a la vista. Cada semana lleva a su detalle.
@@ -24,9 +28,14 @@ partido a la vista. Cada semana lleva a su detalle.
 una. Cada ejercicio enlaza con su ficha y cada bloque de movilidad con su
 rutina cronometrada. Cualquier sesión se imprime en una hoja limpia.
 
-**Ejercicios.** 85 fichas buscables y filtrables por capacidad: cómo se hace,
-la clave técnica, el error frecuente, el escalón de su progresión y en qué
-sesiones de la temporada aparece.
+**Ejercicios.** 85 fichas buscables y filtrables por capacidad, con los seis
+campos que pide el brief: montaje, ejecución, **instrucción en voz alta**,
+error frecuente con su corrección, regresión y progresión, y material visual.
+
+La instrucción de banda va la primera y destacada: es lo que se lee en tres
+segundos con el ejercicio ya empezado. Del material visual, **▶** es un enlace
+comprobado y **🔍** un término de búsqueda que abre el buscador con esa frase
+exacta. Un 🔍 nunca se convierte en un enlace directo inventado.
 
 **Protocolos.** Las banderas rojas primero y bien visibles, después el
 protocolo de dolor, el semáforo semanal, la batería de tests y los cinco
@@ -83,17 +92,22 @@ partidos, y lleva anotado de qué archivo y de qué sección sale. Si algún dí
 troceado se equivoca, el entrenador sigue leyendo lo que dice el documento.
 
 El generador **sale en rojo** si una fuente no tiene la forma esperada o si
-falla alguna comprobación: que las 35 semanas presenciales tengan sus tres
-días, que los bloques sumen los 55 o 50 minutos que fija `CLAUDE.md`, y que
-estén los contenidos fijos del año. Más vale que falle a que publique una
-sesión a medias.
+falla una comprobación estructural: que las 35 semanas presenciales tengan sus
+tres días, que ninguna sesión se quede sin bloques, y que cada semana lleve
+sus contenidos fijos. Más vale que falle a que publique una sesión a medias.
+
+Aparte, imprime **avisos de fuente**: los casos en que dos documentos se
+contradicen entre sí —un encabezado con una fecha que el calendario desmiente,
+unos bloques que no suman la duración de su sesión, una etiqueta de tipo que
+no cuadra con el día—. Eso no tumba la generación porque **se arregla en el
+documento, no en el código**, pero queda a la vista en cada ejecución.
 
 Las tres formas de sesión no significan lo mismo y la web las distingue:
 
 | | |
 |---|---|
 | **explícita** | el documento detalla ese día concreto |
-| **por plantilla** | el documento asigna una plantilla (A1, B2, C…) y la carga de la semana decide las series |
+| **por plantilla** | el documento asigna una plantilla (N1, F2, C…) y la carga de la semana decide las series |
 | **autónoma** | no hay sesión presencial: manda el plan del jugador |
 
 ## Probar los cambios

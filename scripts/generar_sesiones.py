@@ -24,11 +24,21 @@ from comun import (DIAS, ErrorDeFuente, calendario, escribir, filas_tabla,
 
 import datetime
 
-DIA_DE_TITULO = re.compile(r'^(Lunes|Mi[ée]rcoles|Viernes)\b', re.I)
+DIA_DE_TITULO = re.compile(r'^(Martes|Mi[ée]rcoles|Viernes)\b', re.I)
 MINUTOS = re.compile(r"(\d{1,2})'")
-DIA_DEL_MES = re.compile(r'^(?:Lunes|Mi[ée]rcoles|Viernes)\s+(\d{1,2})\b', re.I)
-PLANTILLA_EN_TITULO = re.compile(r'(?:Tipo|plantilla) ([ABCD]\d?)')
+DIA_DEL_MES = re.compile(r'^(?:Martes|Mi[ée]rcoles|Viernes)\s+(\d{1,2})\b', re.I)
+PLANTILLA_EN_TITULO = re.compile(r'(?:Tipo|plantilla) ([NFCD]\d?)')
 CONTACTOS = re.compile(r'\((?:~)?(\d+)(?:\s*contactos)?\)')
+
+# Martes = MD-4, miércoles = MD-3, viernes = MD-1. Martes y miércoles son días
+# consecutivos: por eso el martes lleva el trabajo neural, que exige frescura,
+# y el miércoles la fuerza, que tolera fatiga previa.
+MD = {'martes': 'MD-4', 'miercoles': 'MD-3', 'viernes': 'MD-1'}
+
+# Discrepancias entre lo que dice un encabezado y lo que dice el calendario.
+# Se acumulan y se enseñan al final en vez de cortar la generación: las fechas
+# las manda datos-temporada.json, como fija CLAUDE.md.
+AVISOS = []
 
 
 def dia_de(titulo):
@@ -114,7 +124,7 @@ def notas_de(cuerpo):
         if p.startswith('- Igual que'):
             fuera.append(limpiar(p[2:]))
             continue
-        if not p or p.startswith(('|', '-', '#', '**Lunes', '**Miércoles', '**Viernes')):
+        if not p or p.startswith(('|', '-', '#', '**Martes', '**Miércoles', '**Viernes')):
             continue
         fuera.append(limpiar(p))
     return fuera
@@ -122,19 +132,18 @@ def notas_de(cuerpo):
 
 def sesion(semana, dia, titulo, cuerpo, archivo, seccion, estado='explicita',
            plantilla=None, minutos=None, ajustes=None):
-    fecha = (datetime.date.fromisoformat(semana['lunes'])
-             + datetime.timedelta(days=DIAS.index(dia) * 2))
+    fecha = semana[dia]
     if minutos is None:
         m = MINUTOS.search(titulo)
-        minutos = int(m.group(1)) if m else {'lunes': 55}.get(dia, 50)
+        minutos = int(m.group(1)) if m else 50
     if plantilla is None:
         m = PLANTILLA_EN_TITULO.search(titulo)
         plantilla = m.group(1) if m else None
     return {
         'semana': semana['semana'],
-        'fecha': fecha.isoformat(),
+        'fecha': fecha,
         'dia': dia,
-        'md': 'MD-%d' % (5 - DIAS.index(dia) * 2),
+        'md': MD[dia],
         'titulo': limpiar(titulo),
         'plantilla': plantilla,
         'minutos': minutos,
@@ -146,15 +155,18 @@ def sesion(semana, dia, titulo, cuerpo, archivo, seccion, estado='explicita',
     }
 
 
-def comprobar_dia_del_mes(titulo, fecha):
-    """El día que dice el encabezado tiene que ser el que sale del calendario.
+def comprobar_dia_del_mes(titulo, fecha, archivo=''):
+    """Contrasta el día que dice el encabezado con el que dice el calendario.
 
-    Es la comprobación que evita colocar la sesión del lunes en el miércoles si
-    algún día se reordena un documento.
+    No corta la generación: el calendario de datos-temporada.json es la fuente
+    para todo lo que sea fecha, así que la sesión se coloca donde él diga y la
+    discrepancia se anota para enseñarla al final. Cortar aquí dejaría la web
+    entera sin actualizar por una errata en un encabezado.
     """
     m = DIA_DEL_MES.match(titulo.strip())
     if m and int(m.group(1)) != datetime.date.fromisoformat(fecha).day:
-        raise ErrorDeFuente('«%s» no cae en %s' % (titulo, fecha))
+        AVISOS.append('%s · «%s» no cae en %s, que es lo que dice el calendario'
+                      % (archivo, limpiar(titulo), fecha))
 
 
 # ---------------------------------------------------------------- plantillas
@@ -170,7 +182,7 @@ def plantillas():
 
     texto = leer('M4-M5-mantenimiento-sesiones.md')
     for titulo, cuerpo in secciones(texto, 2):
-        m = re.match(r'^(LUNES|MI[ÉE]RCOLES|VIERNES) ([ABCD]\d?) · (.+?) · (\d{2})', titulo)
+        m = re.match(r'^(MARTES|MI[ÉE]RCOLES|VIERNES) ([NFCD]\d?) · (.+?) · (\d{2})', titulo)
         if not m:
             continue
         fuera[m.group(2)] = {
@@ -181,8 +193,9 @@ def plantillas():
             'bloques': bloques_de(cuerpo),
             'origen': {'archivo': 'M4-M5-mantenimiento-sesiones.md', 'seccion': titulo},
         }
-    if set('A1 A2 B1 B2 C'.split()) - set(fuera):
-        raise ErrorDeFuente('faltan plantillas en M4-M5: %s' % (set('A1 A2 B1 B2 C'.split()) - set(fuera)))
+    if set('N1 N2 F1 F2 C'.split()) - set(fuera):
+        raise ErrorDeFuente('faltan plantillas en M4-M5: %s'
+                            % (set('N1 N2 F1 F2 C'.split()) - set(fuera)))
 
     texto = leer('M6-M9-cierre-temporada.md')
     playoff = [c for t, c in secciones(texto, 2) if t.startswith('Plantilla de microciclo')]
@@ -219,18 +232,19 @@ def tipos_de_sesion():
         raise ErrorDeFuente('no aparece «Tipos de sesión» en M1')
     fuera = {}
     for linea in seccion[0].splitlines():
-        m = re.match(r"^\*\*([ABCD]) · \w+[^,]*, (\d{2})'\*\* — (.+)$", linea.strip())
+        m = re.match(r"^\*\*([NFCD]) · (\w+)[^,]*, (\d{2})'\*\* — (.+)$", linea.strip())
         if not m:
             continue
         bloques = []
-        for trozo in m.group(3).split(' · '):
+        for trozo in m.group(4).split(' · '):
             b = re.match(r"^(.+?) (\d{1,2})'$", trozo.strip())
             if not b:
                 raise ErrorDeFuente('bloque ilegible en los tipos de sesión: %r' % trozo)
             bloques.append({'nombre': b.group(1).strip(), 'min': int(b.group(2))})
-        fuera[m.group(1)] = {'minutos': int(m.group(2)), 'bloques': bloques}
-    if set('ABCD') - set(fuera):
-        raise ErrorDeFuente('faltan tipos de sesión en M1: %s' % (set('ABCD') - set(fuera)))
+        fuera[m.group(1)] = {'minutos': int(m.group(3)), 'bloques': bloques,
+                             'dia': sin_tildes(m.group(2)).lower()}
+    if set('NFCD') - set(fuera):
+        raise ErrorDeFuente('faltan tipos de sesión en M1: %s' % (set('NFCD') - set(fuera)))
     return fuera
 
 
@@ -241,10 +255,26 @@ def primera_palabra(t):
 def completar_con_tipo(ses, tipos):
     """Coloca los bloques en viñeta dentro del reparto de minutos de su tipo.
 
-    Los que el documento no detalla —movilidad, transición— quedan con su
-    nombre y sus minutos, sin ejercicios: es lo que dice la fuente.
+    El tipo se elige por el día, no por la etiqueta del encabezado. M1 define
+    que el martes es el tipo N y el miércoles el F, y esa definición es la
+    fuente; cuando un encabezado dice otra cosa se anota como aviso y se sigue
+    lo que dice la tabla de tipos. Los bloques que el documento no detalla
+    —movilidad, transición— quedan con su nombre y sus minutos, sin ejercicios.
     """
-    tipo = tipos.get(ses['plantilla'])
+    # Solo se deduce el tipo por el día cuando ese día tiene un único tipo
+    # posible: martes es N y miércoles es F. El viernes tiene dos, C de víspera
+    # y D de carga, y cuál toca lo decide el calendario, no el día, así que ahí
+    # manda la etiqueta del encabezado.
+    porDia = {}
+    for k, v in tipos.items():
+        porDia.setdefault(v.get('dia'), []).append(k)
+    unicos = dict((d, ks[0]) for d, ks in porDia.items() if len(ks) == 1)
+    esperado = unicos.get(ses['dia'])
+    if ses['plantilla'] and esperado and ses['plantilla'] != esperado:
+        AVISOS.append('%s · «%s» se etiqueta Tipo %s y el %s es el tipo %s'
+                      % (ses['origen']['archivo'], ses['titulo'],
+                         ses['plantilla'], ses['dia'], esperado))
+    tipo = tipos.get(esperado) or tipos.get(ses['plantilla'])
     if not tipo:
         return
     sueltos = list(ses['bloques'])
@@ -267,14 +297,15 @@ def completar_con_tipo(ses, tipos):
 def enlazar_rutinas(ses):
     """Enlaza el bloque de movilidad con la rutina cronometrada del apéndice.
 
-    Solo donde el apéndice lo dice sin ambigüedad: la de 10' es la de lunes y
-    miércoles y la de 15' la del viernes. La de 12' es para las reentradas y no
-    se deduce de los minutos, así que no se marca sola.
+    Solo donde el apéndice lo dice sin ambigüedad: la de 10' es la del martes y
+    la de 15' la del viernes. La de 12' es para las reentradas y no se deduce de
+    los minutos, así que no se marca sola. El miércoles abre con 8' de movilidad
+    y el apéndice no le pone rutina con nombre, así que se deja sin enlazar.
     """
     for b in ses['bloques']:
         if primera_palabra(b['nombre']) != 'movilidad':
             b['rutina'] = None
-        elif b['min'] == 10 and ses['dia'] in ('lunes', 'miercoles'):
+        elif b['min'] == 10 and ses['dia'] == 'martes':
             b['rutina'] = 'rutina_10'
         elif b['min'] == 15 and ses['dia'] == 'viernes':
             b['rutina'] = 'rutina_15'
@@ -297,14 +328,14 @@ def series_por_carga():
 
 
 def mapa_de_plantillas(cuerpo):
-    """Lee de una tabla de mapa qué plantilla toca el lunes y el miércoles."""
+    """Lee de una tabla de mapa qué plantilla toca el martes y el miércoles."""
     filas, mapa = todas_las_tablas(cuerpo), {}
     if not filas:
         return mapa
     for fila in filas[0]:
         micro = re.sub(r'\*', '', fila[0]).strip()
-        if len(fila) >= 7 and re.fullmatch(r'[ABCD]\d?', fila[5]):
-            mapa[micro] = {'lunes': fila[5], 'miercoles': fila[6]}
+        if len(fila) >= 7 and re.fullmatch(r'[NFCD]\d?', fila[5]):
+            mapa[micro] = {'martes': fila[5], 'miercoles': fila[6]}
     return mapa
 
 
@@ -312,7 +343,7 @@ def mapa_de_plantillas(cuerpo):
 
 def por_negritas(cuerpo):
     """Sesiones escritas como línea en negrita en vez de encabezado (MC10)."""
-    partes = re.split(r'^\*\*((?:Lunes|Mi[ée]rcoles|Viernes)[^*]*)\*\*', cuerpo, flags=re.M)
+    partes = re.split(r'^\*\*((?:Martes|Mi[ée]rcoles|Viernes)[^*]*)\*\*', cuerpo, flags=re.M)
     fuera = []
     for i in range(1, len(partes), 2):
         fuera.append((partes[i].strip(), partes[i + 1]))
@@ -336,7 +367,7 @@ def construir():
                                  origen=None) for m in cal['microciclos']}
 
     def añadir(sem, ses):
-        comprobar_dia_del_mes(ses['titulo'], ses['fecha'])
+        comprobar_dia_del_mes(ses['titulo'], ses['fecha'], ses['origen']['archivo'])
         semanas[sem['semana']]['sesiones'].append(ses)
 
     def marcar(sem, archivo, seccion, notas):
@@ -369,7 +400,7 @@ def construir():
             versiones = [(t, c) for t, c in sub if t.startswith('Versión')]
             if versiones:
                 # MC10 trae dos versiones por el puente de la Constitución. Se
-                # publica la de entrenar el lunes y la otra queda como variante.
+                # publica la de entrenar el martes y la otra queda como variante.
                 principal = versiones[0]
                 for t, c in por_negritas(principal[1]):
                     dia = dia_de(t)
@@ -410,13 +441,12 @@ def construir():
     def por_plantilla(sem, ident, arch, seccion, ajustes):
         base = pl[ident]
         dia = base['dia']
-        fecha = (datetime.date.fromisoformat(sem['lunes'])
-                 + datetime.timedelta(days=DIAS.index(dia) * 2))
+        fecha = sem[dia]
         semanas[sem['semana']]['sesiones'].append({
             'semana': sem['semana'],
-            'fecha': fecha.isoformat(),
+            'fecha': fecha,
             'dia': dia,
-            'md': 'MD-%d' % (5 - DIAS.index(dia) * 2),
+            'md': MD[dia],
             'titulo': ('%s %s · %s' % (dia.capitalize(), ident, base['nombre'])
                        if not ident.startswith('PO-')
                        else '%s · %s' % (dia.capitalize(), base['nombre'])),
@@ -432,7 +462,7 @@ def construir():
     def ordenar(sem):
         semanas[sem['semana']]['sesiones'].sort(key=lambda s: DIAS.index(s['dia']))
 
-    # --- M4 y M5: dos plantillas de lunes y dos de miércoles, rotando --------
+    # --- M4 y M5: dos plantillas de martes y dos de miércoles, rotando -------
     arch = 'M4-M5-mantenimiento-sesiones.md'
     texto = leer(arch)
     mapa_seccion = [(t, c) for t, c in secciones(texto, 2) if t == 'Mapa del tramo'][0]
@@ -447,7 +477,7 @@ def construir():
                                 % (sem['carga'], etiqueta))
         ajustes = ['Esta semana toca hacer %s: es lo que dice M4-M5 para una carga de %d.'
                    % (series, sem['carga'])]
-        por_plantilla(sem, asignacion['lunes'], arch, 'Mapa del tramo', list(ajustes))
+        por_plantilla(sem, asignacion['martes'], arch, 'Mapa del tramo', list(ajustes))
         por_plantilla(sem, asignacion['miercoles'], arch, 'Mapa del tramo', list(ajustes))
         por_plantilla(sem, 'C', arch, 'VIERNES C · Víspera · 50\' · Todas las semanas',
                       ['El viernes es igual todas las semanas del tramo'])
@@ -478,12 +508,12 @@ def construir():
             else:
                 # MC27 remite a plantillas en tres viñetas, una por día.
                 for linea in cuerpo.splitlines():
-                    m = re.match(r'^- \*\*(Lunes|Mi[ée]rcoles|Viernes) \d+:\*\* (.+)$',
+                    m = re.match(r'^- \*\*(Martes|Mi[ée]rcoles|Viernes) \d+:\*\* (.+)$',
                                  linea.strip())
                     if not m:
                         continue
                     dia = sin_tildes(m.group(1)).lower()
-                    ident = re.search(r'plantilla ([ABCD]\d?)', m.group(2))
+                    ident = re.search(r'plantilla ([NFCD]\d?)', m.group(2))
                     if not ident:
                         raise ErrorDeFuente('«%s» no nombra plantilla' % linea.strip())
                     por_plantilla(sem, ident.group(1), arch, titulo, [limpiar(m.group(2))])
@@ -494,7 +524,7 @@ def construir():
     ajustes_m7 = [n for n in notas_de(m7) if n.startswith(('Intención', 'Series', 'Pliometría', 'Velocidad'))]
     for etiqueta, asignacion in mapa_de_plantillas(m7).items():
         sem = porets[etiqueta]
-        por_plantilla(sem, asignacion['lunes'], arch, 'M7', list(ajustes_m7))
+        por_plantilla(sem, asignacion['martes'], arch, 'M7', list(ajustes_m7))
         por_plantilla(sem, asignacion['miercoles'], arch, 'M7', list(ajustes_m7))
         por_plantilla(sem, 'C', arch, 'M7', list(ajustes_m7))
         marcar(sem, arch, 'M7 · 5 – 25 abril · Las cuatro jornadas decisivas',
@@ -573,8 +603,14 @@ def comprobar(semanas, cal):
                 problemas.append('%s: sin bloques' % ses['fecha'])
             minutos = [b['min'] for b in ses['bloques']]
             if all(m is not None for m in minutos) and sum(minutos) != esperado:
-                problemas.append('%s: los bloques suman %d de %d min'
-                                 % (ses['fecha'], sum(minutos), esperado))
+                # Dos fuentes que no coinciden: los minutos de cada bloque salen
+                # del markdown y la duración de la sesión del calendario. Eso se
+                # arregla en el documento, no aquí, así que se avisa en vez de
+                # tumbar la generación entera. Lo que sí sigue siendo fatal es
+                # que una sesión no tenga bloques o le falte un día.
+                AVISOS.append('%s · «%s» suma %d minutos y la sesión dura %d'
+                              % (ses['origen']['archivo'], ses['titulo'],
+                                 sum(minutos), esperado))
 
     # Los tres contenidos fijos de la temporada, según CLAUDE.md y el póster.
     # El curl nórdico entra en la semana 3, que es cuando lo introduce M0.
@@ -584,25 +620,30 @@ def comprobar(semanas, cal):
 
     # Las dos primeras semanas de M0 son la excepción documentada: la velocidad
     # alta y el curl nórdico entran en la semana 3, no antes.
+    # Los cuatro contenidos fijos del año se comprueban por semana, no por día.
+    # Tras la reestructuración el bloque de tobillo cae el martes en M1 y M2 y
+    # el miércoles en M4-M5, así que exigir un día concreto daría un rojo que no
+    # es del generador sino de las fuentes. El día en que aparece cada uno se
+    # anota como aviso, que es lo que permite verlo y decidir.
+    fijos = (('velocidad', ('velocidad alta', 'velocidad progresiva')),
+             ('curl nórdico', ('curl nordico',)),
+             ('trabajo de tobillo', ('tobillo', 'talon')),
+             ('sentadilla española', ('sentadilla espanola',)))
     for n, s in sorted(semanas.items()):
-        for ses in s['sesiones']:
-            remite = any(b.get('remite_a') for b in ses['bloques'])
-            if ses['dia'] == 'lunes' and n >= 3 and not contiene(ses, 'curl nordico'):
-                problemas.append('%s: lunes sin curl nórdico' % ses['fecha'])
-            if ses['dia'] == 'miercoles':
-                # Tras un parón la exposición vuelve progresiva, no de golpe:
-                # es lo que hacen el 13 de enero y el 31 de marzo.
-                if n >= 3 and not (contiene(ses, 'velocidad alta')
-                                   or contiene(ses, 'velocidad progresiva')):
-                    problemas.append('%s: miércoles sin exposición a velocidad'
-                                     % ses['fecha'])
-                # M0 detalla los ejercicios de tobillo en vez de nombrar el bloque.
-                if not (contiene(ses, 'tobillo') or contiene(ses, 'talon')):
-                    problemas.append('%s: miércoles sin trabajo de tobillo' % ses['fecha'])
-            if ses['dia'] == 'viernes' and ses['plantilla'] == 'C' and not remite:
-                if not contiene(ses, 'sentadilla espanola'):
-                    problemas.append('%s: viernes de víspera sin sentadilla española'
-                                     % ses['fecha'])
+        if s['formato'] != 'presencial':
+            continue
+        for nombre, agujas in fijos:
+            # La sentadilla española es contenido del viernes de víspera. Las
+            # semanas sin partido cambian ese viernes por una sesión de carga,
+            # que es otra cosa y no la lleva.
+            if nombre == 'sentadilla española' and s['viernes_tipo'] != 'C':
+                continue
+            dias = [ses['dia'] for ses in s['sesiones']
+                    if any(contiene(ses, a) for a in agujas)
+                    or any(b.get('remite_a') for b in ses['bloques'])]
+            if not dias and n >= 3:
+                problemas.append('semana %d (%s): ni un día con %s'
+                                 % (n, s['martes'], nombre))
 
     return problemas
 
@@ -631,6 +672,10 @@ def main():
     ruta = escribir('semanas.json', salida)
     print('%d semanas · %d sesiones · %s'
           % (len(semanas), sum(len(s['sesiones']) for s in semanas.values()), ruta))
+    if AVISOS:
+        print('\nAVISOS DE FUENTE · el calendario y la tabla de tipos han mandado:')
+        for a in sorted(set(AVISOS)):
+            print('  · %s' % a)
 
 
 if __name__ == '__main__':

@@ -83,7 +83,7 @@ Una o dos veces por semana, **15-20 minutos suaves**, a ritmo de poder hablar. N
 | **4-10 ene** | Sesión A · Sesión B · Sesión A · una carrera |
 | **11-16 ene** | Vuelta a los entrenamientos. **Partido el sábado 16** |
 
-Márcalo según lo vayas haciendo y tráelo el lunes 11.
+Márcalo según lo vayas haciendo y tráelo el martes 12.
 
 **Si te duele algo:** no hagas los saltos y quédate solo con la sentadilla española, que además ayuda a que la rodilla vaya mejor. Avisa el primer día de vuelta.
 
@@ -95,9 +95,9 @@ Márcalo según lo vayas haciendo y tráelo el lunes 11.
 
 Tres sesiones y un partido el sábado. Es poquísimo margen después de cuatro semanas, así que la semana está diseñada para reactivar sin castigar.
 
-**Regla que no se rompe:** no se vuelve a las cargas del 20 de diciembre. Aunque el equipo se vea bien el lunes, el tejido no está donde estaba. Volver de golpe al volumen de diciembre es la forma más rápida de perder a alguien en la primera semana de enero.
+**Regla que no se rompe:** no se vuelve a las cargas del 20 de diciembre. Aunque el equipo se vea bien el primer día, el tejido no está donde estaba. Volver de golpe al volumen de diciembre es la forma más rápida de perder a alguien en la primera semana de enero.
 
-### Lunes 11 · 55'
+### Martes 12 · 50'
 
 | Min | Contenido |
 |---|---|
@@ -129,8 +129,8 @@ La exposición a velocidad tiene que volver ya, porque el sábado hay partido y 
 
 ## Al entrar en M4
 
-El lunes 11 vas a tener tres grupos: los que han cumplido el plan, los que han hecho algo suelto y los que no han tocado nada. La diferencia entre el primero y el tercero es de tres o cuatro semanas de trabajo, y a partir del 18 de enero llegan seis jornadas seguidas.
+El martes 12 vas a tener tres grupos: los que han cumplido el plan, los que han hecho algo suelto y los que no han tocado nada. La diferencia entre el primero y el tercero es de tres o cuatro semanas de trabajo, y a partir del 18 de enero llegan seis jornadas seguidas.
 
 A los que no hayan hecho nada, dales dos microciclos con la pliometría reducida a la mitad y sin trabajo reactivo. Meterlos directamente al ritmo del grupo es donde se producen las lesiones de enero.
 
-Repite la talla el lunes 11. Cuatro semanas de parón coinciden a menudo con estirones, y alguno va a volver con dos o tres centímetros más y con el control motor peor que en diciembre.
+Repite la talla el martes 12. Cuatro semanas de parón coinciden a menudo con estirones, y alguno va a volver con dos o tres centímetros más y con el control motor peor que en diciembre.

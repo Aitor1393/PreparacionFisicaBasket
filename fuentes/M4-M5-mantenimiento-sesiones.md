@@ -9,18 +9,18 @@ Aquí el objetivo cambia por completo. No se entrena para mejorar, se entrena pa
 
 ## Mapa del tramo
 
-| Micro | Fechas | Sábado | Carga | Contactos | Lunes | Miércoles |
+| Micro | Fechas | Sábado | Carga | Contactos | Martes | Miércoles |
 |---|---|---|---|---|---|---|
-| **MC12** | 18-24 ene | J11 (23) | 5 | 55 | A1 | B1 |
-| **MC13** | 25-31 ene | J12 (30) | 5 | 55 | A2 | B2 |
-| **MC14** | 1-7 feb | J13 (6) | 6 | 65 | A1 | B1 |
-| **MC15** | 8-14 feb | J14 (13) | 4 | 40 | A2 | B2 |
-| **MC16** | 15-21 feb | J15 (20) | 6 | 65 | A1 | B1 |
-| **MC17** | 22-28 feb | J16 (27) | 4 | 40 | A2 | B2 |
-| **MC18** | 1-7 mar | J17 (6) | 5 | 55 | A1 | B1 |
-| **MC19** | 8-14 mar | J18 (**13, sábado**) | 4 | 40 | A2 | B2 |
+| **MC12** | 18-24 ene | J11 (23) | 5 | 55 | N1 | F1 |
+| **MC13** | 25-31 ene | J12 (30) | 5 | 55 | N2 | F2 |
+| **MC14** | 1-7 feb | J13 (6) | 6 | 65 | N1 | F1 |
+| **MC15** | 8-14 feb | J14 (13) | 4 | 40 | N2 | F2 |
+| **MC16** | 15-21 feb | J15 (20) | 6 | 65 | N1 | F1 |
+| **MC17** | 22-28 feb | J16 (27) | 4 | 40 | N2 | F2 |
+| **MC18** | 1-7 mar | J17 (6) | 5 | 55 | N1 | F1 |
+| **MC19** | 8-14 mar | J18 (**13, sábado**) | 4 | 40 | N2 | F2 |
 
-Las sesiones alternan entre dos plantillas de lunes y dos de miércoles. El viernes es siempre el mismo. Lo que cambia semana a semana es el número de series.
+Las sesiones alternan entre dos plantillas de martes y dos de miércoles. El viernes es siempre el mismo. Lo que cambia semana a semana es el número de series.
 
 **Series según carga:** carga 4 → 2 series · carga 5 → 3 series · carga 6 → 3 series con la variante más exigente.
 
@@ -28,39 +28,39 @@ MC15 y MC17 son descargas obligatorias, no opcionales. Si las conviertes en sema
 
 ---
 
-## LUNES A1 · Dominante de rodilla · 55'
+## MARTES N1 · Neural reactivo · 50'
 
 | Min | Contenido |
 |---|---|
 | 10' | Movilidad y activación |
-| 10' | **Pliometría.** Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna |
+| 12' | **Pliometría.** Salto a cajón con contacto mínimo 3-4×5 · Salto lateral a una pierna reactivo 2-3×5/pierna |
+| 23' | **Neuromuscular.** Escalera 3' · **COD reactivo con señal visual 6-8 rep** · Salidas de 10 m desde desplazamiento defensivo 6 rep · **Velocidad alta 4-5×25 m, 3' de descanso** |
+| 5' | Transición a pista |
+
+## MARTES N2 · Neural aceleración · 50'
+
+| Min | Contenido |
+|---|---|
+| 10' | Movilidad y activación |
+| 12' | **Pliometría.** Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6 |
+| 23' | **Neuromuscular.** Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · **Velocidad alta 4×30 m, 3' de descanso** |
+| 5' | Transición a pista |
+
+## MIÉRCOLES F1 · Fuerza dominante de rodilla · 50'
+
+| Min | Contenido |
+|---|---|
+| 8' | Movilidad y activación |
 | 30' | **Fuerza.** Split squat búlgaro con excéntrico de 4" 2-3×8/pierna · **Curl nórdico 2-3×5** · Puente de glúteo a una pierna 2-3×10/pierna · Remo con goma pretensada 2-3×12/lado · Plancha con marcha 2-3×12/lado |
-| 5' | Transición |
+| 12' | **Complementaria.** Flexión con pies elevados 2-3×10 · Face pull 2×15 · Bloque de tobillo 8' |
 
-## LUNES A2 · Dominante de cadera · 55'
+## MIÉRCOLES F2 · Fuerza dominante de cadera · 50'
 
 | Min | Contenido |
 |---|---|
-| 10' | Movilidad y activación |
-| 10' | **Pliometría.** Salto en profundidad desde cajón bajo 3-4×5 · Saltos en zigzag 2-3×6 |
+| 8' | Movilidad y activación |
 | 30' | **Fuerza.** Sentadilla a una pierna a banco 2-3×6/pierna · Curl de isquios deslizante a una pierna 2-3×6/pierna · **Curl nórdico 2-3×5** · Dorsiano con goma pretensada 2-3×12 · Pallof con desplazamiento lateral 2-3×10/lado |
-| 5' | Transición |
-
-## MIÉRCOLES B1 · Reactivo · 50'
-
-| Min | Contenido |
-|---|---|
-| 10' | Movilidad y activación |
-| 22' | **Neuromuscular.** Escalera 3' · **COD reactivo con señal visual 6-8 rep** · Salidas de 10 m desde desplazamiento defensivo 6 rep · **Velocidad alta 4-5×25 m** |
-| 18' | **Complementaria.** Flexión con pies elevados 2-3×10 · Press de hombro con goma 2-3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25" |
-
-## MIÉRCOLES B2 · Aceleración · 50'
-
-| Min | Contenido |
-|---|---|
-| 10' | Movilidad y activación |
-| 22' | **Neuromuscular.** Escalera 3' · 5-10-5 3-4 rep · Salidas de 10 m 5-6 rep · **Velocidad alta 4×30 m** |
-| 18' | **Complementaria.** Flexión con goma 2-3×10 · Remo con goma 2-3×12/lado · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio ojos cerrados 3×30" |
+| 12' | **Complementaria.** Flexión con goma 2-3×10 · Face pull 2×15 · Bloque de tobillo 8' |
 
 ## VIERNES C · Víspera · 50' · Todas las semanas
 
@@ -77,7 +77,7 @@ El viernes es el día más importante del tramo, aunque parezca el más flojo. L
 
 ## Lo que no se toca
 
-**El curl nórdico, todos los lunes.** Nueve partidos seguidos son nueve exposiciones a sprint máximo. Si algo se cae de la sesión por falta de tiempo, que no sea esto.
+**El curl nórdico, todos los miércoles.** Nueve partidos seguidos son nueve exposiciones a sprint máximo. Si algo se cae de la sesión por falta de tiempo, que no sea esto.
 
 **La velocidad alta, todos los miércoles.** Sigue siendo contraintuitivo y sigue siendo lo correcto. Cuatro o cinco repeticiones con descanso completo cuestan cinco minutos y protegen al isquiotibial.
 
@@ -94,7 +94,7 @@ Pregunta semanal, escala 0-10, rodilla, talón y espalda. Con la respuesta:
 | Dolor | Qué hacer |
 |---|---|
 | 0-3 | Sesión normal |
-| 4-6 | Fuera la pliometría del lunes. Sustituir por sentadilla española 5×45" y el resto de la sesión igual |
+| 4-6 | Fuera la pliometría del martes. Sustituir por sentadilla española 5×45" y el resto de la sesión igual |
 | 7 o más | Fuera pliometría y velocidad alta. Solo isométricos, movilidad y tren superior. Valoración médica |
 
 Un jugador con dolor de 4-6 puede seguir entrenando y jugando perfectamente. Lo que no puede es seguir saltando. La sentadilla española lo sustituye porque es carga tolerable en plena competición, que es lo que el tendón necesita. No esperes que le quite el dolor: el efecto analgésico del isométrico es pequeño y poco duradero, y la evidencia que lo sostiene es de calidad baja.
@@ -103,7 +103,7 @@ Un jugador con dolor de 4-6 puede seguir entrenando y jugando perfectamente. Lo 
 
 ## Jugadores con poco minutaje
 
-Los que jueguen menos de 10 minutos el sábado acumulan una carga muy inferior al resto y llegan a marzo desacondicionados. Añádeles un bloque intermitente el lunes, después de pista:
+Los que jueguen menos de 10 minutos el sábado acumulan una carga muy inferior al resto y llegan a marzo desacondicionados. Añádeles un bloque intermitente el miércoles, después de pista:
 
 **8-12 minutos en formato 15"/15"** a intensidad alta, o 10"/20" si van muy justos. Es la única resistencia programada de todo el tramo.
 

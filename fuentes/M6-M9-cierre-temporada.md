@@ -23,13 +23,13 @@ Lo que queda de verdad es **una sola semana presencial de carga alta, del 15 al 
 
 ## MC20 · 15-21 mar · Carga 10 — Última semana de carga del año
 
-### Lunes 15 · 55'
-- **Pliometría (56).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna
-- **Fuerza.** Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 4×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×12/lado
-
-### Miércoles 17 · 50'
+### Martes 16 · 50'
 - **Neuromuscular.** Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · **Velocidad alta 6×30 m**, 3' de descanso
 - **Complementaria.** Flexión con pies elevados 3×12 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25"
+
+### Miércoles 17 · 50'
+- **Pliometría (56).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna
+- **Fuerza.** Sentadilla a una pierna a banco 4×6/pierna · Curl de isquios deslizante a una pierna 4×6/pierna · Curl nórdico 4×5 · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×12/lado
 
 ### Viernes 19 · 50' — Sesión de carga
 - **Pliometría (64).** Saltos en zigzag reactivos 4×6 · Salto lateral a una pierna reactivo 4×5/pierna
@@ -45,13 +45,13 @@ Sin carrera continua esta vez. La semana siguiente hay partido y lo que interesa
 
 ## MC22 · 29 mar – 3 abr · Carga 7 · J19 sábado 3
 
-### Lunes 29 · 55'
-- **Pliometría (40).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna
-- **Fuerza.** Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado
-
-### Miércoles 31 · 50'
+### Martes 30 · 50'
 - **Neuromuscular.** Escalera 3' · COD reactivo 6 rep · Salidas de 10 m 6 rep · **Velocidad progresiva: 2×20 m al 90% + 3×25 m al 95%**
 - **Complementaria.** Flexión 3×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25"
+
+### Miércoles 31 · 50'
+- **Pliometría (40).** Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna
+- **Fuerza.** Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Puente de glúteo a una pierna 3×10/pierna · Remo con goma pretensada 3×12/lado · Plancha con marcha 3×12/lado
 
 ### Viernes 2 abr · 50' — Víspera (plantilla C)
 
@@ -61,11 +61,11 @@ Sin carrera continua esta vez. La semana siguiente hay partido y lo que interesa
 
 Aquí se fija el puesto y con él el cruce de octavos. El trabajo físico pasa a segundo plano: volumen bajo, calidad alta, y todo orientado a que lleguen frescos al sábado.
 
-| Micro | Fechas | Sábado | Carga | Contactos | Lunes | Miércoles |
+| Micro | Fechas | Sábado | Carga | Contactos | Martes | Miércoles |
 |---|---|---|---|---|---|---|
-| **MC23** | 5-11 abr | J20 (10) | 6 | 60 | A1 | B1 |
-| **MC24** | 12-18 abr | J21 (17) | 5 | 50 | A2 | B2 |
-| **MC25** | 19-25 abr | J22 (24) | 5 | 50 | A1 | B2 |
+| **MC23** | 5-11 abr | J20 (10) | 6 | 60 | N1 | F1 |
+| **MC24** | 12-18 abr | J21 (17) | 5 | 50 | N2 | F2 |
+| **MC25** | 19-25 abr | J22 (24) | 5 | 50 | N1 | F2 |
 
 Se usan las plantillas A1, A2, B1, B2 y C de M4-M5, con un cambio en la ejecución:
 
@@ -92,13 +92,13 @@ El sorteo de la segunda fase es el 27 de abril. El fin de semana del 1-2 de mayo
 
 Una semana sin partido antes de la fase decisiva. No es momento de meter un choque como MC20, pero sí de dar un último estímulo antes de bajar del todo.
 
-### Lunes 26 · 55'
-- **Pliometría (50).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna
-- **Fuerza, con intención de velocidad.** Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Curl de isquios deslizante a una pierna 3×6/pierna · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×10/lado
-
-### Miércoles 28 · 50'
+### Martes 27 · 50'
 - **Neuromuscular.** Escalera 3' · COD reactivo 8 rep · Salidas de 10 m 6 rep · **Velocidad alta 5×30 m**
 - **Complementaria.** Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25"
+
+### Miércoles 28 · 50'
+- **Pliometría (50).** Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna
+- **Fuerza, con intención de velocidad.** Sentadilla a una pierna a banco 3×6/pierna · Curl nórdico 3×5 · Curl de isquios deslizante a una pierna 3×6/pierna · Remo isométrico con goma 3×8/lado · Pallof con desplazamiento 3×10/lado
 
 ### Viernes 30 · 50'
 - **Pliometría (40).** Saltos en zigzag reactivos 4×5 · Salto lateral a una pierna reactivo 2×5/pierna
@@ -109,8 +109,8 @@ Una semana sin partido antes de la fase decisiva. No es momento de meter un choq
 
 Semana de bajada. Se entra en la segunda fase con el depósito lleno.
 
-- **Lunes 3:** plantilla A2 a 2 series · pliometría 40 contactos
-- **Miércoles 5:** plantilla B1 a 2 series · velocidad alta 4×25 m
+- **Martes 4:** plantilla N2 a 2 series · pliometría 40 contactos
+- **Miércoles 5:** plantilla F1 a 2 series
 - **Viernes 7:** plantilla C, volumen mínimo
 
 ---
@@ -134,15 +134,7 @@ En los dos casos la estructura física es idéntica: **carga 3-4, una sesión de
 
 ## Plantilla de microciclo de play-off
 
-### Lunes · 55'
-| Min | Contenido |
-|---|---|
-| 12' | Movilidad amplia |
-| 8' | **Pliometría de activación (30).** Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna |
-| 22' | **Fuerza mínima, intención de velocidad.** Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado |
-| 13' | Estiramientos, movilidad de cadera y tobillo, respiración |
-
-### Miércoles · 50'
+### Martes · 50'
 | Min | Contenido |
 |---|---|
 | 10' | Movilidad y activación |
@@ -150,10 +142,18 @@ En los dos casos la estructura física es idéntica: **carga 3-4, una sesión de
 | 12' | Face pull 2×15 · Bloque de tobillo 8' |
 | 8' | Movilidad y respiración |
 
+### Miércoles · 50'
+| Min | Contenido |
+|---|---|
+| 12' | Movilidad amplia |
+| 8' | **Pliometría de activación (30).** Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna |
+| 22' | **Fuerza mínima, intención de velocidad.** Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado |
+| 13' | Estiramientos, movilidad de cadera y tobillo, respiración |
+
 ### Viernes · 50'
 Plantilla C completa. Sentadilla española 5×30", isometría de gemelo 4×30", saltos bajos 4×4, salidas de 5 m 4 rep, respiración.
 
-En MC30 y MC31 baja la fuerza del lunes a un solo ejercicio por patrón y alarga la parte de movilidad y regeneración. A esas alturas nadie va a ganar nada entrenando más, y sí se puede perder.
+En MC30 y MC31 baja la fuerza del miércoles a un solo ejercicio por patrón y alarga la parte de movilidad y regeneración. A esas alturas nadie va a ganar nada entrenando más, y sí se puede perder.
 
 ---
 

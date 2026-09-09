@@ -10,13 +10,13 @@ Toda la planificación existe hoy en un Word de 58 páginas, un PDF de calendari
 
 ## Objetivo
 
-Que el entrenador abra la web un lunes por la mañana y en dos toques tenga delante la sesión de ese día, con sus ejercicios, series y repeticiones.
+Que el entrenador abra la web un martes por la mañana y en dos toques tenga delante la sesión de ese día, con sus ejercicios, series y repeticiones.
 
 ## Usuarios
 
 | Usuario | Qué necesita |
 |---|---|
-| **Entrenador** (principal) | La sesión de hoy. Consultar cómo se ejecuta un ejercicio. Ver dónde está la temporada |
+| **Entrenador** (principal) | La sesión de hoy. Consultar cómo se ejecuta un ejercicio, con vídeo. Ver dónde está la temporada |
 | **Jugadores** | La hoja del domingo y el plan de Navidad, desde el móvil |
 | **Club y técnico de pista** | Ver la lógica del año y por qué el lunes es la sesión más dura |
 
@@ -43,7 +43,11 @@ Las tres sesiones de la semana, completas. Carga, contactos de pliometría, jorn
 El detalle: bloques con minutos, ejercicios, series y repeticiones. Cada ejercicio enlaza a su ficha.
 
 **5. Ejercicios**
-Catálogo buscable y filtrable por capacidad (fuerza, pliometría, velocidad, COD, movilidad, core, tobillo, isométricos). Ficha: cómo se hace, clave técnica, error frecuente, nivel de progresión.
+Catálogo buscable y filtrable por capacidad (fuerza, pliometría, velocidad, COD, movilidad, core, tobillo, isométricos).
+
+Cada ficha tiene seis campos, y los seis deben verse: **montaje**, **ejecución**, **instrucción en voz alta** (destacada, es la que se usa gritando desde la banda), **error frecuente con su corrección**, **regresión y progresión**, y **material visual**.
+
+El campo de instrucción verbal merece tratamiento propio: es lo que el entrenador consulta en tres segundos con el ejercicio ya empezado. Que se lea de un vistazo.
 
 **6. Protocolos**
 Banderas rojas primero y bien visibles. Después el protocolo de dolor, y los protocolos por lesión. Debe quedar claro qué es competencia médica y qué no.
@@ -86,4 +90,4 @@ No empezar esta fase sin hablarlo.
 
 ## Criterio de aceptación
 
-Un lunes de febrero, el entrenador abre la web en el móvil camino del pabellón y en menos de diez segundos sabe qué sesión toca, con cuántas series y qué jugadores llevan restricción por dolor. Si eso funciona, la web está bien hecha.
+Un martes de febrero, el entrenador abre la web en el móvil camino del pabellón y en menos de diez segundos sabe qué sesión toca, con cuántas series y qué jugadores llevan restricción por dolor. Si eso funciona, la web está bien hecha.

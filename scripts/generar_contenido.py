@@ -10,22 +10,39 @@ import re
 import sys
 
 sys.path.insert(0, __file__.rsplit('/', 1)[0])
-from comun import (ErrorDeFuente, escribir, leer, limpiar, secciones,
+from comun import (ErrorDeFuente, calendario, escribir, leer, limpiar, secciones,
                    sin_tildes, todas_las_tablas)
 
-# Cada apartado de la parte 2 del apéndice cae en una de las capacidades por
-# las que el brief pide poder filtrar.
+# La parte 2 del apéndice va por capítulos numerados. Cada uno cae en una de
+# las capacidades por las que el brief pide poder filtrar.
 CAPACIDADES = {
-    'Movilidad': 'movilidad',
+    'Movilidad y activación': 'movilidad',
     'Fuerza · Dominante de rodilla': 'fuerza',
     'Fuerza · Dominante de cadera': 'fuerza',
-    'Empuje y tracción': 'fuerza',
+    'Empuje': 'fuerza',
+    'Tracción': 'fuerza',
     'Core': 'core',
     'Tobillo y pie': 'tobillo',
     'Isométricos de tendón': 'isometricos',
     'Pliometría': 'pliometria',
     'Velocidad': 'velocidad',
     'Cambios de dirección y escalera': 'cod',
+}
+
+# Los seis campos de la ficha, tal como los nombra el apéndice y como el brief
+# pide que se vean. La instrucción en voz alta va aparte porque es la que el
+# entrenador lee en tres segundos con el ejercicio ya empezado.
+CAMPOS = {
+    'Montaje': 'montaje',
+    'Ejecución': 'ejecucion',
+    'Di en voz alta': 'voz_alta',
+    'Error frecuente': 'error',
+    'Regresión': 'regresion',
+    'Progresión': 'progresion',
+    'Dosis': 'dosis',
+    'Prioridad': 'prioridad',
+    'Por qué': 'por_que',
+    'Por qué está': 'por_que',
 }
 
 NOMBRES_CAPACIDAD = {
@@ -78,6 +95,66 @@ def buscar_ficha(texto, fichas):
     return candidatos[0] if len(candidatos) == 1 else None
 
 
+def material_visual(bloque):
+    """Saca los enlaces de vídeo de una ficha.
+
+    ▶ es un enlace comprobado uno a uno y se enseña como enlace externo. 🔍 es
+    un término de búsqueda porque no hay enlace estable, y se enseña como
+    búsqueda. **No se convierte un 🔍 en un enlace inventado**: lo pide así el
+    propio apéndice y es lo que evita mandar al entrenador a un vídeo que no es.
+    """
+    fuera = []
+    for m in re.finditer(r'\*\*▶\*\*\s*\[([^\]]+)\]\(([^)]+)\)', bloque):
+        fuera.append({'tipo': 'enlace', 'texto': limpiar(m.group(1)), 'url': m.group(2)})
+    for m in re.finditer(r'\*\*🔍\*\*\s*`([^`]+)`', bloque):
+        fuera.append({'tipo': 'busqueda', 'termino': m.group(1).strip()})
+    return fuera
+
+
+def campos_de_ficha(bloque):
+    """Parte una ficha en sus campos con nombre.
+
+    Se trocea por líneas y no por posiciones: los campos van cada uno en su
+    línea, salvo regresión y progresión que comparten una, y detrás vienen el
+    material visual y la prosa. Cortando solo por «**Etiqueta.**» el último
+    campo se tragaba el enlace de vídeo y el párrafo final, porque «**▶**» no
+    lleva punto y no servía de frontera.
+    """
+    campos, notas = {}, []
+    for linea in bloque.split('\n'):
+        cruda = linea.strip()
+        if not cruda:
+            continue
+        if cruda.startswith(('**▶', '**🔍')):
+            continue                      # lo lee material_visual
+        if not cruda.startswith('**'):
+            if not cruda.startswith(('#', '|', '-', '>')):
+                notas.append(limpiar(cruda))
+            continue
+        marcas = list(re.finditer(r'\*\*([^*\n]{3,24}?)\.\*\*', cruda))
+        if not marcas:
+            notas.append(limpiar(cruda))
+            continue
+        for i, m in enumerate(marcas):
+            fin_trozo = marcas[i + 1].start() if i + 1 < len(marcas) else len(cruda)
+            valor = limpiar(cruda[m.end():fin_trozo])
+            campo = CAMPOS.get(m.group(1).strip())
+            if not campo:
+                notas.append(limpiar(cruda[m.start():fin_trozo]))
+                continue
+            if campo == 'error':
+                # «… → Corrección: …» son dos cosas distintas y se separan.
+                partes = re.split(r'\s*→\s*Corrección:\s*', valor, maxsplit=1)
+                campos['error'] = partes[0].rstrip(' .')
+                if len(partes) > 1:
+                    campos['correccion'] = partes[1]
+            else:
+                campos[campo] = valor
+
+    campos['notas'] = [n for n in notas if len(n) > 20]
+    return campos
+
+
 def ejercicios():
     """Fichas de la parte 2 del apéndice, con el nivel que les dé el catálogo."""
     texto = leer('Apendice-movilidad-y-ejercicios.md')
@@ -86,30 +163,31 @@ def ejercicios():
         raise ErrorDeFuente('no aparece la PARTE 2 del apéndice')
 
     fichas = {}
-    for titulo, cuerpo in secciones(parte2[0], 2):
-        capacidad = CAPACIDADES.get(titulo)
+    for titulo, cuerpo in secciones(texto, 1):
+        m = re.match(r'^\d+ · (.+)$', titulo)
+        if not m:
+            continue
+        capacidad = CAPACIDADES.get(m.group(1).strip())
         if not capacidad:
             continue
-        for fila in todas_las_tablas(cuerpo)[0] if todas_las_tablas(cuerpo) else []:
-            if len(fila) < 3:
-                continue
-            nombre = limpiar(fila[0])
-            # «Clave. Error: …» viene en una sola celda y se parte en dos.
-            partes = re.split(r'\bError:\s*', fila[2], maxsplit=1)
-            fichas[clave(nombre)] = {
+        for nombre, bloque in secciones(cuerpo, 3):
+            ficha = {
                 'id': clave(nombre),
-                'nombre': nombre,
+                'nombre': limpiar(nombre),
                 'capacidad': capacidad,
-                'grupo': titulo,
-                'como': limpiar(fila[1]),
-                'clave': limpiar(partes[0]).rstrip(' .'),
-                'error': limpiar(partes[1]) if len(partes) > 1 else None,
+                'grupo': m.group(1).strip(),
+                'video': material_visual(bloque),
                 'niveles': [],
                 'origen': 'Apendice-movilidad-y-ejercicios.md',
             }
+            ficha.update(campos_de_ficha(bloque))
+            fichas[ficha['id']] = ficha
+
+    if len(fichas) < 60:
+        raise ErrorDeFuente('solo se han leído %d fichas del apéndice' % len(fichas))
 
     # El catálogo sitúa cada ejercicio en su progresión N1-N5. Se enlaza por
-    # nombre exacto y, si no, se guarda el escalón igual con su patrón: la
+    # nombre y, si no hay ficha, el escalón se guarda igual con su patrón: la
     # progresión es información aunque no haya ficha de ejecución.
     catalogo = leer('catalogo-ejercicios-progresiones-cadete.md')
     progresiones = []
@@ -132,7 +210,6 @@ def ejercicios():
                 entrada['ficha'] = k
                 fichas[k]['niveles'].append({'nivel': fila[0], 'patron': patron})
 
-    # Fases de pliometría, que no van por niveles sino por fases F1-F4.
     fases = []
     for titulo, cuerpo in secciones(catalogo, 2):
         if titulo.startswith('3. Pliometría'):
@@ -155,12 +232,13 @@ def ejercicios():
             'id': 'bloque-de-tobillo',
             'nombre': 'Bloque de tobillo',
             'capacidad': 'tobillo',
-            'grupo': 'Contenido fijo del miércoles',
-            'como': ' · '.join(pasos),
-            'clave': intro[0] if intro else None,
-            'error': None,
-            'niveles': [],
+            'grupo': 'Contenido fijo semanal',
+            'ejecucion': ' · '.join(pasos),
             'contenido': pasos,
+            'por_que': intro[0] if intro else None,
+            'video': [],
+            'niveles': [],
+            'notas': [],
             'origen': 'catalogo-ejercicios-progresiones-cadete.md',
         }
     if 'bloque-de-tobillo' not in fichas:
@@ -350,9 +428,20 @@ def para_jugadores(rut):
 def main():
     fichas, progresiones, fases = ejercicios()
     rut = rutinas()
+    cal = calendario()
+
+    # Los enlaces verificados del JSON se pegan a su ficha. La clave del JSON
+    # va sin tildes y con guiones bajos, así que se traduce al identificador.
+    for bruto, url in cal.get('enlaces_ejercicio', {}).items():
+        ident = bruto.replace('_', '-')
+        if ident in fichas and not any(v.get('url') == url for v in fichas[ident]['video']):
+            fichas[ident]['video'].append(
+                {'tipo': 'enlace', 'texto': 'Enlace verificado', 'url': url})
+
     escribir('ejercicios.json', {
         'aviso': 'Archivo generado por scripts/generar_contenido.py. No editar a mano.',
         'capacidades': NOMBRES_CAPACIDAD,
+        'bibliotecas_video': cal.get('bibliotecas_video', {}),
         'fichas': [fichas[k] for k in sorted(fichas)],
         'progresiones': progresiones,
         'fases_pliometria': fases,

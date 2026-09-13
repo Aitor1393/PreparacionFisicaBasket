@@ -53,9 +53,17 @@ prueba('hoy enseña la fecha de hoy y su semana', async (page) => {
   const dentro = semanas.semanas.some(s => {
     // El calendario ya no guarda el lunes: se entrena martes, miércoles y
     // viernes. La semana sigue yendo de lunes a domingo.
+    //
+    // Se compara por fecha, no por instante. Comparando objetos Date con hora
+    // incluida, un domingo por la tarde se salía de su propia semana y la
+    // prueba daba un rojo falso: la web compara cadenas AAAA-MM-DD, y aquí hay
+    // que hacer lo mismo.
+    const iso = (d) => d.getFullYear() + '-' +
+      String(d.getMonth() + 1).padStart(2, '0') + '-' +
+      String(d.getDate()).padStart(2, '0');
     const lunes = new Date(s.martes + 'T12:00:00'); lunes.setDate(lunes.getDate() - 1);
     const domingo = new Date(lunes); domingo.setDate(domingo.getDate() + 6);
-    return hoy >= lunes && hoy <= domingo;
+    return iso(hoy) >= iso(lunes) && iso(hoy) <= iso(domingo);
   });
   if (dentro) {
     afirmar(texto.includes(meses[hoy.getMonth()]), 'no aparece el mes en curso');

@@ -510,7 +510,10 @@
       h += '<div class="desliza"><table class="tabla"><thead><tr><th>Ejercicio</th>' +
         '<th>Dosis</th><th>Tiempo</th></tr></thead><tbody>' +
         b.ejercicios.map(function (e) {
-          return '<tr><td>' + U.esc(e.ejercicio) + '</td><td>' + U.esc(e.dosis) +
+          var nombre = e.ficha
+            ? '<a href="#/ejercicio/' + U.esc(e.ficha) + '">' + U.esc(e.ejercicio) + '</a>'
+            : U.esc(e.ejercicio);
+          return '<tr><td>' + nombre + '</td><td>' + U.esc(e.dosis) +
             '</td><td>' + U.esc(e.tiempo || '') + '</td></tr>';
         }).join('') + '</tbody></table></div>';
     });
@@ -622,7 +625,10 @@
       h += '<div class="desliza"><table class="tabla"><thead><tr><th>Bloque</th>' +
         '<th>Ejercicio</th><th>Dosis</th></tr></thead><tbody>' +
         b.ejercicios.map(function (e) {
-          return '<tr><td>' + U.negritas(e.grupo || '') + '</td><td>' + U.esc(e.ejercicio) +
+          var nombre = e.ficha
+            ? '<a href="#/ejercicio/' + U.esc(e.ficha) + '">' + U.esc(e.ejercicio) + '</a>'
+            : U.esc(e.ejercicio);
+          return '<tr><td>' + U.negritas(e.grupo || '') + '</td><td>' + nombre +
             '</td><td>' + U.esc(e.dosis) + '</td></tr>';
         }).join('') + '</tbody></table></div>';
     });

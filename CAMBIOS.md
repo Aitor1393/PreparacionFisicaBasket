@@ -80,6 +80,32 @@ El calendario de 39 microciclos, las fechas de las 22 jornadas, los índices de 
 
 ---
 
+## 7 · Las fichas de movilidad estaban incompletas
+
+Las trece de la sección 1 tenían cuatro campos en vez de seis y ningún enlace verificado. Ahora tienen los seis campos, con regresión y progresión, y siete enlaces comprobados.
+
+Se ha añadido además una **sección 12 de regeneración** con ocho fichas que antes no existían: los estiramientos y el automasaje de la hoja del domingo aparecían en la rutina pero sin explicación de cómo se hacen.
+
+La numeración cambia: lo que era la sección 12, «Cómo usar esto en pista», ahora es la 13.
+
+## 8 · Correcciones de coherencia aplicadas en origen
+
+Estas venían de un desfase entre la exportación anterior y las fuentes del proyecto. Ya están arregladas:
+
+- **En M1, M2 y M6-M9, la pliometría estaba el miércoles** y la complementaria el martes, al revés que las plantillas. Corregido en 26 sesiones. Ahora el martes lleva pliometría más neuromuscular, y el miércoles fuerza más complementaria, en las 39 semanas sin excepción.
+- **El JSON repetía las etiquetas MC12 a MC15** y se quedaba en MC27. Ahora las semanas 16-19 son SemA a SemD y de la 20 en adelante van MC12 a MC31.
+- Fecha imposible «31 nov», once miércoles etiquetados como martes, el aviso del puente de la Constitución y dos sesiones que sumaban 55 minutos.
+
+**Se incluye `verificar.py`.** Comprueba el JSON contra los markdown: etiquetas duplicadas, fechas imposibles, días descuadrados, bloques en el día equivocado, sesiones que no suman 50 minutos y referencias al lunes. Ejecútalo antes de dar por buena cualquier exportación:
+
+```
+python3 verificar.py
+```
+
+Devuelve 0 si todo está bien y 1 con la lista de fallos si no.
+
+---
+
 ## Orden sugerido para la actualización
 
 1. Mapear las plantillas A1/A2/B1/B2 a N1/N2/F1/F2 y corregir el día de cada sesión.

@@ -8,7 +8,8 @@
   "isometricos": "Isométricos de tendón",
   "pliometria": "Pliometría",
   "velocidad": "Velocidad",
-  "cod": "Cambios de dirección"
+  "cod": "Cambios de dirección",
+  "regeneracion": "Regeneración"
  },
  "bibliotecas_video": {
   "catalyst_athletics": {
@@ -25,7 +26,11 @@
   },
   "rehab_hero": {
    "url": "https://www.rehabhero.ca/exercise",
-   "nota": "Movilidad, equilibrio y prevención."
+   "nota": "La mejor para movilidad, equilibrio y prevención."
+  },
+  "bodbot": {
+   "url": "https://www.bodbot.com/Exercises/78/Cat_Camel",
+   "nota": "Índice alfabético amplio de movilidad y estiramientos."
   },
   "basketball_physio": {
    "url": "https://basketball.physio/rehabilitation/spanishsquats/",
@@ -71,6 +76,27 @@
    "notas": []
   },
   {
+   "id": "automasaje-con-pelota",
+   "nombre": "Automasaje con pelota",
+   "capacidad": "regeneracion",
+   "grupo": "Regeneración del domingo",
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Automasaje con pelota ejercicio técnica"
+    }
+   ],
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md",
+   "ejecucion": "Rueda la pelota por la planta del pie de pie, y trabaja el glúteo sentado sobre ella buscando el punto sensible y quedándose ahí respirando. Para los que arrastren molestia en el talón, insistir en gemelo y sóleo.",
+   "error": "Apretar hasta que duele de verdad",
+   "correccion": "presión que se pueda sostener respirando con normalidad.",
+   "notas": [
+    "Nota. No hay evidencia de \"liberación fascial\", pero el automasaje sí tiene efecto aceptado sobre la modulación del dolor y las agujetas. Es para eso, no para prevenir lesiones."
+   ]
+  },
+  {
    "id": "balanceos-de-pierna",
    "nombre": "Balanceos de pierna",
    "capacidad": "movilidad",
@@ -78,16 +104,18 @@
    "video": [
     {
      "tipo": "busqueda",
-     "termino": "leg swings dynamic warm up"
+     "termino": "leg swings dynamic warm up front lateral"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "Apoyado con una mano en la pared.",
-   "ejecucion": "Balancea la pierna adelante y atrás, y después de lado a lado, con rango creciente.",
+   "montaje": "Apoyado con una mano en la pared o en un compañero.",
+   "ejecucion": "Balancea la pierna adelante y atrás con rango creciente, y después de lado a lado cruzando por delante del cuerpo.",
    "voz_alta": "\"El tronco no se mueve.\"",
    "error": "Usar el tronco para dar impulso",
-   "correccion": "que ponga la mano libre en el abdomen.",
+   "correccion": "mano libre en el abdomen.",
+   "regresion": "Rango corto y controlado.",
+   "progresion": "Rango completo y algo más de velocidad, nunca forzando el final.",
    "notas": []
   },
   {
@@ -179,18 +207,23 @@
    "grupo": "Movilidad y activación",
    "video": [
     {
-     "tipo": "busqueda",
-     "termino": "90 90 hip switch mobility drill"
+     "tipo": "enlace",
+     "texto": "90/90 Stretch · Rehab Hero",
+     "url": "https://www.rehabhero.ca/exercise/9090-stretch"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "Sentado en el suelo, una pierna delante flexionada a 90° y la otra al lado, también a 90°.",
-   "ejecucion": "Gira de un lado al otro pasando las rodillas por el suelo, manteniendo el torso alto.",
+   "montaje": "Sentado en el suelo, rodillas flexionadas y más separadas que los hombros. Rota una pierna hacia dentro y la otra hacia fuera, de modo que los dos muslos queden a 90° entre sí. Si no llega, se recoloca el cuerpo hasta conseguirlo.",
+   "ejecucion": "Gira de un lado al otro pasando las rodillas por el suelo, con el torso alto. Aguanta hasta 30 segundos en el rango final antes de cambiar.",
    "voz_alta": "\"Pecho alto, aunque llegues menos.\"",
    "error": "Redondear la espalda para alcanzar más rango",
-   "correccion": "que se apoye en las manos por detrás.",
-   "notas": []
+   "correccion": "que se apoye en las manos por detrás y suba el pecho.",
+   "regresion": "Manos apoyadas detrás, rango corto.",
+   "progresion": "Pasar de un lado a otro sin ayuda de las manos.",
+   "notas": [
+    "Precaución. Es un ejercicio exigente para la cadera. Si alguien nota pinzamiento durante el movimiento o molestia que persiste después, que lo deje y te lo diga. Con antecedentes de problemas de rodilla, mejor buscar alternativa."
+   ]
   },
   {
    "id": "caida-a-una-pierna",
@@ -362,17 +395,20 @@
    "grupo": "Movilidad y activación",
    "video": [
     {
-     "tipo": "busqueda",
-     "termino": "knee to wall ankle dorsiflexion test"
+     "tipo": "enlace",
+     "texto": "Banded Active Dorsiflexion · Rehab Hero",
+     "url": "https://www.rehabhero.ca/exercise/banded-active-dorsiflexion"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "De pie frente a una pared, pie a un palmo de ella.",
-   "ejecucion": "Lleva la rodilla hacia delante a tocar la pared sin levantar el talón. Si llega, aleja el pie un centímetro.",
+   "montaje": "De pie frente a una pared, pie a un palmo de ella, el otro pie atrás.",
+   "ejecucion": "Lleva la rodilla hacia delante hasta tocar la pared sin levantar el talón. Si llega con facilidad, aleja el pie un centímetro y repite. Puedes aguantar cada repetición 3-5 segundos en el rango final.",
    "voz_alta": "\"El talón no se despega nunca.\"",
-   "error": "Dejar caer el arco del pie hacia dentro para ganar rango",
-   "correccion": "que la rodilla vaya por fuera del dedo gordo.",
+   "error": "Dejar caer el arco del pie hacia dentro para ganar rango aparente",
+   "correccion": "que la rodilla viaje por fuera del dedo gordo.",
+   "regresion": "Pie más cerca de la pared.",
+   "progresion": "Añadir una goma anclada por detrás a la altura del tobillo, que tira hacia atrás y abajo mientras avanza la rodilla.",
    "notas": []
   },
   {
@@ -470,6 +506,121 @@
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "ejecucion": "Recorrer de lado con dos apoyos por cuadro. Cadera baja.",
    "error": "Cruzar los pies",
+   "notas": []
+  },
+  {
+   "id": "estiramiento-de-aductores-en-rana",
+   "nombre": "Estiramiento de aductores en rana",
+   "capacidad": "regeneracion",
+   "grupo": "Regeneración del domingo",
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Estiramiento de aductores en rana ejercicio técnica"
+    }
+   ],
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md",
+   "ejecucion": "A cuatro patas con las rodillas abiertas y los tobillos alineados con ellas, lleva la cadera hacia atrás.",
+   "error": "Redondear la espalda",
+   "correccion": "menos recorrido, espalda recta.",
+   "notas": []
+  },
+  {
+   "id": "estiramiento-de-cuadriceps-de-pie",
+   "nombre": "Estiramiento de cuádriceps de pie",
+   "capacidad": "regeneracion",
+   "grupo": "Regeneración del domingo",
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Estiramiento de cuádriceps de pie ejercicio técnica"
+    }
+   ],
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md",
+   "ejecucion": "Coge el pie hacia el glúteo con la rodilla apuntando al suelo.",
+   "error": "Arquear la espalda y abrir la rodilla",
+   "correccion": "apretar el glúteo y meter el coxis.",
+   "notas": []
+  },
+  {
+   "id": "estiramiento-de-gemelo-y-de-soleo-contra-pared",
+   "nombre": "Estiramiento de gemelo y de sóleo contra pared",
+   "capacidad": "regeneracion",
+   "grupo": "Regeneración del domingo",
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Estiramiento de gemelo y de sóleo contra pared ejercicio técnica"
+    }
+   ],
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md",
+   "ejecucion": "Pierna atrás estirada y talón clavado para el gemelo. El mismo montaje con la rodilla de atrás doblada estira el sóleo, y se nota más abajo, cerca del tobillo.",
+   "error": "Despegar el talón. Hacer solo la versión con la rodilla recta y olvidar el sóleo, que es el que aguanta la carga de la carrera",
+   "notas": []
+  },
+  {
+   "id": "estiramiento-de-gluteo-en-figura-4",
+   "nombre": "Estiramiento de glúteo en figura 4",
+   "capacidad": "regeneracion",
+   "grupo": "Regeneración del domingo",
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Estiramiento de glúteo en figura 4 ejercicio técnica"
+    }
+   ],
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md",
+   "ejecucion": "Tumbado, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho.",
+   "error": "Levantar la cabeza y los hombros",
+   "correccion": "cabeza en el suelo.",
+   "notas": []
+  },
+  {
+   "id": "estiramiento-de-isquiotibiales-tumbado",
+   "nombre": "Estiramiento de isquiotibiales tumbado",
+   "capacidad": "regeneracion",
+   "grupo": "Regeneración del domingo",
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Estiramiento de isquiotibiales tumbado ejercicio técnica"
+    }
+   ],
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md",
+   "montaje": "Boca arriba, toalla o goma alrededor del pie.",
+   "ejecucion": "Sube la pierna recta y tira suave hasta notar tensión, no dolor. 45 segundos.",
+   "error": "Despegar del suelo la pierna que queda abajo",
+   "correccion": "que la mantenga pegada, aunque suba menos la otra.",
+   "notas": []
+  },
+  {
+   "id": "estiramiento-de-psoas-en-zancada",
+   "nombre": "Estiramiento de psoas en zancada",
+   "capacidad": "regeneracion",
+   "grupo": "Regeneración del domingo",
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Estiramiento de psoas en zancada ejercicio técnica"
+    }
+   ],
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md",
+   "montaje": "Rodilla de atrás en el suelo sobre algo blando.",
+   "ejecucion": "Mete la cadera hacia delante y sube el brazo del mismo lado de la pierna atrasada. Aprieta el glúteo de esa pierna.",
+   "error": "Arquear la lumbar en lugar de llevar la cadera adelante",
+   "correccion": "meter el coxis antes de avanzar.",
    "notas": []
   },
   {
@@ -635,17 +786,20 @@
    "grupo": "Movilidad y activación",
    "video": [
     {
-     "tipo": "busqueda",
-     "termino": "cat camel exercise spine mobility"
+     "tipo": "enlace",
+     "texto": "Versión dorsal · Rehab Hero",
+     "url": "https://www.rehabhero.ca/exercise/thoracic-cat-cow"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "A cuatro patas, manos bajo hombros y rodillas bajo caderas.",
-   "ejecucion": "Arquea la columna llevando el ombligo al suelo y la mirada al frente. Después redondea llevando el ombligo al techo y la barbilla al pecho. Lento.",
+   "montaje": "A cuatro patas, manos bajo los hombros y rodillas bajo las caderas, columna neutra.",
+   "ejecucion": "Exhala y redondea la espalda metiendo el coxis y llevando el ombligo al techo. Después invierte: bascula la pelvis hacia delante, mira arriba y arquea. Pausa uno o dos segundos en cada extremo. Brazos siempre rectos.",
    "voz_alta": "\"Vértebra a vértebra, sin prisa.\"",
-   "error": "Mover solo la zona lumbar",
+   "error": "Mover solo la zona lumbar y dejar la parte alta quieta",
    "correccion": "pídele que empiece el movimiento desde el cuello y lo propague hacia abajo.",
+   "regresion": "Menos rango, sobre todo si hay molestia lumbar.",
+   "progresion": "Aislar la zona dorsal manteniendo la lumbar más quieta.",
    "notas": []
   },
   {
@@ -700,16 +854,18 @@
    "video": [
     {
      "tipo": "busqueda",
-     "termino": "inchworm walkout exercise"
+     "termino": "inchworm walkout exercise technique"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "montaje": "De pie, pies juntos.",
-   "ejecucion": "Manos al suelo, camina con las manos hasta plancha y vuelve caminando con los pies hacia las manos.",
+   "ejecucion": "Manos al suelo, camina con las manos hasta plancha, y vuelve caminando con los pies hacia las manos.",
    "voz_alta": "\"Piernas lo más rectas que puedas.\"",
-   "error": "Doblar rodillas para llegar",
-   "correccion": "que camine menos con las manos y mantenga las piernas rectas.",
+   "error": "Doblar rodillas para llegar más lejos con las manos",
+   "correccion": "que camine menos y mantenga las piernas rectas.",
+   "regresion": "Rodillas algo flexionadas y recorrido corto.",
+   "progresion": "Añadir una flexión en la posición de plancha.",
    "notas": []
   },
   {
@@ -793,16 +949,18 @@
    "video": [
     {
      "tipo": "busqueda",
-     "termino": "open book thoracic rotation stretch"
+     "termino": "open book thoracic rotation stretch side lying"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "Tumbado de lado, rodillas flexionadas a 90° y apiladas, brazos extendidos al frente.",
-   "ejecucion": "Abre el brazo de arriba en arco hasta llevarlo al suelo del lado contrario. La mirada sigue a la mano.",
+   "montaje": "Tumbado de lado, rodillas flexionadas a 90° y apiladas una sobre otra, brazos extendidos al frente a la altura del hombro.",
+   "ejecucion": "Abre el brazo de arriba en arco amplio hasta llevarlo al suelo del lado contrario. La mirada sigue a la mano. Vuelve despacio.",
    "voz_alta": "\"La rodilla de arriba no se despega.\"",
-   "error": "Dejar que la cadera acompañe al giro",
-   "correccion": "coloca un balón o tu mano bajo la rodilla de arriba para que la fije.",
+   "error": "Dejar que la cadera acompañe al giro, con lo que el movimiento deja de ser dorsal",
+   "correccion": "pon un balón o tu mano bajo la rodilla de arriba para que la fije.",
+   "regresion": "Rango corto, sin llegar al suelo.",
+   "progresion": "Mantener 3 segundos en la apertura máxima.",
    "notas": []
   },
   {
@@ -831,16 +989,18 @@
    "video": [
     {
      "tipo": "busqueda",
-     "termino": "banded lateral walk technique"
+     "termino": "banded lateral walk technique glute medius"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "montaje": "Goma en los tobillos, semisentadilla.",
-   "ejecucion": "Pasos laterales sin llegar a juntar los pies.",
+   "ejecucion": "Pasos laterales amplios sin llegar a juntar los pies.",
    "voz_alta": "\"No juntes los pies.\"",
    "error": "Perder la tensión entre pasos",
    "correccion": "marca la distancia mínima con dos conos.",
+   "regresion": "Goma por encima de las rodillas.",
+   "progresion": "Goma más dura y posición más baja.",
    "notas": []
   },
   {
@@ -856,11 +1016,13 @@
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "Goma en los tobillos o por encima de las rodillas. Semisentadilla.",
-   "ejecucion": "Pasos hacia delante y hacia atrás manteniendo tensión constante.",
+   "montaje": "Goma en los tobillos o por encima de las rodillas. Posición de semisentadilla, pecho alto.",
+   "ejecucion": "Pasos hacia delante y hacia atrás manteniendo tensión constante en la goma.",
    "voz_alta": "\"Rodillas abiertas todo el rato.\"",
-   "error": "Que las rodillas se junten al dar el paso",
+   "error": "Que las rodillas se junten al dar el paso, que es justo lo contrario de lo que se busca",
    "correccion": "baja la resistencia de la goma.",
+   "regresion": "Goma más blanda o colocada por encima de las rodillas.",
+   "progresion": "Goma en los tobillos, semisentadilla más baja.",
    "notas": []
   },
   {
@@ -1001,16 +1163,18 @@
    "video": [
     {
      "tipo": "busqueda",
-     "termino": "pogo jumps ankle stiffness drill"
+     "termino": "pogo jumps ankle stiffness plyometric drill"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "De pie, rodillas casi rectas.",
-   "ejecucion": "Saltos pequeños generados solo desde el tobillo.",
+   "montaje": "De pie, rodillas casi rectas, manos en las caderas.",
+   "ejecucion": "Saltos pequeños generados solo desde el tobillo, con el contacto en el suelo lo más breve posible.",
    "voz_alta": "\"Como un muelle. El suelo quema.\"",
    "error": "Doblar rodillas y convertirlo en sentadilla saltada",
-   "correccion": "que se ponga las manos en las caderas y salte sin bajar.",
+   "correccion": "que salte sin bajar, con las manos en las caderas.",
+   "regresion": "Saltos muy pequeños, buscando solo el ritmo.",
+   "progresion": "Pogos a una pierna.",
    "notas": []
   },
   {
@@ -1207,23 +1371,46 @@
    "notas": []
   },
   {
+   "id": "respiracion-diafragmatica",
+   "nombre": "Respiración diafragmática",
+   "capacidad": "regeneracion",
+   "grupo": "Regeneración del domingo",
+   "video": [
+    {
+     "tipo": "busqueda",
+     "automatica": true,
+     "termino": "Respiración diafragmática ejercicio técnica"
+    }
+   ],
+   "niveles": [],
+   "origen": "Apendice-movilidad-y-ejercicios.md",
+   "montaje": "Tumbado boca arriba, rodillas dobladas, una mano en el pecho y otra en el abdomen.",
+   "ejecucion": "Inspira 4 segundos por la nariz hinchando solo el abdomen, y suelta 6 por la boca. La mano del pecho no debería moverse.",
+   "error": "Respirar con el pecho",
+   "correccion": "más peso en la mano del abdomen, menos aire.",
+   "notas": []
+  },
+  {
    "id": "rotacion-toracica-en-cuadrupedia",
    "nombre": "Rotación torácica en cuadrupedia",
    "capacidad": "movilidad",
    "grupo": "Movilidad y activación",
    "video": [
     {
-     "tipo": "busqueda",
-     "termino": "quadruped thoracic rotation hand behind head"
+     "tipo": "enlace",
+     "texto": "Explicación dentro de una guía de movilidad dorsal · Catalyst Athletics",
+     "url": "https://www.catalystathletics.com/article/2214/Thoracic-Mobility-for-Olympic-Weightlifting/"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "montaje": "A cuatro patas, una mano en la nuca.",
-   "ejecucion": "Abre el codo hacia el techo girando el pecho, y vuelve llevando el codo hacia el brazo de apoyo.",
+   "ejecucion": "Abre el codo hacia el techo girando el pecho, y vuelve llevando el codo hacia el brazo de apoyo. La cabeza acompaña al giro de los hombros, no se queda mirando al suelo.",
    "voz_alta": "\"Gira el pecho, la cadera no se mueve.\"",
-   "error": "Compensar con la lumbar o dejar caer la cadera hacia un lado",
-   "correccion": "que se siente sobre los talones, así bloquea la cadera.",
+   "error": "Compensar con la lumbar, o dejar caer la cadera hacia un lado",
+   "correccion": "que se siente sobre los talones, así la cadera queda bloqueada y solo puede girar la zona dorsal.",
+   "regresion": "Sentado sobre los talones.",
+   "progresion": "Con el brazo extendido en vez de la mano en la nuca.",
    "notas": []
   },
   {
@@ -1616,16 +1803,18 @@
    "video": [
     {
      "tipo": "busqueda",
-     "termino": "deep squat hold mobility assisted"
+     "termino": "deep squat hold assisted mobility drill"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "Agarrado a una espaldera, valla o poste.",
-   "ejecucion": "Baja todo lo que puedas manteniendo los talones en el suelo y aguanta.",
+   "montaje": "Agarrado a una espaldera, valla o poste, pies algo más abiertos que los hombros y puntas ligeramente hacia fuera.",
+   "ejecucion": "Baja todo lo que puedas manteniendo los talones en el suelo y aguanta. Puede añadirse un balanceo lateral suave.",
    "voz_alta": "\"Talones clavados, pecho alto.\"",
    "error": "Despegar los talones",
-   "correccion": "separa un poco más los pies y abre las puntas.",
+   "correccion": "separa un poco más los pies y abre más las puntas. Si sigue sin llegar, es un problema de tobillo y toca insistir en la dorsiflexión.",
+   "regresion": "Menos profundidad, más ayuda de los brazos.",
+   "progresion": "Soltar una mano, después las dos.",
    "notas": []
   },
   {
@@ -1772,16 +1961,18 @@
    "video": [
     {
      "tipo": "busqueda",
-     "termino": "world's greatest stretch technique"
+     "termino": "world's greatest stretch technique demonstration"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
    "montaje": "Zancada larga, mano interior apoyada en el suelo junto al pie adelantado.",
-   "ejecucion": "Baja la cadera, y abre el brazo contrario hacia el techo girando el pecho.",
+   "ejecucion": "Baja la cadera hacia el suelo y después abre el brazo contrario hacia el techo girando el pecho. Vuelve y avanza.",
    "voz_alta": "\"Cadera al suelo antes de girar.\"",
-   "error": "No bajar lo suficiente y girar solo el brazo",
+   "error": "No bajar lo suficiente y girar solo el brazo, con lo que se pierde el componente de cadera",
    "correccion": "obliga a tocar el suelo con el codo interior antes de abrir.",
+   "regresion": "Manos sobre conos o un banco bajo.",
+   "progresion": "Añadir extensión de la rodilla adelantada al final, estirando el isquiotibial.",
    "notas": []
   },
   {
@@ -1818,18 +2009,23 @@
    "grupo": "Movilidad y activación",
    "video": [
     {
-     "tipo": "busqueda",
-     "termino": "lateral lunge cossack squat technique"
+     "tipo": "enlace",
+     "texto": "Cossack Squat · Catalyst Athletics",
+     "url": "https://www.catalystathletics.com/exercise/584/Cossack-Squat/"
     }
    ],
    "niveles": [],
    "origen": "Apendice-movilidad-y-ejercicios.md",
-   "montaje": "De pie, pies muy separados.",
-   "ejecucion": "Desplaza el peso a un lado flexionando esa rodilla, la otra pierna queda estirada. Cadera atrás.",
+   "montaje": "De pie, pies muy separados y puntas ligeramente hacia fuera, como en una sentadilla ancha.",
+   "ejecucion": "Flexiona una pierna manteniendo la otra estirada, con la rodilla que se dobla alineada sobre su pie y el peso repartido por toda la planta. El pie de la pierna estirada puede rodar hacia el borde del talón; cuanta más movilidad se gane, menos hará falta ese giro. Vuelve al centro y cambia de lado.",
    "voz_alta": "\"Culo atrás, la otra pierna recta.\"",
    "error": "Doblar la pierna estirada",
-   "correccion": "que apunte la punta del pie de la pierna estirada hacia arriba.",
-   "notas": []
+   "correccion": "que apunte la punta de ese pie hacia arriba.",
+   "regresion": "Menos profundidad, apoyo en algo fijo.",
+   "progresion": "Pasar de un lado a otro manteniendo la cadera baja todo el recorrido, sin levantarse entre repeticiones.",
+   "notas": [
+    "Dosis como calentamiento. 2-3 series de 5-12 repeticiones por lado, sin carga."
+   ]
   },
   {
    "id": "zigzag-entre-conos",
@@ -2118,31 +2314,36 @@
        "grupo": null,
        "ejercicio": "Gato-camello",
        "dosis": "8 rep",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "gato-camello"
       },
       {
        "grupo": null,
        "ejercicio": "Rotación torácica en cuadrupedia, mano a la nuca",
        "dosis": "6/lado",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": "rotacion-toracica-en-cuadrupedia"
       },
       {
        "grupo": null,
        "ejercicio": "Cadera 90/90 con giro",
        "dosis": "6/lado",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": "cadera-90-90"
       },
       {
        "grupo": null,
        "ejercicio": "Puente de glúteo",
        "dosis": "12 rep",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "puente-de-gluteo"
       },
       {
        "grupo": null,
        "ejercicio": "Dead bug",
        "dosis": "8/lado",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "dead-bug"
       }
      ]
     },
@@ -2153,37 +2354,43 @@
        "grupo": null,
        "ejercicio": "Sentadilla profunda con apoyo",
        "dosis": "3×20\"",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": "sentadilla-profunda-con-apoyo"
       },
       {
        "grupo": null,
        "ejercicio": "Dorsiflexión de tobillo contra pared",
        "dosis": "8/pierna",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": "dorsiflexion-de-tobillo-contra-pared"
       },
       {
        "grupo": null,
        "ejercicio": "Zancada con rotación torácica",
        "dosis": "5/lado",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": "zancada-con-rotacion-toracica"
       },
       {
        "grupo": null,
        "ejercicio": "Balanceos de pierna frontales",
        "dosis": "10/pierna",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "balanceos-de-pierna"
       },
       {
        "grupo": null,
        "ejercicio": "Balanceos de pierna laterales",
        "dosis": "10/pierna",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "balanceos-de-pierna"
       },
       {
        "grupo": null,
        "ejercicio": "Inchworm",
        "dosis": "5 rep",
-       "tiempo": "35\""
+       "tiempo": "35\"",
+       "ficha": "inchworm"
       }
      ]
     },
@@ -2194,37 +2401,43 @@
        "grupo": null,
        "ejercicio": "Monster walk con goma, adelante y atrás",
        "dosis": "10 pasos ×2",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": "monster-walk-con-goma"
       },
       {
        "grupo": null,
        "ejercicio": "Marcha lateral con goma",
        "dosis": "10 pasos/lado",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "marcha-lateral-con-goma"
       },
       {
        "grupo": null,
        "ejercicio": "Elevación de talones",
        "dosis": "15 rep",
-       "tiempo": "20\""
+       "tiempo": "20\"",
+       "ficha": null
       },
       {
        "grupo": null,
        "ejercicio": "Skipping suave",
        "dosis": "2×15 m",
-       "tiempo": "40\""
+       "tiempo": "40\"",
+       "ficha": "skipping"
       },
       {
        "grupo": null,
        "ejercicio": "Pogos, saltos de tobillo",
        "dosis": "2×10",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "pogos"
       },
       {
        "grupo": null,
        "ejercicio": "Carrera progresiva al 70-80%",
        "dosis": "2×15 m",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": null
       }
      ]
     }
@@ -2245,13 +2458,15 @@
        "grupo": null,
        "ejercicio": "Estiramiento de psoas en zancada con elevación de brazo",
        "dosis": "30\"/lado",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": "estiramiento-de-psoas-en-zancada"
       },
       {
        "grupo": null,
        "ejercicio": "Movilidad de cadera en cuadrupedia, círculos",
        "dosis": "8/lado",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": null
       }
      ]
     }
@@ -2273,43 +2488,50 @@
        "grupo": null,
        "ejercicio": "Gato-camello",
        "dosis": "10 rep",
-       "tiempo": "40\""
+       "tiempo": "40\"",
+       "ficha": "gato-camello"
       },
       {
        "grupo": null,
        "ejercicio": "Rotación torácica tumbado de lado, libro abierto",
        "dosis": "8/lado",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": null
       },
       {
        "grupo": null,
        "ejercicio": "Cadera 90/90 con giro y elevación",
        "dosis": "8/lado",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": "cadera-90-90"
       },
       {
        "grupo": null,
        "ejercicio": "Estiramiento de glúteo en figura 4, dinámico",
        "dosis": "8/lado",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": "estiramiento-de-gluteo-en-figura-4"
       },
       {
        "grupo": null,
        "ejercicio": "Puente de glúteo con marcha",
        "dosis": "10/lado",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": "puente-de-gluteo"
       },
       {
        "grupo": null,
        "ejercicio": "Dead bug con goma",
        "dosis": "8/lado",
-       "tiempo": "40\""
+       "tiempo": "40\"",
+       "ficha": "dead-bug"
       },
       {
        "grupo": null,
        "ejercicio": "Bird dog",
        "dosis": "8/lado",
-       "tiempo": "40\""
+       "tiempo": "40\"",
+       "ficha": "bird-dog"
       }
      ]
     },
@@ -2320,43 +2542,50 @@
        "grupo": null,
        "ejercicio": "Sentadilla profunda con apoyo y balanceo lateral",
        "dosis": "3×25\"",
-       "tiempo": "75\""
+       "tiempo": "75\"",
+       "ficha": "sentadilla-profunda-con-apoyo"
       },
       {
        "grupo": null,
        "ejercicio": "Dorsiflexión de tobillo contra pared",
        "dosis": "10/pierna",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": "dorsiflexion-de-tobillo-contra-pared"
       },
       {
        "grupo": null,
        "ejercicio": "Zancada con rotación torácica",
        "dosis": "6/lado",
-       "tiempo": "70\""
+       "tiempo": "70\"",
+       "ficha": "zancada-con-rotacion-toracica"
       },
       {
        "grupo": null,
        "ejercicio": "Zancada lateral con desplazamiento de peso",
        "dosis": "6/lado",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": "zancada-lateral"
       },
       {
        "grupo": null,
        "ejercicio": "Balanceos de pierna frontales y laterales",
        "dosis": "10/pierna cada uno",
-       "tiempo": "60\""
+       "tiempo": "60\"",
+       "ficha": "balanceos-de-pierna"
       },
       {
        "grupo": null,
        "ejercicio": "Inchworm con flexión",
        "dosis": "6 rep",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": "inchworm"
       },
       {
        "grupo": null,
        "ejercicio": "Círculos de hombro y movilidad de muñeca",
        "dosis": "8 cada uno",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": null
       }
      ]
     },
@@ -2367,37 +2596,43 @@
        "grupo": null,
        "ejercicio": "Monster walk con goma",
        "dosis": "10 pasos ×2",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": "monster-walk-con-goma"
       },
       {
        "grupo": null,
        "ejercicio": "Marcha lateral con goma",
        "dosis": "10 pasos/lado",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "marcha-lateral-con-goma"
       },
       {
        "grupo": null,
        "ejercicio": "Elevación de talones a una pierna",
        "dosis": "12/pierna",
-       "tiempo": "40\""
+       "tiempo": "40\"",
+       "ficha": null
       },
       {
        "grupo": null,
        "ejercicio": "Skipping y talón-glúteo",
        "dosis": "2×15 m cada uno",
-       "tiempo": "70\""
+       "tiempo": "70\"",
+       "ficha": "skipping"
       },
       {
        "grupo": null,
        "ejercicio": "Pogos",
        "dosis": "2×10",
-       "tiempo": "30\""
+       "tiempo": "30\"",
+       "ficha": "pogos"
       },
       {
        "grupo": null,
        "ejercicio": "Carrera progresiva al 80%",
        "dosis": "2×20 m",
-       "tiempo": "45\""
+       "tiempo": "45\"",
+       "ficha": null
       }
      ]
     }
@@ -2418,73 +2653,85 @@
        "grupo": "Respirar",
        "ejercicio": "Respiración diafragmática tumbado",
        "dosis": "3'",
-       "tiempo": null
+       "tiempo": null,
+       "ficha": "respiracion-diafragmatica"
       },
       {
        "grupo": "Mover",
        "ejercicio": "Cadera 90/90 con giro",
        "dosis": "8/lado",
-       "tiempo": null
+       "tiempo": null,
+       "ficha": "cadera-90-90"
       },
       {
        "grupo": "Mover",
        "ejercicio": "",
        "dosis": "Gato-camello",
-       "tiempo": "12 rep"
+       "tiempo": "12 rep",
+       "ficha": null
       },
       {
        "grupo": "Mover",
        "ejercicio": "",
        "dosis": "Rotación torácica en cuadrupedia",
-       "tiempo": "8/lado"
+       "tiempo": "8/lado",
+       "ficha": null
       },
       {
        "grupo": "Mover",
        "ejercicio": "",
        "dosis": "Dorsiflexión de tobillo contra pared",
-       "tiempo": "10/pierna"
+       "tiempo": "10/pierna",
+       "ficha": null
       },
       {
        "grupo": "Mover",
        "ejercicio": "",
        "dosis": "Sentadilla profunda con apoyo",
-       "tiempo": "3×30\""
+       "tiempo": "3×30\"",
+       "ficha": null
       },
       {
        "grupo": "Mover",
        "ejercicio": "",
        "dosis": "Zancada con rotación",
-       "tiempo": "6/lado"
+       "tiempo": "6/lado",
+       "ficha": null
       },
       {
        "grupo": "Soltar",
        "ejercicio": "Pelota en la planta del pie",
        "dosis": "60\"/pie",
-       "tiempo": null
+       "tiempo": null,
+       "ficha": null
       },
       {
        "grupo": "Soltar",
        "ejercicio": "",
        "dosis": "Pelota en el glúteo",
-       "tiempo": "60\"/lado"
+       "tiempo": "60\"/lado",
+       "ficha": null
       },
       {
        "grupo": "Soltar",
        "ejercicio": "",
        "dosis": "Pelota en gemelo y sóleo",
-       "tiempo": "60\"/pierna"
+       "tiempo": "60\"/pierna",
+       "ficha": null
       },
       {
        "grupo": "Cerrar",
        "ejercicio": "Isquiotibiales, psoas y gemelo",
        "dosis": "30\" cada uno",
-       "tiempo": null
+       "tiempo": null,
+       "ficha": null
       },
       {
        "grupo": "Cerrar",
        "ejercicio": "",
        "dosis": "Respiración final",
-       "tiempo": "1'"
+       "tiempo": "1'",
+       "ficha": null
       }
      ]
     }

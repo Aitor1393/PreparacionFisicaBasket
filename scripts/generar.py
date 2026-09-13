@@ -52,6 +52,18 @@ def enlazar_sesiones_con_fichas():
         enlazar(pl['bloques'])
 
     escribir('semanas.json', semanas)
+
+    # Las rutinas de movilidad y la del domingo también enlazan. Las ocho fichas
+    # de regeneración se añadieron precisamente para explicar los estiramientos
+    # y el automasaje de la hoja del domingo, que hasta ahora solo se nombraban.
+    with open(os.path.join(DATOS, 'ejercicios.json'), encoding='utf-8') as f:
+        contenido = json.load(f)
+    for rut in contenido['rutinas'].values():
+        for b in rut['bloques']:
+            for e in b['ejercicios']:
+                e['ficha'] = buscar_ficha(e['ejercicio'], fichas)
+    escribir('ejercicios.json', contenido)
+
     return enlazados, total
 
 

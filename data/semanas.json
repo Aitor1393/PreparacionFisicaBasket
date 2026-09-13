@@ -457,7 +457,24 @@
      "texto": "Movilidad y activación"
     },
     {
-     "min": 20,
+     "min": 10,
+     "nombre": "Pliometría de activación",
+     "contactos": 30,
+     "ejercicios": [
+      {
+       "texto": "Salto a cajón con contacto mínimo 3×5",
+       "ficha": "salto-a-cajon-con-contacto-minimo"
+      },
+      {
+       "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+       "ficha": "salto-lateral-a-una-pierna-con-stick"
+      }
+     ],
+     "detalle": null,
+     "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna"
+    },
+    {
+     "min": 22,
      "nombre": "Neuromuscular",
      "contactos": null,
      "ejercicios": [
@@ -482,29 +499,12 @@
      "texto": "Neuromuscular. Escalera 3' · COD reactivo 5 rep · Salidas de 10 m 5 rep · Velocidad alta 4×25 m"
     },
     {
-     "min": 12,
-     "nombre": null,
-     "contactos": null,
-     "ejercicios": [
-      {
-       "texto": "Face pull 2×15",
-       "ficha": "face-pull-con-goma"
-      },
-      {
-       "texto": "Bloque de tobillo 8'",
-       "ficha": "bloque-de-tobillo"
-      }
-     ],
-     "detalle": null,
-     "texto": "Face pull 2×15 · Bloque de tobillo 8'"
-    },
-    {
      "min": 8,
-     "nombre": "Movilidad y respiración",
+     "nombre": "Transición a pista",
      "contactos": null,
      "ejercicios": [],
      "detalle": null,
-     "texto": "Movilidad y respiración"
+     "texto": "Transición a pista"
     }
    ],
    "origen": {
@@ -519,29 +519,12 @@
    "minutos": 50,
    "bloques": [
     {
-     "min": 7,
+     "min": 10,
      "nombre": "Movilidad amplia",
      "contactos": null,
      "ejercicios": [],
      "detalle": null,
      "texto": "Movilidad amplia"
-    },
-    {
-     "min": 8,
-     "nombre": "Pliometría de activación",
-     "contactos": 30,
-     "ejercicios": [
-      {
-       "texto": "Salto a cajón con contacto mínimo 3×5",
-       "ficha": "salto-a-cajon-con-contacto-minimo"
-      },
-      {
-       "texto": "Salto lateral a una pierna con stick 3×5/pierna",
-       "ficha": "salto-lateral-a-una-pierna-con-stick"
-      }
-     ],
-     "detalle": null,
-     "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna"
     },
     {
      "min": 22,
@@ -569,7 +552,24 @@
      "texto": "Fuerza mínima, intención de velocidad. Sentadilla a una pierna a banco 2×6/pierna · Curl nórdico 2×5 · Remo con goma 2×12/lado · Plancha con marcha 2×10/lado"
     },
     {
-     "min": 13,
+     "min": 8,
+     "nombre": null,
+     "contactos": null,
+     "ejercicios": [
+      {
+       "texto": "Face pull 2×15",
+       "ficha": "face-pull-con-goma"
+      },
+      {
+       "texto": "Bloque de tobillo",
+       "ficha": "bloque-de-tobillo"
+      }
+     ],
+     "detalle": null,
+     "texto": "Face pull 2×15 · Bloque de tobillo"
+    },
+    {
+     "min": 10,
      "nombre": "Estiramientos, movilidad de cadera y tobillo, respiración",
      "contactos": null,
      "ejercicios": [],
@@ -2074,11 +2074,23 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 34,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×7/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (34). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×7/pierna · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -2147,44 +2159,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión completa tempo 3-1-1 3×10",
-         "ficha": "flexion-completa-tempo-3-1-1"
-        },
-        {
-         "texto": "Press de hombro con goma 3×12",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×20\"",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión completa tempo 3-1-1 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -2268,10 +2242,30 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión completa tempo 3-1-1 3×10",
+         "ficha": "flexion-completa-tempo-3-1-1"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×20\"",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión completa tempo 3-1-1 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -2279,36 +2273,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 34,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón 4×5",
-         "ficha": "salto-a-cajon"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 2×7/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        },
-        {
-         "texto": "CMJ: 3 saltos antes de la pliometría",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (34). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×7/pierna · CMJ: 3 saltos antes de la pliometría",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -2487,11 +2451,23 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 46,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Saltos sobre línea 2×7",
+         "ficha": "saltos-sobre-linea"
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (46). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×6/pierna · Saltos sobre línea 2×7",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -2552,44 +2528,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con goma cruzada 3×8",
-         "ficha": "flexion-con-goma-cruzada"
-        },
-        {
-         "texto": "Press de hombro con goma 3×12",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×20\"",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con goma cruzada 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -2673,10 +2611,30 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión con goma cruzada 3×8",
+         "ficha": "flexion-con-goma-cruzada"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×20\"",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión con goma cruzada 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×20\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -2684,36 +2642,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 46,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón 4×5",
-         "ficha": "salto-a-cajon"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 2×6/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        },
-        {
-         "texto": "Saltos sobre línea 2×7",
-         "ficha": "saltos-sobre-linea"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (46). Salto a cajón 4×5 · Salto lateral a una pierna con stick 2×6/pierna · Saltos sobre línea 2×7",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -2889,11 +2817,23 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 60,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Bounding 2×2 (4 contactos cada uno)",
+         "ficha": "bounding"
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (60). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×2 (4 contactos cada uno)",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -2958,44 +2898,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×8",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×12",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×25\"",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -3079,10 +2981,30 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión con pies elevados 3×8",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión con pies elevados 3×8 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -3090,36 +3012,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 60,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón 4×5",
-         "ficha": "salto-a-cajon"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        },
-        {
-         "texto": "Bounding 2×2 (4 contactos cada uno)",
-         "ficha": "bounding"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (60). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×2 (4 contactos cada uno)",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -3257,11 +3149,23 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 50,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (50). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×5/pierna · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -3326,44 +3230,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×10",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×15",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×25\"",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -3447,10 +3313,30 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -3458,36 +3344,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 50,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón 4×5",
-         "ficha": "salto-a-cajon"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        },
-        {
-         "texto": "CMJ: 3 saltos antes de la pliometría",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (50). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×5/pierna · CMJ: 3 saltos antes de la pliometría",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -3672,11 +3528,19 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 34,
+       "ejercicios": [
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (34). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 2×5/pierna",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -3737,40 +3601,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión 2×10",
-         "ficha": null
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio 3×25\"",
-         "ficha": "equilibrio-monopodal"
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -3854,10 +3684,26 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión 2×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -3865,32 +3711,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 34,
-       "ejercicios": [
-        {
-         "texto": "Salto vertical y stick 3×5",
-         "ficha": "salto-vertical-y-stick"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 2×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (34). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 2×5/pierna",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -4048,11 +3868,27 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 56,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Bounding 2×3",
+         "ficha": "bounding"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (56). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×3 · CMJ: 3 saltos antes de la pliometría",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4113,49 +3949,9 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×10",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×15",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×25\"",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
-     "notas": [
-      "Aquí entra por primera vez el trabajo reactivo. Hasta ahora todos los cambios de dirección eran programados. A partir de MC6 el jugador reacciona a una señal, que es lo que ocurre en el partido."
-     ],
+     "notas": [],
      "ajustes": [],
      "origen": {
       "archivo": "M1-acumulacion-sesiones.md",
@@ -4236,10 +4032,30 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4247,40 +4063,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 56,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón 4×5",
-         "ficha": "salto-a-cajon"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        },
-        {
-         "texto": "Bounding 2×3",
-         "ficha": "bounding"
-        },
-        {
-         "texto": "CMJ: 3 saltos antes de la pliometría",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (56). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Bounding 2×3 · CMJ: 3 saltos antes de la pliometría",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -4416,11 +4198,23 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 60,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón 4×5",
+         "ficha": "salto-a-cajon"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "Saltos en zigzag 2×11",
+         "ficha": "saltos-en-zigzag"
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (60). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Saltos en zigzag 2×11",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4485,44 +4279,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×10",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×15",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×25\"",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -4606,10 +4362,30 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4617,36 +4393,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 60,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón 4×5",
-         "ficha": "salto-a-cajon"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×6/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        },
-        {
-         "texto": "Saltos en zigzag 2×11",
-         "ficha": "saltos-en-zigzag"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (60). Salto a cajón 4×5 · Salto lateral a una pierna con stick 3×6/pierna · Saltos en zigzag 2×11",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -4782,11 +4528,19 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 40,
+       "ejercicios": [
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (40). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 2×6/pierna",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4847,40 +4601,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión 2×10",
-         "ficha": null
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio 3×25\"",
-         "ficha": "equilibrio-monopodal"
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -4964,10 +4684,26 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión 2×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -4975,32 +4711,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 40,
-       "ejercicios": [
-        {
-         "texto": "Salto vertical y stick 3×5",
-         "ficha": "salto-vertical-y-stick"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 2×6/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (40). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 2×6/pierna",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -5149,11 +4859,27 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 46,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón con contacto mínimo 4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
+        },
+        {
+         "texto": "Saltos en zigzag 1×6",
+         "ficha": "saltos-en-zigzag"
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (46). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · CMJ: 3 saltos antes de la pliometría · Saltos en zigzag 1×6",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -5218,44 +4944,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×10",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×15",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×25\"",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -5339,10 +5027,30 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -5350,40 +5058,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 46,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón con contacto mínimo 4×5",
-         "ficha": "salto-a-cajon-con-contacto-minimo"
-        },
-        {
-         "texto": "Salto lateral a una pierna reactivo 3×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-reactivo"
-        },
-        {
-         "texto": "CMJ: 3 saltos antes de la pliometría",
-         "ficha": null
-        },
-        {
-         "texto": "Saltos en zigzag 1×6",
-         "ficha": "saltos-en-zigzag"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (46). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · CMJ: 3 saltos antes de la pliometría · Saltos en zigzag 1×6",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -5570,11 +5244,19 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 40,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón con contacto mínimo 4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 2×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -5635,44 +5317,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×10",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×12",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio 3×25\"",
-         "ficha": "equilibrio-monopodal"
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -5756,10 +5400,30 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -5767,32 +5431,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 40,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón con contacto mínimo 4×5",
-         "ficha": "salto-a-cajon-con-contacto-minimo"
-        },
-        {
-         "texto": "Salto lateral a una pierna reactivo 2×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-reactivo"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna reactivo 2×5/pierna",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -5980,11 +5618,19 @@
       {
        "min": 12,
        "nombre": "Pliometría",
-       "contactos": null,
-       "ejercicios": [],
+       "contactos": 30,
+       "ejercicios": [
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
+       ],
        "detalle": null,
-       "texto": "Pliometría",
-       "remite_a": "N",
+       "texto": "Pliometría (30). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -6045,40 +5691,6 @@
        "es_movilidad": false,
        "rutina": null,
        "descansos": []
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión 2×10",
-         "ficha": null
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio 3×25\"",
-         "ficha": "equilibrio-monopodal"
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -6162,10 +5774,26 @@
        "min": 12,
        "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión 2×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
+       ],
        "detalle": null,
-       "texto": "Complementaria",
-       "remite_a": "F",
+       "texto": "Complementaria. Flexión 2×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
        "es_movilidad": false,
        "rutina": null,
        "descansos": [
@@ -6173,32 +5801,6 @@
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
          "descanso": "45-60 s"
-        }
-       ]
-      },
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 30,
-       "ejercicios": [
-        {
-         "texto": "Salto vertical y stick 3×5",
-         "ficha": "salto-vertical-y-stick"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (30). Salto vertical y stick 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
         }
        ]
       }
@@ -6441,17 +6043,47 @@
      "bloques": [
       {
        "min": 10,
-       "nombre": "Movilidad y activación. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
+       "nombre": "Movilidad amplia. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
-       "texto": "Movilidad y activación. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
+       "texto": "Movilidad amplia. Aprovecha para preguntar uno a uno quién ha hecho el plan y quién no",
        "es_movilidad": true,
        "rutina": "rutina_10",
        "descansos": []
       },
       {
-       "min": 22,
+       "min": 12,
+       "nombre": "Pliometría, reintroducción",
+       "contactos": 32,
+       "ejercicios": [
+        {
+         "texto": "Caída y stick bilateral 3×5",
+         "ficha": "caida-y-stick"
+        },
+        {
+         "texto": "Salto vertical y stick 3×5",
+         "ficha": "salto-vertical-y-stick"
+        },
+        {
+         "texto": "Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
+         "ficha": "caida-a-una-pierna"
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría, reintroducción (32 contactos). Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
+      },
+      {
+       "min": 23,
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
@@ -6494,42 +6126,15 @@
        ]
       },
       {
-       "min": 18,
-       "nombre": "Complementaria",
+       "min": 5,
+       "nombre": "Transición",
        "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión 3×10",
-         "ficha": null
-        },
-        {
-         "texto": "Press de hombro con goma 3×12",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×25\"",
-         "ficha": null
-        }
-       ],
+       "ejercicios": [],
        "detalle": null,
-       "texto": "Complementaria. Flexión 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
+       "texto": "Transición",
        "es_movilidad": false,
        "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
+       "descansos": []
       }
      ],
      "notas": [
@@ -6552,7 +6157,7 @@
      "estado": "explicita",
      "bloques": [
       {
-       "min": 7,
+       "min": 8,
        "nombre": "Movilidad y activación",
        "contactos": null,
        "ejercicios": [],
@@ -6563,37 +6168,7 @@
        "descansos": []
       },
       {
-       "min": 10,
-       "nombre": "Pliometría, reintroducción",
-       "contactos": 32,
-       "ejercicios": [
-        {
-         "texto": "Caída y stick bilateral 3×5",
-         "ficha": "caida-y-stick"
-        },
-        {
-         "texto": "Salto vertical y stick 3×5",
-         "ficha": "salto-vertical-y-stick"
-        },
-        {
-         "texto": "Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
-         "ficha": "caida-a-una-pierna"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría, reintroducción (32 contactos). Caída y stick bilateral 3×5 · Salto vertical y stick 3×5 · Caída a una pierna 1×4/pierna. Fase F1-F2, se retrocede a propósito",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
-      },
-      {
-       "min": 28,
+       "min": 30,
        "nombre": "Fuerza, volumen medio",
        "contactos": null,
        "ejercicios": [
@@ -6641,15 +6216,38 @@
        ]
       },
       {
-       "min": 5,
-       "nombre": "Transición",
+       "min": 12,
+       "nombre": "Complementaria",
        "contactos": null,
-       "ejercicios": [],
+       "ejercicios": [
+        {
+         "texto": "Flexión 3×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
+       ],
        "detalle": null,
-       "texto": "Transición",
+       "texto": "Complementaria. Flexión 3×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
        "es_movilidad": false,
        "rutina": null,
-       "descansos": []
+       "descansos": [
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
       }
      ],
      "notas": [],
@@ -9413,6 +9011,36 @@
      "bloques": [
       {
        "min": null,
+       "nombre": "Pliometría",
+       "contactos": 56,
+       "ejercicios": [
+        {
+         "texto": "Salto en profundidad desde cajón bajo 4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 3×6/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría (56). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna · CMJ: 3 saltos antes de la pliometría",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
+      },
+      {
+       "min": null,
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
@@ -9453,44 +9081,6 @@
          "descanso": "60-90 s"
         }
        ]
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×12",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×15",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio con perturbación 3×25\"",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×12 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -9510,36 +9100,6 @@
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 56,
-       "ejercicios": [
-        {
-         "texto": "Salto en profundidad desde cajón bajo 4×5",
-         "ficha": "salto-en-profundidad"
-        },
-        {
-         "texto": "Salto lateral a una pierna reactivo 3×6/pierna",
-         "ficha": "salto-lateral-a-una-pierna-reactivo"
-        },
-        {
-         "texto": "CMJ: 3 saltos antes de la pliometría",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (56). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×6/pierna · CMJ: 3 saltos antes de la pliometría",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
-      },
       {
        "min": null,
        "nombre": "Fuerza",
@@ -9581,6 +9141,44 @@
          "series": "3 × 8-10 por pierna",
          "descanso": "60-90 s"
         },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
+      },
+      {
+       "min": null,
+       "nombre": "Complementaria",
+       "contactos": null,
+       "ejercicios": [
+        {
+         "texto": "Flexión con pies elevados 3×12",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×15",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio con perturbación 3×25\"",
+         "ficha": null
+        }
+       ],
+       "detalle": null,
+       "texto": "Complementaria. Flexión con pies elevados 3×12 · Press de hombro con goma 3×15 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio con perturbación 3×25\"",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
         {
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
@@ -9769,6 +9367,36 @@
      "bloques": [
       {
        "min": null,
+       "nombre": "Pliometría",
+       "contactos": 40,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón con contacto mínimo 4×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 2×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna · CMJ: 3 saltos antes de la pliometría",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
+      },
+      {
+       "min": null,
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
@@ -9805,40 +9433,6 @@
          "descanso": "60-90 s"
         }
        ]
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión 3×10",
-         "ficha": null
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio 3×25\"",
-         "ficha": "equilibrio-monopodal"
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión 3×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -9858,36 +9452,6 @@
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 40,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón con contacto mínimo 4×5",
-         "ficha": "salto-a-cajon-con-contacto-minimo"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 2×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        },
-        {
-         "texto": "CMJ: 3 saltos antes de la pliometría",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (40). Salto a cajón con contacto mínimo 4×5 · Salto lateral a una pierna con stick 2×5/pierna · CMJ: 3 saltos antes de la pliometría",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
-      },
       {
        "min": null,
        "nombre": "Fuerza",
@@ -9929,6 +9493,40 @@
          "series": "3 × 8-10 por pierna",
          "descanso": "60-90 s"
         },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
+      },
+      {
+       "min": null,
+       "nombre": "Complementaria",
+       "contactos": null,
+       "ejercicios": [
+        {
+         "texto": "Flexión 3×10",
+         "ficha": null
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
+       ],
+       "detalle": null,
+       "texto": "Complementaria. Flexión 3×10 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
         {
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
@@ -11066,6 +10664,36 @@
      "bloques": [
       {
        "min": null,
+       "nombre": "Pliometría",
+       "contactos": 50,
+       "ejercicios": [
+        {
+         "texto": "Salto en profundidad desde cajón bajo 4×5",
+         "ficha": "salto-en-profundidad"
+        },
+        {
+         "texto": "Salto lateral a una pierna reactivo 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-reactivo"
+        },
+        {
+         "texto": "CMJ: 3 saltos antes de la pliometría",
+         "ficha": null
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría (50). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · CMJ: 3 saltos antes de la pliometría",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
+      },
+      {
+       "min": null,
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
@@ -11102,44 +10730,6 @@
          "descanso": "60-90 s"
         }
        ]
-      },
-      {
-       "min": null,
-       "nombre": "Complementaria",
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Flexión con pies elevados 3×10",
-         "ficha": "flexion-con-pies-elevados"
-        },
-        {
-         "texto": "Press de hombro con goma 3×12",
-         "ficha": "press-de-hombro-con-goma"
-        },
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        },
-        {
-         "texto": "Equilibrio 3×25\"",
-         "ficha": "equilibrio-monopodal"
-        }
-       ],
-       "detalle": null,
-       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Fuerza accesoria",
-         "series": "2-3 × 12-15",
-         "descanso": "45-60 s"
-        }
-       ]
       }
      ],
      "notas": [],
@@ -11159,36 +10749,6 @@
      "minutos": 50,
      "estado": "explicita",
      "bloques": [
-      {
-       "min": null,
-       "nombre": "Pliometría",
-       "contactos": 50,
-       "ejercicios": [
-        {
-         "texto": "Salto en profundidad desde cajón bajo 4×5",
-         "ficha": "salto-en-profundidad"
-        },
-        {
-         "texto": "Salto lateral a una pierna reactivo 3×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-reactivo"
-        },
-        {
-         "texto": "CMJ: 3 saltos antes de la pliometría",
-         "ficha": null
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría (50). Salto en profundidad desde cajón bajo 4×5 · Salto lateral a una pierna reactivo 3×5/pierna · CMJ: 3 saltos antes de la pliometría",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
-      },
       {
        "min": null,
        "nombre": "Fuerza, con intención de velocidad",
@@ -11230,6 +10790,44 @@
          "series": "3 × 8-10 por pierna",
          "descanso": "60-90 s"
         },
+        {
+         "contenido": "Fuerza accesoria",
+         "series": "2-3 × 12-15",
+         "descanso": "45-60 s"
+        }
+       ]
+      },
+      {
+       "min": null,
+       "nombre": "Complementaria",
+       "contactos": null,
+       "ejercicios": [
+        {
+         "texto": "Flexión con pies elevados 3×10",
+         "ficha": "flexion-con-pies-elevados"
+        },
+        {
+         "texto": "Press de hombro con goma 3×12",
+         "ficha": "press-de-hombro-con-goma"
+        },
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo 8'",
+         "ficha": "bloque-de-tobillo"
+        },
+        {
+         "texto": "Equilibrio 3×25\"",
+         "ficha": "equilibrio-monopodal"
+        }
+       ],
+       "detalle": null,
+       "texto": "Complementaria. Flexión con pies elevados 3×10 · Press de hombro con goma 3×12 · Face pull 2×15 · Bloque de tobillo 8' · Equilibrio 3×25\"",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
         {
          "contenido": "Fuerza accesoria",
          "series": "2-3 × 12-15",
@@ -11733,7 +11331,33 @@
        "descansos": []
       },
       {
-       "min": 20,
+       "min": 10,
+       "nombre": "Pliometría de activación",
+       "contactos": 30,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón con contacto mínimo 3×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
+      },
+      {
+       "min": 22,
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
@@ -11772,33 +11396,13 @@
        ]
       },
       {
-       "min": 12,
-       "nombre": null,
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        }
-       ],
-       "detalle": null,
-       "texto": "Face pull 2×15 · Bloque de tobillo 8'",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": []
-      },
-      {
        "min": 8,
-       "nombre": "Movilidad y respiración",
+       "nombre": "Transición a pista",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
-       "texto": "Movilidad y respiración",
-       "es_movilidad": true,
+       "texto": "Transición a pista",
+       "es_movilidad": false,
        "rutina": null,
        "descansos": []
       }
@@ -11821,41 +11425,15 @@
      "estado": "plantilla",
      "bloques": [
       {
-       "min": 7,
+       "min": 10,
        "nombre": "Movilidad amplia",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad amplia",
        "es_movilidad": true,
-       "rutina": null,
+       "rutina": "rutina_10",
        "descansos": []
-      },
-      {
-       "min": 8,
-       "nombre": "Pliometría de activación",
-       "contactos": 30,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón con contacto mínimo 3×5",
-         "ficha": "salto-a-cajon-con-contacto-minimo"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
       },
       {
        "min": 22,
@@ -11902,14 +11480,34 @@
        ]
       },
       {
-       "min": 13,
+       "min": 8,
+       "nombre": null,
+       "contactos": null,
+       "ejercicios": [
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo",
+         "ficha": "bloque-de-tobillo"
+        }
+       ],
+       "detalle": null,
+       "texto": "Face pull 2×15 · Bloque de tobillo",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
+      },
+      {
+       "min": 10,
        "nombre": "Estiramientos, movilidad de cadera y tobillo, respiración",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos, movilidad de cadera y tobillo, respiración",
        "es_movilidad": true,
-       "rutina": null,
+       "rutina": "rutina_10",
        "descansos": []
       }
      ],
@@ -12055,7 +11653,33 @@
        "descansos": []
       },
       {
-       "min": 20,
+       "min": 10,
+       "nombre": "Pliometría de activación",
+       "contactos": 30,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón con contacto mínimo 3×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
+      },
+      {
+       "min": 22,
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
@@ -12094,33 +11718,13 @@
        ]
       },
       {
-       "min": 12,
-       "nombre": null,
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        }
-       ],
-       "detalle": null,
-       "texto": "Face pull 2×15 · Bloque de tobillo 8'",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": []
-      },
-      {
        "min": 8,
-       "nombre": "Movilidad y respiración",
+       "nombre": "Transición a pista",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
-       "texto": "Movilidad y respiración",
-       "es_movilidad": true,
+       "texto": "Transición a pista",
+       "es_movilidad": false,
        "rutina": null,
        "descansos": []
       }
@@ -12143,41 +11747,15 @@
      "estado": "plantilla",
      "bloques": [
       {
-       "min": 7,
+       "min": 10,
        "nombre": "Movilidad amplia",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad amplia",
        "es_movilidad": true,
-       "rutina": null,
+       "rutina": "rutina_10",
        "descansos": []
-      },
-      {
-       "min": 8,
-       "nombre": "Pliometría de activación",
-       "contactos": 30,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón con contacto mínimo 3×5",
-         "ficha": "salto-a-cajon-con-contacto-minimo"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
       },
       {
        "min": 22,
@@ -12224,14 +11802,34 @@
        ]
       },
       {
-       "min": 13,
+       "min": 8,
+       "nombre": null,
+       "contactos": null,
+       "ejercicios": [
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo",
+         "ficha": "bloque-de-tobillo"
+        }
+       ],
+       "detalle": null,
+       "texto": "Face pull 2×15 · Bloque de tobillo",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
+      },
+      {
+       "min": 10,
        "nombre": "Estiramientos, movilidad de cadera y tobillo, respiración",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos, movilidad de cadera y tobillo, respiración",
        "es_movilidad": true,
-       "rutina": null,
+       "rutina": "rutina_10",
        "descansos": []
       }
      ],
@@ -12377,7 +11975,33 @@
        "descansos": []
       },
       {
-       "min": 20,
+       "min": 10,
+       "nombre": "Pliometría de activación",
+       "contactos": 30,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón con contacto mínimo 3×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
+      },
+      {
+       "min": 22,
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
@@ -12416,33 +12040,13 @@
        ]
       },
       {
-       "min": 12,
-       "nombre": null,
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        }
-       ],
-       "detalle": null,
-       "texto": "Face pull 2×15 · Bloque de tobillo 8'",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": []
-      },
-      {
        "min": 8,
-       "nombre": "Movilidad y respiración",
+       "nombre": "Transición a pista",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
-       "texto": "Movilidad y respiración",
-       "es_movilidad": true,
+       "texto": "Transición a pista",
+       "es_movilidad": false,
        "rutina": null,
        "descansos": []
       }
@@ -12467,41 +12071,15 @@
      "estado": "plantilla",
      "bloques": [
       {
-       "min": 7,
+       "min": 10,
        "nombre": "Movilidad amplia",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad amplia",
        "es_movilidad": true,
-       "rutina": null,
+       "rutina": "rutina_10",
        "descansos": []
-      },
-      {
-       "min": 8,
-       "nombre": "Pliometría de activación",
-       "contactos": 30,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón con contacto mínimo 3×5",
-         "ficha": "salto-a-cajon-con-contacto-minimo"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
       },
       {
        "min": 22,
@@ -12548,14 +12126,34 @@
        ]
       },
       {
-       "min": 13,
+       "min": 8,
+       "nombre": null,
+       "contactos": null,
+       "ejercicios": [
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo",
+         "ficha": "bloque-de-tobillo"
+        }
+       ],
+       "detalle": null,
+       "texto": "Face pull 2×15 · Bloque de tobillo",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
+      },
+      {
+       "min": 10,
        "nombre": "Estiramientos, movilidad de cadera y tobillo, respiración",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos, movilidad de cadera y tobillo, respiración",
        "es_movilidad": true,
-       "rutina": null,
+       "rutina": "rutina_10",
        "descansos": []
       }
      ],
@@ -12704,7 +12302,33 @@
        "descansos": []
       },
       {
-       "min": 20,
+       "min": 10,
+       "nombre": "Pliometría de activación",
+       "contactos": 30,
+       "ejercicios": [
+        {
+         "texto": "Salto a cajón con contacto mínimo 3×5",
+         "ficha": "salto-a-cajon-con-contacto-minimo"
+        },
+        {
+         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
+         "ficha": "salto-lateral-a-una-pierna-con-stick"
+        }
+       ],
+       "detalle": null,
+       "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": [
+        {
+         "contenido": "Pliometría",
+         "series": "4-6 × 4-8 contactos",
+         "descanso": "60-90 s"
+        }
+       ]
+      },
+      {
+       "min": 22,
        "nombre": "Neuromuscular",
        "contactos": null,
        "ejercicios": [
@@ -12743,33 +12367,13 @@
        ]
       },
       {
-       "min": 12,
-       "nombre": null,
-       "contactos": null,
-       "ejercicios": [
-        {
-         "texto": "Face pull 2×15",
-         "ficha": "face-pull-con-goma"
-        },
-        {
-         "texto": "Bloque de tobillo 8'",
-         "ficha": "bloque-de-tobillo"
-        }
-       ],
-       "detalle": null,
-       "texto": "Face pull 2×15 · Bloque de tobillo 8'",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": []
-      },
-      {
        "min": 8,
-       "nombre": "Movilidad y respiración",
+       "nombre": "Transición a pista",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
-       "texto": "Movilidad y respiración",
-       "es_movilidad": true,
+       "texto": "Transición a pista",
+       "es_movilidad": false,
        "rutina": null,
        "descansos": []
       }
@@ -12794,41 +12398,15 @@
      "estado": "plantilla",
      "bloques": [
       {
-       "min": 7,
+       "min": 10,
        "nombre": "Movilidad amplia",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
        "texto": "Movilidad amplia",
        "es_movilidad": true,
-       "rutina": null,
+       "rutina": "rutina_10",
        "descansos": []
-      },
-      {
-       "min": 8,
-       "nombre": "Pliometría de activación",
-       "contactos": 30,
-       "ejercicios": [
-        {
-         "texto": "Salto a cajón con contacto mínimo 3×5",
-         "ficha": "salto-a-cajon-con-contacto-minimo"
-        },
-        {
-         "texto": "Salto lateral a una pierna con stick 3×5/pierna",
-         "ficha": "salto-lateral-a-una-pierna-con-stick"
-        }
-       ],
-       "detalle": null,
-       "texto": "Pliometría de activación (30). Salto a cajón con contacto mínimo 3×5 · Salto lateral a una pierna con stick 3×5/pierna",
-       "es_movilidad": false,
-       "rutina": null,
-       "descansos": [
-        {
-         "contenido": "Pliometría",
-         "series": "4-6 × 4-8 contactos",
-         "descanso": "60-90 s"
-        }
-       ]
       },
       {
        "min": 22,
@@ -12875,14 +12453,34 @@
        ]
       },
       {
-       "min": 13,
+       "min": 8,
+       "nombre": null,
+       "contactos": null,
+       "ejercicios": [
+        {
+         "texto": "Face pull 2×15",
+         "ficha": "face-pull-con-goma"
+        },
+        {
+         "texto": "Bloque de tobillo",
+         "ficha": "bloque-de-tobillo"
+        }
+       ],
+       "detalle": null,
+       "texto": "Face pull 2×15 · Bloque de tobillo",
+       "es_movilidad": false,
+       "rutina": null,
+       "descansos": []
+      },
+      {
+       "min": 10,
        "nombre": "Estiramientos, movilidad de cadera y tobillo, respiración",
        "contactos": null,
        "ejercicios": [],
        "detalle": null,
        "texto": "Estiramientos, movilidad de cadera y tobillo, respiración",
        "es_movilidad": true,
-       "rutina": null,
+       "rutina": "rutina_10",
        "descansos": []
       }
      ],

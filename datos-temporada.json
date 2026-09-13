@@ -839,7 +839,11 @@
     },
     "rehab_hero": {
       "url": "https://www.rehabhero.ca/exercise",
-      "nota": "Movilidad, equilibrio y prevención."
+      "nota": "La mejor para movilidad, equilibrio y prevención."
+    },
+    "bodbot": {
+      "url": "https://www.bodbot.com/Exercises/78/Cat_Camel",
+      "nota": "Índice alfabético amplio de movilidad y estiramientos."
     },
     "basketball_physio": {
       "url": "https://basketball.physio/rehabilitation/spanishsquats/",
@@ -856,7 +860,14 @@
     "peso_muerto_rumano": "https://www.catalystathletics.com/exercise/101/Romanian-Deadlift-RDL/",
     "peso_muerto_rumano_una_pierna": "https://www.acefitness.org/resources/everyone/exercise-library/329/single-leg-romanian-deadlift/",
     "plancha_lateral_elevacion": "https://www.catalystathletics.com/exercise/531/Side-Plank-Leg-Lift/",
-    "curl_nordico": "https://www.youtube.com/watch?v=_e9vFU9-tkc"
+    "curl_nordico": "https://www.youtube.com/watch?v=_e9vFU9-tkc",
+    "gato_camello": "https://www.rehabhero.ca/exercise/thoracic-cat-cow",
+    "cadera_90_90": "https://www.rehabhero.ca/exercise/9090-stretch",
+    "dorsiflexion_tobillo_goma": "https://www.rehabhero.ca/exercise/banded-active-dorsiflexion",
+    "dorsiflexion_tobillo_guia": "https://e3rehab.com/ankle-dorsiflexion/",
+    "zancada_lateral": "https://www.catalystathletics.com/exercise/584/Cossack-Squat/",
+    "rotacion_toracica_cuadrupedia": "https://www.catalystathletics.com/article/2214/Thoracic-Mobility-for-Olympic-Weightlifting/",
+    "movilidad_sentadilla_diagnostico": "https://www.rehabhero.ca/blog/squat-mobility"
   },
   "protocolo_dolor": [
     {

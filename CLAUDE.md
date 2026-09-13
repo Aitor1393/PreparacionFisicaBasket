@@ -108,6 +108,10 @@ En el apéndice, **▶** marca enlaces verificados uno a uno y **🔍** marca un
 - **No modificar el calendario.** Las fechas vienen de las bases oficiales de la FBM.
 - No añadir funcionalidad de seguimiento de datos personales de menores sin plantearlo antes: hay implicaciones de protección de datos.
 
+## Verificación
+
+`verificar.py` comprueba la coherencia entre `datos-temporada.json` y los markdown de `/fuentes`. Ejecútalo tras cualquier cambio en el contenido deportivo y antes de dar por buena una exportación.
+
 ## Herramientas usadas para generar los entregables
 
 Por si hay que regenerar alguno:

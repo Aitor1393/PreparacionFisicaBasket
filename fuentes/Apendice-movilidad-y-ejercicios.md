@@ -134,103 +134,121 @@ Los enlaces marcados con **▶** están comprobados uno a uno. Donde no hay enla
 - **Catalyst Athletics** · [Índice de ejercicios](https://www.catalystathletics.com/exercises/) — Vídeo y texto de ejecución por ejercicio. La mejor para fuerza.
 - **ACE Fitness** · [Biblioteca de ejercicios](https://www.acefitness.org/resources/everyone/exercise-library/329/single-leg-romanian-deadlift/) — Fichas con fotos secuenciadas.
 - **Precision Nutrition** · [Biblioteca gratuita de más de 400 vídeos](https://www.precisionnutrition.com/video-exercise-library) — Organizada en hoja de cálculo con enlaces copiables. Cada vídeo está grabado desde varios ángulos y señala los fallos típicos de cada fase del movimiento.
-- **Rehab Hero** · [Biblioteca de ejercicios](https://www.rehabhero.ca/exercise) — Útil para movilidad, equilibrio y prevención.
+- **Rehab Hero** · [Biblioteca de ejercicios](https://www.rehabhero.ca/exercise) — La mejor para movilidad, equilibrio y prevención. Ficha corta y clara por ejercicio.
+- **BodBot** · [Ficha de gato-camello](https://www.bodbot.com/Exercises/78/Cat_Camel) — Índice alfabético muy amplio de movilidad y estiramientos.
 - **Basketball Physio** · [Sentadilla española en baloncesto](https://basketball.physio/rehabilitation/spanishsquats/) — Específico de tendinopatía rotuliana en jugadores jóvenes.
 
 ---
 
 # 1 · Movilidad y activación
 
+Estas trece son las que componen las rutinas de 10', 12' y 15'. Se hacen antes de pista, así que todas son **dinámicas**: se entra y se sale del rango, no se aguanta un estiramiento largo.
+
 ### Gato-camello
-**Montaje.** A cuatro patas, manos bajo hombros y rodillas bajo caderas.
-**Ejecución.** Arquea la columna llevando el ombligo al suelo y la mirada al frente. Después redondea llevando el ombligo al techo y la barbilla al pecho. Lento.
+**Montaje.** A cuatro patas, manos bajo los hombros y rodillas bajo las caderas, columna neutra.
+**Ejecución.** Exhala y redondea la espalda metiendo el coxis y llevando el ombligo al techo. Después invierte: bascula la pelvis hacia delante, mira arriba y arquea. Pausa uno o dos segundos en cada extremo. Brazos siempre rectos.
 **Di en voz alta.** "Vértebra a vértebra, sin prisa."
-**Error frecuente.** Mover solo la zona lumbar. → Corrección: pídele que empiece el movimiento desde el cuello y lo propague hacia abajo.
-**🔍** `cat camel exercise spine mobility`
+**Error frecuente.** Mover solo la zona lumbar y dejar la parte alta quieta. → Corrección: pídele que empiece el movimiento desde el cuello y lo propague hacia abajo.
+**Regresión.** Menos rango, sobre todo si hay molestia lumbar. **Progresión.** Aislar la zona dorsal manteniendo la lumbar más quieta.
+**▶** [Versión dorsal · Rehab Hero](https://www.rehabhero.ca/exercise/thoracic-cat-cow) · [Ficha con instrucciones · BodBot](https://www.bodbot.com/Exercises/78/Cat_Camel)
 
 ### Rotación torácica en cuadrupedia
 **Montaje.** A cuatro patas, una mano en la nuca.
-**Ejecución.** Abre el codo hacia el techo girando el pecho, y vuelve llevando el codo hacia el brazo de apoyo.
+**Ejecución.** Abre el codo hacia el techo girando el pecho, y vuelve llevando el codo hacia el brazo de apoyo. **La cabeza acompaña al giro de los hombros**, no se queda mirando al suelo.
 **Di en voz alta.** "Gira el pecho, la cadera no se mueve."
-**Error frecuente.** Compensar con la lumbar o dejar caer la cadera hacia un lado. → Corrección: que se siente sobre los talones, así bloquea la cadera.
-**🔍** `quadruped thoracic rotation hand behind head`
+**Error frecuente.** Compensar con la lumbar, o dejar caer la cadera hacia un lado. → Corrección: que se siente sobre los talones, así la cadera queda bloqueada y solo puede girar la zona dorsal.
+**Regresión.** Sentado sobre los talones. **Progresión.** Con el brazo extendido en vez de la mano en la nuca.
+**▶** [Explicación dentro de una guía de movilidad dorsal · Catalyst Athletics](https://www.catalystathletics.com/article/2214/Thoracic-Mobility-for-Olympic-Weightlifting/) · [Ficha · BodBot](https://www.bodbot.com/Exercises/276/Quadruped-Thoracic-Rotation/Extension)
 
 ### Libro abierto
-**Montaje.** Tumbado de lado, rodillas flexionadas a 90° y apiladas, brazos extendidos al frente.
-**Ejecución.** Abre el brazo de arriba en arco hasta llevarlo al suelo del lado contrario. La mirada sigue a la mano.
+**Montaje.** Tumbado de lado, rodillas flexionadas a 90° y apiladas una sobre otra, brazos extendidos al frente a la altura del hombro.
+**Ejecución.** Abre el brazo de arriba en arco amplio hasta llevarlo al suelo del lado contrario. La mirada sigue a la mano. Vuelve despacio.
 **Di en voz alta.** "La rodilla de arriba no se despega."
-**Error frecuente.** Dejar que la cadera acompañe al giro. → Corrección: coloca un balón o tu mano bajo la rodilla de arriba para que la fije.
-**🔍** `open book thoracic rotation stretch`
+**Error frecuente.** Dejar que la cadera acompañe al giro, con lo que el movimiento deja de ser dorsal. → Corrección: pon un balón o tu mano bajo la rodilla de arriba para que la fije.
+**Regresión.** Rango corto, sin llegar al suelo. **Progresión.** Mantener 3 segundos en la apertura máxima.
+**🔍** `open book thoracic rotation stretch side lying`
 
 ### Cadera 90/90
-**Montaje.** Sentado en el suelo, una pierna delante flexionada a 90° y la otra al lado, también a 90°.
-**Ejecución.** Gira de un lado al otro pasando las rodillas por el suelo, manteniendo el torso alto.
+**Montaje.** Sentado en el suelo, rodillas flexionadas y más separadas que los hombros. Rota una pierna hacia dentro y la otra hacia fuera, de modo que **los dos muslos queden a 90° entre sí**. Si no llega, se recoloca el cuerpo hasta conseguirlo.
+**Ejecución.** Gira de un lado al otro pasando las rodillas por el suelo, con el torso alto. Aguanta hasta 30 segundos en el rango final antes de cambiar.
 **Di en voz alta.** "Pecho alto, aunque llegues menos."
-**Error frecuente.** Redondear la espalda para alcanzar más rango. → Corrección: que se apoye en las manos por detrás.
-**🔍** `90 90 hip switch mobility drill`
+**Error frecuente.** Redondear la espalda para alcanzar más rango. → Corrección: que se apoye en las manos por detrás y suba el pecho.
+**Regresión.** Manos apoyadas detrás, rango corto. **Progresión.** Pasar de un lado a otro sin ayuda de las manos.
+**Precaución.** Es un ejercicio exigente para la cadera. Si alguien nota pinzamiento durante el movimiento o molestia que persiste después, que lo deje y te lo diga. Con antecedentes de problemas de rodilla, mejor buscar alternativa.
+**▶** [90/90 Stretch · Rehab Hero](https://www.rehabhero.ca/exercise/9090-stretch)
 
 ### Sentadilla profunda con apoyo
-**Montaje.** Agarrado a una espaldera, valla o poste.
-**Ejecución.** Baja todo lo que puedas manteniendo los talones en el suelo y aguanta.
+**Montaje.** Agarrado a una espaldera, valla o poste, pies algo más abiertos que los hombros y puntas ligeramente hacia fuera.
+**Ejecución.** Baja todo lo que puedas manteniendo los talones en el suelo y aguanta. Puede añadirse un balanceo lateral suave.
 **Di en voz alta.** "Talones clavados, pecho alto."
-**Error frecuente.** Despegar los talones. → Corrección: separa un poco más los pies y abre las puntas.
-**🔍** `deep squat hold mobility assisted`
+**Error frecuente.** Despegar los talones. → Corrección: separa un poco más los pies y abre más las puntas. Si sigue sin llegar, es un problema de tobillo y toca insistir en la dorsiflexión.
+**Regresión.** Menos profundidad, más ayuda de los brazos. **Progresión.** Soltar una mano, después las dos.
+**🔍** `deep squat hold assisted mobility drill`
 
 ### Dorsiflexión de tobillo contra pared
-**Montaje.** De pie frente a una pared, pie a un palmo de ella.
-**Ejecución.** Lleva la rodilla hacia delante a tocar la pared sin levantar el talón. Si llega, aleja el pie un centímetro.
+**Montaje.** De pie frente a una pared, pie a un palmo de ella, el otro pie atrás.
+**Ejecución.** Lleva la rodilla hacia delante hasta tocar la pared sin levantar el talón. Si llega con facilidad, aleja el pie un centímetro y repite. Puedes aguantar cada repetición 3-5 segundos en el rango final.
 **Di en voz alta.** "El talón no se despega nunca."
-**Error frecuente.** Dejar caer el arco del pie hacia dentro para ganar rango. → Corrección: que la rodilla vaya por fuera del dedo gordo.
-**🔍** `knee to wall ankle dorsiflexion test`
+**Error frecuente.** Dejar caer el arco del pie hacia dentro para ganar rango aparente. → Corrección: que la rodilla viaje por fuera del dedo gordo.
+**Regresión.** Pie más cerca de la pared. **Progresión.** Añadir una goma anclada por detrás a la altura del tobillo, que tira hacia atrás y abajo mientras avanza la rodilla.
+**▶** [Banded Active Dorsiflexion · Rehab Hero](https://www.rehabhero.ca/exercise/banded-active-dorsiflexion) · [Guía completa de dorsiflexión con variantes y dosis · E3 Rehab](https://e3rehab.com/ankle-dorsiflexion/) · [Cómo saber si el tobillo es el factor limitante · Rehab Hero](https://www.rehabhero.ca/blog/squat-mobility)
 
 ### Zancada con rotación torácica
 **Montaje.** Zancada larga, mano interior apoyada en el suelo junto al pie adelantado.
-**Ejecución.** Baja la cadera, y abre el brazo contrario hacia el techo girando el pecho.
+**Ejecución.** Baja la cadera hacia el suelo y después abre el brazo contrario hacia el techo girando el pecho. Vuelve y avanza.
 **Di en voz alta.** "Cadera al suelo antes de girar."
-**Error frecuente.** No bajar lo suficiente y girar solo el brazo. → Corrección: obliga a tocar el suelo con el codo interior antes de abrir.
-**🔍** `world's greatest stretch technique`
+**Error frecuente.** No bajar lo suficiente y girar solo el brazo, con lo que se pierde el componente de cadera. → Corrección: obliga a tocar el suelo con el codo interior antes de abrir.
+**Regresión.** Manos sobre conos o un banco bajo. **Progresión.** Añadir extensión de la rodilla adelantada al final, estirando el isquiotibial.
+**🔍** `world's greatest stretch technique demonstration`
 
 ### Zancada lateral
-**Montaje.** De pie, pies muy separados.
-**Ejecución.** Desplaza el peso a un lado flexionando esa rodilla, la otra pierna queda estirada. Cadera atrás.
+**Montaje.** De pie, pies muy separados y puntas ligeramente hacia fuera, como en una sentadilla ancha.
+**Ejecución.** Flexiona una pierna manteniendo la otra estirada, con la rodilla que se dobla alineada sobre su pie y el peso repartido por toda la planta. **El pie de la pierna estirada puede rodar hacia el borde del talón**; cuanta más movilidad se gane, menos hará falta ese giro. Vuelve al centro y cambia de lado.
 **Di en voz alta.** "Culo atrás, la otra pierna recta."
-**Error frecuente.** Doblar la pierna estirada. → Corrección: que apunte la punta del pie de la pierna estirada hacia arriba.
-**🔍** `lateral lunge cossack squat technique`
+**Error frecuente.** Doblar la pierna estirada. → Corrección: que apunte la punta de ese pie hacia arriba.
+**Regresión.** Menos profundidad, apoyo en algo fijo. **Progresión.** Pasar de un lado a otro manteniendo la cadera baja todo el recorrido, sin levantarse entre repeticiones.
+**Dosis como calentamiento.** 2-3 series de 5-12 repeticiones por lado, sin carga.
+**▶** [Cossack Squat · Catalyst Athletics](https://www.catalystathletics.com/exercise/584/Cossack-Squat/)
 
 ### Balanceos de pierna
-**Montaje.** Apoyado con una mano en la pared.
-**Ejecución.** Balancea la pierna adelante y atrás, y después de lado a lado, con rango creciente.
+**Montaje.** Apoyado con una mano en la pared o en un compañero.
+**Ejecución.** Balancea la pierna adelante y atrás con rango creciente, y después de lado a lado cruzando por delante del cuerpo.
 **Di en voz alta.** "El tronco no se mueve."
-**Error frecuente.** Usar el tronco para dar impulso. → Corrección: que ponga la mano libre en el abdomen.
-**🔍** `leg swings dynamic warm up`
+**Error frecuente.** Usar el tronco para dar impulso. → Corrección: mano libre en el abdomen.
+**Regresión.** Rango corto y controlado. **Progresión.** Rango completo y algo más de velocidad, nunca forzando el final.
+**🔍** `leg swings dynamic warm up front lateral`
 
 ### Inchworm
 **Montaje.** De pie, pies juntos.
-**Ejecución.** Manos al suelo, camina con las manos hasta plancha y vuelve caminando con los pies hacia las manos.
+**Ejecución.** Manos al suelo, camina con las manos hasta plancha, y vuelve caminando con los pies hacia las manos.
 **Di en voz alta.** "Piernas lo más rectas que puedas."
-**Error frecuente.** Doblar rodillas para llegar. → Corrección: que camine menos con las manos y mantenga las piernas rectas.
-**🔍** `inchworm walkout exercise`
+**Error frecuente.** Doblar rodillas para llegar más lejos con las manos. → Corrección: que camine menos y mantenga las piernas rectas.
+**Regresión.** Rodillas algo flexionadas y recorrido corto. **Progresión.** Añadir una flexión en la posición de plancha.
+**🔍** `inchworm walkout exercise technique`
 
 ### Monster walk con goma
-**Montaje.** Goma en los tobillos o por encima de las rodillas. Semisentadilla.
-**Ejecución.** Pasos hacia delante y hacia atrás manteniendo tensión constante.
+**Montaje.** Goma en los tobillos o por encima de las rodillas. Posición de semisentadilla, pecho alto.
+**Ejecución.** Pasos hacia delante y hacia atrás manteniendo tensión constante en la goma.
 **Di en voz alta.** "Rodillas abiertas todo el rato."
-**Error frecuente.** Que las rodillas se junten al dar el paso. → Corrección: baja la resistencia de la goma.
+**Error frecuente.** Que las rodillas se junten al dar el paso, que es justo lo contrario de lo que se busca. → Corrección: baja la resistencia de la goma.
+**Regresión.** Goma más blanda o colocada por encima de las rodillas. **Progresión.** Goma en los tobillos, semisentadilla más baja.
 **🔍** `monster walk resistance band glute activation`
 
 ### Marcha lateral con goma
 **Montaje.** Goma en los tobillos, semisentadilla.
-**Ejecución.** Pasos laterales sin llegar a juntar los pies.
+**Ejecución.** Pasos laterales amplios sin llegar a juntar los pies.
 **Di en voz alta.** "No juntes los pies."
 **Error frecuente.** Perder la tensión entre pasos. → Corrección: marca la distancia mínima con dos conos.
-**🔍** `banded lateral walk technique`
+**Regresión.** Goma por encima de las rodillas. **Progresión.** Goma más dura y posición más baja.
+**🔍** `banded lateral walk technique glute medius`
 
 ### Pogos
-**Montaje.** De pie, rodillas casi rectas.
-**Ejecución.** Saltos pequeños generados solo desde el tobillo.
+**Montaje.** De pie, rodillas casi rectas, manos en las caderas.
+**Ejecución.** Saltos pequeños generados solo desde el tobillo, con el contacto en el suelo lo más breve posible.
 **Di en voz alta.** "Como un muelle. El suelo quema."
-**Error frecuente.** Doblar rodillas y convertirlo en sentadilla saltada. → Corrección: que se ponga las manos en las caderas y salte sin bajar.
-**🔍** `pogo jumps ankle stiffness drill`
+**Error frecuente.** Doblar rodillas y convertirlo en sentadilla saltada. → Corrección: que salte sin bajar, con las manos en las caderas.
+**Regresión.** Saltos muy pequeños, buscando solo el ritmo. **Progresión.** Pogos a una pierna.
+**🔍** `pogo jumps ankle stiffness plyometric drill`
 
 ---
 
@@ -680,7 +698,49 @@ La escalera entrena coordinación de pies y ritmo, no agilidad. La agilidad real
 
 ---
 
-# 12 · Cómo usar esto en pista
+# 12 · Regeneración del domingo
+
+Estos no aparecen en ninguna sesión de pista: son los de la hoja autónoma del domingo. Es el único momento de la semana donde el estiramiento estático tiene sentido, porque después no hay entrenamiento.
+
+### Respiración diafragmática
+**Montaje.** Tumbado boca arriba, rodillas dobladas, una mano en el pecho y otra en el abdomen.
+**Ejecución.** Inspira 4 segundos por la nariz hinchando solo el abdomen, y suelta 6 por la boca. La mano del pecho no debería moverse.
+**Error frecuente.** Respirar con el pecho. → Corrección: más peso en la mano del abdomen, menos aire.
+
+### Estiramiento de isquiotibiales tumbado
+**Montaje.** Boca arriba, toalla o goma alrededor del pie.
+**Ejecución.** Sube la pierna recta y tira suave hasta notar tensión, no dolor. 45 segundos.
+**Error frecuente.** Despegar del suelo la pierna que queda abajo. → Corrección: que la mantenga pegada, aunque suba menos la otra.
+
+### Estiramiento de psoas en zancada
+**Montaje.** Rodilla de atrás en el suelo sobre algo blando.
+**Ejecución.** Mete la cadera hacia delante y sube el brazo del mismo lado de la pierna atrasada. Aprieta el glúteo de esa pierna.
+**Error frecuente.** Arquear la lumbar en lugar de llevar la cadera adelante. → Corrección: meter el coxis antes de avanzar.
+
+### Estiramiento de glúteo en figura 4
+**Ejecución.** Tumbado, cruza el tobillo sobre la rodilla contraria y tira de la pierna de abajo hacia el pecho.
+**Error frecuente.** Levantar la cabeza y los hombros. → Corrección: cabeza en el suelo.
+
+### Estiramiento de aductores en rana
+**Ejecución.** A cuatro patas con las rodillas abiertas y los tobillos alineados con ellas, lleva la cadera hacia atrás.
+**Error frecuente.** Redondear la espalda. → Corrección: menos recorrido, espalda recta.
+
+### Estiramiento de gemelo y de sóleo contra pared
+**Ejecución.** Pierna atrás estirada y talón clavado para el gemelo. El mismo montaje con **la rodilla de atrás doblada** estira el sóleo, y se nota más abajo, cerca del tobillo.
+**Error frecuente.** Despegar el talón. Hacer solo la versión con la rodilla recta y olvidar el sóleo, que es el que aguanta la carga de la carrera.
+
+### Estiramiento de cuádriceps de pie
+**Ejecución.** Coge el pie hacia el glúteo con la rodilla apuntando al suelo.
+**Error frecuente.** Arquear la espalda y abrir la rodilla. → Corrección: apretar el glúteo y meter el coxis.
+
+### Automasaje con pelota
+**Ejecución.** Rueda la pelota por la planta del pie de pie, y trabaja el glúteo sentado sobre ella buscando el punto sensible y quedándose ahí respirando. Para los que arrastren molestia en el talón, insistir en gemelo y sóleo.
+**Nota.** No hay evidencia de "liberación fascial", pero el automasaje sí tiene efecto aceptado sobre la modulación del dolor y las agujetas. Es para eso, no para prevenir lesiones.
+**Error frecuente.** Apretar hasta que duele de verdad. → Corrección: presión que se pueda sostener respirando con normalidad.
+
+---
+
+# 13 · Cómo usar esto en pista
 
 Tres reglas que valen para todo el catálogo:
 

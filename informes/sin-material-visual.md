@@ -2,11 +2,12 @@
 
 Generado por `scripts/generar.py`. No editar a mano.
 
-Estos 43 ejercicios no traen ni enlace ▶ ni término 🔍 en el
+Estos 51 ejercicios no traen ni enlace ▶ ni término 🔍 en el
 apéndice. La web les pone una búsqueda automática con su nombre,
 marcada como tal. Añadir un ▶ o un 🔍 en el apéndice la sustituye.
 
 - Aceleración resistida con goma
+- Automasaje con pelota
 - Bloque de tobillo
 - Bounding
 - Búlgaro con excéntrico de 4 segundos
@@ -16,6 +17,12 @@ marcada como tal. Añadir un ▶ o un 🔍 en el apéndice la sustituye.
 - Elevación de talón a una pierna
 - Equilibrio monopodal
 - Escalera lateral
+- Estiramiento de aductores en rana
+- Estiramiento de cuádriceps de pie
+- Estiramiento de gemelo y de sóleo contra pared
+- Estiramiento de glúteo en figura 4
+- Estiramiento de isquiotibiales tumbado
+- Estiramiento de psoas en zancada
 - Eversión e inversión con goma
 - Flexión completa, tempo 3-1-1
 - Flexión con goma cruzada
@@ -30,6 +37,7 @@ marcada como tal. Añadir un ▶ o un 🔍 en el apéndice la sustituye.
 - Remo a un brazo
 - Remo con goma pretensada
 - Remo isométrico
+- Respiración diafragmática
 - Rueda simulada con deslizamiento
 - Salidas de 5 m
 - Salidas desde desplazamiento defensivo

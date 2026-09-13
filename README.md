@@ -40,8 +40,9 @@ escribe y que fija el catálogo por tipo de contenido. No es un detalle menor:
 en un bloque de fuerza el descanso es cerca del 40 % del tiempo, y sin verlo
 media hora parece mucho para cinco ejercicios.
 
-**Ejercicios.** 85 fichas buscables y filtrables por capacidad, con los seis
-campos que pide el brief: montaje, ejecución, **instrucción en voz alta**,
+**Ejercicios.** 93 fichas buscables y filtrables por capacidad —incluida la de
+regeneración, que explica los estiramientos y el automasaje de la hoja del
+domingo—, con los seis campos que pide el brief: montaje, ejecución, **instrucción en voz alta**,
 error frecuente con su corrección, regresión y progresión, y material visual.
 
 La instrucción de banda va la primera y destacada: es lo que se lee en tres

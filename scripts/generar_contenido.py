@@ -28,6 +28,10 @@ CAPACIDADES = {
     'Pliometría': 'pliometria',
     'Velocidad': 'velocidad',
     'Cambios de dirección y escalera': 'cod',
+    # Sección añadida en la revisión de septiembre: los estiramientos y el
+    # automasaje de la hoja del domingo aparecían en la rutina pero sin ficha
+    # que explicara cómo se hacen.
+    'Regeneración del domingo': 'regeneracion',
 }
 
 # Los seis campos de la ficha, tal como los nombra el apéndice y como el brief
@@ -51,6 +55,7 @@ NOMBRES_CAPACIDAD = {
     'tobillo': 'Tobillo y pie', 'isometricos': 'Isométricos de tendón',
     'pliometria': 'Pliometría', 'velocidad': 'Velocidad',
     'cod': 'Cambios de dirección',
+    'regeneracion': 'Regeneración',
 }
 
 
